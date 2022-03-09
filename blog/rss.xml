@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>나는 개발자다! 그러고 싶다... Blog</title>
+        <title>나는 개발자다! 그럼에도... Blog</title>
         <link>https://github.com/chuldongshim/webpage.git/webpage/blog</link>
-        <description>나는 개발자다! 그러고 싶다... Blog</description>
+        <description>나는 개발자다! 그럼에도... Blog</description>
         <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>

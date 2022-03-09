@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/chuldongshim/webpage.git/webpage/blog</id>
-    <title>나는 개발자다! 그러고 싶다... Blog</title>
+    <title>나는 개발자다! 그럼에도... Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/chuldongshim/webpage.git/webpage/blog"/>
-    <subtitle>나는 개발자다! 그러고 싶다... Blog</subtitle>
+    <subtitle>나는 개발자다! 그럼에도... Blog</subtitle>
     <icon>https://github.com/chuldongshim/webpage.git/webpage/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

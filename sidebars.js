@@ -31,7 +31,16 @@ module.exports = {
     'mbd/traindoor_uml',
     'mbd/temperature',
     'mbd/wiper',
-    'mbd/window',
+    {
+      type: 'category',
+      label: '윈도우',
+      collapsed: false,
+      items: [
+        'mbd/window/window_design',
+        'mbd/window/window_realize',
+        'mbd/window/window_verify',
+      ],
+    },
     'mbd/kalman_filter',
   ],
   embedded:[

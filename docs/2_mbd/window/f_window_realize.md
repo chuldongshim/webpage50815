@@ -1,6 +1,6 @@
 ---
-id: window
-title: 윈도우
+id: window_realize
+title: 기능구현
 ---
 <div align="right">
   <font size="4">
@@ -9,205 +9,7 @@ title: 윈도우
 </div>
 ---
 
-## 설계
-
-### 설계컨셉
-
-:::important
-반복작업을 최소화 하기 위해 아키텍처 작성은 개발 처음과 끝에 각각 1회씩만 작성하여 업데이트 한다.
-* <u>개발 초기단계에 `예비 아키텍처(Preliminary Architecture)`를 1회 작성</u>하고,
-* 이를 바탕으로 시뮬링크 모델링→기능구현→시뮬레이션을 진행하며,
-* 모든 기능구현 및 시험이 완료되는 <u>프로젝트 종료시점에 `최종 아키텍처(Architecture)`를 1회 개정</u>한다.
-:::
-
-시뮬링크를 이용하여 아키텍처를 설계하고, 기능을 아키텍처에 <u>할당(allocation)</u>한다.
-
-#### Physical Architecture
-
-* 하드웨어 의존적인 MCU Peripherals 영역을 Physical로 분류한다.
-
-#### Logical Architecture
-
-:::info
-로직으로 언급되는 시스템 구성요소는 모델을 통한 시뮬레이션을 이용하여 하드웨어 독립적으로 개발이 가능함을 의미한다.
-:::
-하드웨어 독립적으로 실행할 수 있는 부분을 Logical로 분류하고, MIL단계 시뮬링크 시뮬레이션을 통해 Logical Component(Software Logic)를 개발한다.
-
-
-* Input Processing
-  * 사용자 입력을 처리하여 WindowLogic의 상태천이 조건을 생성하는 로직
-* Window State
-  * 상태천이를 이용하여 PWS의 여러 기능을 구현하는 로직
-* Output Processing
-  * Trigger 신호를 입력받아 0~1(0~100%) 범위의 출력을 조절하여 프로파일링 신호를 생성한다.
-  * 프로파일링 신호를 제어입력으로 하여 피드백 제어를 수행한다.
-* Pos Calculator
-  * 엔코더 펄스 카운트 값과 엔코더 펄스 주기를 입력으로 받아 속도 및 위치를 계산하는 로직
-* Obstacle Detect
-  * T.B.D
-* Comm Processing
-  * T.B.D
-
-#### 참고자료
-
-* [S32K1xx Series Safety Manual](https://usermanual.wiki/Document/S32K1xx20Series20Safety20ManualREV204.925554493/view)
-* Simulink Library  
-Matlab Path에 lib파일위치 추가→set_param(gcs,'EnableLBRepository','on') 실행→Simulink Library Browser 새로고침(F5)
-* [사용자 지정 라이브러리 (by Mathworks)](https://kr.mathworks.com/help/simulink/libraries.html)
-* [라이브러리 브라우저에 라이브러리 추가 (by Mathworks)](https://kr.mathworks.com/help/simulink/ug/adding-libraries-to-the-library-browser.html)
-* [Creating Customized Block Libraries 동영상 (by Mathworks)](https://kr.mathworks.com/videos/creating-customized-block-libraries-101591.html)
-* [사용자 지정 라이브러리 만들기 (by Mathworks)](https://kr.mathworks.com/help/simulink/ug/creating-block-libraries.html)
-* [구성요소 기반 모델링 지침 (by Mathworks)](https://kr.mathworks.com/help/simulink/ug/component-based-modeling-guidelines.html)
-
-### 요구사항 정의
-
-* 기능을 정의하고, 시스템 요구사항을 기능에 <u>할당(allocation)</u>하므로 기능을 모두 구현하고, 시험하면 모든 기능요구사항을 만족하게 된다.
-  * 본 프로젝트는 선행개발로 윈도우 Up/Down 동작과 관련된 기능(F1~F5)만을 구현 한다.
-  * 본 프로젝트에서 비기능 요구사항 및 인터페이스 요구사항은 고려하지 않는다.
-* 요구사항 관리는
-  * 워드/엑셀/txt 등의 포멧을 이용하여 기능요구사항 초안작성 후 MBD 구현을 시작하기 전에 요구사항을 Simulink Requirements를 통해 Simulink로 import하여 `요구사항-구현-코드`의 추적성을 확보한다.
-  * Simulink import 시점 이후부터는 구현이 완료될 때까지 Simulink Requirement로만 요구사항을 관리하고, 구현 및 시뮬레이션이 완료된 시점에 고객과의 공유를 위해 1회 기능요구사항 초안을 업데이트하고, 추적표를 작성한다.
-
-#### F1 Auto/Manual
-
-* [`F1_Req1`](/.) 윈도우 이동 중 버튼을 조작하면 Window는 동작을 멈춰야 한다.
-* [`F1_Req2`](/.) A-Up/A-Dn이 입력 후 추가 버튼 조작이 없으면 모터는 상/하단 Soft-Stop 위치까지 이동하여야 한다.
-* [`F1_Req3`](/.) M-Up/M-Dn이 입력되는 동안 모터는 상/하단 방향으로 이동하며 입력이 해제되면 모터는 정지해야 한다.
-
-:::note Wiper모터 스위치입력 vs Window모터 스위치입력
-Wiper모터는 SW를 눌렀다 떼면(Manual 1회 입력) 속도프로파일(0 -> Target)을 1회 완료하고, 속도프로파일 중 스위치를 다시 입력하면 감속을 수행하는 반면  
-Window모터는 SW를 누르는 동안에만 속도프로파일을 수행하고 스위치를 떼면 감속을 수행
-:::
-
-#### F2 속도프로파일
-
-* [`F2_Req1`](/.) 속도프로파일을 통한 위치/속도제어를 수행해야 한다.
-* [`F2_Req2`](/.) 가속/등속/감속 구간으로 나눠 프로파일링을 수행하며, 
-* [`F2_Req3`](/.) 파라미터를 통해 프로파일을 가변할 수 있어야 한다.
-  
-#### F3 피드백제어
-
-* [`F3_Req1`](/.) 위치 및 속도 피드백 제어를 수행해야 한다.
-
-#### F4 초기화설정
-
-* [`F4_Req1`](/.) Power On 시 초기화해제 상태에서 구속이 감지될 때까지 모터를 CW/CCW로 n회(TBD) 구동하여 모터 부하를 통해 Up/Down방향을 판단하고, 상하단구속 위치 감지 후 초기화 상태로 천이되어야 한다.
-* [`F4_Req2`](/.) 초기화해제 상태에서는 Manaul동작만 가능하고, 초기화 상태에서 Auto/Manual동작 모두 가능하다.
-* [`F4_Req3`](/.) 초기화를 통해 상/하단 구속지점을 감지하여 이동거리(Full-Stroke)를 자동으로 인식해야 한다.
-  
-#### F5 Soft-Stop
-
-* [`F5_Req1`](/.) 충격으로 인한 시스템 파손을 방지하기 위해 상/하단 구속 전 위치에서 모터는 정지해야 한다.
-* [`F5_Req2`](/.) Soft-Stop 수행 시 상/하단 구속이 발생하면 위치오차가 발생한 것으로 판단하여 모터를 정지시키고, Soft-Stop 위치(상/하단 구속 전 위치)를 재설정 해야 한다.
-* [`F5_Req3`](/.) 위치오차 보정을 위해 Up/Down Soft-Stop동작 10회(TBD) 수행 후 Full-Open/Close 명령 수신 시 1회 <u>상/하단 구속위치까지 이동(Hard-Stop)</u>하여 Full-Stroke에 대한 Hall Pulse Count 값이 동일한지 확인해야 하며,  
-Count 값 변경 시 Full-Stroke 값을 재설정해야 한다.  
-동일현상 연속3회 발생 시 초기화해제 상태로 천이되어야 한다.
-  
-#### F6 Anti-Pinch
-
-* [`F6_Req1`](/.) AutoUp 동작 중 반전영역 II에서 장애물을 감지하면 300±10mm 하강 후 정지해야 한다.
-* [`F6_Req2`](/.) AutoUp 동작 중 반전영역 III에서 장애물을 감지하면 50±10mm 하강 후 정지해야 한다.
-* [`F6_Req3`](/.) AutoUp 동작 중 반전영역 I, IV에서는 반전동작을 수행하지 않는다.
-  
-#### F7 칼만필터링
-
-* [`F7_Req1`](/.) 엔코더 신호를 칼만필터링하여 전류정보를 추정한다.
-  
-#### F8 이상감지
-
-* [`F8_Req1`](./) 홀센서 고장 시 
-* [`F8_Req2`](./) 고전압 감지 시 모터가 구동중이면 모터를 즉시 정시시키고, 정상전압 복귀 시 진행중이던 모터구동을 재개해야 한다.
-* [`F8_Req3`](./) 저전압 감지 시 
-* [`F8_Req4`](./) 연속 입/출력 동작 10회 감지 시 
-
-#### F9 모터 과열 방지
-
-* TBD
-
-#### F10 Sleep/WakeUp
-
-* TBD
-
-### 아키텍처 설계
-
-#### 컨셉 설계 
-
-시스템은 크게 공통으로 사용되는 모듈(통신부, 입력부, 출력부)과 아이템마다 다르게 구현되는 모듈(일반기능로직 및 Safety)로 나뉜다.  
-Controller는 C코드생성을 고려해 Discrete block을 사용하여 구현하고, Plant는 Continuous로 구현한 다음 지연소자를 통해 인터페이스한다.
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_pre_arch_concept.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_pre_arch_concept.png').default}
-			alt="Example banner"
-			width="550"
-		/><br/><em>&lt;System Architecture Concept&gt;</em>
-	</a>
-</p>
-
-* 일반기능로직은 Simulink 시뮬레이션 또는 RCP(기능 초기 검증이 필요한 경우)를 통해 Function Block 단위로 구현하고, Function Block 단위로 검증을 수행한다.
-* 중복하여 사용되는 Function Block은 수정/변경 시 일괄적으로 적용될 수 있도록 라이브러리로 만들어 관리한다.
-
-#### System Architecture
-
-시뮬링크를 이용하여 아키텍처를 설계하고, 기능을 아키텍처에 <u>할당(allocation)</u>한다.
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_pre_arch_system.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_pre_arch_system.png').default}
-			alt="Example banner"
-			width="550"
-		/><br/><em>&lt;System Architecture&gt;</em>
-	</a>
-</p>
-
-#### Physical Architecture
-
-하드웨어 의존적인 부분인 PWS 및 MCU Peripherals 영역을 Physical로 분류한다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_design_pre_arch_physical.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;Physical Architecture&gt;</em>
-</p>
-
-#### Logical Architecture
-
-:::info
-로직으로 언급되는 시스템 구성요소는 모델을 통한 시뮬레이션을 이용하여 하드웨어 독립적으로 개발이 가능함을 의미한다.
-:::
-하드웨어 독립적으로 실행할 수 있는 부분을 Logical로 분류하고, MIL단계 시뮬링크 시뮬레이션을 통해 Logical Component(Software Logic)를 개발한다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_design_pre_arch_logical.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;Logical Architecture&gt;</em>
-</p>
-
-* Input Processing
-  * 사용자 입력을 처리하여 WindowLogic의 상태천이 조건을 생성하는 로직
-* Window State
-  * 상태천이를 이용하여 PWS의 여러 기능을 구현하는 로직
-* Output Processing
-  * Trigger 신호를 입력받아 0~1(0~100%) 범위의 출력을 조절하여 프로파일링 신호를 생성한다.
-  * 프로파일링 신호를 제어입력으로 하여 피드백 제어를 수행한다.
-* Pos Calculator
-  * 엔코더 펄스 카운트 값과 엔코더 펄스 주기를 입력으로 받아 속도 및 위치를 계산하는 로직
-* Obstacle Detect
-  * T.B.D
-* Comm Processing
-  * T.B.D
-
-## 기능구현
-
-### 속도측정
+## 속도측정
 
 > Plant를 모델링을 위해 실제 시스템 입력(전압)에 따른 출력(각속도) 정보를 이용하여 System Identification을 수행하기 위해서는 속도를 측정할 수 있어야 한다.
 
@@ -521,7 +323,7 @@ freq_out = freq_in*2pi
 1ms로 피드백제어를 수행할 때 100ms 속도가 업데이트 되는 경우 제어가 불가능함
 :::
 
-### F0 플랜트 모델링
+## F0 플랜트 모델링
 
 #### DC모터 단품 모델링
 
@@ -668,6 +470,7 @@ Step입력을 통해 모델링 한 모델에 다른전압(사다리꼴 프로파
 확인 결과 사다리꼴 입력 시에는 실제출력과 모델출력에 오차가 약간 존재하는 것으로 확인되며, 실제 타겟시스템에서 튜닝을 통해 극복한다.
 
 #### 입/출력 검증
+
 T.B.D
 
 #### 참고자료
@@ -682,7 +485,7 @@ T.B.D
   * [LAUNCHXL-F28377S: Simulink Settings for eQEP speed calculation](https://e2e.ti.com/support/microcontrollers/c2000/f/171/t/617754?LAUNCHXL-F28377S-eQEP-speed-calculation-in-Simulink)
   * [LAUNCHXL-F28377S: Simulink Models for eQEP speed calculation](https://www.mathworks.com/matlabcentral/answers/353589-simulink-eqep-block-for-speed-calculation-with-c2000-mcu)
 
-### F1 Auto/Manual
+## F1 Auto/Manual
 
 > <font color="blue"><strong>Auto/Manual 기능</strong></font><br/>
 > Auto,Up,Dn 스위치 입력을 통해 자동 or 수동으로 윈도우 열림/닫힘 동작을 수행하는 기능
@@ -851,7 +654,7 @@ Left(Up버튼), Right(Dn버튼)와 같이 스위치 입력이 2개인 경우 다
 
 시뮬레이션 수행 결과 피드백제어를 수행하지 않기 때문에 Dn(Opening) 중 3753 이상 이동하면 정지명령을 출력하나 4000이 넘는 위치에서 모터가 정지한다.
 
-### F2 속도 프로파일
+## F2 속도 프로파일
 
 > <font color="blue"><strong>프로파일링 기능</strong></font><br/>
 > 모터를 부드럽게 구동시키기 위해 가속/등속/감속 구간으루 나눠 위치(S커브) 및 속도(사다리꼴) 제어입력을 생성하는 기능
@@ -1041,7 +844,7 @@ WindowState로직과 OutputProcessing로직 동기화를 위해 다음과 같이
 	</a>
 </p>
 
-### F3 피드백제어
+## F3 피드백제어
 
 > <font color="blue"><strong>Feedback Control 기능</strong></font><br/>
 > 위치/속도 피드백제어 통해 프로파일링 제어입력에 대한 피드백 오차를 최소화하여 플랜트를 제어한다.
@@ -1172,7 +975,7 @@ Robust 제어기 설계 시 적용(T.B.D)
 [로보티즈 다이나믹셀 위치/속도/전류제어 블록도](https://emanual.robotis.com/docs/en/dxl/p/pm54-060-s250-r/)
 * [PIV 서보 제어란](https://www.motioncontroltips.com/faq-what-is-piv-servo-control/)
 
-### F4 초기화
+## F4 초기화
 
 > <font color="blue"><strong>초기화설정 기능</strong></font><br/>
 > 초기화 해제 상태에서 모터구동을 통해 상하단 구속위치 및 윈도우 이동거리(Full-Stroke)를 자동으로 설정하고, 초기화 상태로 동작모드를 변경하는 기능
@@ -1416,7 +1219,7 @@ CW이동중엔 장애물이 없다가 CCW이동중 장애물이 감지되는 경
 	</a>
 </p>
 
-### F5 Soft-Stop
+## F5 Soft-Stop
 
 > <font color="blue"><strong>Soft-Stop 기능</strong></font><br/>
 > 소음을 저감하고, 충격으로 인한 모터/기구부 파손을 방지하기 위해 구속 전 위치에서 모터를 정지시키는 기능
@@ -1437,7 +1240,7 @@ Soft-Stop 오차누적으로 구속이 발생하면 모터를 즉시 정지하�
 
 T.B.D
 
-### F6 반전
+## F6 반전
 
 > <font color="blue"><strong>반전 기능</strong></font><br/>
 > 윈도우 Auto-Up 동작 중 <u>장애물(물체끼임)을 감지하면 윈도우 Down 동작을 수행(반전동작)</u>하여 윈도우 끼임으로부터 신체를 보호하는 기능
@@ -1483,7 +1286,7 @@ T.B.D
 
 Anti-Pinch 반전은 실부하가 있는 상태에서 확인이 수월하므로 실부하 상태에서 기능시험으로 대체함.
 
-### F7 칼만필터
+## F7 칼만필터
 
 > <font color="blue"><strong>Kalman-Filtering 기능</strong></font><br/>
 > 엔코더를 통해 측정한 위치/속도에 대한 필터링을 수행하고 이용하여 전류를 추정한다.
@@ -1583,506 +1386,5 @@ T.B.D
 * [MPU6050 칼만필터 구현예제2](https://sharehobby.tistory.com/entry/MPU6050%EC%9D%98-%EC%B9%BC%EB%A7%8C-%ED%95%84%ED%84%B0Kalman-filter%EC%9D%98-%EA%B5%AC%ED%98%84-%EC%98%88%EC%A0%9C2?category=990451)
 * [MPU6050 칼만필터 구현예제3](https://sharehobby.tistory.com/entry/XFile-35?category=990451)
 * [MPU6050 칼만필터 구현예제4](https://sharehobby.tistory.com/entry/XFile-36?category=990451)
-
-## 검증
-
-### 코드 자동 생성
-
-#### 코드생성 전략
-
-코드생성 전략은 `Full Autocode`방법과 `Hybrid Autocode`(Manual+Autocode) 방법이 있다.
-
-##### Full AutoCode
-
-* 제어대상(Plant)가 실제 있는 경우  
-temperature PID 프로젝트와 같이 제어대상 Plant(PWM출력->션트저항 열발생->온도센서 피드백)가 있고, 구현에 필요한 모든 Peripherals를 시뮬링크에서 Function Block으로 모두 지원하는 경우 코드레벨 핸들링 없이 시뮬링크만으로 개발을 진행하며, 다음의 경우 사용한다.
-  * MCU Study 없이 빠른 기간내에 특정 알고리즘을 개발해야 하는 경우 Simulik에서 Firmware Function Block을 Full로 지원하는 EVB를 통해 Simulink 만으로 AutoCode를 진행한다.
-  * `External Mode`를 통해 개발기간을 단축할 수 있다.
-  * 로직 or 알고리즘 개발/검증이 완료되면 로직 or 알고리즘은 최종 타겟에서 실행될 수 있도록 독립적으로 실행 가능한 C파일로 생성되어야 한다.
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/img3_4_mbd_realization.png').default}>
-		<img
-			src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
-	</a>
-</p>
-
-* 제어대상(Plant)가 없는 경우  
-현장이 아닌 장소와 같이 Plant가 없는 경우 Simulation으로 Plant를 모델링하고, 시뮬레이션 상에서 기능을 구현한 다음 `PIL Mode`를 통해 로직/알고리즘만 Simulink 지원 MCU에서 구동한다.
-
-##### Hybrid AutoCode
-
-* Hybrid(Peripherals Manual + Function Logic AutoCode)  
-Window 프로젝트와 같이 시뮬링크에서 Peripherals 관련 Function Block을 모두 지원하지 않는 경우 Firmware 부분은 Manual Coding으로 개발을 진행하고, Application 부분은 Simulink(기능구현->시뮬레이션->코드자동생성)로 개발을 진행한다.
-  * AutoCode가 지원되지 않는 MCU가 많기 때문에 이 방법을 통해 최종적으로 제품에 적용되어야 한다.
-  * Simulink를 Full로 지원하는 MCU를 통해 Full AutoCode의 External Mode를 통해 전체를 개발하고, 로직/알고리즘 부분만 C코드로 분리하여 타겟에 포팅한다.
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
-	</a>
-</p>
-
-* 절차  
-Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 개발 절차를 설명한다.
-  * 1. 다음과 같이 시뮬레이션 시스템에서 AutoCode 영역을 Model block을 통해 외부에서 생성된 slx파일을 Reference하여 시뮬레이션을 위한 영역과 AutoCode를 위한 영역을 구분하여 전체 시스템을 구축한다.
-  * 2. 시뮬레이션이 완료되면 기능로직에 대하여 타겟 속성을 추가하여 타겟용 코드를 자동생성한다.
-  * 3. Manual Coding으로 개발한 Peripherals와 Auto Generated Code를 통합한다.
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeStrategy.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeStrategy.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Hybrid AutoCode Strategy&gt;</em>
-	</a>
-</p>
-
-#### Device블록 만들기
-
-여기서는 Simulink Device Driver block을 생성하는 4가지 방법(the Legacy Code Tool(LCT), the MATLAB function block, the System Object block, S-Function) 중 S-Function을 이용하여 Device Driver block을 만든다.
-
-:::important
-100% gcc 기반 C코드 생성은 가능하나, S-Function에서 Device Driver 관련 함수를 호출할 경우 관련 include path를 모두 인식하게 해야 한다.
-:::
-
-##### s32k144 Device Block
-
-* Default GPIO Example Open
-* S-Function 생성
-  * 초기설정 및 변수(입력) 설정
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_pil1_2_DD_Sequence1_Init.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-  * Coding  
-  모든 프로젝트에서 인식될 수 있도록 include path는 s32ds 설치 시 생성되는 소스파일 경로로 설정한다.
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_pil1_2_DD_Sequence2_Coding.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>  
-  <u>코드생성 시 HW의존적인 부분은 #ifndef MATLAB_MEX_FILE ~ #endif 매크로 처리를 해야 빌드에러가 발생하지 않음</u><br/>
-  즉, MEX파일이 생성되지 않는 경우에만 이 코드를 넣고, MEX파일이 생성되면 이 코드를 없애 빌드에러를 제거한다.
-  * Build & 코드생성  
-  S-Function 빌드 성공 시 mexw64 파일이 생성됨
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_pil1_2_DD_Sequence3_Compile.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-##### TroubleShoot
-
-* S-Function 재빌드
-  * S-Function Builder 변경내용이 반영안될 때 빌드결과 생성파일 전부 삭재 후 재빌드(다른 폴더에 생성된 생성파일을 참조할 수 있으므로 Everything으로 전부 찾아서 삭제 - 버그같음)
-  * [*.mexw64파일이 지워지지 않을 때 -> matlab command -> clear all -> delete mexw64 file](https://kr.mathworks.com/matlabcentral/answers/1563471-can-t-delete-myfile-mexw64-after-run-mexw64)
-  * mexw64 파일 삭제 후에도 반영 안되면 자동생성된 소스/프로젝트 전부 삭제후 자동생성/빌드 재수행
-* 빌드 Path 설정
-  * 저장/빌드 후 S-Function Builder를 다시 열면 Path에 줄바꿈이 되어 있어 재빌드 시 빌드오류가 발생 -> 줄바꿈 없이 1줄로 Path를 설정해야 함(버그같음).  
-  빌드 성공		: INC_PATH c:\Users\Use~~  
-  다시열기		: INC_PATH
-				  c:\Users\Use~~  
-  수정후재빌드	: INC_PATH c:\Users\Use~~  
-* 컴파일러 설치 오류
-  * MINGW64를 설치했음에도 Simulink 모델 빌드 시 "지원되는 컴파일러를 찾을 수 없습니다."라는 빌드오류가 발생하는 경우
-  * matlab 명령창에서 다음 명령을 실행한다.  
-  \>\> setenv('MW_MINGW64_LOC', 'C:\TDM-GCC-64')  
-  \>\> mex -setup
-
-#### 코드생성
-
-##### Window 모델
-
-시뮬레이션을 통해 기능(Functional Block) 개발이 완료되면 타겟에서 동작 가능한 코드생성을 위해 다음과 같이 시뮬레이션 모델을 코드생성용으로 수정해야 한다.  
-시뮬레이션 환경과 실제 구동환경이 다르기 때문에 다음과 같이 Gap을 보완하는 Function Block들이 추가되어야 한다.
-* 노이즈 제거를 위해 입력된 속도에 Lowpassfilter Function Block 추가
-* -1 ~ 1 사이의 값을 PWM에 해당하는 Duty 및 Direction으로 변경해주는 MotorOut Function Block 추가
-* 초기화 완료 시 엔코더 펄스 카운트 값을 Reset 해주는 Trigger 신호 Enable Logic 추가
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil1_3_AutoCode_FuncLogic.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil1_3_AutoCode_FuncLogic.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;시뮬레이션모델(상) vs 코드생성용모델(하)&gt;</em>
-	</a>
-</p>
-
-* 기본기능은 Hybrid AutoCode(AutoCode와 Manual Coding으로 개발한 Firmware를 한번에 통합하여 동작확인)를 통해 개발하고,
-* Anti-Pinch와 같은 복잡한 기능은 Full AutoCode 방법으로 알고리즘을 개발/검증한 다음 로직 부분만 AutoCode로 생성하여 기존 Hybrid AutoCode와 통합한다.
-
-##### Task 실행주기
-
-#### 최적화
-
-코드생성 옵션을 설정하여 코드자동생성 최적화 작업을 수행해야 한다.
-
-Function Block을 각각의 C파일로 생성하는 방법
-
-
-#### 참고자료
-
-* [step-by-step으로 Arduino Device Drivers 만들기](https://kr.mathworks.com/matlabcentral/fileexchange/39354-device-drivers)
-* [How Do I Create My Own Hardware Support Package](https://itectec.com/matlab/matlab-how-do-i-create-my-own-hardware-support-package)
-* DriverGuide.pdf (Writing a Simulink Device Driver block: a step by step guide) - 아두이노는 include path가 설정되어 있어서 그대로 따라면 Device Driver Block 잘 동작함
-
-### MCU 포팅
-
-> * 실제 시스템(Plant) 개발은 시간/비용이 많이 소요되기 때문에,
-* MIL(Simulink 시뮬레이션)을 통해 개발한 로직/알고리즘을 시스템 제작/적용 전 PIL단계에서 MCU에 적용하여 구현 가능성을 확인한다.
-
-#### 환경구축
-
-##### 동작모드
-
-* `Full AutoCode`
-  * External모드를 통해 실시간 파라미터를 모니터링하면서 기능을 개발한 다음
-  <details><summary>External Mode</summary>
-	<div>External Mode에서는 타겟에서 코드가 실행되는 동안 시뮬링크에서 파라미터를 수정/모니터링 할 수 있다.</div>
-	<div>* External모드 실행은 PIL모델 구성을 Real-time으로 진행하며, Switch On/Off 시 Scope 출력 또한 실시간으로 On/OFF가 된다.</div>
-  </details>
-  * 변경없이 바로 AutoCode를 통해 타겟에서 동작을 확인
-* `Hybrid AutoCode`
-  * MIL 시뮬레이션을 통해 기능을 개발한 다음
-  <details><summary>MIL Mode</summary>
-	<div>MIL단계에서는 실제 Plant 및 타겟 MCU없이 PC상에서 시뮬레이션만을 통해 제어로직을 개발한다.</div>
-  </details>
-  * 타겟에서 구동될 수 있도록 인터페이스 후 AutoCode를 통해 타겟에서 동작을 확인
-* `Mode Verification`
-  * PIL모드를 통해 시뮬레이션 결과와 MCU실행 결과가 일치함을 확인
-  <details><summary>PIL Mode</summary>
-	<div>PIL단계에서는 실제 Plant 없이 PC에서 구동되는 가상입력/가상플랜트 및 타겟 MCU만으로 MIL단계에서 개발한 제어로직의 동작 일치성을 확인하며,</div>
-	<div>시스템 개발이 결정되면 실제 Plant에 제어로직을 적용하여 시스템 테스트를 수행한다.</div>
-	<div>* PC시뮬레이션 결과와 타겟보드 결과가 수치적으로 동일한지 확인</div>
-	<div>* 시뮬링크 모델 실행시간 측정</div>
-	<div>* UART를 통해 시뮬링크와 타겟보드 간 데이터 교환을 수행한다.</div>
-	<div>* PIL Simulation은 Real-time에서 진행되지 않는다.</div>
-  </details>
-* SIL/PIL
-  * SILPILVerificationExample.m -> SIL/PIL 구현방법 데모  
-  : Help -> Code Verification and Validation with PIL
-  * SIL 및 PIL 시뮬레이션으로 생성 된 코드 테스트(실제 실행 스크립트 예제 - 인터넷 연결하면 한글번역)  
-  : software-and-processor-in-the-loop-sil-and-pil-simulation.html
-  * SIL 또는 PIL 접근 방식 선택  
-  : choosing-a-sil-or-pil-approach.html 찾아서 확인
-  * Test Generated Code with SIL and PIL Simulations(Simulink Documentation)  
-  : software-and-processor-in-the-loop-sil-and-pil-simulation.html
-  * [Test Generated Code with SIL and PIL Simulations(유투브 설명)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dpk8Jc6rK4uk&psig=AOvVaw3kGP-a_mCF3JMcwA4HmSPj&ust=1625116845912000&source=images&cd=vfe&ved=2ahUKEwiNq-mTzr7xAhVDcN4KHUY1BrIQr4kDegQIARBn)
-
-
-##### MCU - tms320f28069
-
-> controlStick(tms320f28069)은 MIL, External Mode 모두 동작하므로 알고리즘개발 시 이용하고, 개발/검증 완료 후 로직 부분만 코드생성 후 타겟에 포팅
-
-시뮬레이션을 통해 기능로직 개발을 완료하면 MBD Fully Support MCU(ti mcu(tms320f28069), arduino 등)를 이용하여 PIL Test를 수행하며, PIL Test 이후 MCU 포팅작업을 진행한다.
-
-:::important Compatiability between Porting MCU and PIL Test MCU
-* 포팅할 MCU에서 floating point를 지원할 경우 PIL MCU 또한 floating point 연산을 지원해야 한다.
-* 포팅할 MCU가 32bit MCU일 경우 PIL MCU 또한 32bit MCU여야 하며, 포팅할 MCU가 16bit이면 PIL MCU 또한 16bit이어야 한다.
-:::
-
-##### mcu - s32k144
-
-> s32k144는 External Mode가 지원안되므로 코드자동생성하고 타겟에서 실행한 후 FreeMASTER를 통해 External Mode like하게 동작확인
-
-프로그램 설치
-* 가상 컴포트 드라이버
-  * OpenSDA - CDC Serial Port
-  * PEDrivers_install.exe
-* 모니터링 for FreeMASTER
-  * 옛날 버전(FMASTERSW.exe v2.0)으로 설치하면 장치드라이버는 인식하나 정작 통신이 안됨
-  * FMASTERSW31.exe v3.1로 nxp에서 다운받아서 다시 설치하니까 잘됨
-* 컴파일러
-  * S32 Design Studio for ARM Version 2.2
-  * S32DS_ARM_Win32_v2.2.exe
-  * S32DS_ARM_v2.2_UP1.zip
-
-:::important
-* External모드 동작
-  * 회사/집 모두 빌드 실패, 타겟연결 실패(21.10.30)
-  * FreeMASTER를 이용하여 External Mode like하게 개발 진행
-* 타겟 실행 방법
-  * Simulink MBD_S32K14x_Config_Information에서 "Download Code after Build"를 체크하여 빌드 후 바로 다운로드
-  * 빌드결과 생성되는 <ProjectName\>.mot파일을 EVB-S32K144 장치인식드라이버에 복사하여 실행.
-  * S32DS -> Flash from file -> elf파일 선택 -> downloading
-:::
-
-#### 동작확인
-
-##### [PIL모드 예제 동작확인](https://www.mathworks.com/help/supportpkg/beaglebone/ref/code-verification-and-validation-with-pil-and-external-mode.html) (21.10.22 확인완료)
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_pil2_1_PIL_mode.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;PIL모드 동작확인&gt;</em>
-</p>
-
-1. TI 예제 프로그림 c2000_pil_block.slx Open
-2. PIL블록 생성 활성화  
-Simulink Configuration Parameter Open -> Search에서 `CreateSILPILBlock`검색 -> PIL 선택 후 OK
-3. PIL블록 생성  
-Controller Block 선택 후 마우스 우클릭 -> C/C++ Code -> Deploy this Subsystem to Hardware -> 다이얼로그 창이 열리면 Controller Block에 대한 PIL Block 생성을 위해 Build 버튼을 선택하여 빌드 진행
-4. Simulation블록과 PIL블록 Merge  
-새창에서 생성된 PIL 블록을 복사하여 기존 c2000_pil_block.slx 예제의 `Place PIL block here` 위치에 붙여넣기
-5. 실행  
-Simulation Tab에서 Run버튼을 누르면 PIL블록이 타겟에서 실행된다.
-
-##### External모드 설정 (21.10.25 확인완료)
-
-prototyping 또는 알고리즘 개발중인 경우 외부모드를 사용하면 로직을 하드웨어에서 실행하면서 시리얼 통신을 통해 모니터링/튜닝이 가능하다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_pil2_2_External_mode_concept.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;External모드&gt;</em>
-</p>
-
-1. Solver 설정  
-`variable-step`, `auto(Automatic solver selection)`에서 `Fixed-step`, `discrete(no continuous state)`로 변경
-2. 타겟보드 설정  
-Configuration Parameters -> Hardware Implementation -> Hardware board를 `TI Piccolo F2806x`로 변경 
-3. External모드에 사용될 시리얼포트 설정  
-Configuration Parameters -> Hardware Implementation -> Hardware board settings -> Target hardware resources -> Groups -> External mode -> Serial Port를 장치관리자에서 인식된 controlStick 가상컴포트 포트번호로 설정
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil2_3_External_comport.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil2_3_External_comport.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;External모드 시리얼포트 설정&gt;</em>
-	</a>
-</p>
-4. Simulation Mode 설정  
-Normal -> External로 변경
-5. 실행  
-Simulation Tab에서 Run버튼을 누르면 코드생성/빌드/다운로드 후 자동으로 실행되며, Runtime 도중 파라미터를 변경하여 시스템에 적용되는지 확인할 수 있다.
-6. Runtime Monitoring  
-타겟보드에서 GPIO18, 19포트 물리적으로 연결한 상태에서 External모드로 설정하고 Run하면  
-GPIO18 펄스출력 시(EnableOut=1) GPIO19에서 펄스신호가 읽히고  
-GPIO18 펄스미출력 시(EnableOut=0) GPIO19에서 펄스신호가 읽히지 않음
-
-##### External모드 동작확인 (21.10.25 확인완료)
-
-External모드에서는 MCU Peripherals Real Signal 입출력 및 모델로직(stateflow)의 동작을 실시간으로 확인할 수 있다.
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil2_4_External_mode_ex.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil2_4_External_mode_ex.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;External모드 Peripherals+Stateflow 동작확인&gt;</em>
-	</a>
-</p>
-
-
-#### 구현
-
-##### 시뮬레이션
-
-동영상 삽입
-
-##### Window 구동
-
-동영상 삽입
-
-#### 참고자료
-
-* [STM32 PIL Example(Simulink Src)](https://github.com/freshhope/STM32_PIL_Example_Simulink)
-* stm32-matlab_2020 (External Mode for Parameter tunning).pdf - 이걸로 개념정리 됨
-* [Code generation for ARM Cortex-M from MATLAB and Simulink](https://www.st.com/content/ccc/resource/sales_and_marketing/presentation/product_presentation/a9/9b/32/0f/30/e7/4a/aa/stm32-matlab.pdf/files/stm32-matlab.pdf/jcr:content/translations/en.stm32-matlab.pdf)
-* [FM4 Family Processor in the Loop Simulation](https://www.cypress.com/file/294966/download)
-* [외부모드로 LAUNCHXL-F28379D Blink LED & UART 실행 (유투브 동영상)](https://www.youtube.com/watch?v=KZjueGF4Wno)
-* Simulink executionProfile을 통한 실시간 코드 실행시간 측정  
-Matlab -> 문서(F1) -> "Real-Time Code Execution Profiling" 키워드 검색 -> LAUNCHXL-F28377S 예제를 LAUNCHXL_F28069M로 변환하여 실행시간 측정 레포트 확인
-
-### 기능시험
-
-#### F1 Auto/Manual & F4 초기화 설정
-
-> `F4_Req1` Power On 시 초기화해제 상태에서 구속이 감지될 때까지 모터를 CW/CCW로 n회(TBD) 구동하여 모터 부하를 통해 Up/Down방향을 판단하고, 상하단구속 위치 감지 후 초기화 상태로 천이되어야 한다.
-
-* 상/하단 위치와 무관하게 상단 or 하단구속위치에서 상/하단 1회 씩을 연속적으로 구속하면 초기화가 완료된다.
-
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed//IEqg8dDzfDI?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window 상단구속에서 Relay초기화 (21년11월17일)&gt;</em>
-</p>
-
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed//jCq4ktn4KRU?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window 하단구속에서 Relay초기화 (21년11월17일)&gt;</em>
-</p>
-
-#### F2 속도프로파일
-
-> F2_Req1 속도프로파일을 통한 위치/속도제어를 수행해야 한다.  
-F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다. 
-
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed//ML_fRinUlRI?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window FET Manual Up & Down (21년11월17일)&gt;</em>
-</p>
-
-#### F3 피드백제어
-
-> 초기화 후 FET 가속/등속/감속 실행 시 피드백 제어를 수행한다.  
-
-* 피드백제어 미수행 시 
-  * Opening(Down)/Closing(Up) 시 Reference Profile 및 PWM출력 동일
-  * 윈도우 부하로 인해 Opening(Down) 시에는 빠른속도로 윈도우가 하강
-  * Closing(Up) 시에는 느린 속도록 윈도우가 상승하며, 부하로 인해 원점위치까지 올라오지 못하게 된다.
-* 피드백제어 수행 시
-  * Opening(Down)/Closing(Up) 시 Reference Profile 동일
-  * Opening(Down) 시 피드백을 통해 윈도우 부하만큼 PWM출력을 낮춰 윈도우 하강
-  * Closing(Up) 시 피드백제어를 통해 윈도우 부하만큼 PWM출력을 높여 윈도우 상승
-  * Opening(Down)/Closing(Up) 모두 동일한 시간동안 동일한 위치까지 이동
-  * 동영상을 통해 Closing(Up) 시 원점위치까지 이동하는 것을 확인할 수 있다.
-
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed//rUO6xONQ8OM?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window 상단구속에서 FET초기화 (21년11월17일)&gt;</em>
-</p>
-
-#### F6 AntiPinch 반전
-
-> Closing 동작 중 장애물 감지 시 윈도우를 Opening 방향으로 동작시켜 윈도우 끼임으로부터 사용자를 보호한다.
-
-* 초기화 완료 후에만 Auto Up/Down 동작이 가능하다.  
-초기화를 통해 이동거리(Full-Stoke)를 알아야 자동으로 정지할 수 있음
-* Manual-Up 동작은 사용자 의도기능으로 간주하여 반전을 수행하지 않으며, Auto-Up 동작 중에만 장애물 끼임 감지 시 반전동작을 수행한다.
-
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 (21년12월03일)&gt;</em>
-</p>
-
-#### 참고자료
-
-* Simulink executionProfile을 통한 실시간 코드 실행시간 측정  
-Matlab -> 문서(F1) -> "Real-Time Code Execution Profiling" 키워드 검색 -> LAUNCHXL-F28377S 예제를 LAUNCHXL_F28069M로 변환하여 실행시간 측정 레포트 확인
-
-### 추적성 확인
-
-#### 추적표 자동생성
-
-1. Requirements Editor를 통해 요구사항을 작성 or Import 한 다음 요구사항을 블록으로 드래그하여 링크를 생성한다.
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_1_Requirement_Editor.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_1_Requirement_Editor.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;요구사항 작성&gt;</em>
-	</a>
-</p>
-2. Requirements Editor에서 Traceability Matrix를 선택하여 추적표를 자동으로 생성한다.
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_2_auto_traceability_matrix.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_2_auto_traceability_matrix.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;추적표 자동생성&gt;</em>
-	</a>
-</p>
-3. 요구사항에 연결된 링크를 선택하면 연결된 블록이 자동으로 화면에 나타나서 어떤 Function Block이 요구사항을 구현하고 있는지 쉽게 확인할 수가 있다.
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_3_traceability_corss_check.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_3_traceability_corss_check.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;추적표 확인&gt;</em>
-	</a>
-</p>
-
-#### 추적표 html Export
-
-Traceability Matrix Dialog에서 Export기능(Export 버튼 클릭)을 통해 추적표를 html로 export 할 수 있다.
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_4_traceability_matrix_html.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_4_traceability_matrix_html.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Export Traceability Matrix to html&gt;</em>
-	</a>
-</p>
-
-#### 요구사항 추적표 (최종)
-
-Function block과 기능요구사항 간의 추적표를 시뮬링크를 통해 자동으로 생성한다.
-
-<p align="center">
-    <a target="_blank"
-    href="/assets/mbd/SLReqMatrixSnapShot.html">
-        <img
-            src={require('/img/2_mbd/mbd_sys_t2_traceability.png').default}
-            alt="Example banner"
-            width="350"
-        /><br/><em>&lt;Traceability Matrix&gt;</em>
-    </a>
-</p>
-
-#### 참고자료
-
-* [Simulink Model로부터 요구사항 추적표 자동생성 - 2019a에는 없고, 2021b에 있음](https://kr.mathworks.com/help/slrequirements/ug/track-requirement-links-with-a-traceability-matrix.html)
 
 

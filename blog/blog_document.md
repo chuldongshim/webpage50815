@@ -449,4 +449,10 @@ In development, you can only use one locale at a same time.
 
 :::
 
+## 문서 카테고리
+
+### Navbar
+
+[item Dropdown](https://younho9.dev/docusaurus-manage-docs-2)
+[상위문서 링크](https://docusaurus.io/ko/docs/category/guides)
 

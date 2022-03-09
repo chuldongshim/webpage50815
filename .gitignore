@@ -18,3 +18,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/blog/*.md
+/blog/*.mdx
+/blog/*.yml
+/docs/*.md
+/static/img/tutorial

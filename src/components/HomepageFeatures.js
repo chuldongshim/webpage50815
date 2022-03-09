@@ -4,32 +4,47 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
+    title: <a href="./docs/signal/kalman_filter" target="_blank" rel="noopener noreferrer">Development Process</a>,
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        개발 프로세스 실무적용/구축<br />
+        Matlab/Simulink를 통한 MBD 개발 프로세스 구축<br />
+        Redmine(by Clude AWS) 기반 이슈관리<br />
+        Agile(by GitHub/GitLab) 기반 선행개발 <code>진행중</code><br />
+        <code><a href="https://address83.tistory.com/153" target="_blank" rel="noopener noreferrer">A-SPICE?</a></code>&emsp;
+        <code><a href="https://www.koreascience.or.kr/article/JAKO201325449260743.pdf" target="_blank" rel="noopener noreferrer">ISO26262?</a></code>&emsp;
+        <code><a href="https://hackersstudy.tistory.com/35" target="_blank" rel="noopener noreferrer">Redmine?</a></code>&emsp;
+        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>
+      </>
+    ),
+  },
+  {
+    title: <a href="./docs/mbd/wiper" target="_blank" rel="noopener noreferrer">Model Based Design</a>,
+    Svg: require('../../static/img/firstpage_motor_pos_control.svg').default,
+    description: (
+      <>
+        MBD기반 제어로직 시뮬레이션/코드생성/MCU포팅<br />
+        하드웨어 개발 전 RCP를 통한 제어로직 개발/검증<br />
+        Kalman Filter를 통핸 제어알고리즘 개발 <code>진행중</code><br />
+        ProE 연동 Simulnik모델 가상 시뮬레이션 <code>진행중</code><br />
+        <code><a href="https://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf" target="_blank" rel="noopener noreferrer">Kalman Filter?</a></code>&emsp;
+        <code><a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/company/events/conferences/matlab-conference-australia/2016/proceedings/design-with-simulation-in-simulink.pdf" target="_blank" rel="noopener noreferrer">MBD?</a></code>&emsp;
+        <code><a href="https://kr.mathworks.com/videos/run-models-interactively-on-arduino-and-raspberry-pi-1549462466264.html" target="_blank" rel="noopener noreferrer">RCP?</a></code>
+      </>
+    ),
+  },
+  {
+    title: <a href="./docs/embedded/train_door" target="_blank" rel="noopener noreferrer">Embedded System</a>,
+    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Linux/uClinux 포팅 및 tcp/ip 어플리케이션 개발<br />
+        RTOS 기반 임베디드 소프트웨어 개발<br />
+        IAP부트로더를 통한 uart,usb,http 펌웨어 업데이트<br />
+        Mbed C++ 기반 OTA 펌웨어 업데이트 <code>진행중</code><br />
+        <code><a href="https://os.mbed.com/" target="_blank" rel="noopener noreferrer">Mbed?</a></code>&emsp;
+        <code><a href="https://www.elec4.co.kr/article/articleView.asp?idx=18469" target="_blank" rel="noopener noreferrer">OTA?</a></code>
       </>
     ),
   },

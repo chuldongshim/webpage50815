@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,chrome=1"><meta name="generator" content="MATLAB R2019a"><title>Wiper Project Management Document</title><style type="text/css">.rtcContent { padding: 30px; } .S0 { margin: 3px 10px 5px 4px; padding: 0px; line-height: 28.7999992370605px; min-height: 0px; white-space: pre-wrap; color: rgb(213, 80, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 24px; font-weight: normal; text-align: left;  }
+.S1 { margin: 2px 10px 9px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: pre-wrap; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: normal; text-align: left;  }
+.CodeBlock { background-color: #F7F7F7; margin: 10px 0 10px 0;}
+.S2 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 1px solid rgb(233, 233, 233); border-bottom: 0px none rgb(0, 0, 0); border-radius: 4px 4px 0px 0px; padding: 6px 45px 0px 13px; line-height: 17.2339992523193px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 14px;  }
+.S3 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 0px none rgb(0, 0, 0); border-bottom: 1px solid rgb(233, 233, 233); border-radius: 0px; padding: 0px 45px 4px 13px; line-height: 17.2339992523193px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 14px;  }
+.S4 { color: rgb(64, 64, 64); padding: 10px 0px 6px 17px; background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box; font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 14px; overflow-x: hidden; line-height: 17.2339992523193px;  }
+.embeddedOutputsErrorElement {min-height: 18px; max-height: 250px; overflow: auto;}
+.embeddedOutputsErrorElement.inlineElement {}
+.embeddedOutputsErrorElement.rightPaneElement {}
+.embeddedOutputsWarningElement{min-height: 18px; max-height: 250px; overflow: auto;}
+.embeddedOutputsWarningElement.inlineElement {}
+.embeddedOutputsWarningElement.rightPaneElement {}
+.diagnosticMessage-wrapper {font-family: Menlo, Monaco, Consolas, "Courier New", monospace; font-size: 12px;}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType {color: rgb(255,100,0);}
+.diagnosticMessage-wrapper.diagnosticMessage-warningType a {color: rgb(255,100,0); text-decoration: underline;}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType {color: rgb(230,0,0);}
+.diagnosticMessage-wrapper.diagnosticMessage-errorType a {color: rgb(230,0,0); text-decoration: underline;}
+.diagnosticMessage-wrapper .diagnosticMessage-messagePart {white-space: pre-wrap;}
+.diagnosticMessage-wrapper .diagnosticMessage-stackPart {white-space: pre;}
+.embeddedOutputsTextElement,.embeddedOutputsVariableStringElement {white-space: pre; word-wrap: initial; min-height: 18px; max-height: 250px; overflow: auto;}
+.textElement,.rtcDataTipElement .textElement {padding-top: 3px;}
+.embeddedOutputsTextElement.inlineElement,.embeddedOutputsVariableStringElement.inlineElement {}
+.inlineElement .textElement {}
+.embeddedOutputsTextElement.rightPaneElement,.embeddedOutputsVariableStringElement.rightPaneElement {min-height: 16px;}
+.rightPaneElement .textElement {padding-top: 2px; padding-left: 9px;}
+.S5 { border-left: 1px solid rgb(233, 233, 233); border-right: 1px solid rgb(233, 233, 233); border-top: 1px solid rgb(233, 233, 233); border-bottom: 1px solid rgb(233, 233, 233); border-radius: 0px; padding: 6px 45px 4px 13px; line-height: 17.2339992523193px; min-height: 18px; white-space: nowrap; color: rgb(0, 0, 0); font-family: Menlo, Monaco, Consolas, 'Courier New', monospace; font-size: 14px;  }
+.S6 { margin: 10px 10px 9px 4px; padding: 0px; line-height: 21px; min-height: 0px; white-space: pre-wrap; color: rgb(0, 0, 0); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 14px; font-weight: normal; text-align: left;  }
+.S7 { margin: 20px 10px 5px 4px; padding: 0px; line-height: 20px; min-height: 0px; white-space: pre-wrap; color: rgb(60, 60, 60); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 20px; font-weight: bold; text-align: left;  }
+.S8 { margin: 15px 10px 5px 4px; padding: 0px; line-height: 18px; min-height: 0px; white-space: pre-wrap; color: rgb(60, 60, 60); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 17px; font-weight: bold; text-align: left;  }
+.S9 { margin: 10px 10px 5px 4px; padding: 0px; line-height: 18px; min-height: 0px; white-space: pre-wrap; color: rgb(60, 60, 60); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 15px; font-weight: bold; text-align: left;  }
+.S10 { margin: 10px 0px 20px; padding-left: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 14px;  }
+.S11 { margin-left: 56px; line-height: 21px; min-height: 0px; text-align: left; white-space: pre-wrap;  }
+.S12 { margin: 3px 10px 5px 4px; padding: 0px; line-height: 20px; min-height: 0px; white-space: pre-wrap; color: rgb(60, 60, 60); font-family: Helvetica, Arial, sans-serif; font-style: normal; font-size: 20px; font-weight: bold; text-align: left;  }</style></head><body><div class = rtcContent><h1  class = 'S0' id = 'T_6BDBF90C' ><span style=' font-weight: bold;'>Wiper Project Management Document</span></h1><div  class = 'S1'><span>프로젝트 관리문서가 있는 폴더를 최상위 폴더를 정의하고, 이 경로를 기준으로 모든 Link가 상대위치로 설정된다.</span></div><div  class = 'S1'><a href = "matlab:open([getenv('prjdir') '\prjsetenv.mlx']);"><span>prjsetenv</span></a></div><div class="CodeBlock"><div class="inlineWrapper"><div  class = 'S2'><span style="white-space: pre;"><span>prjsetenv</span></span></div></div><div class="inlineWrapper outputs"><div  class = 'S3'><span style="white-space: pre;"><span>getenv(</span><span style="color: rgb(160, 32, 240);">'libdir'</span><span>)</span></span></div><div  class = 'S4'><div class="inlineElement eoOutputWrapper embeddedOutputsVariableStringElement" uid="012624CD" data-testid="output_0" data-width="834" data-height="20" data-hashorizontaloverflow="false" style="width: 864px; max-height: 261px;"><div class="textElement"><div><span class="variableNameElement">ans = </span>'C:\Users\User\Documents\MATLAB\sbcm'</div></div></div></div></div><div class="inlineWrapper outputs"><div  class = 'S5'><span style="white-space: pre;"><span>getenv(</span><span style="color: rgb(160, 32, 240);">'topdir'</span><span>)</span></span></div><div  class = 'S4'><div class="inlineElement eoOutputWrapper embeddedOutputsVariableStringElement" uid="1AC69E0E" data-testid="output_1" data-width="834" data-height="20" data-hashorizontaloverflow="false" style="width: 864px; max-height: 261px;"><div class="textElement"><div><span class="variableNameElement">ans = </span>'D:\Backup\OneDrive'</div></div></div></div></div><div class="inlineWrapper outputs"><div  class = 'S5'><span style="white-space: pre;"><span>getenv(</span><span style="color: rgb(160, 32, 240);">'prjdir'</span><span>)</span></span></div><div  class = 'S4'><div class="inlineElement eoOutputWrapper embeddedOutputsVariableStringElement" uid="68E66555" data-testid="output_2" data-width="834" data-height="20" data-hashorizontaloverflow="false" style="width: 864px; max-height: 261px;"><div class="textElement"><div><span class="variableNameElement">ans = </span>'D:\Backup\OneDrive\4_Wiper_mbd'</div></div></div></div></div></div><div  class = 'S6'><span>[참고] </span><a href = "matlab:open('./1_Plan/2_용어및개념/sbcm_terms.mlx');"><span>용어집(프로젝트 관련 모든 용어에 대한 설명을 포함하는 mlx파일)</span></a></div><h2  class = 'S7'><span>1. 프로젝트 관리</span></h2><h3  class = 'S8' id = 'H_AA71C10A' ><span>1a. </span><a href = "https://kr.mathworks.com/help/simulink/gs/model-based-design.html#mw_3e1d9df7-df1e-43bb-8b3b-fe7c22ed99d7"><span>개발 프로세스</span></a></h3><div  class = 'S1' id = 'H_F8A173F8' ><a href = "https://kr.mathworks.com/company/newsletters/articles/how-to-use-simulink-for-iso-26262-projects.html"><span>ISO26262 프로젝트에 Simulink를 활용하는 방법</span></a></div><h3  class = 'S8'><span>1b. 사양서 작성</span></h3><h4  class = 'S9'><span>1b-2. 사양서 작성</span></h4><ul  class = 'S10'><li  class = 'S11'><span></span></li><li  class = 'S11'><span>GIT에서 확인이 가능하도록 matlab스크립트를 통해 mlx사양서를 html로 모두 변환하고, 정해진 시간/주기마다 변경사항을 자동으로 업데이트 한다.</span></li><li  class = 'S11'><a href = "https://kr.mathworks.com/help/matlab/ref/publish.html#input_argument_namevalue_d119e823467"><span>MATLAB 스크립트를 통해 mlx에서 HTML보기 생성하기</span></a></li><li  class = 'S11'><a href = "https://kr.mathworks.com/help/matlab/matlab_prog/add-help-to-live-functions.html"><span>라이브 함수에 대한 도움말 만들기</span></a></li></ul><h3  class = 'S8' id = 'H_B833BAAA' ><span>1c. 형상관리</span></h3><h4  class = 'S9' id = 'H_3DD2E1F6' ><span>1c-1. 버전관리 대상 산출물</span></h4><div  class = 'S1'><span>Git을 통해 다음의 산출물을 버전관리 한다.</span></div><ol  class = 'S10'><li  class = 'S11'><span>요구사항정의 -&gt; 고객 요구사항(Excel), 시스템 요구사항(Simulink Requirements)</span></li><li  class = 'S11'><span>시스템 설계 및 분석 -&gt; 시스템 설계 명세서(Word로 기능에 대한 설명 정도 기술)</span></li><li  class = 'S11'><span>상세설계 -&gt; 모델 개발(Simulink Model &amp; Live Script로 기능 상세 구현)</span></li><li  class = 'S11'><span>코딩 -&gt; 자동생성코드(*.c, *.h)</span></li><li  class = 'S11'><span>설계검증 -&gt; 시험스펙 &amp; 레포트(기능 위주 시험)</span></li><li  class = 'S11'><span>시스템 시험 -&gt; 시험스펙 &amp; 레포트 업데이트(요구사항 기반 시험)</span></li></ol><div  class = 'S1'><span>다음 산출물은 버전관리 대상에서 제외한다.</span></div><ol  class = 'S10'><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') './1_Plan/2_용어및개념/sbcm_terms.mlx']);"><span>용어집(프로젝트 관련 모든 용어에 대한 설명을 포함하는 mlx파일)</span></a></li><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/3_Simulink/Simulink_user_manual.mlx']);"><span>Matlab &amp; Simulink 사용법</span></a></li></ol><h2  class = 'S12' id = 'H_8EA25801' ><span>4. MIL상세설계(Simulink Logic)</span></h2><div  class = 'S1' id = 'H_C03875CA' ><span>시뮬링크 라이브러리 제작 - </span><a href = "matlab:cd('c:\Users\cdshim\Documents\MATLAB\sbcm\');open('sbcmlib.slx');"><span>sbcmlib.slx</span></a></div><div  class = 'S1'><span></span></div><h3  class = 'S8' id = 'H_9EC46E5C' ><span>4a. 공통기능 로직 (M0_Common)</span></h3><h4  class = 'S9' id = 'H_21FA2A77' ><span>4a-1. 출력부</span></h4><div  class = 'S1' id = 'H_6CEABDD4' ><span>LGQ는 matrix 형태의 상태방정식으로 표현되기 때문에 matrix 연산을 위한 </span><a href = "matlab:open([prjdir '/1_Plan/2_용어및개념/sbcm_principle.mlx']);"><span>선형대수학에 대한 이해</span></a><span>를 필요로 한다.</span></div><ol  class = 'S10'><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_1_ObserverStateFB_.mlx']);"><span>State Feedback Control by full state observer(관측기를 통한 전상태모니터링)</span></a></li><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_2_RobustStateFB_.mlx']);"><span>Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한)</span></a></li><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_3_Kalman_.mlx']);"><span>Kalman Filter</span></a></li><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_4_Stochastic_.mlx']);"><span>Stochastic Estimation Control by LQG</span></a></li><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Q_filter.mlx']);"><span>Q-Filter</span></a></li></ol><div  class = 'S1' id = 'H_4AB710C6' ><span>다음 절차를 통해 구현한다.</span></div><ol  class = 'S10'><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/RefProfileGen/RefProflieGen.mlx']);"><span>Reference Profile Generation</span></a></li><li  class = 'S11'><a href = "matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/WipingControl/ActuatorControl_.mlx']);"><span>PID위치/속도제어 시뮬레이션</span></a></li></ol><h2  class = 'S12' id = 'H_BC59F944' ><span>&lt; EOD &gt;</span></h2><div  class = 'S1' id = 'H_0A77FFE8' ></div></div>
+<br>
+<!-- 
+##### SOURCE BEGIN #####
+%% *Wiper Project Management Document*
+% 프로젝트 관리문서가 있는 폴더를 최상위 폴더를 정의하고, 이 경로를 기준으로 모든 Link가 상대위치로 설정된다.
+% 
+% <matlab:open([getenv('prjdir') '\prjsetenv.mlx']); prjsetenv>
+
+prjsetenv
+getenv('libdir')
+getenv('topdir')
+getenv('prjdir')
+%% 
+% [참고] <matlab:open('./1_Plan/2_용어및개념/sbcm_terms.mlx'); 용어집(프로젝트 관련 모든 용어에 대한 
+% 설명을 포함하는 mlx파일)>
+%% 1. 프로젝트 관리
+% 1a. <https://kr.mathworks.com/help/simulink/gs/model-based-design.html#mw_3e1d9df7-df1e-43bb-8b3b-fe7c22ed99d7 개발 프로세스>
+% <https://kr.mathworks.com/company/newsletters/articles/how-to-use-simulink-for-iso-26262-projects.html 
+% ISO26262 프로젝트에 Simulink를 활용하는 방법>
+% 1b. 사양서 작성
+% 1b-2. 사양서 작성
+%% 
+% * % * GIT에서 확인이 가능하도록 matlab스크립트를 통해 mlx사양서를 html로 모두 변환하고, 정해진 시간/주기마다 변경사항을 
+% 자동으로 업데이트 한다.
+% * <https://kr.mathworks.com/help/matlab/ref/publish.html#input_argument_namevalue_d119e823467 
+% MATLAB 스크립트를 통해 mlx에서 HTML보기 생성하기>
+% * <https://kr.mathworks.com/help/matlab/matlab_prog/add-help-to-live-functions.html 
+% 라이브 함수에 대한 도움말 만들기>
+% 1c. 형상관리
+% 1c-1. 버전관리 대상 산출물
+% Git을 통해 다음의 산출물을 버전관리 한다.
+%% 
+% # 요구사항정의 -> 고객 요구사항(Excel), 시스템 요구사항(Simulink Requirements)
+% # 시스템 설계 및 분석 -> 시스템 설계 명세서(Word로 기능에 대한 설명 정도 기술)
+% # 상세설계 -> 모델 개발(Simulink Model & Live Script로 기능 상세 구현)
+% # 코딩 -> 자동생성코드(*.c, *.h)
+% # 설계검증 -> 시험스펙 & 레포트(기능 위주 시험)
+% # 시스템 시험 -> 시험스펙 & 레포트 업데이트(요구사항 기반 시험)
+%% 
+% 다음 산출물은 버전관리 대상에서 제외한다.
+%% 
+% # <matlab:open([getenv('prjdir') './1_Plan/2_용어및개념/sbcm_terms.mlx']); 용어집(프로젝트 
+% 관련 모든 용어에 대한 설명을 포함하는 mlx파일)>
+% # <matlab:open([getenv('prjdir') '/1_SYS/3_Simulink/Simulink_user_manual.mlx']); 
+% Matlab & Simulink 사용법>
+%% 4. MIL상세설계(Simulink Logic)
+% 시뮬링크 라이브러리 제작 - <matlab:cd('c:\Users\cdshim\Documents\MATLAB\sbcm\');open('sbcmlib.slx'); 
+% sbcmlib.slx>
+% 
+% % 4a. 공통기능 로직 (M0_Common)
+% 4a-1. 출력부
+% LGQ는 matrix 형태의 상태방정식으로 표현되기 때문에 matrix 연산을 위한 <matlab:open([prjdir '/1_Plan/2_용어및개념/sbcm_principle.mlx']); 
+% 선형대수학에 대한 이해>를 필요로 한다.
+%% 
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_1_ObserverStateFB_.mlx']); 
+% State Feedback Control by full state observer(관측기를 통한 전상태모니터링)>
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_2_RobustStateFB_.mlx']); 
+% Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 
+% 통한 적분기 출력제한)>
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_3_Kalman_.mlx']); 
+% Kalman Filter>
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Maxon_Motor_4_Stochastic_.mlx']); 
+% Stochastic Estimation Control by LQG>
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/StateFeedback/Q_filter.mlx']); 
+% Q-Filter>
+%% 
+% 다음 절차를 통해 구현한다.
+%% 
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/RefProfileGen/RefProflieGen.mlx']); 
+% Reference Profile Generation>
+% # <matlab:open([getenv('prjdir') '/1_SYS/4_SysFunc/WipingControl/ActuatorControl_.mlx']); 
+% PID위치/속도제어 시뮬레이션>
+%% < EOD >
+%
+##### SOURCE END #####
+--></body></html>

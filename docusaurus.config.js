@@ -4,22 +4,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: '나는 개발자다! 그럼에도...',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://github.com/chuldongshim/webpage.git',
+  title: '나는 개발자다! 그렇게 살고 싶다...',
+  tagline: '',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/webpage/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'chuldongshim', // Usually your GitHub org/user name.
   projectName: 'webpage', // Usually your repo name.
-  trailingSlash: false,
-  
+
   presets: [
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -34,15 +33,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
+	  hideableSidebar: true,	//button on sidebar
       navbar: {
-        title: 'My Site',
+        title: '나는 개발자다!',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -50,9 +50,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'process',
             position: 'left',
-            label: 'Tutorial',
+            label: '프로세스',
+          },
+          {
+            type: 'doc',
+            docId: 'mbd',
+            position: 'left',
+            label: '모델기반설계',
+          },
+          {
+            type: 'doc',
+            docId: 'embedded',
+            position: 'left',
+            label: '임베디드',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -69,8 +81,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '프로세스',
+                to: '/docs/process',
+              },
+              {
+                label: '모델기반설계',
+                to: '/docs/mbd',
+              },
+              {
+                label: '임베디드',
+                to: '/docs/embedded',
               },
             ],
           },
@@ -111,5 +131,5 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 });

@@ -16,32 +16,81 @@ module.exports = {
   // But you can create a sidebar manually
   process: [
     'process',                  // 모든 프로젝트를 한번에 볼 수 있도록 핵심만 표시
-    'process/aspice_cl2',    // 각 프로젝트 상세 내용을 기술
-    'process/iso26262',
-    'process/redmine',
-    'process/aspice_cl3',
-    'process/sunroof_system_design',
-    'process/agile_by_github',
-    'process/agile_by_mbd',
+    {
+      type: 'category',
+      label: 'A-SPICE',
+      collapsed: false,
+      items: [
+        'process/aspice_cl2',    // 각 프로젝트 상세 내용을 기술
+        'process/aspice_cl3',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Design',
+      collapsed: false,
+      items: [
+        'process/iso26262',
+        'process/sunroof_system_design',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Management',
+      collapsed: false,
+      items: [
+        'process/redmine',
+        'process/agile_by_github',
+        'process/agile_by_mbd',
+      ],
+    },
   ],
   mbd: [
     'mbd',
-    'mbd/study',
-    'mbd/window_autobox',
-    'mbd/traindoor_uml',
-    'mbd/temperature',
-    'mbd/wiper',
-    'mbd/window',
-    'mbd/kalman_filter',
+    {
+      type: 'category',
+      label: 'Ready',
+      collapsed: false,
+      items: [
+        'mbd/window_autobox',
+        'mbd/traindoor_uml',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Action',
+      collapsed: false,
+      items: [
+        'mbd/temperature',
+        'mbd/wiper',
+        'mbd/window',
+        'mbd/kalman_filter',
+      ],
+    },
   ],
   embedded: [
     'embedded',
-    'embedded/paper',
-    'embedded/linux',
-    'embedded/Iap',
-    'embedded/train_door',
-    'embedded/python',
-    'embedded/esp32',
+    {
+      type: 'category',
+      label: 'Firmware',
+      collapsed: false,
+      items: [
+        'embedded/paper',
+        'embedded/study',
+        'embedded/Iap',
+        'embedded/python',
+        'embedded/esp32',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'OS',
+      collapsed: false,
+      items: [
+        'embedded/linux',
+        'embedded/train_door',
+      ],
+    },
   ],
   example: [
     'example',
@@ -50,13 +99,9 @@ module.exports = {
       label: '와이퍼',
       collapsed: false,
       items: [
-        {
-          'desing': ['example/wiper/wiper_design', 
-                    'example/wiper/wiper_realize',
-                    'example/wiper/wiper_verify'],
-          'realize': ['example/wiper/wiper_realize'],
-          'verify': ['example/wiper/wiper_verify'],
-        }
+        'example/wiper/wiper_plan',
+        'example/wiper/wiper_devenv',
+        'example/wiper/wiper_verify',
       ],
     },
     {

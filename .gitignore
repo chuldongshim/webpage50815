@@ -24,3 +24,4 @@ yarn-error.log*
 /docs/*.md
 /static/img/tutorial
 /docs/2_mbd/window
+/docs/2_mbd/a_study.md

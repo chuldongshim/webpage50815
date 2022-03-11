@@ -23,9 +23,3 @@ MBD를 접하여 Simulink 모델로부터 시뮬레이션을 수행하고, 코�
 * 소프트웨어 정적(QAC) 동적(VectorCAST) 테스트 스펙 작성 및 테스트, 테스트 리포트 생성
 * 소프트웨어 통합 테스트 수행
 
-## ISO26262 시스템 설계
-
-* 시스템 요구사항 명세서 작성(Technical Safety Requirement)
-* 시스템 아키텍처 및 Safety Mechanism 설계
-* FMEA & FTA 수행을 통한 시스템 아키텍처 분석
-* 시스템 설계 명세서 작성(System Desgn Specification)

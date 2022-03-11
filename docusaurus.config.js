@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'chuldongshim', // Usually your GitHub org/user name.
   projectName: 'webpage', // Usually your repo name.
-
+  
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -36,7 +36,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
     ],
   ],
-
+  
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
@@ -65,6 +65,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             docId: 'embedded',
             position: 'left',
             label: '임베디드',
+          },
+          {
+            type: 'doc',
+            docId: 'example',
+            position: 'left',
+            label: '예제 프로젝트',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

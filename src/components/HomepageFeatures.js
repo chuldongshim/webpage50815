@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href="./docs/signal/kalman_filter" target="_blank" rel="noopener noreferrer">Development Process</a>,
+    title: <a href="./docs/mbd/kalman_filter" target="_blank" rel="noopener noreferrer">Development Process</a>,
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

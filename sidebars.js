@@ -31,20 +31,7 @@ module.exports = {
     'mbd/traindoor_uml',
     'mbd/temperature',
     'mbd/wiper',
-    {
-      type: 'category',
-      label: '윈도우',
-      collapsed: false,
-      items: [
-        {
-          'desing': ['mbd/window/window_design', 
-                    'mbd/window/window_realize',
-                    'mbd/window/window_verify'],
-          'realize': ['mbd/window/window_realize'],
-          'verify': ['mbd/window/window_verify'],
-        }
-      ],
-    },
+    'mbd/window',
     'mbd/kalman_filter',
   ],
   embedded: [
@@ -55,5 +42,36 @@ module.exports = {
     'embedded/train_door',
     'embedded/python',
     'embedded/esp32',
+  ],
+  example: [
+    'example',
+    {
+      type: 'category',
+      label: '와이퍼',
+      collapsed: false,
+      items: [
+        {
+          'desing': ['example/wiper/wiper_design', 
+                    'example/wiper/wiper_realize',
+                    'example/wiper/wiper_verify'],
+          'realize': ['example/wiper/wiper_realize'],
+          'verify': ['example/wiper/wiper_verify'],
+        }
+      ],
+    },
+    {
+      type: 'category',
+      label: '윈도우',
+      collapsed: false,
+      items: [
+        {
+          'desing': ['example/window/window_design', 
+                    'example/window/window_realize',
+                    'example/window/window_verify'],
+          'realize': ['example/window/window_realize'],
+          'verify': ['example/window/window_verify'],
+        }
+      ],
+    },
   ],
 };

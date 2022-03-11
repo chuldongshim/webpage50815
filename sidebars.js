@@ -112,7 +112,7 @@ module.exports = {
         'example/window/window_design',
         {
           type: 'category',
-          label: 'realize',
+          label: '구현',
           collapsed: false,
           items: [
             'example/window/window_realize_f0_PlantModeling',

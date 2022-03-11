@@ -96,7 +96,7 @@ module.exports = {
     'example',
     {
       type: 'category',
-      label: '와이퍼',
+      label: '와이퍼 프로젝트',
       collapsed: false,
       items: [
         'example/wiper/wiper_plan',
@@ -106,16 +106,27 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '윈도우',
+      label: '윈도우 프로젝트',
       collapsed: false,
       items: [
+        'example/window/window_design',
         {
-          'desing': ['example/window/window_design', 
-                    'example/window/window_realize',
-                    'example/window/window_verify'],
-          'realize': ['example/window/window_realize'],
-          'verify': ['example/window/window_verify'],
-        }
+          type: 'category',
+          label: 'realize',
+          collapsed: false,
+          items: [
+            'example/window/window_realize_f0_PlantModeling',
+            'example/window/window_realize_f0_VelMeasure',
+            'example/window/window_realize_f1_AutoManual',
+            'example/window/window_realize_f2_Profiling',
+            'example/window/window_realize_f3_FeedbackControl',
+            'example/window/window_realize_f4_Initialize',
+            'example/window/window_realize_f5_SoftStop',
+            'example/window/window_realize_f6_AntiPinch',
+            'example/window/window_realize_f7_KalmanFilter',
+          ],
+        },
+        'example/window/window_verify',
       ],
     },
   ],

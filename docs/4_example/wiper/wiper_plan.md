@@ -19,14 +19,33 @@ title: 계획
 * 형상관리 : GitHub-Docusaurus를 통한 문서산출물 관리
 * 소스관리 : GitLab Repository를 통한 소스 관리
 
-### 진행절차
+## 진행절차
 
 1. System Identification을 통한 Plant 모델링(DC모터 파라미터 정의)
 2. DC모터 속도/위치제어 알고리즘 개발 및 시뮬레이션
 3. 코드자동생성
 4. 실제 구동결과와 시뮬레이션 결과 일치여부 비교검증
 
-#### 프로세스(미적용)
+### 선행개발(적용)
+
+본 프로젝트는 선행개발로 MBD 목적에 맞게 시스템 단계에서 MIL/PIL만을 수행하여 개발을 진행한다.(SW개발은 코드자동생성으로 대체, HW개발은 RCP를 통해 대체)
+* Design - `기능/비기능 요구사항 정의`, `아키텍처 설계`
+* MIL - `플랜트 모델링`, `기능로직 구현 및 시뮬레이션`
+* PIL - `기능로직 코드생성`, `MCU구동`, `타겟에 적용하여 기능시험 수행`
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/2_pil_simulation_concept.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;선행개발 컨셉&gt;</em>
+</p>
+
+:::note
+이와 같은 방법은 Plant 및 제어입력을 PC에서 가상으로 구축하기 때문에 모델링만 가능한 경우 어떠한 시스템이라도 시뮬레이션을 통해 제어로직을 검증할 수 있는 장점이 있다.
+:::
+
+### 일반프로세스(미적용)
 
 MBD를 고려하지 않는 일반적인 개발은 시스템/HW/SW/시험 단계를 통해 다음과 같이 진행한다.
 <details><summary>일반 개발 프로세스</summary>
@@ -86,32 +105,14 @@ MBD개발은 다음과 같이 MIL/SIL/PIL/HIL 단계를 통해 진행한다.
 	</details>
 </details>
 
-#### 선행개발(적용)
+## 진행결과
 
-본 프로젝트는 선행개발로 MBD 목적에 맞게 시스템 단계에서 MIL/PIL만을 수행하여 개발을 진행한다.(SW개발은 코드자동생성으로 대체, HW개발은 RCP를 통해 대체)
-* Design - `기능/비기능 요구사항 정의`, `아키텍처 설계`
-* MIL - `플랜트 모델링`, `기능로직 구현 및 시뮬레이션`
-* PIL - `기능로직 코드생성`, `MCU구동`, `타겟에 적용하여 기능시험 수행`
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/2_pil_simulation_concept.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;선행개발 컨셉&gt;</em>
-</p>
-
-:::note
-이와 같은 방법은 Plant 및 제어입력을 PC에서 가상으로 구축하기 때문에 모델링만 가능한 경우 어떠한 시스템이라도 시뮬레이션을 통해 제어로직을 검증할 수 있는 장점이 있다.
-:::
-
-### 진행결과 `(~21.07.26 완료)`
-
+`~21.07.26 완료`
 * Reference Velocity Profiling 생성 로직을 개발하고 Simulink를 통한 시뮬레이션 검증 후
 * 개발한 로직 모델로부터 타겟용 C코드를 자동생성한 후 타겟 MCU를 통해 Wiper Motor모터의 속도 가/감속 제어를 수행하였다.
 * 시뮬레이션과 실제 구동결과가 일치함을 확인하고, 개발시간을 획기적으로 단축할 수 있음을 확인하였다.
 
-### 참고자료
+## 참고자료
 
 * [ball on wheel by rapd control prototyping](https://technodocbox.com/Java/66141645-Rapid-control-prototyping-with-matlab-simulink-case-study-ball-on-wheel.html)
 <p align="center">

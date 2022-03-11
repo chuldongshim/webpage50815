@@ -5,19 +5,15 @@ title: 개발환경구축
 
 ---
 
-## 개발환경구축
-
-### 개발환경
-
 * 타겟보드(s32k144, tms320f28069)를 이용한 제어기 RCP(Rapid Control Prototyping) 구현 및 동작확인
   * Matlab Stateflow를 이용한 제어 로직 프로그래밍
   * Hardware dependent device driver interface를 통한 peripheral control(Timer/Interrupt, ADC, Port IO 등)
 * Matlab/Simulink를 통한 제어기 시뮬레이션 확인 및 모델 코드 자동생성(AutoCode Generation)
 * 장애물 감지 시 반전 알고리즘/로직 시뮬레이션
 
-### MCU 사양
+## MCU - S32K144
 
-#### S32K144_100LQFP 주요특징
+###  주요특징
 [S32K1_Overview_Presentation pdf 참고](https://www.nxp.com/docs/en/supporting-information/S32K1_Overview_Presentation.pdf)
 
 <p align="center">
@@ -60,7 +56,7 @@ title: 개발환경구축
 * Security
   * CSEc (SHE-spec)
 
-#### S32K144EVB-Q100 EVB Board
+### EVB Board
 
 [Pinmap]
 
@@ -71,7 +67,7 @@ title: 개발환경구축
 			src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_2_evb_pinout.png').default}
 			alt="Example banner"
 			width="350"
-		/><br/><em>&lt;s32k144 evb pinout&gt;</em>
+		/><br/><em>&lt;S32K144EVB-Q100 pinout&gt;</em>
 	</a>
 </p>
 
@@ -108,7 +104,7 @@ title: 개발환경구축
 * SCHEDULING
   * [Multitasking on S32K144 MBDT Simulink](https://community.nxp.com/thread/488575)
 
-### RCP 동작확인
+## RCP 동작확인
 
 s32k144 toolbox에서 제공하는 예제를 통해 s32k144 mcu peripherals 동작을 확인한다.
 
@@ -116,7 +112,7 @@ s32k144 toolbox에서 제공하는 예제를 통해 s32k144 mcu peripherals 동�
 * 모터제어 시 : PWM, ADC, Quadrature Decoder
 * 통신제어 시 : UART(Rx Interrupt), FreeMASTER, SPI
 
-#### Data Type
+### Data Type
 
 시뮬링크는 타입 재선언을 통해 모든 타겟ㅇ
 시뮬링크를 통해 생성되는 코드는 모든 타겟에서 동작될 수 있도록 데이터 타입을 재선언하여 사용한다.  
@@ -147,7 +143,7 @@ double – 64bit (8 byte), 배정도(double precision)
 uint32 – 32bit (4 byte), integer
 ```
 
-#### GPIO-ADC-PWM-QD
+### GPIO-ADC-PWM-QD
 
 하드웨어 인터페이스
 
@@ -177,7 +173,7 @@ C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Exam
 	</a>
 </p>
 
-#### Timer-PWM-IC
+### Timer-PWM-IC
 
 하드웨어 인터페이스
 
@@ -211,7 +207,7 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 예제에서는 PWM/IC 모두 동일하게 128 분주하므로 PWM Tick값(Period Value)과 IC로 측정한 Tick값(Period)이 동일해야 한다.
 :::
 
-#### GPIO-ADC-PWM-QD-IC
+### GPIO-ADC-PWM-QD-IC
 
 하드웨어 인터페이스
 
@@ -243,46 +239,6 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 	</a>
 </p>
 
-#### 시뮬링크 예제
-
-[로직제어]
-
-* SysTick
-* Timer
-  * ftm_sw_control_s32k14x.mdl
-  * lpit_s32k14x.mdl
-  * lptmr_time_counter_s32k14x.mdl
-  * lptmr_pulse_counter_s32k14x.mdl
-* ExtInt
-* GPIO
-  * sl_gpio_isr_control_s32k144.mdl
-  * sl_gpio_s32k144.slx
-
-[모터제어]
-
-* PWM
-  * sl_ftm_complementary_pwm_s32k14x.slx
-  * ftm_independent_pwm_s32k14x.mdl
-* ADC
-  * adc_isr_s32k14x.mdl
-  * adc_software_trigger_s32k14x.mdl
-* Quadrature Decoder
-  * sl_ftm_hall_sensor_s32k14x.mdl
-  * sl_ftm_qd_s32k14x.mdl
-* Input Capture
-  * sl_ftm_input_capture_s32k14x.mdl
-
-[통신]
-
-* UART
-  * lpuart_hello_world_s32k14x.mdl
-  * lpuart_s32k14x.mdl
-* UART Rx Interrupt
-* FreeMASTER
-* SPI
-  * lpspi_master_slave_s32k14x.mdl
-  * lpspi_master_s32k144W.mdl
-  * lpspi_slave_s32k144.mdl
 
 ### Single모터 구동
 
@@ -331,8 +287,51 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 
 동작확인 시 사용한 시뮬링크 모델 : nxp_s32k144_gpio_pwm_ic_dual_VNH5019.slx
 
-### 참고자료
+## 참고자료
+
+### S32K1x datasheet
 
 * [S32 SDK software architecture](https://www.programmersought.com/article/36523455668/)
 * [S32K1xx Bootloader ](https://www.nxp.com/docs/en/application-note/AN12218.pdf)
 * [S32K1xx Firmware updates](https://www.nxp.com/docs/en/application-note/AN12323.pdf)
+
+### 시뮬링크 예제
+
+[로직제어]
+
+* SysTick
+* Timer
+  * ftm_sw_control_s32k14x.mdl
+  * lpit_s32k14x.mdl
+  * lptmr_time_counter_s32k14x.mdl
+  * lptmr_pulse_counter_s32k14x.mdl
+* ExtInt
+* GPIO
+  * sl_gpio_isr_control_s32k144.mdl
+  * sl_gpio_s32k144.slx
+
+[모터제어]
+
+* PWM
+  * sl_ftm_complementary_pwm_s32k14x.slx
+  * ftm_independent_pwm_s32k14x.mdl
+* ADC
+  * adc_isr_s32k14x.mdl
+  * adc_software_trigger_s32k14x.mdl
+* Quadrature Decoder
+  * sl_ftm_hall_sensor_s32k14x.mdl
+  * sl_ftm_qd_s32k14x.mdl
+* Input Capture
+  * sl_ftm_input_capture_s32k14x.mdl
+
+[통신]
+
+* UART
+  * lpuart_hello_world_s32k14x.mdl
+  * lpuart_s32k14x.mdl
+* UART Rx Interrupt
+* FreeMASTER
+* SPI
+  * lpspi_master_slave_s32k14x.mdl
+  * lpspi_master_s32k144W.mdl
+  * lpspi_slave_s32k144.mdl

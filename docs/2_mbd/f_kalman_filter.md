@@ -9,6 +9,15 @@ title: 칼만필터
 
 시뮬링크를 이용하여 아키텍처를 설계하고, 기능을 아키텍처에 <u>할당(allocation)</u>한다.
 
+## 검증
+
+#### MPU6050 FIR필터링 동영상
+
+#### MPU6050 IIR필터링 동영상
+
+#### MPU6050 Kalman필터링 동영상
+
+
 ## 참고자료
 * [TouchGFX Documentation](https://support.touchgfx.com/4.18/ko/docs/introduction/welcome)
 * [STM32F746G-DISCO로 TouchGFX GUI에 아날로그 전압값 표시 동영상](https://www.youtube.com/watch?v=EbWOv_0Lp-U)

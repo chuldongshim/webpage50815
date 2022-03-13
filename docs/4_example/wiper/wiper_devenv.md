@@ -112,7 +112,11 @@ s32k144 toolbox에서 제공하는 예제를 통해 s32k144 mcu peripherals 동�
 * 모터제어 시 : PWM, ADC, Quadrature Decoder
 * 통신제어 시 : UART(Rx Interrupt), FreeMASTER, SPI
 
-### Data Type
+### Simulink 기초
+
+<a href="/assets/mbd/Simulink_user_manual.html" target="_blank">시뮬링크 기초 사용법</a><br/><br/>
+
+Simulink Data Type
 
 시뮬링크는 타입 재선언을 통해 모든 타겟ㅇ
 시뮬링크를 통해 생성되는 코드는 모든 타겟에서 동작될 수 있도록 데이터 타입을 재선언하여 사용한다.  

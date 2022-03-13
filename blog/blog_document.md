@@ -233,9 +233,9 @@ test: [ref](file:///C:/Users/User/workspace_github/webpage_offline/docs/test.txt
 * Simulink Live Script와 같은 외부 편집기를 통해 문서(기능사양) 작성한 문서를 docusaurus에서 확인하기 위해서는 html 포멧으로 변환하여 링크를 통해 연결해야 한다(docusaurus에서 작성하는 md파일도 결국 html로 변환됨).  
 * 확인결과 상대경로로 링크를 연결하면 Page Not found 페이지가 나타나므로 절대경로로 html파일을 링크해야 한다.
 * Docusaurus는 docs폴더는 md파일만 html로 변환하여 build 폴더에 저장한다.
-  * html파일을 `..\webpage\docs\mbd\sys\test.html`와 같이 저장한 후 Build를 수행하면 `..\webpage\build\docs\mbd\sys\`에 html파일이 생성되지 않음
+  * html파일을 `..\webpage\docs\mbd\sys\test.html`와 같이 docs폴더에 저장한 후 Build를 수행하면 `..\webpage\build\docs\mbd\sys\`에 html파일이 생성되지 않음
   * 확인결과 만약 docs 폴더에 html파일이 있는 상태에서 build를 수행하면 기존에 있는 html파일은 삭제하고, md파일을 html파일로 변환하여 build 폴더에 저장함
-  * 따라서 md 이외의 파일은 전부 assets 폴더를 통해 관리한다.
+  * 따라서 md 이외의 파일은 전부 assets 폴더를 통해 관리해야 한다.
 * html파일 링크를 위해서는 assets폴더를 이용해야 한다.
   * html파일 변환 전 원본파일과 html파일을 함께 관리해야 하므로 assets 폴더에서 html파일을 관리하는 것이 맞음
   * html파일을 `..\webpage\static\assets\mbd\test.html`와 같이 저장한 후 Build를 수행하면 `..\webpage\build\assets\mbd\test.html`과 같이 html파일이 생성됨

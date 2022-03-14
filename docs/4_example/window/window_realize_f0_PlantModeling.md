@@ -56,7 +56,7 @@ System Identification을 통해 모터 모델링을 수행한다.
 
 <p align="center">
 	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot3_sys_id_result.png').default}>
+    href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot3_sys_id_result.png').default}>
 		<img
 			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot3_sys_id_result.png').default}
 			alt="Example banner"
@@ -110,7 +110,7 @@ System Identification을 통해 모터 모델링을 수행한다.
 안정하게 시리얼 데이터를 수신하기 위해 0.1[s] 단위로 MCU가 보내는 시리얼 데이터를 PC에서 수신하여 저장한다.
 <p align="center">
 	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win1_raw_data.png').default}>
+    href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win1_raw_data.png').default}>
 		<img
 			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win1_raw_data.png').default}
 			alt="Example banner"
@@ -122,7 +122,7 @@ System Identification을 통해 모터 모델링을 수행한다.
 비선형모델로 모델링을 수행한 결과 Estimate 한 모델출력이 실제값을 상당히 잘 따라가는 것을 확이할 수 있다.
 <p align="center">
 	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win2_sys_id.png').default}>
+    href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win2_sys_id.png').default}>
 		<img
 			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win2_sys_id.png').default}
 			alt="Example banner"
@@ -134,7 +134,7 @@ System Identification을 통해 모터 모델링을 수행한다.
 Voltage Step Input에 대한 Window Rpm 출력 확인  
 <p align="center">
 	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result.png').default}>
+    href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result.png').default}>
 		<img
 			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result.png').default}
 			alt="Example banner"
@@ -145,7 +145,7 @@ Voltage Step Input에 대한 Window Rpm 출력 확인
 Step입력을 통해 모델링 한 모델에 다른전압(사다리꼴 프로파일)을 인가할 때에도 모델출력과 실제출력이 동일한지 확인한다.  
 <p align="center">
 	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result2.png').default}>
+    href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result2.png').default}>
 		<img
 			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result2.png').default}
 			alt="Example banner"

@@ -49,7 +49,7 @@ module.exports = {
     'mbd',
     {
       type: 'category',
-      label: 'Ready',
+      label: 'MCU미적용',
       collapsed: false,
       items: [
         'mbd/window_autobox',
@@ -58,7 +58,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Action',
+      label: '타겟MCU적용',
       collapsed: false,
       items: [
         'mbd/temperature',
@@ -77,8 +77,7 @@ module.exports = {
       items: [
         'embedded/paper',
         'embedded/study',
-        'embedded/Iap',
-        'embedded/python',
+        'embedded/bootloader',
         'embedded/esp32',
       ],
     },

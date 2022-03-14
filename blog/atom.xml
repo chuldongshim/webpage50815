@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/webpage/blog</id>
     <title>나는 개발자다! 그렇게 살고 싶다... Blog</title>
-    <updated>2022-03-09T06:53:48.872Z</updated>
+    <updated>2022-03-10T23:39:28.738Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/webpage/blog"/>
     <subtitle>나는 개발자다! 그렇게 살고 싶다... Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[인생수양]]></title>
         <id>hello-world</id>
         <link href="https://your-docusaurus-test-site.com/webpage/blog/hello-world"/>
-        <updated>2022-03-09T06:53:48.872Z</updated>
+        <updated>2022-03-10T23:39:28.738Z</updated>
         <summary type="html"><![CDATA[살아가는데 내게 힘이되거나 위안이 되는 글들을 기록하는 장소입니다. 이 글들이 모두에게 조금이나마 삶의 위안이 되면 좋겠습니다.]]></summary>
         <author>
             <name>Endilie Yacop Sucipto</name>
@@ -22,7 +22,7 @@
         <title type="html"><![CDATA[자기소개]]></title>
         <id>welcome</id>
         <link href="https://your-docusaurus-test-site.com/webpage/blog/welcome"/>
-        <updated>2022-03-09T06:53:48.862Z</updated>
+        <updated>2022-03-10T23:39:28.519Z</updated>
         <summary type="html"><![CDATA[그동안 기술습득에만 눈이 멀어 나를 알리는 활동을 전혀 하지 않았습니다. 자기 PR의 시대라고하는데, 지금까지 무엇을 했는지 저를 소개할 방법이 없었기에 이곳에서 웹페이지 작성을 시작하였습니다. 한번에 알아볼 수 있게 내용을 정리하여 저를 소개하는 공간입니다.]]></summary>
         <author>
             <name>chuldongshim</name>
@@ -33,7 +33,7 @@
         <title type="html"><![CDATA[건강]]></title>
         <id>health</id>
         <link href="https://your-docusaurus-test-site.com/webpage/blog/health"/>
-        <updated>2022-03-09T06:53:48.853Z</updated>
+        <updated>2022-03-10T23:39:28.316Z</updated>
         <summary type="html"><![CDATA[30대까지는 크게 아픈곳이 없었기 때문에 건강의 소중함을 알지 못하고 신경쓰지 않았습니다. 21년 상반기는 목디스크 때문에 인생의 위기라고 생각들 정도로 아픈시기 였습니다. 4~5개월 치료받고 운동하여 지금은 많이 나아졌지만, 덕분에 건강이 없으면 그 좋은 개발일도 할 수 없다는 위기를 느껴 앞으로 꾸준히 건강을 관리하려고 마련한 장소입니다.]]></summary>
         <author>
             <name>chuldong shim</name>
@@ -44,7 +44,7 @@
         <title type="html"><![CDATA[문서작성]]></title>
         <id>docu</id>
         <link href="https://your-docusaurus-test-site.com/webpage/blog/docu"/>
-        <updated>2022-03-09T06:53:48.844Z</updated>
+        <updated>2022-03-10T23:39:28.082Z</updated>
         <summary type="html"><![CDATA[문서작성 팁]]></summary>
         <author>
             <name>Endilie Yacop Sucipto</name>

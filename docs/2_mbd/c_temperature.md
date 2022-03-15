@@ -17,41 +17,129 @@ title: 온도제어
 |20년 9~10월|MCU(tms320f28069) 학습<li>gpio, ext_gpio, ADC</li><li>eCAP, eQEP, ePWM</li>|
 |20년 11월|MBD 구현 및 동작확인|
 
-## 개요
+## 온도PID제어
 
-### 목표
+### 프로젝트 목적
+
+#### 목표
 
 * 개인 프로젝트를 통해 MBD를 통하여 실제 개발을 진행할 수 있는지 여부를 확인한다.
 * MBD 개발 환경을 구축하고, MBD 기반 선행개발 프로세스를 수립한다.
 
-### 진행결과
+#### 진행결과
 
 * Sinkworks 온도제어 예제를 MBD를 통해 구현하여 동일하게 동작됨을 확인하였다.
-* 예제 수준으로 간단하게나마 MBD 기반 자동생성코드를 처음으로 타겟 MCU에서 구동하여 모델 시뮬레이션과 실제 구동결과가 일치함을 확인하였다.
+* 이전에 수행한 MBD는 C코드자동생성 없이 MicroAutobox라는 범용 제어기에서 제어로직에 대한 동작을 확인한 것인 반변,
+* 본 프로젝트에서 예제 수준으로 간단하게나마 MBD기반 자동생성코드를 처음으로 타겟 MCU에서 구동하여 모델 시뮬레이션과 실제 타겟MCU 구동결과가 일치함을 확인하였다.
 
-## 개발환경 구축
+### 프로젝트 관리
 
-Wiper_v9_210726_Closing.docx 내용 정리
+온도PID제어 프로젝트는 개인프로젝트로 별도의 프로젝트 관리 툴 없이 GitLab만을 이용하여 프로젝트 관련 모든 활동을 수행한다.
+* gitlab repository에 Project를 생성하여 agile 기반으로 프로젝트 이슈를 관리한다.  
+(gitlab을 통한 이슈관리 상세는 [development_process-gitlab](/docs/process/agile_by_github)을 참조한다.)
+* 산출물(코드, 문서 등)은 gitlab repository에 저장하여 이력관리를 수행한다.
+* GitLab을 통해 Task(할일,일정) 및 Issue(문제) 관리
 
-### HW 사양
+<p align="center">
+	<img
+		src={require('/img/2_mbd/img3_1_svn_log.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
 
-#### MCU 사양
+### 컨셉정의
 
-TR28069는 Control Law Accelerator(CLA)와 Floating-point Unit / Viterbi, Complex Math, CRC Unit을 내장한 TI의 TMS320F28069(Piccolo) 프로세서로 다음의 특징을 갖는다.
+개발 컨셉은 다음과 같다.
+* 시뮬링크에서 시뮬레이션을 통해 제어로직을 개발한다.
+* 다음과 같이 Simulink RCP를 구성하여 Peripherals와 제어로직을 인터페이스 한다.
+* 코드자동생성/빌드/타겟다운로드/실행
+* 가변저항으로 설정한 목표값으로 온도가 피드백 제어되는지 확인한다.
 
-* TMS320F28069U PZP T 칩 탑재
+<p align="center">
+	<img
+		src={require('/img/2_mbd/img3_2_mbd_concept.png').default}
+		alt="Example banner"
+		width="350"
+		height="200"
+	/>
+</p>
+
+### 시스템 설계
+
+Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드를 그대로 사용하고, Hand Coding이 아닌 MBD Auto-Code-Generation을 통해 온도제어 동작을 확인한다.
+
+#### TR28069 타겟
+
+TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
+
+<p align="center">
+	<a target="_blank"
+	href={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}>
+		<img
+			src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
+	</a>
+</p>
+
+* Piccolo TMS320F28069U PZP T 칩 탑재
   * 32-Bit Fixed-Point Core (C28X)  
   (Up to 90MHz/90MIPS/90MMACS/180MFLOPS)
-  * Control Law Accelerator (CLA) / Floating-point Unit (FPU)
+  * Control Law Accelerator (CLA) / Floating-point Unit (FPU) / Viterbi, Complex Math, CRC Unit을 내장
   * 내부 메모리 : 100KB RAM / 2KB OTP / 256KB FLASH
   * 16채널 ADC : 12-Bit / Up to 3.46MSPS
   * 16 PWM (+3채널 ECAP Aux. PWM) /
   * 8채널 HR-PWM / 3 CAP / 2 QEP
   * 통신 : 2 SPI / 2 SCI / 1 CAN / 1 I2C / 1 McBSP
+* JTAG 에뮬레이터 내장 (XDS100v1)
+  * 별도의 JTAG 에뮬레이터 없이, USB 연결만으로 학습 가능
+  * 내장 JTAG 에뮬레이터 미-사용시, 별도의 JTAG 에뮬레이터 연결을 위한 표준 14핀 JTAG 인터페이스 인출 (IEEE1149.1)
+* 다양한 사용자 인터페이스
+  * 7-Segment 1개 (GPIO 및 PWM 실습 및 테스트 용 / LED 대용)
+  * 가변저항분압기 1개 (ADC 실습 및 테스트 용)
+  * Tactile Switch 2개 (GPIO/인터럽트/Capture/Trip 테스트용)
+  * 콘덴서 마이크 1개 (ADC를 이용한 음향 처리 가능)
+* PWM 포트 6개 / ADC 입력채널 3개 인출
+  * 범용 PWM 6채널과 ADC 입력 3채널 인출  
+  (홀 인출, 외부 회로와 연결하여 활용 가능)
+* 온도센서 및 발열용 Wattage 저항 탑재
+  * PWM 출력을 통해, Wattage 저항에서 열을 발생시키고, 온도센서의 출력을 ADC로 처리하여, 기본적인 PID 제어 알고리즘 학습 가능
+* CAN / I2C / RS232C 통신포트 인출
+  * 2.54mm 1x9(수) 핀-헤더를 통해 CAN / I2C / RS232C 통신 포트 인출
+* 점퍼 방식의 부트모드 테스트 회로
+  * 2핀 점퍼를 통해, TMS320F28035 프로세서의 다양한 부트모드 테스트 가능
+
+#### 하드웨어 구현
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/img3_3_hw_config.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
+
+#### 소프트웨어 구현
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
+
+## 엔코더 펄스 생성/카운트
+
+개발환경 구축 : Wiper_v9_210726_Closing.docx 내용 정리
+
+### HW 사양
 
 #### VNH5019 Driver 사양
 
-The VHN5019A-E is a full bridge motor driver intended for a wide range of automotive applications. 
+The VHN5019A-E is a full bridge motor driver intended for a wide range of automotive applications.
 
 <p align="center">
 	<a target="_blank"
@@ -74,37 +162,6 @@ The VHN5019A-E is a full bridge motor driver intended for a wide range of automo
   * Current sense output proportional to motor current
   * Charge pump output for reverse polarity protection
   * Output protected against short to ground and short to Vcc
-
-#### TR28069
-
-<p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
-	</a>
-</p>
-
-* JTAG 에뮬레이터 내장 (XDS100v1)
-  * 별도의 JTAG 에뮬레이터 없이, USB 연결만으로 학습 가능
-  * 내장 JTAG 에뮬레이터 미-사용시, 별도의 JTAG 에뮬레이터 연결을 위한 표준 14핀 JTAG 인터페이스 인출 (IEEE1149.1)
-* 다양한 사용자 인터페이스
-  * 7-Segment 1개 (GPIO 및 PWM 실습 및 테스트 용 / LED 대용)
-  * 가변저항분압기 1개 (ADC 실습 및 테스트 용)
-  * Tactile Switch 2개 (GPIO/인터럽트/Capture/Trip 테스트용)
-  * 콘덴서 마이크 1개 (ADC를 이용한 음향 처리 가능)
-* PWM 포트 6개 / ADC 입력채널 3개 인출
-  * 범용 PWM 6채널과 ADC 입력 3채널 인출  
-  (홀 인출, 외부 회로와 연결하여 활용 가능)
-* 온도센서 및 발열용 Wattage 저항 탑재
-  * PWM 출력을 통해, Wattage 저항에서 열을 발생시키고, 온도센서의 출력을 ADC로 처리하여, 기본적인 PID 제어 알고리즘 학습 가능
-* CAN / I2C / RS232C 통신포트 인출
-  * 2.54mm 1x9(수) 핀-헤더를 통해 CAN / I2C / RS232C 통신 포트 인출
-* 점퍼 방식의 부트모드 테스트 회로
-  * 2핀 점퍼를 통해, TMS320F28035 프로세서의 다양한 부트모드 테스트 가능
 
 #### ControlStick
 
@@ -296,52 +353,3 @@ tms320f28069는 Configuration Parameters -> Hardware Implementation -> Hardware 
 * 따라서 eQEP 포트가 밖으로 나와있는 EVB(LAUNCHXL-F28069M)로 확인
 :::
 
-## 프로젝트 관리
-
-별도의 프로젝트 관리 툴 없이 GitLab만으로 프로젝트 관련 모든 활동을 수행한다.
-* gitlab repository에 Project를 생성하여 agile 기반으로 프로젝트 이슈를 관리한다.  
-(gitlab을 통한 이슈관리 상세는 [development_process-gitlab](/docs/process/agile_by_github)을 참조한다.)
-* 산출물(코드, 문서 등)은 gitlab repository에 저장하여 이력관리를 수행한다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/img3_1_svn_log.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-## 진행사항
-
-### 컨셉정의
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/img3_2_mbd_concept.png').default}
-		alt="Example banner"
-		width="350"
-		height="200"
-	/>
-</p>
-
-### 하드웨어 구성
-
-Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드를 그대로 사용하고, Hand Coding이 아닌 MBD Auto-Code-Generation을 통해 온도제어 동작을 확인한다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/img3_3_hw_config.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-### 시스템(HW+SW) 구성
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>

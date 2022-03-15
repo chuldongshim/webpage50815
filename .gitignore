@@ -28,3 +28,5 @@ yarn-error.log*
 /docs/2_mbd/a_study.md
 /static/img/*.svg
 /docs/3_embedded/d_python.md
+/docs/1_process/b_aspice_cl3.md
+/docs/1_process/d_sunroof_system_design.md

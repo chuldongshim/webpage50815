@@ -28,14 +28,11 @@ title: 검증
 * 하드웨어 독립적이므로 시뮬레이션 검증 완료 후 자동생성코드 변경없이 타겟에 사용이 가능함
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/img4_4_simulation.png').default}>
-		<img
-			src={require('/img/2_mbd/img4_4_simulation.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;로직 시뮬레이션&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/img4_4_simulation.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;로직 시뮬레이션&gt;</em>
 </p>
 
 ### 3D 시뮬레이션
@@ -74,14 +71,11 @@ title: 검증
 하드웨어가 결정되지 않은 상태에서 Rapid Control Prototyping(이하 RCP라 함)을 제공하는 EVB를 통해 다음과 같은 컨셉으로 하드웨어를 구성하면 RCP 장비를 통해 알고리즘 확인이 가능하게 된다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/img4_2_hw_configuration1.png').default}>
-		<img
-			src={require('/img/2_mbd/img4_2_hw_configuration1.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;하드웨어 인터페이스 컨셉&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/img4_2_hw_configuration1.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;하드웨어 인터페이스 컨셉&gt;</em>
 </p>
 
 실제 다음과 같이 하드웨어를 구성하였다.
@@ -108,14 +102,11 @@ title: 검증
 
 기존 타겟 프로젝트에서 자동생성된 코드를 include하여 Function Call을 통해 실행한다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/img4_6_MCU_porting.png').default}>
-		<img
-			src={require('/img/2_mbd/img4_6_MCU_porting.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;자동생성 코드 프로젝트 통합 컨셉&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/img4_6_MCU_porting.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;자동생성 코드 프로젝트 통합 컨셉&gt;</em>
 </p>
 
 ## 동작확인

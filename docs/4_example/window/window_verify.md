@@ -26,14 +26,11 @@ temperature PID 프로젝트와 같이 제어대상 Plant(PWM출력->션트저�
   * 로직 or 알고리즘 개발/검증이 완료되면 로직 or 알고리즘은 최종 타겟에서 실행될 수 있도록 독립적으로 실행 가능한 C파일로 생성되어야 한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/img3_4_mbd_realization.png').default}>
-		<img
-			src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
 </p>
 
 * 제어대상(Plant)가 없는 경우  
@@ -47,14 +44,11 @@ Window 프로젝트와 같이 시뮬링크에서 Peripherals 관련 Function Blo
   * Simulink를 Full로 지원하는 MCU를 통해 Full AutoCode의 External Mode를 통해 전체를 개발하고, 로직/알고리즘 부분만 C코드로 분리하여 타겟에 포팅한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
 </p>
 
 * 절차  
@@ -64,14 +58,11 @@ Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 �
   * 3. Manual Coding으로 개발한 Peripherals와 Auto Generated Code를 통합한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeStrategy.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeStrategy.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Hybrid AutoCode Strategy&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeStrategy.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Hybrid AutoCode Strategy&gt;</em>
 </p>
 
 ### Device블록 만들기
@@ -144,14 +135,11 @@ Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 �
 * 초기화 완료 시 엔코더 펄스 카운트 값을 Reset 해주는 Trigger 신호 Enable Logic 추가
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil1_3_AutoCode_FuncLogic.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil1_3_AutoCode_FuncLogic.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;시뮬레이션모델(상) vs 코드생성용모델(하)&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_pil1_3_AutoCode_FuncLogic.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;시뮬레이션모델(상) vs 코드생성용모델(하)&gt;</em>
 </p>
 
 * 기본기능은 Hybrid AutoCode(AutoCode와 Manual Coding으로 개발한 Firmware를 한번에 통합하여 동작확인)를 통해 개발하고,
@@ -294,14 +282,11 @@ Configuration Parameters -> Hardware Implementation -> Hardware board를 `TI Pic
 3. External모드에 사용될 시리얼포트 설정  
 Configuration Parameters -> Hardware Implementation -> Hardware board settings -> Target hardware resources -> Groups -> External mode -> Serial Port를 장치관리자에서 인식된 controlStick 가상컴포트 포트번호로 설정
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil2_3_External_comport.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil2_3_External_comport.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;External모드 시리얼포트 설정&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_pil2_3_External_comport.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;External모드 시리얼포트 설정&gt;</em>
 </p>
 4. Simulation Mode 설정  
 Normal -> External로 변경
@@ -317,16 +302,12 @@ GPIO18 펄스미출력 시(EnableOut=0) GPIO19에서 펄스신호가 읽히지 �
 External모드에서는 MCU Peripherals Real Signal 입출력 및 모델로직(stateflow)의 동작을 실시간으로 확인할 수 있다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_pil2_4_External_mode_ex.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_pil2_4_External_mode_ex.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;External모드 Peripherals+Stateflow 동작확인&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_pil2_4_External_mode_ex.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;External모드 Peripherals+Stateflow 동작확인&gt;</em>
 </p>
-
 
 ### 구현
 
@@ -445,50 +426,38 @@ Matlab -> 문서(F1) -> "Real-Time Code Execution Profiling" 키워드 검색 ->
 
 1. Requirements Editor를 통해 요구사항을 작성 or Import 한 다음 요구사항을 블록으로 드래그하여 링크를 생성한다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_1_Requirement_Editor.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_1_Requirement_Editor.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;요구사항 작성&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_design_reqs_1_Requirement_Editor.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;요구사항 작성&gt;</em>
 </p>
 2. Requirements Editor에서 Traceability Matrix를 선택하여 추적표를 자동으로 생성한다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_2_auto_traceability_matrix.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_2_auto_traceability_matrix.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;추적표 자동생성&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_design_reqs_2_auto_traceability_matrix.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;추적표 자동생성&gt;</em>
 </p>
 3. 요구사항에 연결된 링크를 선택하면 연결된 블록이 자동으로 화면에 나타나서 어떤 Function Block이 요구사항을 구현하고 있는지 쉽게 확인할 수가 있다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_3_traceability_corss_check.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_3_traceability_corss_check.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;추적표 확인&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_design_reqs_3_traceability_corss_check.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;추적표 확인&gt;</em>
 </p>
 
 ### 추적표 html Export
 
 Traceability Matrix Dialog에서 Export기능(Export 버튼 클릭)을 통해 추적표를 html로 export 할 수 있다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_design_reqs_4_traceability_matrix_html.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_design_reqs_4_traceability_matrix_html.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Export Traceability Matrix to html&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_design_reqs_4_traceability_matrix_html.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Export Traceability Matrix to html&gt;</em>
 </p>
 
 ### 요구사항 추적표 (최종)

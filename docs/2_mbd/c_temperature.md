@@ -74,14 +74,12 @@ Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드
 TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
+		alt="Example banner"
+		width="350"
+		height="200"
+	/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
 </p>
 
 * Piccolo TMS320F28069U PZP T 칩 탑재
@@ -142,14 +140,11 @@ TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
 The VHN5019A-E is a full bridge motor driver intended for a wide range of automotive applications.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_fw_driver_vnh5019_spec.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_vnh5019_spec.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Motor Driver Pinout&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Motor Driver Pinout&gt;</em>
 </p>
 
 * 스펙
@@ -168,27 +163,21 @@ The VHN5019A-E is a full bridge motor driver intended for a wide range of automo
 Piccolo ControlStick F28069 인터페이스
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_evb_ControlStick_pinout.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_ControlStick_pinout.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_evb_ControlStick_pinout.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
 </p>
 
 #### LAUNCHXL-F28069M
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_evb_LAUNCHXL_pinout.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_LAUNCHXL_pinout.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;LAUNCHXL-F28069M pinout&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_evb_LAUNCHXL_pinout.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;LAUNCHXL-F28069M pinout&gt;</em>
 </p>
 
 #### 참고자료
@@ -203,14 +192,11 @@ Piccolo ControlStick F28069 인터페이스
 애드온 매니저를 통해 Simulink에서 F2806x 사용을 위한 소프트웨어가 모두 설치되어 있는지 확인해야 Simulink로만 빌드/다운로딩이 가능하다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_fw_ccs_installation.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_fw_ccs_installation.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;소프트웨어 설치 확인&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_fw_ccs_installation.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;소프트웨어 설치 확인&gt;</em>
 </p>
 
 #### 드라이버 설치
@@ -221,14 +207,11 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
 #### Pin Mux Utility
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_fw_controlSUITE_PinMuxUtility.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_fw_controlSUITE_PinMuxUtility.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Pin Mux Utility&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_fw_controlSUITE_PinMuxUtility.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Pin Mux Utility&gt;</em>
 </p>
 
 ### 펌웨어 동작확인
@@ -265,14 +248,11 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
 3. GPIO18에서 출력이 안나가면(EnableOut=0) GPIO19를 통해 펄스신호가 읽히지 않으면서, Red LED가 Blinking하지 않는다
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_gpio.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_gpio.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;gpio by external mode&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_gpio.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;gpio by external mode&gt;</em>
 </p>
 
 :::note External mode 실행
@@ -300,26 +280,21 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
   fc=1.59KHz(628us Period)에서 45.4us는 고주파 차단  
   → 감쇠되어 ADC측정 가능
   <p align="center">
-    <a target="_blank"
-    href={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc_simulate.png').default}>
-      <img
-        src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc_simulate.png').default}
-        alt="Example banner"
-        width="350"
-      /><br/><em>&lt;LPF Simulation&gt;</em>
-    </a>
-  </p>  
+    <img
+      src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc_simulate.png').default}
+      alt="Example banner"
+      width="350"
+    /><br/><em>&lt;LPF Simulation&gt;</em>
+  </p>
+
 * 인터페이스 및 Extermal Mode를 통한 동작확인
   * PWM을 ADC로 직접 측정할 수 없으므로 RC회로를 거쳐 평활한 다음 측정한다. 따라서 다음과 같이 ePWM7B(GPIO41) -> RC회로를 통한 DAC2(J4_31pin) -> ADCINA0(J3_29pin)
   <p align="center">
-    <a target="_blank"
-    href={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc.png').default}>
-      <img
-        src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc.png').default}
-        alt="Example banner"
-        width="350"
-      /><br/><em>&lt;PWM->ADC&gt;</em>
-    </a>
+    <img
+      src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc.png').default}
+      alt="Example banner"
+      width="350"
+    /><br/><em>&lt;PWM->ADC&gt;</em>
   </p>
   * PMW주파수를 변경하면 ADC 측정결과가 달라지는 것을 확인할 수 있다.
 
@@ -336,14 +311,11 @@ Configuration Parameters -> Hardware Implementation -> Hardware board settings -
 * eQEP는 16bit TimerCounter를 사용하므로, Max Pos Count는 0xFFFF.FFFF가 된다.
 * 인터페이스 및 Extermal Mode를 통한 동작확인
   <p align="center">
-    <a target="_blank"
-    href={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_eQEP.png').default}>
-      <img
-        src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_eQEP.png').default}
-        alt="Example banner"
-        width="350"
-      /><br/><em>&lt;eQEP&gt;</em>
-    </a>
+    <img
+      src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_eQEP.png').default}
+      alt="Example banner"
+      width="350"
+    /><br/><em>&lt;eQEP&gt;</em>
   </p>
 
 :::important

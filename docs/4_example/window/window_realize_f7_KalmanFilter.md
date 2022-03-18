@@ -60,14 +60,11 @@ title: F7 칼만필터(Ing)
 * [빨강색 모듈에는 3.3V 공급핀이 있고, 파랑색 모듈은 없는데, 파랑색 모듈에서 3.3V를 공급해서 동작시키는 내용이 있음](https://chocoball.tistory.com/entry/Hardware-Gyroscope-GY521-MPU6050)
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f7_mpu6050_interface.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f7_mpu6050_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;MPU6050 인터페이스&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f7_mpu6050_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;MPU6050 인터페이스&gt;</em>
 </p>
 
 ### 시뮬링크 I2C 통신

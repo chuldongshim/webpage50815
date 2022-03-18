@@ -17,14 +17,11 @@ title: 개발환경구축
 [S32K1_Overview_Presentation pdf 참고](https://www.nxp.com/docs/en/supporting-information/S32K1_Overview_Presentation.pdf)
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_s32k14x_1_mcu_brief.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_1_mcu_brief.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;MCU Spec(Brief)&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_1_mcu_brief.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;MCU Spec(Brief)&gt;</em>
 </p>
 
 * High performance
@@ -61,27 +58,21 @@ title: 개발환경구축
 [Pinmap]
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_s32k14x_2_evb_pinout.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_2_evb_pinout.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;S32K144EVB-Q100 pinout&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_2_evb_pinout.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;S32K144EVB-Q100 pinout&gt;</em>
 </p>
 
 [Interface]
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_s32k14x_3_evb_interface.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_3_evb_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;s32k144 evb interface&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_3_evb_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
 [NXP Community 참고자료]
@@ -152,14 +143,11 @@ uint32 – 32bit (4 byte), integer
 하드웨어 인터페이스
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex_interface.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;s32k144 evb interface&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
 C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Examples\s32k14x\gpio\gpio_isr_control_s32k144.slx
@@ -167,14 +155,11 @@ C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Exam
 시뮬링크 모델을 통해 GPIO, ADC, PWM, QD(Quadrature Decoder) 동작을 확인한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd.slx&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd.slx&gt;</em>
 </p>
 
 ### Timer-PWM-IC
@@ -182,27 +167,21 @@ C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Exam
 하드웨어 인터페이스
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex_interface.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;s32k144 evb interface&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
 시뮬링크 모델을 통해 Timer, PWM, IC(Input Capture) 동작을 확인한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;nxp_s32k144_gpio_pwm_ic.slx&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;nxp_s32k144_gpio_pwm_ic.slx&gt;</em>
 </p>
 
 :::important
@@ -216,14 +195,11 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 하드웨어 인터페이스
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex_interface.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;s32k144 evb interface&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
 시뮬링크 모델을 통해 GPIO, ADC, PWM, QD(Quadrature Decoder), IC(Input Capture) 동작을 확인한다.
@@ -233,16 +209,12 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 * IC를 통해 Hall펄스 Duty 측정을 통한 속도계산
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd_ic.slx&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd_ic.slx&gt;</em>
 </p>
-
 
 ### Single모터 구동
 
@@ -253,14 +225,11 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 * Pin_6(Current Sense Disable, Active High)을 Low or Open상태로 만들면 External Register를 Pin_8(Current Sense)에 연결하여 전류에 비례하는 전압을 ADC 할 수 있다.(Shield에 1K저항 Pull-Down되어 있고, LPF도 달려 있어서 바로 ADC 가능함.
 
 <p align="center">
-  <a target="_blank"
-  href={require('/img/2_mbd/mbd_hw_nxp_fw_driver_single_vnh5019_interface.png').default}>
-    <img
-      src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_single_vnh5019_interface.png').default}
-      alt="Example banner"
-      width="350"
-    /><br/><em>&lt;VNH5019 인터페이스&gt;</em>
-  </a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_single_vnh5019_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;VNH5019 인터페이스&gt;</em>
 </p>
 
 동작확인 시 사용한 시뮬링크 모델 : nxp_s32k144_gpio_pwm_ic_single_VNH5019.slx
@@ -268,25 +237,19 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 ### Dual모터 구동
 
 <p align="center">
-  <a target="_blank"
-  href={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m1_Interface.png').default}>
-    <img
-      src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m1_Interface.png').default}
-      alt="Example banner"
-      width="350"
-    /><br/><em>&lt;VNH5019 Motor1 인터페이스&gt;</em>
-  </a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m1_Interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;VNH5019 Motor1 인터페이스&gt;</em>
 </p>
 
 <p align="center">
-  <a target="_blank"
-  href={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m2_Interface.png').default}>
-    <img
-      src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m2_Interface.png').default}
-      alt="Example banner"
-      width="350"
-    /><br/><em>&lt;VNH5019 Motor2 인터페이스&gt;</em>
-  </a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m2_Interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;VNH5019 Motor2 인터페이스&gt;</em>
 </p>
 
 동작확인 시 사용한 시뮬링크 모델 : nxp_s32k144_gpio_pwm_ic_dual_VNH5019.slx

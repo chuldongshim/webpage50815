@@ -23,14 +23,11 @@ title: F2 Profiling
 Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 고려하여 일정주기(1ms)마다 Profiling을 수행하는 Discrete Profiling Model이 하나의 시뮬링크 환경에서 수행되어야 하기 때문에 다음과 같이 환경을 설정하고 시뮬레이션을 수행한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_1_solver.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_1_solver.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Simulink Solver Settings&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_1_solver.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Simulink Solver Settings&gt;</em>
 </p>
 
 ### 파라미터 정의
@@ -96,14 +93,11 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
   * 가속/등속 중 스위치 조작으로 ProfileTrigger신호가 0으로 변경되면 정지를 위해 감속프로파일을 수행하고, 감속 중 ProfileTrigger신호가 0으로 변경되면 진행중인 감속프로파일을 계속 수행한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_2_profile_trigger.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_2_profile_trigger.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;WindowState로직(좌) 및 OutputProcessing로직(우)&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_2_profile_trigger.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;WindowState로직(좌) 및 OutputProcessing로직(우)&gt;</em>
 </p>
 
 ### 프로파일링
@@ -112,14 +106,11 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 속도프로파일을 적분하여 위치프로파일을 생성하고, 미분을 통해 가속도 프로파일을 생성한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_3_vel_formula.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_3_vel_formula.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;가속/등속/감속 프로파일링 생성 수식&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_3_vel_formula.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;가속/등속/감속 프로파일링 생성 수식&gt;</em>
 </p>
 
 이와 같은 수식을 Stateflow를 통해 다음과 같이 구현한다.
@@ -147,14 +138,11 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 `Closing->Closed동작`을 예를들면, 윈도우 Plant 특성 상 가속보다 감속에서 지연이 많이 발생하는 이유로, 감속 Profiling은 끝났는데, 지연 때문에 아직 `0[pulse]`에 도착하지 않았기 때문에 <u>WindowState로직(위치를 기준으로 상태천이 수행)</u>은 Closing상태를 Closed상태로 천이시키지 않고, `MovingTragger=-1`을 출력한다. OutputProcessing로직은 Profiling완료 후 WindowState로직의 -1 신호로인해 다시 Profiling을 시도하게 되고, 비로소 `0[pulse]`에 도착하면 WindowState로직은 Closed상태로 천이하여 `MovingTragger=0`를 출력하고, 이로인해 OutputProcessing로직은 가속 Profiling 도중 Switch Off를 인식하여 감속 Profiling을 진행하여 모터가 멈추게 된다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_4_Sync_problem.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_4_Sync_problem.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;모터 구동명령 동기화 문제&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_4_Sync_problem.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;모터 구동명령 동기화 문제&gt;</em>
 </p>
 
 이와 같은 이유로 윈도우 동작을 위한 MovingTrigger신호를 생성하는 WindowState로직과 이를 이용하여 모터 출력을 생성하는 OutputProcessing로직간 동기화가 중요해 진다.
@@ -162,14 +150,11 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 WindowState로직과 OutputProcessing로직 동기화를 위해 다음과 같이 ProfileTrigger 신호를 이용하여 동기화를 구현한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_5_Sync_solution.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_5_Sync_solution.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;모터 구동명령 동기화 해결방법&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_5_Sync_solution.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;모터 구동명령 동기화 해결방법&gt;</em>
 </p>
 
 1. WindowState로직에서  
@@ -191,13 +176,10 @@ WindowState로직과 OutputProcessing로직 동기화를 위해 다음과 같이
 피드백제어를 수행하지 않을 경우 다음과 같이 Reference위치가 4000에 도달하여 Reference Voltage를 0[V]으로 출력해도, 관성으로 Plant는 여전히 이동하며, 이로인해 위치오차가 발생하게 된다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_6_out_without_FbCtrl.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_6_out_without_FbCtrl.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;피드백 없는 프로파일 모터 출력&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_6_out_without_FbCtrl.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;피드백 없는 프로파일 모터 출력&gt;</em>
 </p>
 

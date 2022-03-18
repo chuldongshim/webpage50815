@@ -52,14 +52,11 @@ title: 부트로더
 ### 부트로더 및 펌웨어 실행 절차
 
 <p align="center">
-	<a target="_blank"
-    href={require('/img/3_embedded/bootloader_1.png').default}>
-		<img
-			src={require('/img/3_embedded/bootloader_1.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Memory Address Allocation&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/bootloader_1.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Memory Address Allocation&gt;</em>
 </p>
 
 * 1단계 : Reset Vector Address(메모리 시작 위치)에 부트로더를 빌드하여 Bootloader.bin 생성
@@ -90,14 +87,11 @@ nxp(mc9s12zvmb48) 펌웨어 업데이터 개발은 3개의 소프트웨어로 �
 다음과 같이 nxp에서 제공하는 bootloader flow diagram에 따라 bootloader 개발을 진행하였다.
 
 <p align="center">
-	<a target="_blank"
-    href={require('/img/3_embedded/bootloader_2.png').default}>
-		<img
-			src={require('/img/3_embedded/bootloader_2.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;bootloader flow diagram&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/bootloader_2.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;bootloader flow diagram&gt;</em>
 </p>
 
 #### application
@@ -109,28 +103,22 @@ Application이 Application Address부터 시작되도록 펌웨어를 빌드해�
 컴파일을 통해 생성되는 binary 파일을 다음과 같이 분석하여 binary파일을 패킷단위 쪼개어 Bootloader로 전송한다.
 
 <p align="center">
-	<a target="_blank"
-    href={require('/img/3_embedded/bootloader_3.png').default}>
-		<img
-			src={require('/img/3_embedded/bootloader_3.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Binary(Compiled Image) Analysis&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/bootloader_3.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Binary(Compiled Image) Analysis&gt;</em>
 </p>
 
 5단계에서 부트로더를 통해 펌웨어를 실행시키기 위해서는 펌웨어를 Application Address에 다운로딩 해야 한다.
 Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 이용하여 Updater 프로그램을 다음과 같이 개발하였다.
 
 <p align="center">
-	<a target="_blank"
-    href={require('/img/3_embedded/bootloader_4.png').default}>
-		<img
-			src={require('/img/3_embedded/bootloader_4.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Binary(Compiled Image) Analysis&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/bootloader_4.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Binary(Compiled Image) Analysis&gt;</em>
 </p>
 
 ## 추후 진행할 개인 프로젝트

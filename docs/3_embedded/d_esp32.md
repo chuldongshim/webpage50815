@@ -233,17 +233,14 @@ Help -> Download and Configure ESP-IDF -> Check "Use an existing ESP-IDF directo
 
 ESP-IDF에서 제공하는 Serial Monitor를 통해 메시지 출력을 확인한다.  
 Window탭 -> Show Vier -> Terminal -> 시리얼 통신 설정 후 연결/확인
-<p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/esp_sup_env_16_terminal.png').default}>
-		<img
-			src={require('/img/3_embedded/esp_sup_env_16_terminal.png').default}
-			alt="Example banner"
-			width="550"
-		/>
-	</a>
-</p>
 
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_16_terminal.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
 
 ##### 콘솔 빌드/다운로드
 
@@ -413,14 +410,11 @@ T.B.D
 ##### 주요기능
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devKitC_v4_board.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devKitC_v4_board.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Modules on ESP32-DevKitC v4&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devKitC_v4_board.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Modules on ESP32-DevKitC v4&gt;</em>
 </p>
 
 * Internal Memory
@@ -436,27 +430,21 @@ T.B.D
 [ESP32 GPIO 포트 설명](https://arsviator.blogspot.com/2018/11/esp32-gpio.html)
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devkitC_v4_pinout.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devkitC_v4_pinout.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;PinMap of ESP32-DevKitC v4&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devkitC_v4_pinout.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;PinMap of ESP32-DevKitC v4&gt;</em>
 </p>
 
 ##### 메모리맵
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_module_mcu_memory_map.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_module_mcu_memory_map.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;MemoroyMap in technical reference manual&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_module_mcu_memory_map.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;MemoroyMap in technical reference manual&gt;</em>
 </p>
 
 ##### 부팅과정
@@ -892,14 +880,11 @@ SRCS를 example_spp_acceptor_demo.c -> bt_uart.c로 변경
 * 각 패드는 GPIO 또는 internal peripherals signal로 연결하여 사용될 수 있다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_fw_gpio1_pinmap.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_fw_gpio1_pinmap.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;GPIO Alternative Configuration&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_fw_gpio1_pinmap.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;GPIO Alternative Configuration&gt;</em>
 </p>
 
 ##### 인터페이스
@@ -908,14 +893,11 @@ SRCS를 example_spp_acceptor_demo.c -> bt_uart.c로 변경
 * 입력설정 : GPIO4(both edge), GPIO5(rising edge) 포트로 인터럽트(EXT_INT) 신호 입력
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_fw_gpio2_interface.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_fw_gpio2_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;입/출력 포트 정의&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_fw_gpio2_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;입/출력 포트 정의&gt;</em>
 </p>
 
 ##### 레지스터설정
@@ -972,14 +954,11 @@ void app_main(void)
 1. esp32-idf eclipse에서 File->New->Espressif IDF Project를 선택한다.
 여기서는 peripherals->gpio->`generic_gpio` 프로젝트를 선택한다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_fw_gpio3_prj_create.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_fw_gpio3_prj_create.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;esp32-idf에저 제공되는 gpio 예제프로젝트 생성&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_fw_gpio3_prj_create.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;esp32-idf에저 제공되는 gpio 예제프로젝트 생성&gt;</em>
 </p>
 2. 타겟을 esp32로 선택한 다음 Build&Run을 통해 ESP32보드에 실행파일을 다운로드 한다.
 <p align="center">
@@ -1157,14 +1136,11 @@ timer_start(group, timer);
     * 기존에 사용했던 `FT232 USB UART Board (mini)` 사용함
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/3_embedded/mbd_hw_fw_uart1_interface.png').default}>
-		<img
-			src={require('/img/3_embedded/mbd_hw_fw_uart1_interface.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;입/출력 포트 정의&gt;</em>
-	</a>
+	<img
+		src={require('/img/3_embedded/mbd_hw_fw_uart1_interface.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;입/출력 포트 정의&gt;</em>
 </p>
 
 ##### 레지스터설정

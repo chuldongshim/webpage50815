@@ -58,7 +58,7 @@ Modeling의 타당성 검증
 		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 안ㄶ습니다.
+		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
 

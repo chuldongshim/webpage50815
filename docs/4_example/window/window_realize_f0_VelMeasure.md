@@ -28,14 +28,11 @@ title: 속도측정
 HW-Simulink에서 구현한 시뮬링크 모델([GPIO-ADC-PWM-QD-IC](/.)를 통해 위치 및 속도를 측정한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd_ic.slx&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd_ic.slx&gt;</em>
 </p>
 
 * SW2(dn) 입력 시 → +1 출력, +Rpm 측정, 펄스카운트 증가
@@ -122,14 +119,11 @@ B상	   |￣￣|____|￣￣|____
 * 그래도 가끔씩 이동중 Zero Velocity가 나오는 경우가 있음 -> 이전위치와 현재위치가 다를 경우 이동중이므로 Zero Velocity가 나오면 이전 속도로 값을 유지시킨다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_0_vel_process.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_0_vel_process.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;속도 정확도 향상처리 방법&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_0_vel_process.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;속도 정확도 향상처리 방법&gt;</em>
 </p>
 
 ```c
@@ -209,14 +203,11 @@ Velocity = 0.5회전/1펄스측정시간 = pi/dt
 (2극의 경우 모터 shaft 1회전 시 2펄스 발생)
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_1_IC_hw_filter.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_1_IC_hw_filter.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Input Capture HW 필터 설정&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_1_IC_hw_filter.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Input Capture HW 필터 설정&gt;</em>
 </p>
 
 #### 디지털필터(LPF) 설계
@@ -258,14 +249,11 @@ freq_out = freq_in*2pi
 속도측정 시 다음과 같은 LPF(fc=1Hz) 및 Butterworth Filter(fc=6Hz)를 적용한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_2_LPFnButterworth.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_2_LPFnButterworth.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;1차 (좌) LPF fc=1Hz, Ts=0.001s vs (우) Butterworth fc=6Hz&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_2_LPFnButterworth.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;1차 (좌) LPF fc=1Hz, Ts=0.001s vs (우) Butterworth fc=6Hz&gt;</em>
 </p>
 
 #### 디지털필터(FIR) 설계
@@ -285,14 +273,11 @@ freq_out = freq_in*2pi
 시뮬링크 모델 [nxp_s32k144_gpio_pwm_adc_qd_ic.slx](#dc모터-위치속도-측정)을 코드자동생성/빌드/다운로드 하여 실행하면, FreeMASTER를 통해 다음과 같은 필터링 결과를 확인할 수가 있다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f0_modeling_3_LPF_targetExecution.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_3_LPF_targetExecution.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;LPF를 통한 저속구간 속도 필터링 필요성&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_3_LPF_targetExecution.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;LPF를 통한 저속구간 속도 필터링 필요성&gt;</em>
 </p>
 
 ### Pulse Count를 통한 속도계산

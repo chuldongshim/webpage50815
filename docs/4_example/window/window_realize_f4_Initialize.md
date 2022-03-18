@@ -55,14 +55,11 @@ Simulink 상에서 시뮬레이션을 통해 초기화기능을 구현할 때 �
 4. 각각의 블록으로 표현된 전달함수 출력을 비교하면 동일한 입력에 대하여 동일한 결과가 출력됨을 확인할 수 있다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f4_init_2_reset_tf.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f4_init_2_reset_tf.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;Decomposition of Transfer Function&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f4_init_2_reset_tf.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Decomposition of Transfer Function&gt;</em>
 </p>
 
 MCU 상에서는 레지스터 설정을 통해 초기화기능을 구현할 때 초기화를 위해 특정 조건을 만족하면 원점위치를 재설정해야 한다. 현재 Quadrature를 통해 위치를 카운트 하므로 Quadrature 카운터 레지스터 설정을 통해 Counter Value를 리셋해야 한다.
@@ -116,14 +113,11 @@ int main(void)
   * 초기화해제 상태에서 PWM출력 시 200ms±10ms동안 Quadrature Decoder Count Value값에 변화가 없으면 구속으로 판단한다.
   * PWM출력 duty가 작을 경우 PWM출력 시 Hall Pulse가 발생하지 않으므로 PWM출력은 모터 구동이 가능한 최소한의 duty여야 하며, 파라미터를 통해 튜닝할 수 있어야 한다.
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f4_init_3_StuckDetect.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f4_init_3_StuckDetect.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;구속판단&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f4_init_3_StuckDetect.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;구속판단&gt;</em>
 </p>
 * 초기화 시 구속판단
   * I/IV 영역에서 윈도우가 Up or Dn 동작 중(Quadrature Decoder Count Value값에 변화) 200ms±10ms동안 Quadrature Decoder Count Value값에 변화가 없으면 구속으로 판단한다.
@@ -137,14 +131,11 @@ int main(void)
 초기화해제상태에서 `CW구속->CCW구속->CW구속` 연속동작이 수행되는 경우에만 초기화를 수행하며, `CW구속->CCW구속->CW구속 전 정지`와 같이 동작 중 정지가 발생하면 다시 처음부터 `CW구속->CCW구속->CW구속` 연속동작을 수행해야 초기화가 가능하다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f4_init_4_InitLogic.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f4_init_4_InitLogic.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;초기화 로직&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f4_init_4_InitLogic.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;초기화 로직&gt;</em>
 </p>
 
 :::note 초기화 설정방법
@@ -245,13 +236,9 @@ CW이동중엔 장애물이 없다가 CCW이동중 장애물이 감지되는 경
 ### 초기화 동작확인
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f4_init_5_InitSequence.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f4_init_5_InitSequence.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;초기화 시퀀스&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f4_init_5_InitSequence.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;초기화 시퀀스&gt;</em>
 </p>
-

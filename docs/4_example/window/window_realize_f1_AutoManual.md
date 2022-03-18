@@ -36,14 +36,11 @@ title: F1 AutoManual
   * Opened -> Closed 방향 이동 시 -속도로 이동한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_1_def_pos_vel.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_1_def_pos_vel.png').default}
-			alt="Example banner"
-			width="550"
-		/><br/><em>&lt;윈도우 위치/속도 정의&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_1_def_pos_vel.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;윈도우 위치/속도 정의&gt;</em>
 </p>
 
 :::important 비율에 따른 윈도우 영역구분
@@ -103,14 +100,11 @@ RCP장비에는 스위치가 2개 밖에 없으므로 스위치 입력 조합을
 Auto/Up/Dn 스위치의 이전 키입력과 현재 키입력의 조합으로 상태천이 조건(transition index)을 결정한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_3_transition_idx.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_3_transition_idx.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;스위치 입력에 따른 상태천이 조건 판단&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_3_transition_idx.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;스위치 입력에 따른 상태천이 조건 판단&gt;</em>
 </p>
 
 Left(Up버튼), Right(Dn버튼)와 같이 스위치 입력이 2개인 경우 다음과 같은 키조합으로 스위치 입력을 결정한다.
@@ -128,14 +122,11 @@ Left(Up버튼), Right(Dn버튼)와 같이 스위치 입력이 2개인 경우 다
 * Up은 방향만 -1로 반대이고, 동작은 Dn과 동일함
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_4_window_logic.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_4_window_logic.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;스위치 입력에 따른 윈도우 상태천이 동작&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_4_window_logic.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;스위치 입력에 따른 윈도우 상태천이 동작&gt;</em>
 </p>
 
 ### Output Processing

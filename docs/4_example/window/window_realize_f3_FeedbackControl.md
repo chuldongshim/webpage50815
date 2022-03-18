@@ -33,14 +33,11 @@ Robust 제어기 설계 시 적용(T.B.D)
 다음과 같이 `입력처리로직`의 스위치 입력 판단에 따라 `윈도우상태로직`에서 모터 정지 또는 정/역 구동을 판단하여 트리거 신호(모터구동이 결정)를 생성하고, `ProfileGen로직`을 통해 0.01s 주기로 제어입력 Ref_Pos를 생성하여 `위치제어기`에서 P제어를 수행하고, 0.01s마다 생성되는 제어입력을 Ref_Vel로 받으면 `속도제어기`는 0.002s 간격으로 P제어를 수행한다(위치제어 1회 출력에 대하여 5회 속도피드백제어를 수행한다). 
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_1_timing.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_1_timing.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;피드백 제어주기&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_1_timing.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;피드백 제어주기&gt;</em>
 </p>
 
 ### 피드백 제어 (속도 Anti-Windup PI제어기)
@@ -59,14 +56,11 @@ Robust 제어기 설계 시 적용(T.B.D)
 시뮬레이션을 통해 피드백을 수행하지 않을 경우 위치오차가 발생하나, 피드백을 수행하면 위치오차가 제거되는 것을 확인할 수 있다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_2_simulation.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_2_simulation.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;No Feedback(상) vs Feedback(하)&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_2_simulation.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;No Feedback(상) vs Feedback(하)&gt;</em>
 </p>
 
 * 피드백 미수행 시 사다리꼴 속도프로파일 출력(0~1[pulse/s])에 12를 곱한 0~12V의 신호를 Plant에 직접 입력하고, 
@@ -77,14 +71,11 @@ Robust 제어기 설계 시 적용(T.B.D)
 제어게인을 Pos_Pgain=10, Vel_Pgain=1로 설정하고, 피드백을 수행할 경우 속도제어에서 불안정한 출력이 발생되므로 시뮬레이션을 통해 속도제어게인을 조정한다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_3_gain_tune.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_3_gain_tune.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;속도제어 게인 튜닝&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_3_gain_tune.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;속도제어 게인 튜닝&gt;</em>
 </p>
 
 시뮬레이션 결과 속도제어게인이 낮아지면 속도제어 시 오실레이션이 작아지는 반면 낮아지는 게인으로인해 위치응답이 늦어지게 된다.
@@ -97,14 +88,11 @@ Robust 제어기 설계 시 적용(T.B.D)
 시뮬링크에서는 Function Block의 실행주기가 서로 다를 경우 색상을 통해 구분하여 표현할 수 있으며, 다음과 같이 시스템은 1ms(빨강), 2ms(초록), 10ms(파랑) 3개의 주기로 각각 실행된다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_4_AutoCode.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_4_AutoCode.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;코드자동생성&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_4_AutoCode.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;코드자동생성&gt;</em>
 </p>
 
 ### 피드백 제어
@@ -114,14 +102,11 @@ Robust 제어기 설계 시 적용(T.B.D)
 * 모터의 비선형적 특성으로 인해 CW와 CCW 제어가 동일하지 않음을 확인할 수 있다.
 
 <p align="center">
-	<a target="_blank"
-	href={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_5_verification.png').default}>
-		<img
-			src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_5_verification.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;모터구동 출력신호 확인&gt;</em>
-	</a>
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_5_verification.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;모터구동 출력신호 확인&gt;</em>
 </p>
 
 ## 시뮬레이션

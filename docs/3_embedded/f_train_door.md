@@ -43,3 +43,18 @@ title: 열차 출입문 제어
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작&gt;</em>
 </p>
+
+
+## 측출입문 개발
+
+* rhapsody를 통해 사양서 기술
+* `Software Architecture & Design Specification_v1_190308.docx` 문서내용 정리
+
+* 품질이슈 해결사례 기술
+  * 고장 발생 시 닫힘동작 계속 Retry
+
+## 통로문 개발
+
+* EA를 통해 사양서 기술
+* `코레일128량 통로문 소프트웨어 설계 규격서_v06_수정후.docx` 문서내용 정리
+

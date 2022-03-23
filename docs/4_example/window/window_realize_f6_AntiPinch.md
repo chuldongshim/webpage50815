@@ -48,6 +48,27 @@ title: F6 Anti-Pinch
 * 속도정보를 바탕으로 반전을 판단하기 때문에 속도측정값이 튀는 경우 반전 오인식으로 이어질 수 있으므로 디지털 필터를 적용하여 노이즈로 인해 튀는 값(속도)은 제거되어야 한다.
 * Window 프레임 형상으로 인해 동일한 위치에서 반전이 발생하므로 형상으로 발생되는 부하를 제거한 상태에서 반전판단을 수행한다.
 
+### 부하학습
+
+윈도우 상승구간에서만 Anti-Pinch 반전을 수행하므로 초기화 시 상승구간 부하학습을 메모리에 저장하고, 상승구간에서 학습된 부하를 적용하여 Anti-Pinch 반전을 판단한다.
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f6_antipinch1_selfstudy.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Anti-Pinch반전에 부하학습 적용&gt;</em>
+</p>
+
+실부하에서 다음과 같이 실
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f6_antipinch2_test.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;Anti-Pinch 반전 테스트&gt;</em>
+</p>
 
 ### 시뮬레이션
 

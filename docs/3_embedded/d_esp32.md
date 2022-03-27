@@ -167,6 +167,7 @@ C:\Users\cdshim
 ##### plug-in 설치
 
 ESP-IDF eclipse를 설치하면 esp-idf plug-in이 자동으로 설치되며, Eclipse Marketplace -> Search -> idf 검색을 통해 ESP-IDF Eclipse plug-in이 이미 installed 된 것을 확인할 수 있다.
+그리고 ESP32 C/C++ Development Tools가 설치되어 있어야 ESP-IDF Tool가 정상적으로 설치되므로 설치되지 않았으면 ESP32 C/C++ Development Tools를 설치한다.
 
 ##### ESP-IDF Tools 설치
 
@@ -232,7 +233,7 @@ Help -> Download and Configure ESP-IDF -> Check "Use an existing ESP-IDF directo
 ![](/img/3_embedded/esp_sup_env_15.png)
 
 ESP-IDF에서 제공하는 Serial Monitor를 통해 메시지 출력을 확인한다.  
-Window탭 -> Show Vier -> Terminal -> 시리얼 통신 설정 후 연결/확인
+Window탭 -> Show View -> Terminal -> 시리얼 통신 설정 후 연결/확인
 
 <p align="center">
 	<img

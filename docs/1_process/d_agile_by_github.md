@@ -31,6 +31,7 @@ title: GitHub Agile
 ### 개인 프로젝트
 
 * AWS Cloud - Redmine 기반 프로젝트 관리 및 개발환경 구축
+
 <p align="center">
 	<img
 		src={require('/img/1_process/img5_1_AWS_Redmine_PC_phone_view.png').default}
@@ -40,6 +41,7 @@ title: GitHub Agile
 </p>
 
 * Gitlab - Agile 기반 프로젝트 관리 및 개발환경 구축
+
 <p align="center">
 	<img
 		src={require('/img/1_process/img5_2_Gitlab_Issue21.png').default}

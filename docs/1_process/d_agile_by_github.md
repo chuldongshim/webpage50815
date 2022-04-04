@@ -34,7 +34,7 @@ title: GitHub Agile
 
 <p align="center">
 	<img
-		src={require('/img/1_process/img5_1_AWS_Redmine_PC_phone_view.png').default}
+		src={require('/img/1_process/1_process_aws_redmine_with_phone.png').default}
 		alt="Example banner"
 		width="350"
 	/>
@@ -44,7 +44,7 @@ title: GitHub Agile
 
 <p align="center">
 	<img
-		src={require('/img/1_process/img5_2_Gitlab_Issue21.png').default}
+		src={require('/img/1_process/1_process_gitlab_temp_pid.png').default}
 		alt="Example banner"
 		width="350"
 	/>

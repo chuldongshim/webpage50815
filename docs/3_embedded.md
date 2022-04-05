@@ -24,6 +24,16 @@ title: 임베디드 경험 요약
 	</div>
 </p>
 
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+
 #### 논문 후 프로젝트
 
 유도인형
@@ -44,6 +54,15 @@ title: 임베디드 경험 요약
 	</div>
 </p>
 
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
+</p>
 
 ### FT Sensor 개발
 

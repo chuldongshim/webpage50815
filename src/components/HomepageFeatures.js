@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/firstpage_DevProcess.svg').default,
     description: (
       <>
-        개발 프로세스 실무적용/구축<br />
+        개발 프로세스 구축/실무적용<br />
         Matlab/Simulink를 통한 MBD 개발 프로세스 구축<br />
         Redmine(by Clude AWS) 기반 이슈관리<br />
         Agile(by GitHub/GitLab) 기반 선행개발 <code>진행중</code><br />

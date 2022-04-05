@@ -12,11 +12,13 @@ Docusaurus creates a **page for each blog post**, but also a **blog index page**
 ## redmine을 통한 품질이슈관리
 
 <p align="center">
-	<img
-		src={require('/img/1_process/1_process_train_issue_mgn.png').default}
-		alt="Example banner"
-		width="750"
-	/><br/><em>&lt;이슈관리 사례&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/1_process/d_process_train_issue_mgn.png').default}
+			alt="Example banner"
+			width="750"
+		/><br/><em>&lt;이슈관리 사례&gt;</em>
+	</div>
 </p>
 
 * redmine 개발환경 구축

@@ -15,11 +15,13 @@ title: 임베디드 경험 요약
 지능형 근력강화 시스템 개발
 
 <p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_1.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_1.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
+	</div>
 </p>
 
 #### 논문 후 프로젝트
@@ -33,11 +35,13 @@ title: 임베디드 경험 요약
 * 소속 : 한국과학기술연구원 인턴
 
 <p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_2.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;그림제목&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_2.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;그림제목&gt;</em>
+	</div>
 </p>
 
 
@@ -49,11 +53,13 @@ title: 임베디드 경험 요약
 * 역할 : 상용화기술 개발[(추후 XGEO GC80에 적용됨)](https://www.youtube.com/watch?v=eEmyj61OwYo)
 
 <p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_3.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;그림제목&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_3.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;그림제목&gt;</em>
+	</div>
 </p>
 
 ### 부트로더 개발 자기학습
@@ -77,11 +83,13 @@ Self Study
   * 소속 : 한국후지제록스
 
 <p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_5.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;그림제목&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_5.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;그림제목&gt;</em>
+	</div>
 </p>
 
 * stm32f4-discovery에 uClinux 포팅
@@ -97,11 +105,13 @@ Self Study
   * [복합기-결재 단말기 연동 동영상](https://www.youtube.com/watch?v=ArtCujt2TUQ)
 
 <p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_4.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;그림제목&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_4.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;그림제목&gt;</em>
+	</div>
 </p>
 
 ### FreeRTOS
@@ -113,11 +123,13 @@ Self Study
 * 역할 : 열차 출입문 양산 안정화 및 신규 개발 앙산적용
 
 <p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_7.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;그림제목&gt;</em>
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_7.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;그림제목&gt;</em>
+	</div>
 </p>
 
 #### 통합 시뮬레이터

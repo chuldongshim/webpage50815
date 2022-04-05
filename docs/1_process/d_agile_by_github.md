@@ -33,21 +33,25 @@ title: GitHub Agile
 * AWS Cloud - Redmine 기반 프로젝트 관리 및 개발환경 구축
 
 <p align="center">
-	<img
-		src={require('/img/1_process/1_process_aws_redmine_with_phone.png').default}
-		alt="Example banner"
-		width="350"
-	/>
+	<div class="box" >
+		<img
+			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
+			alt="Example banner"
+			width="350"
+		/>
+	</div>
 </p>
 
 * Gitlab - Agile 기반 프로젝트 관리 및 개발환경 구축
 
 <p align="center">
-	<img
-		src={require('/img/1_process/1_process_gitlab_temp_pid.png').default}
-		alt="Example banner"
-		width="350"
-	/>
+	<div class="box" >
+		<img
+			src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
+			alt="Example banner"
+			width="350"
+		/>
+	</div>
 </p>
 
 ## GitHub

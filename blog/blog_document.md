@@ -120,6 +120,49 @@ align 속성을 지정하지 않으면 default로 left align이 적용된다.
   width="200"
 />
 
+#### HTML Container 크기에 맞게 이미지 크기 Auto-Resize
+width=350의 고정된 이미지 출력
+
+```
+<p align="center">
+	<img
+		src={require('/img/blog_test.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;A-SPICE 표준 프로세스&gt;</em>
+</p>
+
+```
+<p align="center">
+	<img
+		src={require('/img/blog_test.png').default}
+		alt="Example banner"
+		width="350"
+	/><br/><em>&lt;A-SPICE 표준 프로세스&gt;</em>
+</p>
+
+[div element에 "box" class를 이용하여 HTML크기에 따라 이미지 크기 재조정](https://www.w3docs.com/snippets/css/how-to-auto-resize-an-image-to-fit-an-html-container.html)
+
+```
+<p align="center">
+	<div class="box">
+		<img
+			src={require('/img/blog_test.png').default}
+			alt="Example banner"
+		/><br/><em>&lt;A-SPICE 표준 프로세스&gt;</em>
+	</div>
+</p>
+```
+
+<p align="center">
+	<div class="box">
+		<img
+			src={require('/img/blog_test.png').default}
+			alt="Example banner"
+		/><br/><em>&lt;A-SPICE 표준 프로세스&gt;</em>
+	</div>
+</p>
+
 #### iframe(유투브 url) 링크
 
 * 지도링크<br />

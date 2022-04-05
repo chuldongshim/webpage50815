@@ -24,7 +24,6 @@ Model Based Design(이하 MBD라 함)를 접하여 Simulink 모델로부터 시�
 	<img
 		src={require('/img/2_mbd/img2_1_dyauto_mbd.png').default}
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 

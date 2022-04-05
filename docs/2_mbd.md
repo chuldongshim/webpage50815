@@ -12,8 +12,8 @@ title: 모델기반설계 경험 요약
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -26,11 +26,12 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 처음으로 MBD기반 자동생성 코드를 타겟MCU에서 구동하였고, 이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다.
 
 <p align="center">
-	<img
-		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
-		alt="Example banner"
-		width="350"
-	/>
+	<div class="box">
+		<img
+			src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+			alt="Example banner"
+		/><br/><em>&lt;온도PID제어 구현 및 타겟적용&gt;</em>
+	</div>
 </p>
 
 ### Embedded WebServer(진행중)
@@ -83,26 +84,26 @@ EA를 통한 시스템 설계 및 동작을 상태천이로 설계
 시뮬레이션 검증을 통해 제어로직을 개발하고, 
 
 <head>
-<title>모터제어 3D 시뮬레이션</title>
+	<title>모터제어 3D 시뮬레이션</title>
 </head>
 <body>
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
-		frameborder="0"
-		allowfullscreen="true">f
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;모터 단품 3D시뮬레이션&gt;</em>
-</p>
+	<p align="center">
+		<iframe
+			src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
+			width="350" height="250"
+			frameborder="0"
+			allowfullscreen="true">
+			이 브라우저는 iframe을 지원하지 않습니다.
+		</iframe><br/><em>&lt;모터 단품 3D시뮬레이션&gt;</em>
+	</p>
 </body>
 
 MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬레이션과 동일하게 동작하는 것을 확인함으로써 MBD가 개발실무에 적용이 가능한지 타당성을 확인하는 것을 목적으로 프로젝트를 진행하였습니다.
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed/gZ7yAiUIIdw?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -115,8 +116,8 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW를 자동생성하고, �
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

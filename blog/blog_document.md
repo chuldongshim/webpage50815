@@ -227,6 +227,7 @@ width=350의 고정된 이미지 출력
 
 png파일을 svg파일로 변환
 https://onlineconvertfree.com/complete/png-svg/
+(V-model+Agile 첫페이지의 경우 화면에 페이지가 다 나오게 한 상태(63%)에서 마우스 스크롤 두번해서(100%) 이미지 캡처)
 
 ### 파일 링크
 

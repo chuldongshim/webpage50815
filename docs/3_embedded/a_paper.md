@@ -20,6 +20,16 @@ FND 디지털 시계
 * Atmega 8535 마이크로프로세스 학습
   * 디지털 도어락 만들기
 
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+
 ## 학부4년 8225를 통한 잠금장치
 
 기능
@@ -55,11 +65,11 @@ Modeling의 타당성 검증
 <p align="center">
 	<iframe 
 		width="350" height="250"
-		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
+		src="https://www.youtube.com/embed/Bdt_fOkhiw8"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
+	</iframe><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
 </p>
 
 # 논문 후 유도인형 프로젝트

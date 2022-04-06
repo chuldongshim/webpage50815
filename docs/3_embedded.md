@@ -15,23 +15,13 @@ title: 임베디드 경험 요약
 지능형 근력강화 시스템 개발
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_1.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
-	</div>
-</p>
-
-<p align="center">
 	<iframe 
 		width="350" height="250"
-		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
+		src="https://www.youtube.com/embed/Bdt_fOkhiw8"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
+	</iframe><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
 </p>
 
 #### 논문 후 프로젝트
@@ -142,13 +132,13 @@ Self Study
 * 역할 : 열차 출입문 양산 안정화 및 신규 개발 앙산적용
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_7.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;그림제목&gt;</em>
-	</div>
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작&gt;</em>
 </p>
 
 #### 통합 시뮬레이터

@@ -17,7 +17,7 @@ title: 임베디드 경험 요약
 <p align="center">
 	<iframe 
 		width="350" height="250"
-		src="https://www.youtube.com/embed/Bdt_fOkhiw8"
+		src="https://www.youtube.com/embed/Bdt_fOkhiw8?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: <a href="./docs/process/agile_by_mbd" target="_blank" rel="noopener noreferrer">Development Process</a>,
-    Svg: require('../../static/img/firstpage_DevProcess_blue.svg').default,
+    Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
       <>
         개발 프로세스 구축/실무적용<br />

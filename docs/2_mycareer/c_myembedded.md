@@ -89,16 +89,6 @@ Modeling의 타당성 검증
   * 힘센서데이터 DAQ 및 데이터 PC Display
   * 파우더브레이크를 이용한 유도로봇 몸통 및 좌우다리 제동력 조절
 
-<p align="center">
-	<iframe 
-		width="350" height="250"
-		src="https://www.youtube.com/embed/Bdt_fOkhiw8?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 안ㄶ습니다.
-	</iframe>
-</p>
-
 ### 무인전기차 하위 제어기 개발
 
 * 전기차 하위 인터페이스 제어기 개발/제작/관리 및 유지보수

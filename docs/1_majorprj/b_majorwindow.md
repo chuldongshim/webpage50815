@@ -1,6 +1,6 @@
 ---
 id: majorwindow
-title: 모델기반설계(MBD)
+title: ┣ 모델기반설계(MBD)
 ---
 ---
 

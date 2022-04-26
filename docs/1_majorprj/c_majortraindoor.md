@@ -1,6 +1,6 @@
 ---
 id: majortraindoor
-title: 열차 출입문 제어기
+title: ┗ 열차 출입문 제어기
 ---
 ---
 

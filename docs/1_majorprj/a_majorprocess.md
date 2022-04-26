@@ -1,6 +1,6 @@
 ---
 id: majorprocess
-title: 개발 프로세스
+title: ┣ 개발 프로세스
 ---
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: myprocess
-title: 프로세스 경험 요약
+title: ┣ 프로세스 경험
 ---
 ---
 

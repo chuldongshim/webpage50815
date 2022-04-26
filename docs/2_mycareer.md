@@ -1,6 +1,6 @@
 ---
 id: mycareer
-title: 경험 및 노하우
+title: 주요경험
 ---
 ---
 

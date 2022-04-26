@@ -40,3 +40,14 @@ yarn-error.log*
 /docs/3_embedded/d_esp32.md
 /docs/3_embedded/e_linux.md
 /docs/3_embedded/f_train_door.md
+/docs/1_process/a_aspice.md
+/docs/1_process/b_iso26262.md
+/docs/1_process/c_redmine.md
+/docs/1_process/d_agile_by_github.md
+/docs/1_process/e_agile_by_mbd.md
+/docs/2_mbd/a_window_autobox.md
+/docs/2_mbd/b_traindoor_uml.md
+/docs/2_mbd/c_temperature.md
+/docs/2_mbd/d_wiper.md
+/docs/2_mbd/e_window.md
+/docs/2_mbd/f_kalman_filter.md

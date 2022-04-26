@@ -1,5 +1,5 @@
 ---
-id: process
+id: myprocess
 title: 프로세스 경험 요약
 ---
 ---

@@ -39,7 +39,6 @@ title: 온도제어 프로젝트
 
 온도PID제어 프로젝트는 개인프로젝트로 별도의 프로젝트 관리 툴 없이 GitLab만을 이용하여 프로젝트 관련 모든 활동을 수행한다.
 * gitlab repository에 Project를 생성하여 agile 기반으로 프로젝트 이슈를 관리한다.  
-(gitlab을 통한 이슈관리 상세는 [development_process-gitlab](/docs/process/agile_by_github)을 참조한다.)
 * 산출물(코드, 문서 등)은 gitlab repository에 저장하여 이력관리를 수행한다.
 * GitLab을 통해 Task(할일,일정) 및 Issue(문제) 관리
 

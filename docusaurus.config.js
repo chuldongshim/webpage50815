@@ -70,7 +70,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'example',
             position: 'left',
-            label: '샘플예제로..',
+            label: '샘플예제로 나도한번...',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -87,16 +87,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: '프로세스',
-                to: '/docs/process',
+                label: '대표작',
+                to: '/docs/majorprj',
               },
               {
-                label: '모델기반설계',
-                to: '/docs/mbd',
+                label: '주요경험',
+                to: '/docs/mycareer',
               },
               {
-                label: '임베디드',
-                to: '/docs/embedded',
+                label: '샘플예제',
+                to: '/docs/example',
               },
             ],
           },

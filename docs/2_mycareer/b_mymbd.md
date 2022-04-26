@@ -1,5 +1,5 @@
 ---
-id: mbd
+id: mymbd
 title: 모델기반설계 경험 요약
 ---
 ---

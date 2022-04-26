@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href="./docs/process/agile_by_mbd" target="_blank" rel="noopener noreferrer">Development Process</a>,
+    title: <a href="./docs/majorprj/majorprocess" target="_blank" rel="noopener noreferrer">Development Process</a>,
     Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
       <>
@@ -20,7 +20,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mbd/wiper" target="_blank" rel="noopener noreferrer">Model Based Design</a>,
+    title: <a href="./docs/majorprj/majorwindow" target="_blank" rel="noopener noreferrer">Model Based Design</a>,
     Svg: require('../../static/img/second_motor_pos_control.svg').default,
     description: (
       <>
@@ -35,7 +35,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/embedded/train_door" target="_blank" rel="noopener noreferrer">Embedded System</a>,
+    title: <a href="./docs/majorprj/majortraindoor" target="_blank" rel="noopener noreferrer">Embedded System</a>,
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>

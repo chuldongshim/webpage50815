@@ -180,7 +180,7 @@ Modeling의 타당성 검증
 
 <p align="center">
 	<iframe 
-		width="450" height="300"
+		width="350" height="250"
 		src="https://www.youtube.com/embed/eEmyj61OwYo?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
@@ -219,22 +219,11 @@ Self Study
   * 소속 : 한국후지제록스
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_5.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;그림제목&gt;</em>
-	</div>
-</p>
-
-* Embedded Linux S3C2440 ARM9 포팅
-<p align="center">
 	<img
 		src={require('/img/3_embedded/img3_2_arm9_linux_porting.png').default}
 		alt="Example banner"
 		width="350"
-	/>
+	/><br/><em>&lt;S3C2440 ARM9에 Embedded Linux 포팅&gt;</em>
 </p>
 
 * stm32f4-discovery에 uClinux 포팅

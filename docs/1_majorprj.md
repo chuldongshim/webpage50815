@@ -6,7 +6,7 @@ title: 대표작
 
 mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 이미지 추가
 
-## A-SPICE/ISO26262 표준 프로세스 구축
+## [A-SPICE/ISO26262 표준 프로세스 구축](/docs/majorprj/majorprocess)
 
 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
 * 사내 개발 표준 프로세스 수립
@@ -23,7 +23,7 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 	</div>
 </p>
 
-## MBD 기반 소프트웨어 개발
+## [MBD 기반 소프트웨어 개발](/docs/majorprj/majorwindow)
 
 Manual Coding이 없는 모델기반 설계를 통해 개발환경을 구축하였습니다.
 * 개발환경 구축 및 윈도우 타겟구동 확인
@@ -40,7 +40,7 @@ Manual Coding이 없는 모델기반 설계를 통해 개발환경을 구축하�
 	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전동작&gt;</em>
 </p>
 
-## 열차 출입문 제어기 소프트웨어 개발
+## [열차 출입문 제어기 소프트웨어 개발](/docs/majorprj/majortraindoor)
 
 전동열차 출입문 제어기 소프트웨어 개발을 담당하여 양산적용하였습니다.
 * RTOS 기반 이중화 소프트웨어 개발 및 하드웨어 디버깅

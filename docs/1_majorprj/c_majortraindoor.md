@@ -13,18 +13,10 @@ title: ┗ 열차 출입문 제어기
 ## 열차 출입문 제어기 양산SW 개발
 
 * 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
-* 기간 : 2017.06 ~ 2019.04 (과장 2년
+* 기간 : 2017.06 ~ 2019.04 (과장 2년)
 * 역할 : 열차 출입문 양산 안정화 및 신규 개발 앙산적용
 
-<p align="center">
-	<iframe 
-		width="350" height="250"
-		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작&gt;</em>
-</p>
+rhapsody 시스템 아키텍처 이미지 추가
 
 ## Redmine 이슈 및 품질관리
 

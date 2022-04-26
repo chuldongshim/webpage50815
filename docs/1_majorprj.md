@@ -25,20 +25,31 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 
 ## [MBD 기반 소프트웨어 개발](/docs/majorprj/majorwindow)
 
-Manual Coding이 없는 모델기반 설계를 통해 개발환경을 구축하였습니다.
-* 개발환경 구축 및 윈도우 타겟구동 확인
-* MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
-* 고객 수주 타겟으로 선행개발 적용중 (22년4월 현재)
-
+2013년도에 MBD를 처음 시작하였으며, 사내 표준프로세스 구축 업무로 MBD개발 업무가 Holding되어 아쉬움이 많이 남았습니다.
 <p align="center">
-	<iframe
-		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+	<iframe 
+		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
 		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전동작&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 반전 알고리즘 시뮬레이션 (13년4월~14년3월)&gt;</em>
 </p>
+
+하지만 21년도에 결국 Manual Coding 없이 모델기반설계만을 통한 제어기 개발환경을 구축하였고, 22년 4월 현재 제품 수주를 위한 개발활동에 MBD를 적용하여 개발을 진행하고 있습니다.
+
+<p align="center">
+	<iframe
+		width="350" height="250"
+		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전동작 (21년12월)&gt;</em>
+</p>
+
+* 개발환경 구축 및 윈도우 타겟구동 확인
+* MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
 
 ## [열차 출입문 제어기 소프트웨어 개발](/docs/majorprj/majortraindoor)
 

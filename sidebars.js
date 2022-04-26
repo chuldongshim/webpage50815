@@ -22,38 +22,13 @@ module.exports = {
   ],
   mycareer: [
     'mycareer',                  // 모든 프로젝트를 한번에 볼 수 있도록 핵심만 표시
-    'mycareer/myprocess',           // 각 프로젝트 상세 내용을 기술
-    'mycareer/mymbd',
-    'mycareer/myembedded',
-  ],
-  process: [
-    'process',                  // 모든 프로젝트를 한번에 볼 수 있도록 핵심만 표시
-    'process/aspice',           // 각 프로젝트 상세 내용을 기술
-    'process/iso26262',
-    'process/redmine',
-    'process/agile_by_github',
-    'process/agile_by_mbd',
-  ],
-  mbd: [
-    'mbd',
-    'mbd/window_autobox',
-    'mbd/traindoor_uml',
-    'mbd/temperature',
-    'mbd/wiper',
-    'mbd/window',
-    'mbd/kalman_filter',
-  ],
-  embedded: [
-    'embedded',
-    'embedded/paper',
-    'embedded/study',
-    'embedded/bootloader',
-    'embedded/esp32',
-    'embedded/linux',
-    'embedded/train_door',
+    'mycareer/process',           // 각 프로젝트 상세 내용을 기술
+    'mycareer/mbd',
+    'mycareer/embedded',
   ],
   example: [
     'example',
+	'example/temperature/temperature',
     {
       type: 'category',
       label: '와이퍼 프로젝트',
@@ -87,6 +62,15 @@ module.exports = {
           ],
         },
         'example/window/window_verify',
+      ],
+    },
+    {
+      type: 'category',
+      label: '하이브리드 프로젝트',
+      collapsed: false,
+      items: [
+        'example/hybridprj/esp32',
+        'example/hybridprj/linux',
       ],
     },
   ],

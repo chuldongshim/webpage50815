@@ -62,27 +62,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'doc',
-            docId: 'whoami',
+            docId: 'introduce',
             position: 'left',
             label: '자기소개',
-          },
-          {
-            type: 'doc',
-            docId: 'process',
-            position: 'left',
-            label: '프로세스',
-          },
-          {
-            type: 'doc',
-            docId: 'mbd',
-            position: 'left',
-            label: '모델기반설계',
-          },
-          {
-            type: 'doc',
-            docId: 'embedded',
-            position: 'left',
-            label: '임베디드',
           },
           {
             type: 'doc',

@@ -31,3 +31,12 @@ yarn-error.log*
 /docs/1_process/b_aspice_cl3.md
 /docs/1_process/d_sunroof_system_design.md
 /blog/blog_introduce.md
+/docs/1_process.md
+/docs/2_mbd.md
+/docs/3_embedded.md
+/docs/3_embedded/a_paper.md
+/docs/3_embedded/b_study.md
+/docs/3_embedded/c_bootloader.md
+/docs/3_embedded/d_esp32.md
+/docs/3_embedded/e_linux.md
+/docs/3_embedded/f_train_door.md

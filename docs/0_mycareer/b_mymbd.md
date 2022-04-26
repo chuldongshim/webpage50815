@@ -6,14 +6,34 @@ title: 모델기반설계 경험 요약
 
 ## 선행학습
 
-### 파워윈도우 MBD
+### 파워윈도우 MBD 선행학습
+
+|기간|수행내용|
+|---|---|
+|13년4월 ~ 14년3월|MBD(Matlab/Simulink & Target Link)|
+
+* 소속 : 동양기전/DYAUTO
+* 기간 : 2013.10 ~ 2014.09 (대리 1년차)
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/img2_1_dyauto_mbd.png').default}
+		alt="Example banner"
+	/>
+</p>
+
+* MicroAutoBox를 이용한 제어기 RCP(Rapid Control Prototyping) 구현 및 동작확인
+  * Matlab Stateflow를 이용한 제어 로직 프로그래밍
+  * Hardware dependent device driver interface를 통한 peripheral control(Timer/Interrupt, ADC, Port IO 등)
+* Matlab/Simulink를 통한 제어기 시뮬레이션 확인 및 모델 코드 자동생성(AutoCode Generation)
+* 장애물 감지 시 반전 알고리즘/로직 시뮬레이션
 
 처음으로 MBD를 접하여 파워윈도우 시스템을 대상으로 Simulink 모델을 개발하고, 모델로부터 시뮬레이션을 수행하여 모델링 타당성을 검증한 다음, MicroAutoBox를 통해 시뮬레이션과 동일하게 실제 윈도우가 동작되는지를 확인하여 경험을 통해 MBD에 대한 기초를 다질 수 있었습니다.
 
 <p align="center">
 	<iframe 
-		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
 		width="350" height="250"
+		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -23,7 +43,7 @@ title: 모델기반설계 경험 요약
 ### 온도PID제어 MBD실습
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다. 
-처음으로 MBD기반 자동생성 코드를 타겟MCU에서 구동하였고, 이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다.
+처음 MBD로 설계한 로직에서 C코드를 자동생성하고, 타겟 MCU에서 구동해 봄으로써 이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다. 이는 이후 회사에서 MBD 프로젝트를 수행할 수 있는 계기가 되었습니다.
 
 <p align="center">
 	<div class="box">
@@ -47,7 +67,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 
 ## 로직설계
 
-### IBM Rhapsody
+### IBM Rhapsody UML 설계
 
 * 소속 : 인터콘시스템스
 * 기간 :  (과장 2년차)
@@ -83,6 +103,18 @@ EA를 통한 시스템 설계 및 동작을 상태천이로 설계
 
 시뮬레이션 검증을 통해 제어로직을 개발하고, 
 
+* 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
+* 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)
+* 목적 : GitLab-Agile방식을 통한 Wiper MBD개발
+  * MBD기반 제어로직 모델링
+  * 시뮬레이션을 통한 모델 검증
+  * 자동생성코드 타겟MCU(RCP) 구현 및 동작검증
+* 구현 내용 : Wiper모터를 대상으로 모터구동부 구현
+  * 기능로직 보다는 모터구동부만 구현
+  * 모터 가속-등속-감속제어를 위한 profiling 로직 설계
+  * 위치/속도 PID제어
+(공유한 구동부-통신부-제어로직부 ... 블록다이어그램 이미지(fig_2_1 추가)
+
 <head>
 	<title>모터제어 3D 시뮬레이션</title>
 </head>
@@ -112,7 +144,10 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 
 ### Window MBD선행
 
-MBD를 통해 기능로직에 대한 HW 독립적인 SW를 자동생성하고, 타겟 MCU에 포팅하여 기능로직 정상동작 확인을 목적으로 프로젝트를 진행하였습니다.
+* 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
+* 기간 : 21.08.20 ~ 21.11.30 (책임 3년차)
+
+MBD를 통해 기능로직에 대한 HW 독립적인 SW를 자동생성하고, 타겟 MCU에 포팅하여 기능로직 정상동작 확인을 목적으로 프로젝트를 진행하였습니다. MBD를 통해 7가지 기능로직을 설계하고 C코드를 생성 후 타겟 MCU에서 동작하여 설계한 로직을 검증해 보았습니다.
 
 <p align="center">
 	<iframe

@@ -62,9 +62,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {
             type: 'doc',
-            docId: 'example',
+            docId: 'sideprj',
             position: 'left',
-            label: '취미프로젝트',
+            label: '사이드프로젝트',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -89,8 +89,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/introduce',
               },
               {
-                label: '샘플예제',
-                to: '/docs/example',
+                label: '사이드프로젝트',
+                to: '/docs/sideprj',
               },
             ],
           },

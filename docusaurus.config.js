@@ -50,12 +50,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'majorprj',
-            position: 'left',
-            label: '대표작',
-          },
-          {
-            type: 'doc',
             docId: 'mycareer',
             position: 'left',
             label: '주요경험',
@@ -70,7 +64,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'example',
             position: 'left',
-            label: '샘플예제로 나도한번...',
+            label: '취미프로젝트',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -87,12 +81,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: '대표작',
-                to: '/docs/majorprj',
-              },
-              {
                 label: '주요경험',
                 to: '/docs/mycareer',
+              },
+              {
+                label: '자기소개',
+                to: '/docs/introduce',
               },
               {
                 label: '샘플예제',

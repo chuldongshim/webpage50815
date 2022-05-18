@@ -43,6 +43,28 @@ import TOCInline from '@theme/TOCInline';
 벤치마킹용 docusaurus homepage Examples
 * [Unity Multiplayer Networking](https://docs-multiplayer.unity3d.com/)
 
+### 문서 링크
+
+웹페이지에서 문서제목에 마우스를 가져가면 우축에 #표시가 나타나며, #에 마우스를 가져가면 좌측하단에 팝업으로 링크주소가 나타난다.
+이 링크주소를 이용하여 다음과 같이 제목 or Text에 링크를 설정할 수 있다.  
+```
+localhost:3000/webpage/docs/mycareer/myprocess/#a-spice-cl3		// 제목링크주소
+[링크설정](/docs/mycareer/myprocess/#a-spice-cl3)				// 링크설정방법
+```
+[링크설정(대소문자구분하므로 링크주소가 소문자이면 소문자로 해야 함)](/docs/mycareer/myprocess/#a-spice-cl3)
+
+a태크의 href 속성을 통해 링크를 연결한 경우 title 속성을 통해 페이지에 대한 설명을 추가할 수 있다.
+```
+<html>
+	<head>
+		<title>a태그 예시</title>
+	</head>
+	<body>
+		<a href="https://blog.naver.com/alyssa111" title="일상 글">하양의 블로그</a>
+	</body>
+</html>
+```
+
 ### 이미지 링크
 
 #### 웹이서 이미지 링크

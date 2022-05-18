@@ -20,7 +20,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/majorprj/majorwindow" target="_blank" rel="noopener noreferrer" title="자동차 윈도우 MBD개발">Model Based Design</a>,
+    title: <a href="./docs/mycareer/mymbd#window-mbd선행" target="_blank" rel="noopener noreferrer" title="자동차 윈도우 MBD개발">Model Based Design</a>,
     Svg: require('../../static/img/second_motor_pos_control.svg').default,
     description: (
       <>
@@ -35,7 +35,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/majorprj/majortraindoor" target="_blank" rel="noopener noreferrer" title="열차 출입문 제어기개발">Embedded System</a>,
+    title: <a href="./docs/mycareer/myembedded#열차-출입문-제어기-양산sw-개발" target="_blank" rel="noopener noreferrer" title="열차 출입문 제어기개발">Embedded System</a>,
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>

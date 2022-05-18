@@ -53,6 +53,9 @@ localhost:3000/webpage/docs/mycareer/myprocess/#a-spice-cl3		// 제목링크주�
 ```
 [링크설정(대소문자구분하므로 링크주소가 소문자이면 소문자로 해야 함)](/docs/mycareer/myprocess/#a-spice-cl3)
 
+a태크의 href 속송에서 경로뒤에 #와 함께 제목을 붙이면 해당 페이지의 제목으로 링크가 설정된다.
+<a href="./hello-world#시험-210911">시험에 대한 생각</a>
+
 a태크의 href 속성을 통해 링크를 연결한 경우 title 속성을 통해 페이지에 대한 설명을 추가할 수 있다.
 ```
 <html>

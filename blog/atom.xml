@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://your-docusaurus-test-site.com/webpage/blog</id>
-    <title>나는 개발자다! 그렇게 살고 싶다... Blog</title>
+    <title>나는 개발자다! 코딩하며 살고 싶다... Blog</title>
     <updated>2022-04-26T02:46:18.324Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-test-site.com/webpage/blog"/>
-    <subtitle>나는 개발자다! 그렇게 살고 싶다... Blog</subtitle>
+    <subtitle>나는 개발자다! 코딩하며 살고 싶다... Blog</subtitle>
     <icon>https://your-docusaurus-test-site.com/webpage/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[문서작성]]></title>

@@ -94,11 +94,11 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 * 열차 현장운행 시 발생되는 이슈 대응 및 안정화
 
 <p align="center">
-	<iframe 
+	<iframe
 		width="350" height="250"
 		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작&gt;</em>
+	</iframe><br/><em>&lt;장애물 3회 감지 시 출입문 열림동작&gt;</em>
 </p>

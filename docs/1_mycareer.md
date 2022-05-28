@@ -22,9 +22,10 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 * Redmine을 통한 이슈 및 품질관리
 * Github/Gitlab 기반 Agile 프로젝트 관리
 
-### [주요경험: A-SPICE/ISO26262 표준 프로세스 구축](/docs/mycareer/myprocess#a-spice-cl3)
+### [주요경험](/docs/mycareer/myprocess#a-spice-cl3)
 
-프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
+A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
+
 * 사내 개발 표준 프로세스 수립
 * 개발 일정 WBS 수립
 * 프로젝트 산출물 및 개발 일정 관리
@@ -48,7 +49,9 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 * 제어로직 MBD 코드생성 및 실제 타겟구동
 * 시뮬레이션-타겟구동 설계 비교검증
 
-### [주요경험: MBD 기반 소프트웨어 개발](/docs/mycareer/mymbd#window-mbd선행)
+### [주요경험](/docs/mycareer/mymbd#window-mbd선행)
+
+MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실제 타겟 MCU에서 동작하여 검증하였습니다.
 
 * 개발환경 구축 및 윈도우 타겟구동 확인
 * MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
@@ -86,9 +89,10 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 * RTOS 기반 실시간 제어시스템 소프트웨어 개발
 * 부트로더 개발을 통한 시리얼통신 펌웨어 업데이트
 
-### [주요경험: 열차 출입문 제어기 소프트웨어 개발](/docs/mycareer/myembedded#열차-출입문-제어기-양산sw-개발)
+### [주요경험](/docs/mycareer/myembedded#열차-출입문-제어기-양산sw-개발)
 
 전동열차 출입문 제어기 소프트웨어 개발을 담당하여 양산적용하였습니다.
+
 * RTOS 기반 이중화 소프트웨어 개발 및 하드웨어 디버깅
 * 초기 납품 시 품질이슈 대응 및 이슈관리
 * 열차 현장운행 시 발생되는 이슈 대응 및 안정화
@@ -96,9 +100,10 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 <p align="center">
 	<iframe
 		width="350" height="250"
-		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
+		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe><br/><em>&lt;장애물 3회 감지 시 출입문 열림동작&gt;</em>
 </p>
+

@@ -21,7 +21,7 @@ const FeatureList = [
   },
   {
     title: <a href="./docs/mycareer#모델기반설계" target="_blank" rel="noopener noreferrer" title="자동차 윈도우 MBD개발">Model Based Design</a>,
-    Svg: require('../../static/img/second_motor_pos_control.svg').default,
+    Svg: require('../../static/img/second_motor_control_wiper_window.svg').default,
     description: (
       <>
         MBD기반 제어로직 시뮬레이션/코드생성/MCU포팅<br />
@@ -36,7 +36,7 @@ const FeatureList = [
   },
   {
     title: <a href="./docs/mycareer#임베디드" target="_blank" rel="noopener noreferrer" title="열차 출입문 제어기개발">Embedded System</a>,
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('../../static/img/third_train_door_controller.svg').default,
     description: (
       <>
         Linux/uClinux 포팅 및 tcp/ip 어플리케이션 개발<br />

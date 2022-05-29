@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href="./docs/mycareer#프로세스" target="_blank" rel="noopener noreferrer">Development Process</a>,
+    title: <a href="./docs/mycareer#development-process" target="_self" rel="noopener noreferrer">Development Process</a>,
     Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
       <>
@@ -20,7 +20,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer#모델기반설계" target="_blank" rel="noopener noreferrer">Model Based Design</a>,
+    title: <a href="./docs/mycareer#model-based-design" target="_self" rel="noopener noreferrer">Model Based Design</a>,
     Svg: require('../../static/img/second_motor_control_wiper_window.svg').default,
     description: (
       <>
@@ -35,7 +35,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer#임베디드" target="_blank" rel="noopener noreferrer">Embedded System</a>,
+    title: <a href="./docs/mycareer#embedded-system" target="_self" rel="noopener noreferrer">Embedded System</a>,
     Svg: require('../../static/img/third_train_door_controller.svg').default,
     description: (
       <>

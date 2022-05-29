@@ -13,7 +13,7 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 2. 개발 프로세스
 3. 모델기반설계
 
-## [프로세스](/docs/mycareer/myprocess)
+## [Development Process](/docs/mycareer/myprocess)
 
 ### 습득기술
 
@@ -41,7 +41,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 </p>
 
 
-## [모델기반설계](/docs/mycareer/mymbd)
+## [Model Based Design](/docs/mycareer/mymbd)
 
 ### 습득기술
 
@@ -80,7 +80,7 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 </p>
 
 
-## [임베디드](/docs/mycareer/myembedded)
+## [Embedded System](/docs/mycareer/myembedded)
 
 ### 습득기술
 

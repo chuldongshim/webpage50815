@@ -13,7 +13,7 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 2. 개발 프로세스
 3. 모델기반설계
 
-## [Development Process](/docs/mycareer/myprocess)
+## [프로세스 [☜ click for more]](/docs/mycareer/myprocess)
 
 ### 습득기술
 
@@ -41,7 +41,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 </p>
 
 
-## [Model Based Design](/docs/mycareer/mymbd)
+## [모델기반설계(MBD) [☜ click for more]](/docs/mycareer/mymbd)
 
 ### 습득기술
 
@@ -59,12 +59,12 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 2013년도에 MBD를 처음 시작하였으며, 사내 표준프로세스 구축 업무로 MBD개발 업무가 Holding되어 아쉬움이 많이 남았습니다.
 <p align="center">
 	<iframe 
-		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
+		src="https://www.youtube.com/embed/JWzVYKv_Eac?rel=0"
 		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 반전 시뮬레이션 (13년4월~14년3월)&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 시뮬레이션 (13년4월~14년3월)&gt;</em>
 </p>
 
 하지만 꾸준한 관심과 하고자 하는 의지로 21년에 결국 Manual Coding 없이 모델기반설계만을 통한 제어기 개발환경을 구축하였고, 22년 4월 현재 제품 수주를 위한 개발활동에 MBD를 적용하여 개발을 진행하고 있습니다.
@@ -72,15 +72,15 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 <p align="center">
 	<iframe
 		width="350" height="250"
-		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+		src="https://www.youtube.com/embed/eEmUgEgfH4k?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전동작 (21년12월)&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 실제적용 (21년12월)&gt;</em>
 </p>
 
 
-## [Embedded System](/docs/mycareer/myembedded)
+## [임베디드 [☜ click for more]](/docs/mycareer/myembedded)
 
 ### 습득기술
 

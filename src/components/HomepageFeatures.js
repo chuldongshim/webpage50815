@@ -4,7 +4,21 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href="./docs/mycareer" target="_self" rel="noopener noreferrer">프로세스</a>,
+    title: <a href="./docs/mycareer/#임베디드--click-for-more" target="_self" rel="noopener noreferrer">임베디드</a>,
+    Svg: require('../../static/img/third_train_door_controller.svg').default,
+    description: (
+      <>
+        Linux/uClinux 포팅 및 tcp/ip 어플리케이션 개발<br />
+        RTOS 기반 임베디드 소프트웨어 개발<br />
+        IAP부트로더를 통한 uart,usb,http 펌웨어 업데이트<br />
+        OTA 펌웨어 업데이트 <code>진행중</code><br />
+        <code><a href="https://os.mbed.com/" target="_blank" rel="noopener noreferrer">Mbed?</a></code>&emsp;
+        <code><a href="https://www.elec4.co.kr/article/articleView.asp?idx=18469" target="_blank" rel="noopener noreferrer">OTA?</a></code>
+      </>
+    ),
+  },
+  {
+    title: <a href="./docs/mycareer/#프로세스--click-for-more" target="_self" rel="noopener noreferrer">프로세스</a>,
     Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
       <>
@@ -20,7 +34,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer" target="_self" rel="noopener noreferrer">모델기반설계(MBD)</a>,
+    title: <a href="./docs/mycareer/#모델기반설계--click-for-more" target="_self" rel="noopener noreferrer">모델기반설계</a>,
     Svg: require('../../static/img/second_motor_control_wiper_window.svg').default,
     description: (
       <>
@@ -31,20 +45,6 @@ const FeatureList = [
         <code><a href="https://www.cs.unc.edu/~welch/media/pdf/kalman_intro.pdf" target="_blank" rel="noopener noreferrer">Kalman Filter?</a></code>&emsp;
         <code><a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/company/events/conferences/matlab-conference-australia/2016/proceedings/design-with-simulation-in-simulink.pdf" target="_blank" rel="noopener noreferrer">MBD?</a></code>&emsp;
         <code><a href="https://kr.mathworks.com/videos/run-models-interactively-on-arduino-and-raspberry-pi-1549462466264.html" target="_blank" rel="noopener noreferrer">RCP?</a></code>
-      </>
-    ),
-  },
-  {
-    title: <a href="./docs/mycareer" target="_self" rel="noopener noreferrer">임베디드</a>,
-    Svg: require('../../static/img/third_train_door_controller.svg').default,
-    description: (
-      <>
-        Linux/uClinux 포팅 및 tcp/ip 어플리케이션 개발<br />
-        RTOS 기반 임베디드 소프트웨어 개발<br />
-        IAP부트로더를 통한 uart,usb,http 펌웨어 업데이트<br />
-        OTA 펌웨어 업데이트 <code>진행중</code><br />
-        <code><a href="https://os.mbed.com/" target="_blank" rel="noopener noreferrer">Mbed?</a></code>&emsp;
-        <code><a href="https://www.elec4.co.kr/article/articleView.asp?idx=18469" target="_blank" rel="noopener noreferrer">OTA?</a></code>
       </>
     ),
   },

@@ -13,6 +13,35 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 2. 개발 프로세스
 3. 모델기반설계
 
+## [임베디드 [☜ click for more]](/docs/mycareer/myembedded)
+
+### 습득기술
+* 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
+* 임베디드 리눅스기반 어플리케이션 소프트웨어 개발
+* RTOS기반 실시간 제어시스템 소프트웨어 개발
+* 펌웨어 업데이트용 시리얼통신 부트로더 개발
+
+### 주요경험
+
+전동열차 출입문 제어기 소프트웨어 개발을 담당하여 양산적용하였습니다.
+
+* RTOS기반 이중화 소프트웨어 개발 및 하드웨어 디버깅
+* 초도품 품질이슈 대응 및 이슈관리
+* 열차 현장운행 시 발생되는 이슈 대응 및 제품 안정화
+
+실차에 적용된 소프트웨어는 현재 정상적으로 현장에서 운행되고 있습니다.
+
+<p align="center">
+	<iframe
+		width="350" height="250"
+		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;장애물 3회 감지 시 출입문 열림동작&gt;</em>
+</p>
+
+
 ## [프로세스 [☜ click for more]](/docs/mycareer/myprocess)
 
 ### 습득기술
@@ -41,7 +70,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 </p>
 
 
-## [모델기반설계(MBD) [☜ click for more]](/docs/mycareer/mymbd)
+## [모델기반설계 [☜ click for more]](/docs/mycareer/mymbd)
 
 ### 습득기술
 
@@ -77,33 +106,5 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 실제적용 (21년12월)&gt;</em>
-</p>
-
-
-## [임베디드 [☜ click for more]](/docs/mycareer/myembedded)
-
-### 습득기술
-
-* 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
-* 임베디드 리눅스기반 어플리케이션 소프트웨어 개발
-* RTOS기반 실시간 제어시스템 소프트웨어 개발
-* 펌웨어 업데이트용 시리얼통신 부트로더 개발
-
-### 주요경험
-
-전동열차 출입문 제어기 소프트웨어 개발을 담당하여 양산적용하였습니다.
-
-* RTOS기반 이중화 소프트웨어 개발 및 하드웨어 디버깅
-* 초도품 품질이슈 대응 및 이슈관리
-* 열차 현장운행 시 발생되는 이슈 대응 및 제품 안정화
-
-<p align="center">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 출입문 열림동작&gt;</em>
 </p>
 

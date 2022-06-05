@@ -1,6 +1,6 @@
 ---
 id: myprocess
-title: 프로세스 경험
+title: 프로세스
 ---
 ---
 

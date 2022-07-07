@@ -38,7 +38,7 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 전동열차 출입문 열림동작&gt;</em>
+	</iframe><br/><em>&lt;전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작&gt;</em>
 </p>
 
 

@@ -48,6 +48,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           autoCollapseCategories: true,   // 펼쳐져 있는 사이드바 항목 접어서 축소
         },
       },
+      colorMode: {
+        defaultMode: 'dark',	// light or dark
+        disableSwitch: true,	// 메뉴바에서 모드 전환버튼 숨김
+        respectPrefersColorScheme: true,	// defaultMode 대신 사용자 시스템 환경 설정에 따라 color 속성 적용 안함
+      },
       navbar: {
         hideOnScroll: true,               // 아래로 스크롤 시 타이틀메뉴 숨기고, 위로 스크롤 시 타이틀메뉴 보이는 기능
         title: '나는 개발자다!',

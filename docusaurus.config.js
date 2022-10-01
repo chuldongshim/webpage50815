@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: '나는 개발자다! 코딩 인생수양...',
   tagline: '',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://github.com',
   baseUrl: '/webpage/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'chuldongshim', // Usually your GitHub org/user name.
   projectName: 'webpage', // Usually your repo name.
-  //trailingSlash: true,
+  trailingSlash: false,   // false(md파일 명으로 html파일 생성), true(md파일명 하위에 index.html파일로 생성)
   
   presets: [
     [
@@ -42,7 +42,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
+      docs:{
+        sidebar: {
+          hideable: true,                 // 왼쪽 사이드바 접기버튼 생성
+          autoCollapseCategories: true,   // 펼쳐져 있는 사이드바 항목 접어서 축소
+        },
+      },
       navbar: {
+        hideOnScroll: true,               // 아래로 스크롤 시 타이틀메뉴 숨기고, 위로 스크롤 시 타이틀메뉴 보이는 기능
         title: '나는 개발자다!',
         logo: {
           alt: 'My Site Logo',

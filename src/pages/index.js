@@ -33,6 +33,18 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
+        {
+          <>
+            <br />
+            <center><font size="5" color="#34a28a"><strong>이 공간은</strong></font></center>
+              <center>개발자로서 살아온 흔적을 정리하여 나를 돌아보고,</center>
+              <center>앞으로 내가 세상에 기여할 수 있는 것들이 무엇이 있을지 찾기 위한 공간입니다.</center>
+            <br />
+            <center><font size="4" color="#34a28a"><strong>"Yesterday is History. Tomorrow is a Mystery. Today is a Gift."</strong></font></center>
+							<center>남과 나를 비교하거나, 과거에 연연하거나, 미래를 걱정할 필요는 없다.</center>
+							<center>현재 하루하루를 최고의 선물로 생각하며 살자.</center>
+          </>
+        }
         <HomepageFeatures />
       </main>
     </Layout>

@@ -4,6 +4,16 @@ title: 모델기반설계
 ---
 ---
 
+## History
+13.10.00 ~ 14.09.00 : [파워윈도우 MBD 선행학습 ☜ click ](/docs/mycareer/mymbd/#%ED%8C%8C%EC%9B%8C%EC%9C%88%EB%8F%84%EC%9A%B0-mbd-%EC%84%A0%ED%96%89%ED%95%99%EC%8A%B5)  
+21.08.20 ~ 21.11.30 : [Window MBD 구현 ☜ click ](/docs/mycareer/mymbd/#window-mbd-%EA%B5%AC%ED%98%84)  
+21.11.20 ~ 22.03.21 : GitHub 속도측정 MBD  
+22.03.03 ~ 22.05.03 : PswSW 선행 MBD 고객대응  
+22.05.22 ~ 22.08.04 : ESP32 Embedded WebServer를 통한 stm32f746 OTA  
+22.08.14 ~ 22.08.29 : MCU에 FFT구현 후 Matlab통신을 통한 동작확인  
+22.09.01 ~ 22.09.19 : dc motor 위치/속도 PID제어  
+22.09.18 ~ 22.10.00 : 상태방정식을 통한 모터제어 및 Kalman Filter적용  
+
 ## 선행학습
 
 ### 파워윈도우 MBD 선행학습
@@ -142,7 +152,7 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 	</iframe><br/><em>&lt;Auto Wiping 동작확인&gt;</em>
 </p>
 
-### Window MBD선행
+### Window MBD 구현
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.08.20 ~ 21.11.30 (책임 3년차)

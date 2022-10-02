@@ -144,14 +144,3 @@ Step입력을 통해 모델링 한 모델에 다른전압(사다리꼴 프로파
 
 T.B.D
 
-## 참고자료
-
-* [Estimating DC Motor Parameters](https://www.youtube.com/watch?v=AUtfvXtz12Y)  
-전달함수가 있고, 시뮬레이션 결과와 실험값의 차이가 있을 경우 전달함수 파라미터를 자동으로 찾아주는 기능
-* [Introduction to System Identification](https://www.youtube.com/watch?v=u7hJ1aF-JrU)  
-전달함수 자체를 만들어주는 기능
-* [Estimate model parameters](https://www.mathworks.com/discovery/parameter-estimation.html)
-* [엔진 스로틀 시스템의 모델 매개변수 값 추정(GUI)](https://kr.mathworks.com/help/sldo/ug/estimate-model-parameter-values-gui.html)
-* QEP를 통한 고속/저속 Speed Calculation
-  * [LAUNCHXL-F28377S: Simulink Settings for eQEP speed calculation](https://e2e.ti.com/support/microcontrollers/c2000/f/171/t/617754?LAUNCHXL-F28377S-eQEP-speed-calculation-in-Simulink)
-  * [LAUNCHXL-F28377S: Simulink Models for eQEP speed calculation](https://www.mathworks.com/matlabcentral/answers/353589-simulink-eqep-block-for-speed-calculation-with-c2000-mcu)

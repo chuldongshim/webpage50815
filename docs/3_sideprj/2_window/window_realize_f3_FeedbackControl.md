@@ -113,16 +113,3 @@ Robust 제어기 설계 시 적용(T.B.D)
 
 피드백 제어는 실부하가 있는 상태에서 확인이 수월하므로 실부하 상태에서 기능시험으로 대체함.
 
-## 참고자료
-
-* [Anti-Windup Control Using a PID Controller Block](https://kr.mathworks.com/help/simulink/slref/anti-windup-control-using-a-pid-controller.html)
-* [모터제어 알고리즘 설계/구현을 위한 Motor Control Blockset ](https://kr.mathworks.com/products/motor-control.html#sensor-observers)
-* [시뮬레이션을 통한 BLDC 모터제어 알고리즘 개발](https://kr.mathworks.com/solutions/power-electronics-control/bldc-motor-control.html)
-* [Parameter Tuning Guide for Position Controller with Cascaded Velocity Controller](https://doc.synapticon.com/resources/tutorials/tuning_guides/position_controller_with_cascaded_structure/index.html)
-* [시뮬레이션을 통한 BLDC 모터 제어 알고리즘 개발 by Mathworks](https://kr.mathworks.com/solutions/power-electronics-control/bldc-motor-control.html)
-* [Simscape Electrical을 사용한 모터 제어기 설계 방법 by Mathworks](https://kr.mathworks.com/videos/series/how-to-design-motor-controllers-using-simscape-electrical.html)
-* [브러시리스 DC 모터의 PID 제어 by Mathworks](https://kr.mathworks.com/videos/pid-control-of-a-brushless-dc-motor-1523009772696.html)
-* [PID and PIV Controllers - Frequency Domain Tuning](https://www.youtube.com/watch?v=18bfizGBiP4)
-* [](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=pg365&logNo=222034164061)
-[로보티즈 다이나믹셀 위치/속도/전류제어 블록도](https://emanual.robotis.com/docs/en/dxl/p/pm54-060-s250-r/)
-* [PIV 서보 제어란](https://www.motioncontroltips.com/faq-what-is-piv-servo-control/)

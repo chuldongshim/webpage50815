@@ -97,13 +97,3 @@ title: F7 칼만필터(Ing)
 
 T.B.D
 
-## 참고자료
-
-* DC motor fault detection by output comparision of a Real system and Kalman Filter.pdf
-* [MPU6050 칼만필터 구현예제0](https://sharehobby.tistory.com/entry/%EC%B9%BC%EB%A7%8C-%ED%95%84%ED%84%B0Kalman-filter1?category=990451)
-* [MPU6050 칼만필터 구현예제1](https://sharehobby.tistory.com/entry/%EC%B9%BC%EB%A7%8C-%ED%95%84%ED%84%B0Kalman-filter%EC%9D%98-%EC%BD%94%EB%94%A9-%EC%98%88%EC%A0%9C?category=990451)
-* [MPU6050 칼만필터 구현예제2](https://sharehobby.tistory.com/entry/MPU6050%EC%9D%98-%EC%B9%BC%EB%A7%8C-%ED%95%84%ED%84%B0Kalman-filter%EC%9D%98-%EA%B5%AC%ED%98%84-%EC%98%88%EC%A0%9C2?category=990451)
-* [MPU6050 칼만필터 구현예제3](https://sharehobby.tistory.com/entry/XFile-35?category=990451)
-* [MPU6050 칼만필터 구현예제4](https://sharehobby.tistory.com/entry/XFile-36?category=990451)
-
-

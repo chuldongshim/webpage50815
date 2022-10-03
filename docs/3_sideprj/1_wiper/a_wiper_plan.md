@@ -112,16 +112,3 @@ MBD개발은 다음과 같이 MIL/SIL/PIL/HIL 단계를 통해 진행한다.
 * 개발한 로직 모델로부터 타겟용 C코드를 자동생성한 후 타겟 MCU를 통해 Wiper Motor모터의 속도 가/감속 제어를 수행하였다.
 * 시뮬레이션과 실제 구동결과가 일치함을 확인하고, 개발시간을 획기적으로 단축할 수 있음을 확인하였다.
 
-## 참고자료
-
-* [ball on wheel by rapd control prototyping](https://technodocbox.com/Java/66141645-Rapid-control-prototyping-with-matlab-simulink-case-study-ball-on-wheel.html)
-<p align="center">
-	<img
-		src={require('/img/2_mbd/3_ball_on_wheel_by_RCP.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;MBD 구현 예제&gt;</em>
-</p>
-* [ISO26262프로젝트에 Simulink를 활용하는 방법](https://kr.mathworks.com/company/newsletters/articles/how-to-use-simulink-for-iso-26262-projects.html)
-* [Simulink를 사용하여 ISO26262 응용프로그램을 개발하는 11가지 모범사례](https://kr.mathworks.com/content/dam/mathworks/white-paper/gated/iso-26262-best-practices-white-paper.pdf)
-* [MBD 개발 프로세스 by Mathworks](https://kr.mathworks.com/help/simulink/gs/model-based-design.html#mw_3e1d9df7-df1e-43bb-8b3b-fe7c22ed99d7)

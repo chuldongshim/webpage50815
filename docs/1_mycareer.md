@@ -4,16 +4,14 @@ title: 주요경험
 ---
 ---
 
-mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 이미지 추가
+mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 이미지 추가 (portfollio_history.pptx 작성해서 이미지 캡처하여 추가할 것)
 
-제 관심분야는 크게 세가지가 이
-저는 크게 세가지 관심분야를 가지고 있습니다.
-지금까지 경험에서 세가지 관심분야를 가지게 되었습니다.
-1. 임베디드 개발
-2. 개발 프로세스
-3. 모델기반설계
+제가 좋아하는 관심분야는 3가지가 있고 지금까지 경험을 통해 꾸준히 알아가고 있습니다.
+1. [임베디드 개발 ☜ click for more](/docs/mycareer/myembedded)
+2. [개발 프로세스 ☜ click for more](/docs/mycareer/myprocess)
+3. [모델기반설계 ☜ click for more](/docs/mycareer/mymbd)
 
-## [임베디드 [☜ click for more]](/docs/mycareer/myembedded)
+## 임베디드
 
 ### 습득기술
 * 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
@@ -42,7 +40,7 @@ mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 
 </p>
 
 
-## [프로세스 [☜ click for more]](/docs/mycareer/myprocess)
+## 프로세스
 
 ### 습득기술
 
@@ -70,7 +68,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 </p>
 
 
-## [모델기반설계 [☜ click for more]](/docs/mycareer/mymbd)
+## 모델기반설계
 
 ### 습득기술
 

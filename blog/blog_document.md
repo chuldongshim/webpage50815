@@ -46,12 +46,15 @@ import TOCInline from '@theme/TOCInline';
 ### 문서 링크
 
 웹페이지에서 문서제목에 마우스를 가져가면 우축에 #표시가 나타나며, #에 마우스를 가져가면 좌측하단에 팝업으로 링크주소가 나타난다.
-이 링크주소를 이용하여 다음과 같이 제목 or Text에 링크를 설정할 수 있다.  
+이 링크주소를 복사하여 다음과 같이 제목 or Text에 링크를 설정할 수 있다.  
+단, 한글제목을 링크 할 경우 encoding된 값으로 링크주소를 넣어야 하는데, 이 경우 마우스를 #에 가져가 마우스 우클릭으로 주소를 복사한 다음 메모장에 붙여 넣어 생성된 링크 주소를 이용한다.
 ```
 localhost:3000/webpage/docs/mycareer/myprocess/#a-spice-cl3		// 제목링크주소
 [링크설정](/docs/mycareer/myprocess/#a-spice-cl3)				// 링크설정방법
+[한글링크설정](/docs/introduce#%ED%9D%AC%EB%A7%9D%EC%82%AC%ED%95%AD)
 ```
-[링크설정(대소문자구분하므로 링크주소가 소문자이면 소문자로 해야 함)](/docs/mycareer/myprocess/#a-spice-cl3)
+[링크설정(대소문자구분하므로 링크주소가 소문자이면 소문자로 해야 함)](/docs/mycareer/myprocess/#a-spice-cl3)  
+[한글링크설정 - 자기소개/희망사항](/docs/introduce#%ED%9D%AC%EB%A7%9D%EC%82%AC%ED%95%AD)
 
 a태크의 href 속송에서 경로뒤에 #와 함께 제목을 붙이면 해당 페이지의 제목으로 링크가 설정된다.
 ```

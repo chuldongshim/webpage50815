@@ -5,7 +5,7 @@ title: 설계
 
 <div align="right">
   <font size="4">
-    Since 21.08.20 ~ 21.11.30
+    Since 21.07.30 ~ 21.11.30
   </font>
 </div>
 

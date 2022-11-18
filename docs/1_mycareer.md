@@ -7,6 +7,9 @@ title: 주요경험
 mindstorm과 같이 전체로드맵 한번에 볼 수 있도록 첫페이지에 이미지 추가 (portfollio_history.pptx 작성해서 이미지 캡처하여 추가할 것)
 
 제가 좋아하는 관심분야는 3가지가 있고 지금까지 경험을 통해 꾸준히 알아가고 있습니다.
+
+[portfolio all](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
+
 1. [임베디드 개발 ☜ click for more](/docs/mycareer/myembedded)
 2. [개발 프로세스 ☜ click for more](/docs/mycareer/myprocess)
 3. [모델기반설계 ☜ click for more](/docs/mycareer/mymbd)

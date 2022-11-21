@@ -16,8 +16,8 @@ module.exports = {
   // But you can create a sidebar manually
   mycareer: [
     'mycareer',                  // 모든 프로젝트를 한번에 볼 수 있도록 핵심만 표시
-    'mycareer/myprocess',           // 각 프로젝트 상세 내용을 기술
     'mycareer/mymbd',
+    'mycareer/myprocess',           // 각 프로젝트 상세 내용을 기술
     'mycareer/myembedded',
   ],
   sideprj: [

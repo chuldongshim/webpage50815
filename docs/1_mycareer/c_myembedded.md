@@ -4,147 +4,7 @@ title: 임베디드
 ---
 ---
 
-## History
-
-09.03.00 ~ 09.12.00 : 무인 전기자동차 제어기 개발/제작/관리 및 유지보수  
-10.09.00 ~ 11.09.00 : 다축 Force/Torque센서 상용화 기술 개발  
-11.11.00 ~ 13.10.00 : 문서보안 솔루션 출력 인증 관련 업무 수행  
-22.05.22 ~ 22.08.04 : ESP32 Embedded WebServer를 통한 stm32f746 OTA
-
-※ 현재까지의 경험들을 임베디드 관점으로 기술 (임베디드와 무관한 경험은 embedded섹션에서 제외)
-
-## 펌웨어
-
-취업 전 연구활동은 임베디드 및 자동제어 경험을 통해 주도적으로 목표를 결정하고 추진하는 능력 배양할 수 있었습니다.
-
-### 학부3년 80196 개인학습
-
-FND 디지털 시계
-* Intel 80196 마이크로프로세스 학습
-  * FND를 통한 시계 만들기
-  * RAM Execution
-  * address bus 기반 디바이스 컨트롤
-* Atmega 8535 마이크로프로세스 학습
-  * 디지털 도어락 만들기
-  * 비밀번호를 EEPROM에 저장하고, 키패드를 통해 비밀번호를 누르면 액츄에이터(RC모터)를 돌려 잠금해제 동작을 수행
-
-<p align="center">
-	<iframe 
-		width="350" height="250"
-		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-
-### 석사 졸업논문
-
-지능형 근력강화 시스템 개발
-
-<p align="center">
-	<img
-		src={require('/img/3_embedded/img1_0_mju_paper.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-* 담당
-  * 기구부 및 전장부 설계 및 개발
-  * 시스템 요소를 Modeling한 후 Matlab-Simulink 시뮬레이션과 실제 실험데이터와의 비교를 통하여 
-Modeling의 타당성 검증
-  * 시스템 요소 Modeling의 타당성을 검증한 후 전체 시스템으로 통합하는 단계적인 절차 제시
-  * 통합된 System Model의 안정성 확인을 통하여 제어기 성능을 검증하여 주어진 제어 명령을 잘 추종하는
-제어기 설계
-  * Modeling System과 Real System과의 출력 데이터 일치 여부를 확인하여 제어기 성능 검증
-  * 실제 System을 이용하여 사용자의 근력 증강 여부 검증 
-* 개발내용
-  * FSR(Force Sensing Registor)를 통하여 시스템 입력(제어명령)을 생성하고 전압(PWM) 제어기를 통하여 모터 제어
-  (Force Sensing Registor : 힘에 비례하여 전압이 증가하는 센서)
-  * 제어기는 구동 상태에 따라 제어 모드를 변환시켜 모터 제어
-  (FSR 입력이 없을 때에는 PI제어(위치)를 수행하고, FSR 입력이 있을 때에는 PD제어(속도) 수행)
-  * 검지 손가락의 미미한 움직임을 통하여 5kg의 물건을 움직여 개발된 시스템 동작 확인
-
-<p align="center">
-	<iframe 
-		width="350" height="250"
-		src="https://www.youtube.com/embed/Bdt_fOkhiw8?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
-</p>
-
-### 졸업논문 후 유도인형 프로젝트
-
-<p align="center">
-	<img
-		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-문화체육관광부 주관, 용인대 주최
-* 담당
-  * ARM7(at91sam7s)을 이용한 유도인형 제어기 개발
-  * Pro-e를 이용한 유도인형 기구부 설계 아이디어 제안 및 3D 개념설계
-  * Visual C++를 이용한 힘센서 모니터링 프로그램 MFC Programming
-* 개발내용
-  * 힘센서(로드셀)의 아날로그 하드웨어 신호처리
-  * 힘센서데이터 DAQ 및 데이터 PC Display
-  * 파우더브레이크를 이용한 유도로봇 몸통 및 좌우다리 제동력 조절
-
-### 무인전기차 하위 제어기 개발
-
-* 전기차 하위 인터페이스 제어기 개발/제작/관리 및 유지보수
-* 기간 : 2009.03 ~ 2009.12
-* 소속 : 한국과학기술연구원 인턴
-
-알고리즘 개발 보다는 상위제어기로부터 angle, velocity 정보를 수신하여 하위 제어기의 모터 출력명령을 전달하는 인터페이스 역할을 수행하는 제어기 개발업무를 수행하였습니다.
-얕은 지식으로 하고 싶다는 마음 하나로 낮/밤, 주말 가리지 않고 될 때까지 했었던 것 같습니다.
-차량 핸들은 DC모터와 absolute angle 센서 피드백으로 직접 제어하고, 차량 속도는 악셀에 부착된 센서 정보를 인터페이스 제어기가 velocity 정보를 바탕으로 대신 생성하여 차량 제어기에 전달하였습니다.
-
-<p align="center">
-	<img
-		src={require('/img/3_embedded/img1_1_kist.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-* ARM7(at91sam7x) 이용 제어기 개발
-* Anolog to Digital & Digital to Analog의 신호처리
-* 차량속도(Accel) 및 조향포지션(Handle) 피드백제어
-* 속도/조향 센서 및 각종 IO 인터페이스 (Encoder, 통신(SPI, CAN, UART), Relay0External IO 등)
-* 제어시퀀스 알고리즘 구상 및 적용
-* 피드포워드 입력을 통한 제어신호 재성성
-* 상위제어기로부터 전송되는 경로에 대한 차량 선속도 및 각도 명령을 플랫폼 제어기에서 실시간 제어
-* 무인차 구동 중 고려되어야 하는 모든 Action에 대한 처리 구현
-(유/무선 비상정지, 후진 시 Brake 등 점등, 차량제어 수/자동 전환 등)
-
-<p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_2.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;그림제목&gt;</em>
-	</div>
-</p>
-
-[전기차 속도제어 실험](https://www.hellodd.com/news/articleView.html?idxno=29509)
-
-<p align="center">
-	<iframe 
-		width="350" height="250"
-		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
-</p>
+## 센서 개발
 
 ### 다축 Force/Torque센서 상용화 기술 개발
 
@@ -199,27 +59,9 @@ Modeling의 타당성 검증
 * 손가락으로 핸들을 움직이는 힘을 측정하는데 센서 기술이 적용됨
 * [연세대 건설환경공학과 CORAL LAB - Smart Sensing](https://web.yonsei.ac.kr/coral/project.html)
 
-### 부트로더 개발 자기학습
+## 리눅스 응용프로그램 개발
 
-:::note History
-* 성과
-  * 이때(2017년) 습득한 기술은 추후(2018년) 열차 출입문 제어기에 적용하였읍
-  * 적용전 : 에뮬레이터를 연결하여 펌웨어 업데이트 수행
-  * 적용후 : 에뮬레이터 없이 시리얼 통신으로 펌웨어 업데이트 수행
-:::
-
-* IAP(시리얼 펌웨어 업데이트) 부트로더를 통한 uart, usb, http 펌웨어 업데이트
-* 열차 출입문 제어기에 IAP 적용
-  * 개발한 부트로더 적용을 통해 소프트웨어 업데이트 시간 단축
-  * 열차 노이즈 유입으로 잦은 에뮬레이터 고장 발생 -> 에뮬레이터 재구매 안함
-
-## OS
-
-### uCIS-II자기학습
-
-Self Study
-
-### Linux포팅 자기학습
+### 카드리더기 단말기 uCLinux/Linux 포팅
 
 * 2440에 ARM9 Linux 포팅
   * 기간 : 2011.11 ~ 2013.10 (사원 2년)
@@ -233,9 +75,7 @@ Self Study
 	/><br/><em>&lt;S3C2440 ARM9에 Embedded Linux 포팅&gt;</em>
 </p>
 
-* stm32f4-discovery에 uClinux 포팅
-
-### 복합기 인증단말기 개발
+### 복합기 인증단말기 개발/유지보수
 
 * 단말기를 통한 복합기 인증 솔루션 개발
 * 소속 : 한국후지제록스
@@ -282,7 +122,109 @@ Self Study
   * 인증 성공 시 문서관리 솔루션 정책에 따른 출력 동작 수행
 * MMU가 없는 MCU uClinux(mln7400) 및 linux kernel 2.6(mlc3700) 포팅 - IO device driver 구현/확인
 
-### 열차 출입문 제어기 양산SW 개발
+### stm32f7에 uCLinux포팅(Self_Study)
+
+* stm32f4-discovery에 uClinux 포팅
+
+## 제어기 개발
+
+### 유도인형 제어기 개발
+
+학부생활동안 FND 디지털 시계 및 디지털 도아락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
+FND 디지털 시계
+* Intel 80196 마이크로프로세스 학습
+  * FND를 통한 시계 만들기
+  * RAM Execution
+  * address bus 기반 디바이스 컨트롤
+* Atmega 8535 마이크로프로세스 학습
+  * 디지털 도어락 만들기
+  * 비밀번호를 EEPROM에 저장하고, 키패드를 통해 비밀번호를 누르면 액츄에이터(RC모터)를 돌려 잠금해제 동작을 수행
+
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+
+프로젝트를 통해 개발에 대한 경험을 쌓을 수 있었습니다.
+
+<p align="center">
+	<img
+		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
+
+문화체육관광부 주관, 용인대 주최
+* 담당
+  * ARM7(at91sam7s)을 이용한 유도인형 제어기 개발
+  * Pro-e를 이용한 유도인형 기구부 설계 아이디어 제안 및 3D 개념설계
+  * Visual C++를 이용한 힘센서 모니터링 프로그램 MFC Programming
+* 개발내용
+  * 힘센서(로드셀)의 아날로그 하드웨어 신호처리
+  * 힘센서데이터 DAQ 및 데이터 PC Display
+  * 파우더브레이크를 이용한 유도로봇 몸통 및 좌우다리 제동력 조절
+
+### 무인 전기자동차 하위 제어기 개발
+
+* 전기차 하위 인터페이스 제어기 개발/제작/관리 및 유지보수
+* 기간 : 2009.03 ~ 2009.12
+* 소속 : 한국과학기술연구원 인턴
+
+알고리즘 개발 보다는 상위제어기로부터 angle, velocity 정보를 수신하여 하위 제어기의 모터 출력명령을 전달하는 인터페이스 역할을 수행하는 제어기 개발업무를 수행하였습니다.
+얕은 지식으로 하고 싶다는 마음 하나로 낮/밤, 주말 가리지 않고 될 때까지 했었던 것 같습니다.
+차량 핸들은 DC모터와 absolute angle 센서 피드백으로 직접 제어하고, 차량 속도는 악셀에 부착된 센서 정보를 인터페이스 제어기가 velocity 정보를 바탕으로 대신 생성하여 차량 제어기에 전달하였습니다.
+
+<p align="center">
+	<img
+		src={require('/img/3_embedded/img1_1_kist.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
+
+* ARM7(at91sam7x) 이용 제어기 개발
+* Anolog to Digital & Digital to Analog의 신호처리
+* 차량속도(Accel) 및 조향포지션(Handle) 피드백제어
+* 속도/조향 센서 및 각종 IO 인터페이스 (Encoder, 통신(SPI, CAN, UART), Relay0External IO 등)
+* 제어시퀀스 알고리즘 구상 및 적용
+* 피드포워드 입력을 통한 제어신호 재성성
+* 상위제어기로부터 전송되는 경로에 대한 차량 선속도 및 각도 명령을 플랫폼 제어기에서 실시간 제어
+* 무인차 구동 중 고려되어야 하는 모든 Action에 대한 처리 구현
+(유/무선 비상정지, 후진 시 Brake 등 점등, 차량제어 수/자동 전환 등)
+
+<p align="center">
+	<div class="box" >
+		<img
+			src={require('/img/3_embedded/myhistory_2.png').default}
+			alt="Example banner"
+			width="350"
+		/><br/><em>&lt;그림제목&gt;</em>
+	</div>
+</p>
+
+[전기차 속도제어 실험](https://www.hellodd.com/news/articleView.html?idxno=29509)
+
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
+</p>
+
+### 열차 측출입문/통로문 제어기 유지보수
+
+소사원시/수인선 납품 제어기 SW품질이슈 대응 및 안정화
+
+### 열차 측출입문 제어기 양산SW 신규개발
 
 * 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
 * 기간 : 2017.06 ~ 2019.04 (과장 2년)
@@ -328,9 +270,27 @@ Self Study
 	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작&gt;</em>
 </p>
 
-rhapsody 시스템 아키텍처 이미지 추가
+IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 
-### Python Updater
+## 부트로더 개발
+
+### RTOS포팅 및 IAP구현(Self_Study)
+
+:::note History
+* 성과
+  * 이때(2017년) 습득한 기술은 추후(2018년) 열차 출입문 제어기에 적용하였읍
+  * 적용전 : 에뮬레이터를 연결하여 펌웨어 업데이트 수행
+  * 적용후 : 에뮬레이터 없이 시리얼 통신으로 펌웨어 업데이트 수행
+:::
+
+* IAP(시리얼 펌웨어 업데이트) 부트로더를 통한 uart, usb, http 펌웨어 업데이트
+* 열차 출입문 제어기에 IAP 적용
+  * 개발한 부트로더 적용을 통해 소프트웨어 업데이트 시간 단축
+  * 열차 노이즈 유입으로 잦은 에뮬레이터 고장 발생 -> 에뮬레이터 재구매 안함
+
+### UART를 통한 STM FW업데이트
+
+### PC Python/LIN을 통한 NXP FW업데이트
 
 * 기간 : 20.07.20 ~ 20.09.22 (책임 2년)
 
@@ -422,6 +382,13 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 * Master/Slave 구조를 갖는 시스템(열차 출입문은 Master MCU가 7개의 Slave MCU를 제어함)의 경우 Master 펌웨어만 업데이트 하면 자동으로 나머지 7개의 Slave 펌웨어를 업데이트하는 부트로더 개발
 * Server/Client 구조를 갖는 시스템의 경우 서버에 펌웨어를 업데이트 하면 특정 시간에 Slave가 자동으로 펌웨어를 업데이트 하는 부트로더 개발
 
+### wifi 웹서버를 통한 STM FW업데이트
+
+ESP32 Embedded WebServer를 통한 stm32f746 OTA
+
+센서신호를 신호처리 알고리즘을 적용하여 필터링을 수행하고, 무선 데이터 송/수신을 통해 휴대폰으로 처리 결과를 확인할 수 있는 모니터링 시스템을 개발하는 것을 목적으로 개인 프로젝트를 진행하고 있습니다.
+
+
 ### 통합 시뮬레이터
 
 * OTA, TFT-LCD, Wifi/BLE 기능 통합 시뮬레이터
@@ -441,4 +408,3 @@ X-CUBE-DSPDEMO by stm32f4-disco
 * MPU6050 FIR필터링 동영상
 * MPU6050 IIR필터링 동영상
 * MPU6050 Kalman필터링 동영상
-

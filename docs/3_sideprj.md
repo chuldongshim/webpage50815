@@ -5,6 +5,7 @@ title: Github 예제 프로젝트
 
 ---
 
+Side Project를 통해 개발 시 사용될 수 있는 절차와 방법을 설명한다.
 
 ## [온도제어 프로젝트](./sideprj/temperature/temperature)
 

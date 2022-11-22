@@ -4,7 +4,7 @@ title: 개발프로세스
 ---
 ---
 
-## 표준프로세스 구축
+## 표준프로세스 구축 {#process-std-dev}
 
 ### ISO26262프로세스구축 & A-SPICE CL2인증
 
@@ -74,12 +74,19 @@ title: 개발프로세스
 
 ### 프로젝트 관리 및 A-SPICE CL3 인증
 
+A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
+
 * A-SPICE(CL3달성) 및 ISO26262 대응
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 2019.05 ~ 2019.12 (책임 1년차)
 * 역할 : 표준 프로세스 고도화 및 프로젝트 관리
 
 A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPICE CL3 인증을 받기 위해 컨설팅을 받으면서 사내 표준 프로세스를 수립하고, A-SPICE 표준 프로세스를 기반으로 PM역할을 수행하여 프로젝트 일정관리를 통해 기간내에 프로젝트를 완료할 수 있는 방법을 습득할 수 있었습니다. 여기서 수행한 프로젝트 관리 업무는 이후 프로젝트를 효율적으로 관리하는 방법론을 모색할 수 있는 중요한 경험적인 토대가 되었습니다.
+
+* 사내 개발 표준 프로세스 수립
+* 개발 일정 WBS 수립
+* 프로젝트 산출물 및 개발 일정 관리
+* 인증 심사 대응
 
 <p align="center">
 	<div class="box" >
@@ -90,7 +97,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	</div>
 </p>
 
-## 이슈관리
+## 이슈관리 {#process-issue-management}
 
 ### Redmine을 통한 SW품질이슈 관리
 
@@ -130,7 +137,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 * Local에서만 Redmine에 접속하는 문제를 개선하기 위해 개인적으로 주말 프로젝트로 진행
 * 서버 구축 없이 저비용으로 클라우드 서버 구축방법 습득 -> 소규모/저비용 프로젝트에서 활용 가능
 
-## MBD_Agile
+## MBD_Agile {#process-mbd-with-agile}
 
 ### GitLab기반 온도 PID제어 MBD
 
@@ -168,7 +175,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 * Github - Agile 기반 프로젝트 관리 및 개발환경 구축
 * Matlab/Simulink를 통한 MBD 개발 프로세스 구축 (요구사항부터 코드/시험까지 일관된 추적성을 유지하며 개발하는 방법론 수립)
 
-## MBD+AUTOSAR
+## MBD+AUTOSAR {#process-mbd-with-autosar}
 
 ### AUTOSAR+MBD 개발전략 수립 1차
 

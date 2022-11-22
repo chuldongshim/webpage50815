@@ -1,6 +1,6 @@
 ---
 id: sideprj
-title: Github 예제 프로젝트
+title: 사이드프로젝트
 ---
 
 ---

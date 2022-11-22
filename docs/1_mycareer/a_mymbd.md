@@ -41,7 +41,7 @@ title: 모델기반설계
 </p>
 
 
-## 선행학습
+## 윈도우 선행학습
 
 ### Window MBD 선행학습
 
@@ -91,7 +91,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 </p>
 
 
-## 고객대응 실사례 
+## 안전벨트 고객대응 실사례
 
 ### MBD를 통한 PSB개발 고객대응
 
@@ -106,7 +106,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 * Cypress MCU에서 동작 가능한 HW 독립적인 코드 생성
 
 
-## 알고리즘 개발
+## 와이퍼 알고리즘 개발
 
 ### Kalman Filter이론학습(Self_Study)
 
@@ -126,20 +126,15 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
   * 위치/속도 PID제어
 (공유한 구동부-통신부-제어로직부 ... 블록다이어그램 이미지(fig_2_1 추가)
 
-<head>
-	<title>모터제어 3D 시뮬레이션</title>
-</head>
-<body>
-	<p align="center">
-		<iframe
-			src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
-			width="350" height="250"
-			frameborder="0"
-			allowfullscreen="true">
-			이 브라우저는 iframe을 지원하지 않습니다.
-		</iframe><br/><em>&lt;모터 단품 3D시뮬레이션&gt;</em>
-	</p>
-</body>
+<p align="center">
+	<iframe
+		src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;모터 단품 3D시뮬레이션&gt;</em>
+</p>
 
 MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬레이션과 동일하게 동작하는 것을 확인함으로써 MBD가 개발실무에 적용이 가능한지 타당성을 확인하는 것을 목적으로 프로젝트를 진행하였습니다.
 
@@ -159,7 +154,7 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 ### Wiper MBD 제어기설계(관측기,LQR)
 
 
-## 선행학습
+## BLDC 선행학습
 
 ### Sensored BLDC MBD
 

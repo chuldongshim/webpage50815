@@ -1,6 +1,6 @@
 ---
 id: myembedded
-title: 임베디드
+title: 임베디드개발
 ---
 ---
 

@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: '나는 개발자다! 코딩 인생수양...',
+  title: 'Coding is my life... bravo my life...',
   tagline: '',
   url: 'https://github.com',
   baseUrl: '/webpage/',
@@ -44,17 +44,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     {
       docs:{
         sidebar: {
-          hideable: true,                 // 왼쪽 사이드바 접기버튼 생성
-          autoCollapseCategories: true,   // 펼쳐져 있는 사이드바 항목 접어서 축소
+          hideable: true,					// 왼쪽 사이드바 접기버튼 생성
+          autoCollapseCategories: true,		// 펼쳐져 있는 사이드바 항목 접어서 축소
         },
       },
       colorMode: {
-        defaultMode: 'dark',	// light or dark
-        disableSwitch: true,	// 메뉴바에서 모드 전환버튼 숨김
+        defaultMode: 'dark',				// light or dark
+        disableSwitch: true,				// 메뉴바에서 모드 전환버튼 숨김
         respectPrefersColorScheme: true,	// defaultMode 대신 사용자 시스템 환경 설정에 따라 color 속성 적용 안함
       },
       navbar: {
-        hideOnScroll: true,               // 아래로 스크롤 시 타이틀메뉴 숨기고, 위로 스크롤 시 타이틀메뉴 보이는 기능
+        hideOnScroll: false,				// 아래로 스크롤 시 타이틀메뉴 숨기고, 위로 스크롤 시 타이틀메뉴 보이는 기능
         title: '나는 개발자다!',
         logo: {
           alt: 'My Site Logo',
@@ -65,7 +65,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             type: 'doc',
             docId: 'mycareer',
             position: 'left',
-            label: '주요경험',
+            label: '경력요약',
           },
           {
             type: 'doc',
@@ -94,7 +94,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: '주요경험',
+                label: '경력요약',
                 to: '/docs/mycareer',
               },
               {

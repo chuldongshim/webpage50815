@@ -1,17 +1,17 @@
 ---
 id: mycareer
-title: 주요경험
+title: 경력요약
 ---
 ---
 
 관심과 흥미를 가지고 꾸준히 경험해온 만큼 다음 3가지 분야에 강점을 발휘할 수 있습니다. [[참고]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
-1. [모델기반설계](/docs/mycareer#%EB%AA%A8%EB%8D%B8%EA%B8%B0%EB%B0%98%EC%84%A4%EA%B3%84)
-2. [개발프로세스](/docs/mycareer#%EA%B0%9C%EB%B0%9C%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4)
-3. [임베디드](/docs/mycareer#%EC%9E%84%EB%B2%A0%EB%94%94%EB%93%9C)
+1. [모델기반설계](/docs/mycareer#my-mbd-id)
+2. [개발프로세스](/docs/mycareer#my-dev-process-id)
+3. [임베디드개발](/docs/mycareer#my-embedded-id)
 
 
-## 모델기반설계
+## 모델기반설계 {#my-mbd-id}
 
 모델기반설계를 통해 통해 습득한 기술
 
@@ -19,7 +19,7 @@ title: 주요경험
 2. MBD기반 제어로직 C코드 자동생성 및 실제 타겟구동
 3. 시뮬레이션-타겟구동 설계 비교검증
 
-### 주요경험
+### 모델기반설계주요경험
 
 MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실제 타겟 MCU에서 동작하여 검증하였습니다.
 
@@ -51,25 +51,26 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 실제적용(21년12월)&gt;</em>
 </p>
 
-### 관련활동
+### 모델기반설계관련활동
 
 * [MBD 시작 ☜ click for more](/docs/mycareer/mymbd#mbd-%EC%8B%9C%EC%9E%91)
   * 07.03.02 ~ 08.08.31	: 졸업논문
-* [선행학습 ☜ click for more](/docs/mycareer/mymbd#%EC%84%A0%ED%96%89%ED%95%99%EC%8A%B5)
+* [윈도우 선행학습 ☜ click for more](/docs/mycareer/mymbd#%EC%9C%88%EB%8F%84%EC%9A%B0-%EC%84%A0%ED%96%89%ED%95%99%EC%8A%B5)
   * 13.10.01 ~ 14.05.16	: MicroAutoBox를 통한 Window MBD 기본기능 구동
   * 21.07.30 ~ 21.12.31	: Safety Power Window MBD 기능구현
-* [고객대응 실사례 ☜ click for more](/docs/mycareer/mymbd#%EA%B3%A0%EA%B0%9D%EB%8C%80%EC%9D%91-%EC%8B%A4%EC%82%AC%EB%A1%80)
+* [안전벨트 고객대응 실사례 ☜ click for more](/docs/mycareer/mymbd#%EC%95%88%EC%A0%84%EB%B2%A8%ED%8A%B8-%EA%B3%A0%EA%B0%9D%EB%8C%80%EC%9D%91-%EC%8B%A4%EC%82%AC%EB%A1%80)
   * 22.03.03 ~ 22.05.03	: PSB(Pre-safe Seat Belt) MBD 대응
-* [알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%B0%9C)
+* [와이퍼 알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#%EC%99%80%EC%9D%B4%ED%8D%BC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B0%9C%EB%B0%9C)
   * 16.10.03 ~ 17.04.30	: Self_Study - Kalman Filter이론학습
   * 21.01.08 ~ 21.07.13	: Wiper MBD 1차 - s32k144 학습 및 기능구현
   * 22.08.14 ~ 22.08.29	: FFT MCU 구현 및 Matlab 연동 확인
   * 22.09.01 ~ 22.10.18	: Wiper MBD 2차 - 제어기설계(PID,관측기,LQR)
-* [선행학습 ☜ click for more](/docs/mycareer/mymbd#%EC%84%A0%ED%96%89%ED%95%99%EC%8A%B5-1)
+* [BLDC 선행학습 ☜ click for more](/docs/mycareer/mymbd#bldc-%EC%84%A0%ED%96%89%ED%95%99%EC%8A%B5)
   * 22.10.21 ~ 22.11.05	: Sensored BLDC MBD
+  * Sensoreless BLDC MBD
 
 
-## 개발프로세스
+## 개발프로세스 {#my-dev-process-id}
 
 개발프로세스 활동을 통해 습득한 기술
 
@@ -78,7 +79,7 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 3. Redmine을 통한 이슈 및 품질관리
 4. Github/Gitlab 기반 Agile 프로젝트 관리
 
-### 주요경험
+### 프로세스주요경험
 
 A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
 
@@ -96,7 +97,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 	</div>
 </p>
 
-### 관련활동
+### 프로세스관련활동
 
 * [표준프로세스 구축 ☜ click for more](/docs/mycareer/myprocess#%ED%91%9C%EC%A4%80%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B5%AC%EC%B6%95)
   * 14.04.01 ~ 16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증
@@ -111,9 +112,10 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 * [MBD+AUTOSAR ☜ click for more](/docs/mycareer/myprocess#mbdautosar)
   * 21.01.15 ~ 21.02.16 : AUTOSAR+MBD 개발전략 수립 1차
   * 22.11.01 ~ 22.11.30 : AUTOSAR+MBD 개발전략 수립 2차
+  * AUTOSAR Software Component개발(T.B.D)
 
 
-## 임베디드
+## 임베디드개발 {#my-embedded-id}
 
 임베디드 개발을 통해 통해 습득한 기술
 
@@ -122,7 +124,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 3. RTOS기반 실시간 제어시스템 소프트웨어 개발
 4. 펌웨어 업데이트용 시리얼통신 부트로더 개발
 
-### 주요경험
+### 임베디드주요경험
 
 전동열차 출입문 제어기 소프트웨어 개발을 담당하여 양산적용하였습니다.
 
@@ -142,7 +144,7 @@ A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할�
 	</iframe><br/><em>&lt;전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작&gt;</em>
 </p>
 
-### 관련활동
+### 임베디드관련활동
 
 * [센서 개발 ☜ click for more](/docs/mycareer/myembedded#%EC%84%BC%EC%84%9C-%EA%B0%9C%EB%B0%9C)
   * 10.09.01 ~ 11.08.31 : 다축 Force/Torque센서 상용화 기술 개발

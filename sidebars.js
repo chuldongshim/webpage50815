@@ -26,7 +26,11 @@ module.exports = {
     {
       type: 'category',
       label: '와이퍼 프로젝트',
-      collapsed: false,
+	  link: {
+        type: 'doc',
+        id: 'sideprj/wiper',
+      },
+      collapsed: true,
       items: [
         'sideprj/wiper/wiper_plan',
         'sideprj/wiper/wiper_devenv',
@@ -36,13 +40,21 @@ module.exports = {
     {
       type: 'category',
       label: '윈도우 프로젝트',
-      collapsed: false,
+	  link: {
+        type: 'doc',
+        id: 'sideprj/window',
+      },
+      collapsed: true,
       items: [
         'sideprj/window/window_design',
         {
           type: 'category',
           label: '구현',
-          collapsed: false,
+		  link: {
+			type: 'doc',
+			id: 'sideprj/window/realize',
+		  },
+          collapsed: true,
           items: [
             'sideprj/window/window_realize_f0_PlantModeling',
             'sideprj/window/window_realize_f0_VelMeasure',
@@ -61,7 +73,11 @@ module.exports = {
     {
       type: 'category',
       label: '하이브리드 프로젝트',
-      collapsed: false,
+	  link: {
+        type: 'doc',
+        id: 'sideprj/hybridprj',
+      },
+      collapsed: true,
       items: [
         'sideprj/hybridprj/esp32',
         'sideprj/hybridprj/linux',

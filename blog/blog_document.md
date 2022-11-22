@@ -40,6 +40,10 @@ import TOCInline from '@theme/TOCInline';
 
 ## Link
 
+Docusaurus Tutorial
+아래 URL접속해서 classic, classic-typescript, facebook 중 하나 클릭하면 시뮬레이터를 통해 수정사항을 바로 확인할 수 있음.
+* https://github.com/facebook/docusaurus/tree/main/examples
+
 벤치마킹용 docusaurus homepage Examples
 * [Unity Multiplayer Networking](https://docs-multiplayer.unity3d.com/)
 
@@ -62,6 +66,7 @@ a태크의 href 속송에서 경로뒤에 #와 함께 제목을 붙이면 해당
 ```
 
 a태크의 href 속성을 통해 링크를 연결한 경우 title 속성을 통해 페이지에 대한 설명을 추가할 수 있다.
+(문서 중간에 head, body 테그 사용하지 말고 문서작성 초기 전체 Structure를 잡을때 사용해야 함)
 ```
 <html>
 	<head>
@@ -72,6 +77,7 @@ a태크의 href 속성을 통해 링크를 연결한 경우 title 속성을 통�
 	</body>
 </html>
 ```
+<a href="https://blog.naver.com/alyssa111" title="일상 글">하양의 블로그</a>
 
 ### 이미지 링크
 
@@ -330,6 +336,8 @@ test: [ref](file:///C:/Users/User/workspace_github/webpage_offline/docs/test.txt
 
 :::note
 target="_blank"가 포함되면 새탭에서 링크를 연다.
+target="_self"가 포함되면 현재탭에서 링크를 연다.
+rel="noopener noreferrer"가 포함되면 어디서 웹페이지를 열었는지에 대한 정보가 전송되지 않는다.
 :::
 
 ``` md title="인터넷 연결 시 github server를 통해 확인"
@@ -564,6 +572,10 @@ module.exports = {
     {
       type: 'category',
       label: '윈도우',
+  	  link: {										// 상위 카테고리 클리 시 열리는 문서
+        type: 'doc',
+        id: 'mbd/window',							// mbd폴더에 있는 window.md파일
+      },
       collapsed: false,
       items: [
         {

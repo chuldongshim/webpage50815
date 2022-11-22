@@ -1,6 +1,6 @@
 ---
 id: myprocess
-title: 프로세스
+title: 개발프로세스
 ---
 ---
 
@@ -130,7 +130,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 * Local에서만 Redmine에 접속하는 문제를 개선하기 위해 개인적으로 주말 프로젝트로 진행
 * 서버 구축 없이 저비용으로 클라우드 서버 구축방법 습득 -> 소규모/저비용 프로젝트에서 활용 가능
 
-## MBD+Agile
+## MBD_Agile
 
 ### GitLab기반 온도 PID제어 MBD
 

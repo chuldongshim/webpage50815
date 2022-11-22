@@ -51,7 +51,8 @@ Docusaurus Tutorial
 
 웹페이지에서 문서제목에 마우스를 가져가면 우축에 #표시가 나타나며, #에 마우스를 가져가면 좌측하단에 팝업으로 링크주소가 나타난다.
 이 링크주소를 복사하여 다음과 같이 제목 or Text에 링크를 설정할 수 있다.  
-단, 한글제목을 링크 할 경우 encoding된 값으로 링크주소를 넣어야 하는데, 이 경우 마우스를 #에 가져가 마우스 우클릭으로 주소를 복사한 다음 메모장에 붙여 넣어 생성된 링크 주소를 이용한다.
+단, 한글제목을 링크 할 경우 encoding된 값으로 링크주소를 넣어야 하는데, 이 경우 마우스를 #에 가져가 마우스 우클릭으로 주소를 복사한 다음 메모장에 붙여 넣어 생성된 링크 주소를 이용한다.  
+만약 한글제목id인 경우 인코딩으로 link가 길어지므로 "## 모델기반설계 {#my-mbd-id}"와 같이 [id를 재설정](https://docusaurus.io/ko/docs/next/markdown-features/toc#heading-ids)하여 간단한 id로 링크를 걸수 있다.
 ```
 localhost:3000/webpage/docs/mycareer/myprocess/#a-spice-cl3		// 제목링크주소
 [링크설정](/docs/mycareer/myprocess/#a-spice-cl3)				// 링크설정방법
@@ -307,6 +308,8 @@ Let's see how to [aspice](/docs/past/development_process/aspice) -> OK.
 ```md title="제목 링크"
 Let's see how to [aspice](/aspice).
 Let's see how to [aspice](../past/1_aspice.md).
+**Result:** [Front Matter(제목 링크)](#front-matter) -> OK.  
+**Result:** [산출물(제목 링크)](#산출물) -> OK.  
 ```
 **Result:** [Front Matter(제목 링크)](#front-matter) -> OK.  
 **Result:** [산출물(제목 링크)](#산출물) -> OK.  

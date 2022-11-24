@@ -32,6 +32,26 @@ Self_Study
 
 ### 와이퍼 MBD 제어기설계(관측기,LQR) {#mymbd-wiper-lqr}
 
+해당 제어기는 다음의 성능사양을 만족해야 한다.
+* 성능요구사항
+  * 3.5s 주기로 Wiping을 수행하다 1s 주기로 Wiping 수행
+  * 60[CPM] 구동 - 1s 당 1회 Wiping
+  * Wiping 주기가 1s인 경우 0.5s동안 0°->134°, 0.5s동안 134°->0°로 Wiping 수행
+  * Execution Time : 10us @ s32k144
+  * s32k144 : 48MHz Cortex-M4 with FPU
+* 구현내용
+  * 상태관측기를 통한 상태추정
+  * 상태피드백 제어 + 오차적분제어 + Anti-Windup
+  * LQR로 설계한 Optimal Gain을 바탕으로 튜닝 수행
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-wiper-lqr_1.png').default}
+		alt="Example banner"
+	/>
+</p>
+
+알고리즘을 Simulink를 통해 C코드로 자동생성한 다음, C코드를 컴파일 하여 타겟 MCU에서 실행
 <p align="center">
 	<iframe 
 		width="350" height="250"
@@ -42,8 +62,25 @@ Self_Study
 	</iframe><br/><em>&lt;관측기 상태피드백을 통한 LQR제어&gt;</em>
 </p>
 
+MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작하는 것을 확인
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-wiper-lqr_2.png').default}
+		alt="Example banner"
+	/>
+</p>
+
 ### FFT MCU 구현 {#mymbd-wiper-fft}
-Matlab 연동 확인
+
+샘플신호를 MCU에서 생성한 다음 MCU에서 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot  
+* <a href="/assets/mbd/Ews_S32K1_FFT.html" target="_blank">fft 이론 학습 및 matlab 시뮬레이션</a>
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-wiper-fft_1.png').default}
+		alt="Example banner"
+	/>
+</p>
 
 ### 와이퍼 MBD 기본기능구현 {#mymbd-wiper-func}
 

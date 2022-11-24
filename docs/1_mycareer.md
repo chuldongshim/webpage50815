@@ -41,7 +41,14 @@ title: 경력요약
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)
+2. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)  
+MCU FFT연산 후 Matlab Realtime Plot
+<p align="left">
+	<img
+		src={require('/img/2_mbd/mymbd-wiper-fft_1.png').default}
+		alt="Example banner"
+	/>
+</p>
 3. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현](/docs/mycareer/mymbd#mymbd-wiper-func)  
 Auto Wiping 동작확인
 <p align="left">
@@ -128,6 +135,7 @@ Auto Wiping 동작확인
 
 1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)  
 KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스코드 형상관리 수행
+
 2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
 GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 <p align="left">
@@ -193,6 +201,12 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 #### [부트로더 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader) {#mycareer-embed-fota}
 
 1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-fota)
+<p align="left">
+	<img
+		src={require('/img/3_embedded/embedded_bootloader-fota_1.png').default}
+		alt="Example banner"
+	/>
+</p>
 
 2. [20.05.16~20.08.10 : PC Python/LIN을 통한 NXP MCU FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-nxp-iap)
 

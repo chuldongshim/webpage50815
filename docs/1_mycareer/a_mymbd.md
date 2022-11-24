@@ -6,7 +6,7 @@ title: 모델기반설계
 
 ## BLDC 선행학습 {#mymbd-bldc}
 
-### 추후계획 {#mymbd-bldc-plan}
+### 추후계획 - Sensorless BLDC by Kalman Filter {#mymbd-bldc-plan}
 
 * CAD연동(ProE/Solidworks 등)을 통한 Simulnik모델 가상 시뮬레이션
 * 하드웨어 없이 시뮬레이션 만으로 타겟 소프트웨어 개발
@@ -17,11 +17,18 @@ title: 모델기반설계
 
 * MBD기반 BLDC모터 제어
 
-
-## 와이퍼 알고리즘 개발 {#mymbd-wiper}
-
 ### Kalman Filter이론학습 {#mymbd-wiper-kalman}
 Self_Study
+
+* <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수</a>
+* <a href="/assets/kalman/Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링)</a>
+* <a href="/assets/kalman/Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한)</a>
+* <a href="/assets/kalman/Maxon_Motor_3_Kalman_.html" target="_blank">Kalman Filter</a>
+* <a href="/assets/kalman/Maxon_Motor_4_Stochastic_.html" target="_blank">Stochastic Estimation Control by LQG</a>
+* <a href="/assets/kalman/Q_filter.html" target="_blank">Q-Filter</a>
+
+
+## 와이퍼 알고리즘 개발 {#mymbd-wiper}
 
 ### 와이퍼 MBD 제어기설계(관측기,LQR) {#mymbd-wiper-lqr}
 

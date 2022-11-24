@@ -24,14 +24,13 @@ title: 경력요약
 
 #### [BLDC 선행학습 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc)
 
-1. [추후계획](/docs/mycareer/mymbd#mymbd-bldc-plan)
+1. [추후계획 : Sensorless BLDC by Kalman Filter](/docs/mycareer/mymbd#mymbd-bldc-plan)
 2. [22.10.21~22.11.05 : Sensored BLDC MBD](/docs/mycareer/mymbd#mymbd-bldc-sensered)
+3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션](/docs/mycareer/mymbd#mymbd-wiper-kalman)
 
 #### [와이퍼 알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper)
 
-1. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)](/docs/mycareer/mymbd#mymbd-wiper-kalman)
-
-2. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
+1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
 관측기 상태피드백을 통한 LQR제어
 <p align="left">
 	<iframe 
@@ -42,8 +41,8 @@ title: 경력요약
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-3. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)
-4. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현](/docs/mycareer/mymbd#mymbd-wiper-func)  
+2. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)
+3. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현](/docs/mycareer/mymbd#mymbd-wiper-func)  
 Auto Wiping 동작확인
 <p align="left">
 	<iframe

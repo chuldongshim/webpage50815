@@ -4,9 +4,9 @@ title: 개발프로세스
 ---
 ---
 
-## 표준프로세스 구축 {#process-std-dev}
+## 표준프로세스 구축 {#myprocess-std}
 
-### ISO26262프로세스구축 & A-SPICE CL2인증
+### ISO26262프로세스구축 & A-SPICE CL2인증 {#myprocess-std-cl2}
 
 * A-SPICE(CL2달성) 및 ISO26262 대응
 * 소속 : 동양기전/DYAUTO
@@ -25,7 +25,7 @@ title: 개발프로세스
 * 소프트웨어 정적(QAC) 동적(VectorCAST) 테스트 스펙 작성 및 테스트, 테스트 리포트 생성
 * 소프트웨어 통합 테스트 수행
 
-### A-SPICE 및 ISO26262 시스템 설계
+### A-SPICE 및 ISO26262 시스템 설계 {#myprocess-std-sys-design}
 
 #### 윈도우 시스템 설계
 
@@ -72,7 +72,7 @@ title: 개발프로세스
 	</div>
 </p>
 
-### 프로젝트 관리 및 A-SPICE CL3 인증
+### 프로젝트 관리 및 A-SPICE CL3 인증 {#myprocess-std-cl3}
 
 A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
 
@@ -97,9 +97,9 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	</div>
 </p>
 
-## 이슈관리 {#process-issue-management}
+## 이슈관리 {#myprocess-management}
 
-### Redmine을 통한 SW품질이슈 관리
+### Redmine을 통한 SW품질이슈 관리 {#myprocess-management-redmine}
 
 고객사에 출입문 제어 시스템을 처음 납품하는 사례였는데, 입사 시점에 이미 제품이 납품된 상태 여서 초기 품질이슈가 많이 발생하였습니다. ms-office를 통해 이슈를 관리하다가 체계적인 이슈관리의 필요성을 느끼게 되어 프로젝트 관리 솔루션에 관심을 가지게 되었습니다. 이때 Redmine을 처음 접하게 되었고, Redmine을 통해 이슈관리를 수행하였습니다.
 
@@ -120,7 +120,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
   * 인원이 많으면 불가능 할 것으로 판단되었음
 * 엑셀을 통해 이슈를 관리했는데 이슈들이 정리가 되지 않아 이를 해결하고자 이슈관리 툴 Redmine을 도입
 
-### AWS Cloud를 통한 Redmine 환경구축
+### AWS Cloud를 통한 Redmine 환경구축 {#myprocess-management-aws-redmine}
 
 처음에는 서버구축에 대한 고민이 없었기 때문에 Local환경에서 Redmine을 설치하고, 현장에서 발생된 이슈는 회사로 복귀하여 Local Redmine에 업데이트 하였습니다. 이후 프로젝트 인원이 2명이었기 때문에 가능했던 것이라고 생각했고, 인원이 많아지면 불가능 한 방식이라고 생각하여 현장에서도 서버에 접속할 수 있는 방법을 고민하던 중 AWS에 Redmine을 설치하는 방법을 알게되어 개인 프로젝트로 주말에 작업을 진행하여 직접 클라우드 기반 서버를 구축하여 대규모 프로젝트에서 프로젝트를 관리할 수 있는 역량을 확보하였습니다.
 
@@ -137,9 +137,9 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 * Local에서만 Redmine에 접속하는 문제를 개선하기 위해 개인적으로 주말 프로젝트로 진행
 * 서버 구축 없이 저비용으로 클라우드 서버 구축방법 습득 -> 소규모/저비용 프로젝트에서 활용 가능
 
-## MBD_Agile {#process-mbd-with-agile}
+## MBD+Agile {#myprocess-mbdagile}
 
-### GitLab기반 온도 PID제어 MBD
+### GitLab기반 온도 PID제어 MBD {#myprocess-mbdagile-temperature}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다. 
 처음 MBD로 설계한 로직에서 C코드를 자동생성하고, 타겟 MCU에서 구동해 봄으로써 이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다. 이는 이후 회사에서 MBD 프로젝트를 수행할 수 있는 계기가 되었습니다.
@@ -164,7 +164,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 	</div>
 </p>
 
-### GitLab기반 Escalator MBD
+### GitLab기반 Escalator MBD {#myprocess-mbdagile-escalator}
 
 KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다. 
 
@@ -175,9 +175,9 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 * Github - Agile 기반 프로젝트 관리 및 개발환경 구축
 * Matlab/Simulink를 통한 MBD 개발 프로세스 구축 (요구사항부터 코드/시험까지 일관된 추적성을 유지하며 개발하는 방법론 수립)
 
-## MBD+AUTOSAR {#process-mbd-with-autosar}
+## MBD+AUTOSAR {#myprocess-mbdautosar}
 
-### AUTOSAR+MBD 개발전략 수립 1차
+### 개발전략 수립 1차 {#myprocess-mbdautosar-strategy1}
 
-### AUTOSAR+MBD 개발전략 수립 2차
+### 개발전략 수립 2차 {#myprocess-mbdautosar-strategy2}
 

@@ -4,9 +4,9 @@ title: 모델기반설계
 ---
 ---
 
-## MBD 시작 {#mbd-start}
+## MBD 시작 {#mymbd-start}
 
-### 졸업논문 {#graduation-thesis}
+### 졸업논문 {#mymbd-start-graduation}
 
 졸업논문에서 지능형 근력강화 시스템을 수학적으로 모델링하고, 모델링한 시스템을 분석할 때 처음으로 Matlab/Simulink를 사용하였습니다.
 
@@ -41,14 +41,14 @@ title: 모델기반설계
 </p>
 
 
-## 윈도우 선행학습 {#mbd-window-study}
+## 윈도우 선행학습 {#mymbd-window}
 
 MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실제 타겟 MCU에서 동작하여 검증하였습니다.
 
 * 개발환경 구축 및 윈도우 타겟구동 확인
 * MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
 
-### Window MBD 선행학습 {#mbd-window-basic}
+### 윈도우 MBD 선행학습 {#mymbd-window-basic}
 
 처음으로 MBD를 접하여 파워윈도우 시스템을 대상으로 Simulink 모델을 개발하고, 모델로부터 시뮬레이션을 수행하여 모델링 타당성을 검증한 다음, MicroAutoBox를 통해 시뮬레이션과 동일하게 실제 윈도우가 동작되는지를 확인하여 경험을 통해 MBD에 대한 기초를 다질 수 있었습니다.
 
@@ -78,7 +78,7 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 	</iframe><br/><em>&lt;장애물 감지 시 반전 알고리즘 시뮬레이션&gt;</em>
 </p>
 
-### Window MBD 기본기능구현 {#mbd-window-func-realize}
+### 윈도우 MBD 기본기능구현 {#mymbd-window-func}
 
 2013년도에 MBD를 처음 시작하였으며, 사내 표준프로세스 구축 업무로 MBD개발 업무가 Holding되어 시뮬레이션을 통해 알고리즘만 개발하고 실제 타겟에 적용하지 못하여 아쉬움이 많이 남았습니다.
 하지만 꾸준한 관심과 하고자 하는 의지로 21년에 결국 Manual Coding 없이 모델기반설계로 제어기 개발환경을 구축/적용해 보았고, 제품 수주를 위한 개발활동에 MBD를 적용하여 개발을 진행하고 있습니다.
@@ -99,9 +99,9 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 </p>
 
 
-## 안전벨트 고객대응 실사례 {#mbd-psb-application}
+## 고객대응 실사례 {#mymbd-customer}
 
-### MBD를 통한 PSB개발 고객대응 {#mbd-psb-dev}
+### PSB MBD개발 고객대응 {#mymbd-customer-psb}
 
 양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하여 기능로직을 MBD를 통해 구현하였다.
 
@@ -113,12 +113,23 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 * S32K144+Simulink를 통한 제어 알고리즘 개발 및 AutoCode
 * Cypress MCU에서 동작 가능한 HW 독립적인 코드 생성
 
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;안전벨트 기능로직 MBD구현&gt;</em>
+</p>
 
-## 와이퍼 알고리즘 개발 {#mbd-wiper-study}
 
-### Kalman Filter이론학습(Self_Study) {#mbd-wiper-self-study}
+## 와이퍼 알고리즘 개발 {#mymbd-wiper}
 
-### Wiper MBD 기본기능구현 {#mbd-wiper-func-realize}
+### Kalman Filter이론학습 {#mymbd-wiper-kalman}
+Self_Study
+
+### 와이퍼 MBD 기본기능구현 {#mymbd-wiper-func}
 
 시뮬레이션 검증을 통해 제어로직을 개발하고, 
 
@@ -156,21 +167,31 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 	</iframe><br/><em>&lt;Auto Wiping 동작확인&gt;</em>
 </p>
 
-### FFT MCU 구현 및 Matlab 연동 확인 {#mbd-wiper-fft-realize}
+### FFT MCU 구현 {#mymbd-wiper-fft}
+Matlab 연동 확인
+
+### 와이퍼 MBD 제어기설계(관측기,LQR) {#mymbd-wiper-lqr}
+
+<p align="center">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;관측기 상태피드백을 통한 LQR제어&gt;</em>
+</p>
 
 
-### Wiper MBD 제어기설계(관측기,LQR) {#mbd-wiper-lqr-realize}
+## BLDC 선행학습 {#mymbd-bldc}
 
-
-## BLDC 선행학습 {#bldc-study}
-
-### Sensored BLDC MBD {#bldc-study-sensered}
+### Sensored BLDC MBD {#mymbd-bldc-sensered}
 
 * MBD기반 BLDC모터 제어
 
-### 추후계획(하고싶은 것) {#bldc-future-plan}
+### 추후계획 {#mymbd-bldc-plan}
 
 * CAD연동(ProE/Solidworks 등)을 통한 Simulnik모델 가상 시뮬레이션
 * 하드웨어 없이 시뮬레이션 만으로 타겟 소프트웨어 개발
 (로봇팔 PIL 이미지 삽입)
-
+* Software Component개발(T.B.D) {#myprocess-mbdautosar-swc}

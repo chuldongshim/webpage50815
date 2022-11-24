@@ -4,9 +4,9 @@ title: 임베디드개발
 ---
 ---
 
-## 센서 개발 {#embedded-ft-sensor}
+## 센서 개발 {#myembedded-sensor}
 
-### 다축 Force/Torque센서 상용화 기술 개발
+### 다축 Force/Torque센서 상용화 기술 개발 {#myembedded-sensor-ft}
 
 * 삼성전자HME 사업부 주관 다축 Force/Torque 센서 개발
 * 소속 : 연세대 자동화기술연구소 계약직 연구원
@@ -36,7 +36,7 @@ title: 임베디드개발
 			src={require('/img/3_embedded/myhistory_3.png').default}
 			alt="Example banner"
 			width="350"
-		/><br/><em>&lt;그림제목&gt;</em>
+		/><br/><em>&lt;FT센서 개발&gt;</em>
 	</div>
 </p>
 
@@ -59,9 +59,9 @@ title: 임베디드개발
 * 손가락으로 핸들을 움직이는 힘을 측정하는데 센서 기술이 적용됨
 * [연세대 건설환경공학과 CORAL LAB - Smart Sensing](https://web.yonsei.ac.kr/coral/project.html)
 
-## 리눅스 응용프로그램 개발 {#embedded-linux-dev}
+## 리눅스 응용프로그램 개발 {#myembedded-linux}
 
-### 카드리더기 단말기 uCLinux/Linux 포팅
+### 카드리더기 단말기 uCLinux/Linux 포팅 {#myembedded-linux-porting}
 
 * 2440에 ARM9 Linux 포팅
   * 기간 : 2011.11 ~ 2013.10 (사원 2년)
@@ -75,7 +75,7 @@ title: 임베디드개발
 	/><br/><em>&lt;S3C2440 ARM9에 Embedded Linux 포팅&gt;</em>
 </p>
 
-### 복합기 인증단말기 개발/유지보수
+### 복합기 인증단말기 개발/유지보수 {#myembedded-linux-maintenance}
 
 * 단말기를 통한 복합기 인증 솔루션 개발
 * 소속 : 한국후지제록스
@@ -122,13 +122,13 @@ title: 임베디드개발
   * 인증 성공 시 문서관리 솔루션 정책에 따른 출력 동작 수행
 * MMU가 없는 MCU uClinux(mln7400) 및 linux kernel 2.6(mlc3700) 포팅 - IO device driver 구현/확인
 
-### stm32f7에 uCLinux포팅(Self_Study)
+### stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
 
 * stm32f4-discovery에 uClinux 포팅
 
-## 제어기 개발 {#embedded-controller-dev}
+## 제어기 개발 {#myembedded-controller}
 
-### 유도인형 제어기 개발
+### 유도인형 제어기 개발 {#myembedded-controller-judo}
 
 학부생활동안 FND 디지털 시계 및 디지털 도아락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
 FND 디지털 시계
@@ -170,7 +170,7 @@ FND 디지털 시계
   * 힘센서데이터 DAQ 및 데이터 PC Display
   * 파우더브레이크를 이용한 유도로봇 몸통 및 좌우다리 제동력 조절
 
-### 무인 전기자동차 하위 제어기 개발
+### 무인 전기자동차 하위 제어기 개발 {#myembedded-controller-kist}
 
 * 전기차 하위 인터페이스 제어기 개발/제작/관리 및 유지보수
 * 기간 : 2009.03 ~ 2009.12
@@ -220,16 +220,21 @@ FND 디지털 시계
 	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
 </p>
 
-### 열차 측출입문/통로문 제어기 유지보수
+### 열차 출입문 제어기 개발 {#myembedded-controller-train}
 
-소사원시/수인선 납품 제어기 SW품질이슈 대응 및 안정화
+#### 열차 측출입문/통로문 제어기 유지보수
 
-### 열차 측출입문 제어기 양산SW 신규개발
+* 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
+* 기간 : 17.06.07~19.04.12
+* 역할 : 소사원시/수인선 납품 제어기 SW품질이슈 대응 및 안정화
+
+
+#### 열차 측출입문 제어기 양산SW 신규개발
 
 전동열차 출입문 제어기 소프트웨어 개발을 담당하여 양산적용하였고, 실차에 적용된 소프트웨어는 현재 정상적으로 현장에서 운행되고 있습니다.
 
 * 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
-* 기간 : 2017.06 ~ 2019.04 (과장 2년)
+* 기간 : 18.08.29~19.01.13
 * 역할 : 열차 출입문 양산 안정화 및 신규 개발 앙산적용
 
 코드 개발부터 양산/필드대응까지 소프트웨어 개발 관련 모든 업무를 직접 수행하였습니다. 이곳에서 프로젝트를 관리하기 위한 스킬을 쌓았으며, 업무를 수행하면서 실무에 적용가능하고, 실질적으로 도움이 되는 프로세스를 수립하기 위해 많은 고민을 하였습니다.
@@ -277,9 +282,9 @@ FND 디지털 시계
 
 IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 
-## 부트로더 개발 {#embedded-bootloader-dev}
+## 부트로더 개발 {#myembedded-bootloader}
 
-### RTOS포팅 및 IAP구현(Self_Study)
+### RTOS포팅 및 IAP구현(Self_Study) {#myembedded-bootloader-iap}
 
 :::note History
 * 성과
@@ -293,9 +298,9 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
   * 개발한 부트로더 적용을 통해 소프트웨어 업데이트 시간 단축
   * 열차 노이즈 유입으로 잦은 에뮬레이터 고장 발생 -> 에뮬레이터 재구매 안함
 
-### UART를 통한 STM FW업데이트
+### UART를 통한 STM FW업데이트 {#myembedded-bootloader-stm-iap}
 
-### PC Python/LIN을 통한 NXP FW업데이트
+### PC Python/LIN을 통한 NXP FW업데이트 {#myembedded-bootloader-nxp-iap}
 
 * 기간 : 20.07.20 ~ 20.09.22 (책임 2년)
 
@@ -387,14 +392,14 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 * Master/Slave 구조를 갖는 시스템(열차 출입문은 Master MCU가 7개의 Slave MCU를 제어함)의 경우 Master 펌웨어만 업데이트 하면 자동으로 나머지 7개의 Slave 펌웨어를 업데이트하는 부트로더 개발
 * Server/Client 구조를 갖는 시스템의 경우 서버에 펌웨어를 업데이트 하면 특정 시간에 Slave가 자동으로 펌웨어를 업데이트 하는 부트로더 개발
 
-### wifi 웹서버를 통한 STM FW업데이트
+### wifi 웹서버를 통한 STM FW업데이트 {#myembedded-bootloader-fota}
 
 ESP32 Embedded WebServer를 통한 stm32f746 OTA
 
 센서신호를 신호처리 알고리즘을 적용하여 필터링을 수행하고, 무선 데이터 송/수신을 통해 휴대폰으로 처리 결과를 확인할 수 있는 모니터링 시스템을 개발하는 것을 목적으로 개인 프로젝트를 진행하고 있습니다.
 
 
-### 통합 시뮬레이터
+### 통합 시뮬레이터 {#myembedded-bootloader-integrate}
 
 * OTA, TFT-LCD, Wifi/BLE 기능 통합 시뮬레이터
 * mBed RTOS 기반

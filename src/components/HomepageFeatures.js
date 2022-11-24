@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href="./docs/mycareer#my-mbd-id" target="_blank" rel="noopener noreferrer">윈도우 모델기반설계</a>,
+    title: <a href="./docs/mycareer#mycareer-mbd-window" target="_blank" rel="noopener noreferrer">윈도우 모델기반설계</a>,
     Svg: require('../../static/img/second_motor_control_wiper_window.svg').default,
     description: (
       <>
@@ -16,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer#my-dev-process-id" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스</a>,
+    title: <a href="./docs/mycareer#mycareer-process-agile" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스</a>,
     Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
       <>
@@ -28,7 +28,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer#my-embedded-id" target="_blank" rel="noopener noreferrer">열차출입문제어기 개발</a>,
+    title: <a href="./docs/mycareer#mycareer-embed-train" target="_blank" rel="noopener noreferrer">열차출입문제어기 개발</a>,
     Svg: require('../../static/img/third_train_door_controller.svg').default,
     description: (
       <>
@@ -40,7 +40,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer#my-embedded-id" target="_blank" rel="noopener noreferrer">임베디드 웹서버 OTA</a>,
+    title: <a href="./docs/mycareer#mycareer-embed-fota" target="_blank" rel="noopener noreferrer">임베디드 웹서버 OTA</a>,
     Svg: require('../../static/img/fourth-wifi-ota.svg').default,
     description: (
       <>

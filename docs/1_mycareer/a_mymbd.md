@@ -12,14 +12,15 @@ title: 모델기반설계
 * 하드웨어 없이 시뮬레이션 만으로 타겟 소프트웨어 개발
 (로봇팔 PIL 이미지 삽입)
 * Software Component개발(T.B.D)
+* 칼만필터를 이용한 DC/BLDC 모터 제어
 
 ### Sensored BLDC MBD {#mymbd-bldc-sensered}
 
 * MBD기반 BLDC모터 제어
 
 ### Kalman Filter학습 및 시뮬레이션 {#mymbd-bldc-kalman}
-Self_Study
 
+Self_Study
 * <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수</a>
 * <a href="/assets/kalman/Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링)</a>
 * <a href="/assets/kalman/Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한)</a>
@@ -38,7 +39,7 @@ Self_Study
   * 60[CPM] 구동 - 1s 당 1회 Wiping
   * Wiping 주기가 1s인 경우 0.5s동안 0°->134°, 0.5s동안 134°->0°로 Wiping 수행
   * Execution Time : 10us @ s32k144
-  * s32k144 : 48MHz Cortex-M4 with FPU
+  * 개발 하드웨어 - S32K144(48MHz Cortex-M4 with FPU) + VNH5019(ST모터드라이버)
 * 구현내용
   * 상태관측기를 통한 상태추정
   * 상태피드백 제어 + 오차적분제어 + Anti-Windup
@@ -125,16 +126,21 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 
 ### PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현 {#mymbd-customer-psb}
 
-양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하여 기능로직을 MBD를 통해 구현하였다.
-
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 22.03.01 ~ 현재 (책임 4년차)
 * MBD 선행 개발 프로세스 수립
-* 개발 하드웨어 - S32K144 + VNH5019(모터드라이버 by ST)
-* 칼만필터를 이용한 DC모터 제어
 * S32K144+Simulink를 통한 제어 알고리즘 개발 및 AutoCode
 * Cypress MCU에서 동작 가능한 HW 독립적인 코드 생성
 
+양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하고 시뮬링크를 통해 '요구사항-아키텍처모델-C코드' 간의 양방향 추적성을 확보하였다.
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-psb-bidir-traceability.png').default}
+		alt="Example banner"
+	/>
+</p>
+
+시뮬레이션을 통해 구현된 기능로직을 확인해 가면서 구현을 진행하였으며, 최종 구현결과는 다음과 같다.
 <p align="center">
 	<iframe 
 		width="350" height="250"
@@ -144,7 +150,6 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe><br/><em>&lt;안전벨트 기능로직 MBD구현&gt;</em>
 </p>
-
 
 ## 윈도우 선행학습 {#mymbd-window}
 

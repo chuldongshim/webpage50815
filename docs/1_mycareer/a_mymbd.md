@@ -17,7 +17,7 @@ title: 모델기반설계
 
 * MBD기반 BLDC모터 제어
 
-### Kalman Filter이론학습 {#mymbd-wiper-kalman}
+### Kalman Filter학습 및 시뮬레이션 {#mymbd-bldc-kalman}
 Self_Study
 
 * <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수</a>

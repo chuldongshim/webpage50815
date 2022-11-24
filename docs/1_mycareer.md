@@ -26,7 +26,7 @@ title: 경력요약
 
 1. [추후계획 : Sensorless BLDC by Kalman Filter](/docs/mycareer/mymbd#mymbd-bldc-plan)
 2. [22.10.21~22.11.05 : Sensored BLDC MBD](/docs/mycareer/mymbd#mymbd-bldc-sensered)
-3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션](/docs/mycareer/mymbd#mymbd-wiper-kalman)
+3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션](/docs/mycareer/mymbd#mymbd-bldc-kalman)
 
 #### [와이퍼 알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper)
 

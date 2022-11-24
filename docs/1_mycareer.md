@@ -5,11 +5,11 @@ title: 경력요약
 ---
 
 :::important
-관심과 흥미를 가지고 꾸준히 경험해온 만큼 다음 3가지 분야에 강점을 발휘할 수 있습니다. [[career all]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
+관심과 흥미를 가지고 꾸준히 경험해온 만큼 다음 3가지 분야에 강점을 발휘할 수 있습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
-* [모델기반설계](/docs/mycareer#my-mbd-id)
-* [개발프로세스](/docs/mycareer#my-dev-process-id)
-* [임베디드개발](/docs/mycareer#my-embedded-id)
+* [모델기반설계](/docs/mycareer#mycareer-mbd)
+* [개발프로세스](/docs/mycareer#mycareer-process)
+* [임베디드개발](/docs/mycareer#mycareer-embed)
 :::
 
 ## 모델기반설계 {#mycareer-mbd}
@@ -22,45 +22,40 @@ title: 경력요약
 
 ### 관련활동
 
-#### [MBD 시작 ☜ click for more](/docs/mycareer/mymbd#mymbd-start)
+#### [BLDC 선행학습 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc)
 
-1. [07.03.02~08.08.31 : 명지대 석사논문, 센서 입력에 따른 모터 제어](/docs/mycareer/mymbd#mymbd-start-graduation)
+1. [추후계획](/docs/mycareer/mymbd#mymbd-bldc-plan)
+2. [22.10.21~22.11.05 : Sensored BLDC MBD](/docs/mycareer/mymbd#mymbd-bldc-sensered)
+
+#### [와이퍼 알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper)
+
+1. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)](/docs/mycareer/mymbd#mymbd-wiper-kalman)
+
+2. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
+관측기 상태피드백을 통한 LQR제어
 <p align="left">
 	<iframe 
 		width="350" height="250"
-		src="https://www.youtube.com/embed/Bdt_fOkhiw8?rel=0"
+		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-
-#### [윈도우 선행학습 ☜ click for more {#mycareer-mbd-window}](/docs/mycareer/mymbd#mymbd-window)
-
-1. [13.10.01~14.05.16 : MicroAutoBox를 통한 Window MBD 기본기능 구동](/docs/mycareer/mymbd#mymbd-window-basic)  
-장애물 감지 시 윈도우 반전 시뮬레이션(13년4월~14년3월)
-<p align="left">
-	<iframe 
-		src="https://www.youtube.com/embed/JWzVYKv_Eac?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-2. [21.07.30~21.12.31 : Safety Power Window MBD 기능구현](/docs/mycareer/mymbd#mymbd-window-func)  
-장애물 감지 시 윈도우 반전 실제적용(21년12월)
+3. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)
+4. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현](/docs/mycareer/mymbd#mymbd-wiper-func)  
+Auto Wiping 동작확인
 <p align="left">
 	<iframe
+		src="https://www.youtube.com/embed/gZ7yAiUIIdw?rel=0"
 		width="350" height="250"
-		src="https://www.youtube.com/embed/eEmUgEgfH4k?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
 
-#### [MBD 고객대응 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer)
+#### [MBD고객대응 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer)
 
 1. [22.03.03~22.05.03 : PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현](/docs/mycareer/mymbd#mymbd-customer-psb)  
 기능에 따른 모터 구동을 위한 기능별 모터제어 프로파일링
@@ -74,37 +69,44 @@ title: 경력요약
 	</iframe>
 </p>
 
-#### [와이퍼 알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper)
+#### [윈도우 선행학습 ☜ click for more](/docs/mycareer/mymbd#mymbd-window) {#mycareer-mbd-window}
 
-1. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)](/docs/mycareer/mymbd#mymbd-wiper-kalman)
-2. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현](/docs/mycareer/mymbd#mymbd-wiper-func)  
-Auto Wiping 동작확인
+1. [21.07.30~21.12.31 : Safety Power Window MBD 기능구현](/docs/mycareer/mymbd#mymbd-window-func)  
+장애물 감지 시 윈도우 반전 실제적용(21년12월)
 <p align="left">
 	<iframe
-		src="https://www.youtube.com/embed/gZ7yAiUIIdw?rel=0"
+		width="350" height="250"
+		src="https://www.youtube.com/embed/eEmUgEgfH4k?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+2. [13.10.01~14.05.16 : MicroAutoBox를 통한 Window MBD 기본기능 구동](/docs/mycareer/mymbd#mymbd-window-basic)  
+장애물 감지 시 윈도우 반전 시뮬레이션(13년4월~14년3월)
+<p align="left">
+	<iframe 
+		src="https://www.youtube.com/embed/JWzVYKv_Eac?rel=0"
 		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-3. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)
-4. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
-관측기 상태피드백을 통한 LQR제어
+
+#### [MBD 시작 ☜ click for more](/docs/mycareer/mymbd#mymbd-start)
+
+1. [07.03.02~08.08.31 : 졸업논문](/docs/mycareer/mymbd#mymbd-start-graduation)  
+센서 입력에 따른 모터 PID제어
 <p align="left">
 	<iframe 
 		width="350" height="250"
-		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
+		src="https://www.youtube.com/embed/Bdt_fOkhiw8?rel=0"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-
-#### [BLDC 선행학습 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc)
-
-1. [22.10.21~22.11.05 : Sensored BLDC MBD](/docs/mycareer/mymbd#mymbd-bldc-sensered)
-2. [추후계획](/docs/mycareer/mymbd#mymbd-bldc-plan)
 
 
 ## 개발프로세스 {#mycareer-process}
@@ -118,48 +120,17 @@ Auto Wiping 동작확인
 
 ### 관련활동
 
-#### [표준프로세스 구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-std)
+#### [MBD+AUTOSAR ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar)
 
-1. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증](/docs/mycareer/myprocess#myprocess-std-cl2)
-2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계](/docs/mycareer/myprocess#myprocess-std-sys-design)
-3. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증](/docs/mycareer/myprocess#myprocess-std-cl3)
-<p align="left">
-	<div class="box" >
-		<img
-			src={require('/img/1_process/a_certification.png').default}
-			alt="Example banner"
-		/>
-	</div>
-</p>
+1. [22.11.01~22.11.30 : 개발전략 수립 2차](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)
+2. [21.01.15~21.02.16 : 개발전략 수립 1차](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)
 
-#### [이슈관리 ☜ click for more](/docs/mycareer/myprocess#myprocess-management)
+#### [MBD+Agile ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile) {#mycareer-process-agile}
 
-1. [18.01.18~18.08.12 : Redmine을 통한 SW품질이슈관리](/docs/mycareer/myprocess#myprocess-management-redmine)
-<p align="left">
-	<div class="box">
-		<img
-			src={require('/img/1_process/d_process_train_issue_mgn.png').default}
-			alt="Example banner"
-			width="350"
-		/>
-	</div>
-</p>
-2. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
-AWS Cloud 환경에서 Redmine을 통한 이슈관리
-<p align="left">
-	<div class="box">
-		<img
-			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
-			alt="Example banner"
-			width="350"
-		/>
-	</div>
-</p>
-
-#### [MBD+Agile ☜ click for more {#mycareer-process-agile}](/docs/mycareer/myprocess#myprocess-mbdagile)
-
-1. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
-GitLab을 통한 프로젝트 관리
+1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)  
+KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스코드 형상관리 수행
+2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
+GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 <p align="left">
 	<div class="box">
 		<img
@@ -169,12 +140,44 @@ GitLab을 통한 프로젝트 관리
 		/>
 	</div>
 </p>
-2. [21.11.20~22.03.21 : GitLab기반 Escalator MBD - KTL 교육용 프로젝트](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)
 
-#### [AUTOSAR+MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar)
+#### [이슈관리 ☜ click for more](/docs/mycareer/myprocess#myprocess-management)
 
-1. [21.01.15~21.02.16 : 개발전략 수립 1차](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)
-2. [22.11.01~22.11.30 : 개발전략 수립 2차](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)
+1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
+AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
+<p align="left">
+	<div class="box">
+		<img
+			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
+			alt="Example banner"
+			width="350"
+		/>
+	</div>
+</p>
+2. [18.01.18~18.08.12 : Redmine을 통한 SW품질이슈관리](/docs/mycareer/myprocess#myprocess-management-redmine)
+<p align="left">
+	<div class="box">
+		<img
+			src={require('/img/1_process/d_process_train_issue_mgn.png').default}
+			alt="Example banner"
+			width="350"
+		/>
+	</div>
+</p>
+
+#### [표준프로세스 구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-std)
+
+1. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증](/docs/mycareer/myprocess#myprocess-std-cl3)
+<p align="left">
+	<div class="box" >
+		<img
+			src={require('/img/1_process/a_certification.png').default}
+			alt="Example banner"
+		/>
+	</div>
+</p>
+2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계](/docs/mycareer/myprocess#myprocess-std-sys-design)
+3. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증](/docs/mycareer/myprocess#myprocess-std-cl2)
 
 
 ## 임베디드개발 {#mycareer-embed}
@@ -188,6 +191,62 @@ GitLab을 통한 프로젝트 관리
 
 ### 관련활동
 
+#### [부트로더 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader) {#mycareer-embed-fota}
+
+1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-fota)
+
+2. [20.05.16~20.08.10 : PC Python/LIN을 통한 NXP MCU FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-nxp-iap)
+
+3. [18.12.09~18.12.10 : UART를 통한 STM MCU FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-stm-iap)
+
+4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현](/docs/mycareer/myembedded#myembedded-bootloader-iap)
+
+#### [제어기 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-controller) {#mycareer-embed-train}
+
+1. [17.06.07~19.01.13 : 열차 출입문 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-train)  
+전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
+<p align="left">
+	<iframe
+		width="350" height="250"
+		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+2. [09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-kist)  
+무인 상태에서 차량 속도제어로 주행 중 정지 시 브레이크 등 점등 후 정지
+<p align="left">
+	<iframe 
+		width="350" height="250"
+		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+3. [08.09.01~09.02.26 : 유도인형 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-judo)  
+<p align="left">
+	<img
+		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
+
+#### [리눅스 응용프로그램 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux)
+
+1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅](/docs/mycareer/myembedded#myembedded-linux-stm32f7)
+<p align="left">
+	<img
+		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
+		alt="Example banner"
+		width="350"
+	/>
+</p>
+2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수](/docs/mycareer/myembedded#myembedded-linux-maintenance)  
+3. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅](/docs/mycareer/myembedded#myembedded-linux-porting)  
+
 #### [센서 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-sensor)
 
 1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발](/docs/mycareer/myembedded#myembedded-sensor-ft)
@@ -200,60 +259,3 @@ GitLab을 통한 프로젝트 관리
 		/>
 	</div>
 </p>
-
-#### [리눅스 응용프로그램 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux)
-
-1. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅](/docs/mycareer/myembedded#myembedded-linux-porting)  
-2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수](/docs/mycareer/myembedded#myembedded-linux-maintenance)  
-3. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅](/docs/mycareer/myembedded#myembedded-linux-stm32f7)
-<p align="left">
-	<img
-		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-
-#### [제어기 개발 ☜ click for more {#mycareer-embed-train}](/docs/mycareer/myembedded#myembedded-controller)
-
-1. [08.09.01~09.02.26 : 유도인형 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-judo)  
-<p align="left">
-	<img
-		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
-		alt="Example banner"
-		width="350"
-	/>
-</p>
-2. [09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-kist)  
-무인 상태에서 차량 속도제어
-<p align="left">
-	<iframe 
-		width="350" height="250"
-		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-3. [17.06.07~19.01.13 : 열차 출입문 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-train)  
-전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
-<p align="left">
-	<iframe
-		width="350" height="250"
-		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-
-#### [부트로더 개발 ☜ click for more {#mycareer-embed-fota}](/docs/mycareer/myembedded#myembedded-bootloader)
-
-1. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현](/docs/mycareer/myembedded#myembedded-bootloader-iap)
-
-2. [18.12.09~18.12.10 : UART를 통한 STM FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-stm-iap)
-
-3. [20.05.16~20.08.10 : PC Python/LIN을 통한 NXP FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-nxp-iap)
-
-4. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-fota)
-

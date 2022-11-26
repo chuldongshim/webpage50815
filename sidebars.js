@@ -15,18 +15,43 @@ module.exports = {
 
   // But you can create a sidebar manually
   mycareer: [
-    'mycareer',                  // 모든 프로젝트를 한번에 볼 수 있도록 핵심만 표시
-    'mycareer/mymbd',
-    'mycareer/myprocess',           // 각 프로젝트 상세 내용을 기술
-    'mycareer/myembedded',
+    'mycareer',                   // 모든 프로젝트를 한번에 볼 수 있도록 핵심만 표시
+    {
+      type: 'doc',
+      label: '1. 모델기반설계',
+      id: 'mycareer/mymbd',       // 각 프로젝트 상세 내용을 기술
+    },
+    {
+      type: 'doc',
+      label: '2. 프로세스개발',
+      id: 'mycareer/myprocess',
+    },
+    {
+      type: 'doc',
+      label: '3. 임베디드개발',
+      id: 'mycareer/myembedded',
+    },
   ],
   sideprj: [
     'sideprj',
-	'sideprj/temperature/temperature',
     {
       type: 'category',
-      label: '와이퍼 프로젝트',
-	  link: {
+      label: '1. MBD기반 온도PID제어',
+      link: {
+        type: 'doc',
+        id: 'sideprj/temperature',
+      },
+      collapsed: true,
+      items: [
+        'sideprj/temperature/temperature_mgn',
+        'sideprj/temperature/temperature_design',
+        //'sideprj/temperature/temperature_controlStick',
+      ],
+    },
+    {
+      type: 'category',
+      label: '2. MBD기반 와이퍼',
+      link: {
         type: 'doc',
         id: 'sideprj/wiper',
       },
@@ -39,22 +64,35 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '윈도우 프로젝트',
-	  link: {
+      label: '3. MBD기반 윈도우',
+      link: {
         type: 'doc',
         id: 'sideprj/window',
       },
       collapsed: true,
       items: [
-        'sideprj/window/window_design',
+        {
+          type: 'category',
+          label: '설계',
+          link: {
+            type: 'doc',
+            id: 'sideprj/window/window_design',
+          },
+          collapsed: false,
+          items: [
+            'sideprj/window/window_design_cencept',
+            'sideprj/window/window_design_reqs',
+            'sideprj/window/window_design_architecture',
+          ],
+        },
         {
           type: 'category',
           label: '구현',
-		  link: {
-			type: 'doc',
-			id: 'sideprj/window/realize',
-		  },
-          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'sideprj/window/window_realize',
+          },
+          collapsed: false,
           items: [
             'sideprj/window/window_realize_f0_PlantModeling',
             'sideprj/window/window_realize_f0_VelMeasure',
@@ -67,20 +105,48 @@ module.exports = {
             'sideprj/window/window_realize_f7_KalmanFilter',
           ],
         },
-        'sideprj/window/window_verify',
+        {
+          type: 'category',
+          label: '검증',
+          link: {
+            type: 'doc',
+            id: 'sideprj/window/window_verify',
+          },
+          collapsed: false,
+          items: [
+            'sideprj/window/window_verify_autocode',
+            //'sideprj/window/window_verify_mcu_porting',
+            'sideprj/window/window_verify_func_test',
+            'sideprj/window/window_verify_traceability',
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: '하이브리드 프로젝트',
-	  link: {
+      label: '4. 임베디드 웹서버',
+      link: {
         type: 'doc',
-        id: 'sideprj/hybridprj',
+        id: 'sideprj/hybrid',
       },
       collapsed: true,
       items: [
-        'sideprj/hybridprj/esp32',
-        'sideprj/hybridprj/linux',
+        'sideprj/hybrid/esp32_mgn',
+        'sideprj/hybrid/esp32_sys',
+        'sideprj/hybrid/esp32_hw',
+        'sideprj/hybrid/esp32_sw',
+      ],
+    },
+    {
+      type: 'category',
+      label: '5. 임베디드 리눅스 (TBD)',
+      link: {
+        type: 'doc',
+        id: 'sideprj/linux',
+      },
+      collapsed: true,
+      items: [
+        'sideprj/linux/linuxapp',
       ],
     },
   ],

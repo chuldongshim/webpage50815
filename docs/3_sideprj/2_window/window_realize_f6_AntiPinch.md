@@ -2,13 +2,6 @@
 id: window_realize_f6_AntiPinch
 title: F6 Anti-Pinch
 ---
-
-<div align="right">
-  <font size="4">
-    Since 21.08.20 ~ 21.11.30
-  </font>
-</div>
-
 ---
 
 > <font color="blue"><strong>반전 기능</strong></font><br/>

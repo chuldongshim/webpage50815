@@ -2,13 +2,6 @@
 id: window_realize_f7_KalmanFilter
 title: F7 칼만필터(Ing)
 ---
-
-<div align="right">
-  <font size="4">
-    Since 21.08.20 ~ 21.11.30
-  </font>
-</div>
-
 ---
 
 ## 기본개념

@@ -1,6 +1,6 @@
 ---
 id: myprocess
-title: 개발프로세스
+title: 프로세스개발
 ---
 ---
 

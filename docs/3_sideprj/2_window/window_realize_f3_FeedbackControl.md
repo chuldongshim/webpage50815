@@ -2,13 +2,6 @@
 id: window_realize_f3_FeedbackControl
 title: F3 피드백제어
 ---
-
-<div align="right">
-  <font size="4">
-    Since 21.08.20 ~ 21.11.30
-  </font>
-</div>
-
 ---
 
 ## 분석

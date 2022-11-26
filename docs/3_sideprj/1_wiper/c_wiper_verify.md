@@ -1,6 +1,6 @@
 ---
 id: wiper_verify
-title: 검증
+title: 설계 및 검증
 ---
 
 ---
@@ -66,16 +66,19 @@ title: 검증
 	</iframe><br/><em>&lt;Wiper 시스템 3D시뮬레이션&gt;</em>
 </p>
 
-### 하드웨어 구성
+### 구현
 
+시뮬레이션을 통해 알고리즘/로직 개발을 완료하면 코드를 자동생성하여 타겟환경에서 동작을 확인해야 한다.
 하드웨어가 결정되지 않은 상태에서 Rapid Control Prototyping(이하 RCP라 함)을 제공하는 EVB를 통해 다음과 같은 컨셉으로 하드웨어를 구성하면 RCP 장비를 통해 알고리즘 확인이 가능하게 된다.
+
+Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 자동생성하고, MCU에 다운로드하여 실행한다.
 
 <p align="center">
 	<img
-		src={require('/img/2_mbd/img4_2_hw_configuration1.png').default}
+		src={require('/img/2_mbd/img4_5_MCU_porting.png').default}
 		alt="Example banner"
 		width="350"
-	/><br/><em>&lt;하드웨어 인터페이스 컨셉&gt;</em>
+	/><br/><em>&lt;시스템 구성&gt;</em>
 </p>
 
 실제 다음과 같이 하드웨어를 구성하였다.
@@ -88,26 +91,6 @@ title: 검증
 	/><br/><em>&lt;하드웨어 인터페이스&gt;</em>
 </p>
 
-### 코드자동생성/포팅
-
-시뮬레이션 완료 후 다음과 같이 Hardware-Independent한 영역만을 자동생성 영역으로 정의하고, Simulink Auto-Code-Generation 기능을 이용하여 C코드를 자동생성 한다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/img4_5_autocode1.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;모델에서 코드자동생성 범위&gt;</em>
-</p>
-
-기존 타겟 프로젝트에서 자동생성된 코드를 include하여 Function Call을 통해 실행한다.
-<p align="center">
-	<img
-		src={require('/img/2_mbd/img4_6_MCU_porting.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;자동생성 코드 프로젝트 통합 컨셉&gt;</em>
-</p>
 
 ## 동작확인
 

@@ -30,7 +30,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/chuldongshim/webpage/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,17 +44,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     {
       docs:{
         sidebar: {
-          hideable: true,					// 왼쪽 사이드바 접기버튼 생성
+          hideable: true,					        // 왼쪽 사이드바 접기버튼 생성
           autoCollapseCategories: true,		// 펼쳐져 있는 사이드바 항목 접어서 축소
         },
       },
       colorMode: {
-        defaultMode: 'dark',				// light or dark
-        disableSwitch: true,				// 메뉴바에서 모드 전환버튼 숨김
+        defaultMode: 'light',				      // light or dark
+        disableSwitch: true,				      // true(메뉴바에서 모드 전환버튼 숨김), false(전환버튼 보임)
         respectPrefersColorScheme: true,	// defaultMode 대신 사용자 시스템 환경 설정에 따라 color 속성 적용 안함
       },
       navbar: {
-        hideOnScroll: false,				// 아래로 스크롤 시 타이틀메뉴 숨기고, 위로 스크롤 시 타이틀메뉴 보이는 기능
+        hideOnScroll: false,				      // 아래로 스크롤 시 타이틀메뉴 숨기고, 위로 스크롤 시 타이틀메뉴 보이는 기능
         title: '나는 개발자다!',
         logo: {
           alt: 'My Site Logo',

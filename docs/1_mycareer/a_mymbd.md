@@ -135,7 +135,7 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하고 시뮬링크를 통해 '요구사항-아키텍처모델-C코드' 간의 양방향 추적성을 확보하였다.
 <p align="center">
 	<img
-		src={require('/img/2_mbd/mymbd-psb-bidir-traceability.png').default}
+		src={require('/img/2_mbd/mymbd-psb-traceability.png').default}
 		alt="Example banner"
 	/>
 </p>

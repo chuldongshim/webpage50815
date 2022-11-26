@@ -55,3 +55,9 @@ yarn-error.log*
 /docs/1_majorprj
 /docs/process.md
 /static/assets/mbd/Simulink_user_manual.mlx
+/static/img/2_mbd/img4_6_MCU_porting.png
+/static/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png
+/static/img/2_mbd/img4_5_autocode1.png
+/static/img/2_mbd/img4_6_MCU_porting.png
+/docs/3_sideprj/3_hybridprj/b_linux.md
+/docs/3_sideprj/3_hybrid/a_esp32.md

@@ -22,15 +22,15 @@ title: 경력요약
 
 ### 관련활동
 
-#### [BLDC 선행학습 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc)
+#### BLDC 선행학습
 
-1. [추후계획 : Sensorless BLDC by Kalman Filter](/docs/mycareer/mymbd#mymbd-bldc-plan)
-2. [22.10.21~22.11.05 : Sensored BLDC MBD](/docs/mycareer/mymbd#mymbd-bldc-sensered)
-3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션](/docs/mycareer/mymbd#mymbd-bldc-kalman)
+1. [추후계획 : Sensorless BLDC by Kalman Filter ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-plan)
+2. [22.10.21~22.11.05 : Sensored BLDC MBD ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-sensered)
+3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-kalman)
 
-#### [와이퍼 알고리즘 개발 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper)
+#### 와이퍼 알고리즘 개발
 
-1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
+1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR) ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
 관측기 상태피드백을 통한 LQR제어
 <p align="left">
 	<iframe 
@@ -41,7 +41,7 @@ title: 경력요약
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [22.08.14~22.08.29 : FFT MCU 구현](/docs/mycareer/mymbd#mymbd-wiper-fft)  
+2. [22.08.14~22.08.29 : FFT MCU 구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-fft)  
 MCU FFT연산 후 Matlab Realtime Plot
 <p align="left">
 	<img
@@ -49,7 +49,7 @@ MCU FFT연산 후 Matlab Realtime Plot
 		alt="Example banner"
 	/>
 </p>
-3. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현](/docs/mycareer/mymbd#mymbd-wiper-func)  
+3. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-func)  
 Auto Wiping 동작확인
 <p align="left">
 	<iframe
@@ -61,9 +61,9 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-#### [MBD고객대응 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer)
+#### MBD고객대응
 
-1. [22.03.03~22.05.03 : PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현](/docs/mycareer/mymbd#mymbd-customer-psb)  
+1. [22.03.03~22.05.03 : PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer-psb)  
 기능에 따른 모터 구동을 위한 기능별 모터제어 프로파일링
 <p align="left">
 	<iframe 
@@ -75,9 +75,9 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-#### [윈도우 선행학습 ☜ click for more](/docs/mycareer/mymbd#mymbd-window) {#mycareer-mbd-window}
+#### 윈도우 선행학습 {#mycareer-mbd-window}
 
-1. [21.07.30~21.12.31 : Safety Power Window MBD 기능구현](/docs/mycareer/mymbd#mymbd-window-func)  
+1. [21.07.30~21.12.31 : Safety Power Window MBD 기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-func)  
 장애물 감지 시 윈도우 반전 실제적용(21년12월)
 <p align="left">
 	<iframe
@@ -88,7 +88,7 @@ Auto Wiping 동작확인
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [13.10.01~14.05.16 : MicroAutoBox를 통한 Window MBD 기본기능 구동](/docs/mycareer/mymbd#mymbd-window-basic)  
+2. [13.10.01~14.05.16 : MicroAutoBox를 통한 Window MBD 기본기능 구동 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-basic)  
 장애물 감지 시 윈도우 반전 시뮬레이션(13년4월~14년3월)
 <p align="left">
 	<iframe 
@@ -100,9 +100,9 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-#### [MBD 시작 ☜ click for more](/docs/mycareer/mymbd#mymbd-start)
+#### MBD 시작
 
-1. [07.03.02~08.08.31 : 졸업논문](/docs/mycareer/mymbd#mymbd-start-graduation)  
+1. [07.03.02~08.08.31 : 졸업논문 ☜ click for more](/docs/mycareer/mymbd#mymbd-start-graduation)  
 센서 입력에 따른 모터 PID제어
 <p align="left">
 	<iframe 
@@ -126,17 +126,17 @@ Auto Wiping 동작확인
 
 ### 관련활동
 
-#### [MBD+AUTOSAR ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar)
+#### MBD+AUTOSAR
 
-1. [22.11.01~22.11.30 : 개발전략 수립 2차](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)
-2. [21.01.15~21.02.16 : 개발전략 수립 1차](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)
+1. [22.11.01~22.11.30 : 개발전략 수립 2차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)
+2. [21.01.15~21.02.16 : 개발전략 수립 1차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)
 
-#### [MBD+Agile ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile) {#mycareer-process-agile}
+#### MBD+Agile {#mycareer-process-agile}
 
-1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)  
+1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)  
 KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스코드 형상관리 수행
 
-2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
+2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
 GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 <p align="left">
 	<div class="box">
@@ -148,9 +148,9 @@ GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 	</div>
 </p>
 
-#### [이슈관리 ☜ click for more](/docs/mycareer/myprocess#myprocess-management)
+#### 이슈관리
 
-1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
+1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 <p align="left">
 	<div class="box">
@@ -161,7 +161,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		/>
 	</div>
 </p>
-2. [18.01.18~18.08.12 : Redmine을 통한 SW품질이슈관리](/docs/mycareer/myprocess#myprocess-management-redmine)
+2. [18.01.18~18.08.12 : Redmine을 통한 SW품질이슈관리 ☜ click for more](/docs/mycareer/myprocess#myprocess-management-redmine)
 <p align="left">
 	<div class="box">
 		<img
@@ -172,9 +172,9 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	</div>
 </p>
 
-#### [표준프로세스 구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-std)
+#### 표준프로세스 구축
 
-1. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증](/docs/mycareer/myprocess#myprocess-std-cl3)
+1. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-cl3)
 <p align="left">
 	<div class="box" >
 		<img
@@ -183,8 +183,8 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		/>
 	</div>
 </p>
-2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계](/docs/mycareer/myprocess#myprocess-std-sys-design)
-3. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증](/docs/mycareer/myprocess#myprocess-std-cl2)
+2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-sys-design)
+3. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-cl2)
 
 
 ## 임베디드개발 {#mycareer-embed}
@@ -198,9 +198,9 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ### 관련활동
 
-#### [부트로더 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader) {#mycareer-embed-fota}
+#### 부트로더 개발 {#mycareer-embed-fota}
 
-1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-fota)
+1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader-fota)
 <p align="left">
 	<img
 		src={require('/img/3_embedded/embedded_bootloader-fota_1.png').default}
@@ -208,15 +208,15 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-2. [20.05.16~20.08.10 : PC Python/LIN을 통한 NXP MCU FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-nxp-iap)
+2. [20.05.16~20.08.10 : PC Python/LIN을 통한 NXP MCU FW업데이트 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader-nxp-iap)
 
-3. [18.12.09~18.12.10 : UART를 통한 STM MCU FW업데이트](/docs/mycareer/myembedded#myembedded-bootloader-stm-iap)
+3. [18.12.09~18.12.10 : UART를 통한 STM MCU FW업데이트 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader-stm-iap)
 
-4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현](/docs/mycareer/myembedded#myembedded-bootloader-iap)
+4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader-iap)
 
-#### [제어기 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-controller) {#mycareer-embed-train}
+#### 제어기 개발 {#mycareer-embed-train}
 
-1. [17.06.07~19.01.13 : 열차 출입문 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-train)  
+1. [17.06.07~19.01.13 : 열차 출입문 제어기 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-controller-train)  
 전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
 <p align="left">
 	<iframe
@@ -227,7 +227,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-kist)  
+2. [09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-controller-kist)  
 무인 상태에서 차량 속도제어로 주행 중 정지 시 브레이크 등 점등 후 정지
 <p align="left">
 	<iframe 
@@ -238,7 +238,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-3. [08.09.01~09.02.26 : 유도인형 제어기 개발](/docs/mycareer/myembedded#myembedded-controller-judo)  
+3. [08.09.01~09.02.26 : 유도인형 제어기 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-controller-judo)  
 <p align="left">
 	<img
 		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
@@ -247,9 +247,9 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-#### [리눅스 응용프로그램 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux)
+#### 리눅스 응용프로그램 개발
 
-1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅](/docs/mycareer/myembedded#myembedded-linux-stm32f7)
+1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux-stm32f7)
 <p align="left">
 	<img
 		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
@@ -257,12 +257,12 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		width="350"
 	/>
 </p>
-2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수](/docs/mycareer/myembedded#myembedded-linux-maintenance)  
-3. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅](/docs/mycareer/myembedded#myembedded-linux-porting)  
+2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux-maintenance)  
+3. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux-porting)  
 
-#### [센서 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-sensor)
+#### 센서 개발
 
-1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발](/docs/mycareer/myembedded#myembedded-sensor-ft)
+1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-sensor-ft)
 <p align="left">
 	<div class="box" >
 		<img

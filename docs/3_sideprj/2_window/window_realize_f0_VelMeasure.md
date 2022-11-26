@@ -2,16 +2,7 @@
 id: window_realize_f0_VelMeasure
 title: 속도측정
 ---
-
-<div align="right">
-  <font size="4">
-    Since 21.08.20 ~ 21.11.30
-  </font>
-</div>
-
 ---
-
-## 속도측정
 
 > Plant를 모델링을 위해 실제 시스템 입력(전압)에 따른 출력(각속도) 정보를 이용하여 System Identification을 수행하기 위해서는 속도를 측정할 수 있어야 한다.
 
@@ -20,7 +11,7 @@ title: 속도측정
 * 이후 Plant를 통해 시스템 의존적인(ex. anti-pinch) 기능을 구현하고 시뮬레이션을 통해 기능 검증을 수행한다.
 :::
 
-### DC모터 위치/속도 측정 방법
+## DC모터 위치/속도 측정 방법
 
 모터 전달함수를 구하기 위해서는 입력(모터 인가 전압)에 따른 출력(모터각속도)데이터를 이용하여 System Identification을 수행해야 한다.  
 이를 위해 입력전압에 따른 출력속도 raw data를 측정할 수 있어야 한다.
@@ -38,7 +29,7 @@ HW-Simulink에서 구현한 시뮬링크 모델([GPIO-ADC-PWM-QD-IC](/.)를 통�
 * SW2(dn) 입력 시 → +1 출력, +Rpm 측정, 펄스카운트 증가
 * SW2(up) 입력 시 → -1 출력, -Rpm 측정, 펄스카운트 감소
 
-#### Position by QD
+### Position by QD
 
 hall ic로부터 출력되는 펄스를 s32k144 quadrature decoder로 입력받아 위치를 카운트 한다.
 ```
@@ -55,7 +46,7 @@ hall ic로부터 출력되는 펄스를 s32k144 quadrature decoder로 입력받�
   * Shaft 1회전 시 8[Count]가 발생하고,
   * Gear 1회전 시 8x85=680[Count]가 발생한다.
 
-#### Velocity by Pulse Period
+### Velocity by Pulse Period
 
 :::important
 * Zero Velocity  
@@ -97,9 +88,9 @@ rpm에 `(85*8)/60`를 곱하면 [pulse/s]가 된다.
 * 1[rpm] = (85)/60[rev/s]
 * 1[rpm] = (85*8)/60[pulse/s]
 
-### Period 측정을 통한 속도계산
+## Period 측정을 통한 속도계산
 
-#### <u>Manual Coding 방법 - Ext_Int로 1펄스 시간을 측정해 속도계산</u>
+### Manual Coding 방법 - Ext_Int로 1펄스 시간을 측정해 속도계산
 
 외부인터럽트(Ext_Int)로 hall pulse(A상(or B상)rising edge)를 입력 받고, 인터럽트가 발생할 때마다 인터럽트 발생 시간(SysTick 카운트)을 저장하여 이전 인터럽트부터 현재 인터럽트 발생 시점까지 시간 dt를 계산한다.
 ```
@@ -167,7 +158,7 @@ void PORTB_IRQHandler(void)
   * 0속도 판단에 300ms 가 소요됨
 :::
 
-#### <u>Input_Capture로 1펄스 시간을 측정해 속도 계산 - Simulink AutoCode 방법 적용</u>
+### Input_Capture로 1펄스 시간을 측정해 속도 계산 - Simulink AutoCode 방법 적용
 
 * Simulink S32K144 Capture Input Block을 통해 생성된 코드를 실행하여 펄스 Period를 측정할 경우 계산된 속도값이 가끔 튀는 현상이 발생한다.
   * 측정속도가 튀니까 이를 제어하려고 모터가 꿀렁임, 시뮬링크 자동생성 코드 효율이 좋치 않아서 튀는게 아닌지 의심스러움(21.11.17)
@@ -176,7 +167,7 @@ void PORTB_IRQHandler(void)
   * Simulink S32k144 ExtInt를 구현해서 ExtInt를 통해 속도를 측정해 보고 그래도 속도가 가끔 튀는 현상이 지속되면 기존에 구현해 놓은 Manual Coding으로 ExtInt를 구현한 방법 사용할 것(21.11.17)
   * 구현상 문제를 해결하니까 잘 되므로 그냥 Simulink AutoCode 방법을 사용하기로 함(21.11.19)
 
-### <u>측정값 필터링</u>
+## 측정값 필터링
 
 :::important
 * 필터링 필요성  
@@ -189,7 +180,7 @@ Input Capture 분해능때문에 저속 속도측정이 불가능한하며, 이�
 -> 이를 방지하기 위해 LPF를 적용한다.
 :::
 
-#### 하드웨어필터(Input Capture filter) 설계
+### 하드웨어필터(Input Capture filter) 설계
 
 * HW 필터 적용  
 s32k144 Capture Input simulink block에 해당하는 `FTM Input Edge Capture` 더블클릭 → General탭 → Check `Filter enable` → `Input Filter value`를 3으로 설정하고 측정하니까 소프트웨어 필터 없이도 속도측정값 튀지않고 잘 측정됨(21.10.29)
@@ -210,7 +201,7 @@ Velocity = 0.5회전/1펄스측정시간 = pi/dt
 	/><br/><em>&lt;Input Capture HW 필터 설정&gt;</em>
 </p>
 
-#### 디지털필터(LPF) 설계
+### 디지털필터(LPF) 설계
 
 :::note
 기능구현 완료 후 필터설계를 진행하고, 우선 간단하게 속도측정 시 다음과 같이 Low Pass Filter를 적용한다(21.09.27)
@@ -256,7 +247,7 @@ freq_out = freq_in*2pi
 	/><br/><em>&lt;1차 (좌) LPF fc=1Hz, Ts=0.001s vs (우) Butterworth fc=6Hz&gt;</em>
 </p>
 
-#### 디지털필터(FIR) 설계
+### 디지털필터(FIR) 설계
 
 :::note [Html Link]
 <a href="/assets/kalman/fir_filtering.html" target="_blank">1. FIR Lowpass filter를 통한 속도측정</a><br/>
@@ -268,7 +259,7 @@ freq_out = freq_in*2pi
 * nxp에서 제공 AMMCLIM f라이브러리를 이용하는 방법 고려해 볼 것
   * s32k14x시뮬링크 예제 - ../S32K14x_AMMCLIB_v1.1.18/../GDFLIB_FilterFIR_BAM_F32.mdl
 
-#### 디지털필터 타겟보드 동작확인
+### 디지털필터 타겟보드 동작확인
 
 시뮬링크 모델 [nxp_s32k144_gpio_pwm_adc_qd_ic.slx](#dc모터-위치속도-측정)을 코드자동생성/빌드/다운로드 하여 실행하면, FreeMASTER를 통해 다음과 같은 필터링 결과를 확인할 수가 있다.
 
@@ -280,7 +271,7 @@ freq_out = freq_in*2pi
 	/><br/><em>&lt;LPF를 통한 저속구간 속도 필터링 필요성&gt;</em>
 </p>
 
-### Pulse Count를 통한 속도계산
+## Pulse Count를 통한 속도계산
 
 * 1회전 당 8카운트가 발생하므로
   - 1[rev]=8[pulsecnt] -> 1[pulsecnt] = 1/8[rev]

@@ -114,6 +114,17 @@ a태그 안에 있는 target 속성의 값에 따라 링크여는 방법을 변�
     </a>
 </p>
 
+<p align="center">
+    <a target="_blank"
+    href={require('/img/docusaurus.png').default}>
+        <img
+            src={require('/img/docusaurus.png').default}
+            alt="Example banner"
+            width="350"
+        /><br/><em>&lt;이미지 클릭 시 원본 이미지 열기&gt;</em>
+    </a>
+</p>
+
 #### MD 이미지 링크
 
 마크다운 기본문법, JSX require(이미지 크기 조절 가능) 구문을 사용하여 <u>이미지+링크</u> 함게 연결할 수 있다.
@@ -455,11 +466,17 @@ npx docusaurus start
 
 ### color
 
+```
 <font color="blue">
 이 글자는 font 태그로 속성(칼라)을 주었다
-</font><br />
-
-<font color="#34a28a"><strong>Docusaurus색상적용</strong></font>
+</font><br/>
+<font color="#34a28a"><strong>Docusaurus색상적용</strong></font><br/>
+<font color="#34a28a">Docusaurus색상적용</font>
+```
+<font color="blue">
+이 글자는 font 태그로 속성(칼라)을 주었다
+</font><br/>
+<font color="#34a28a"><strong>Docusaurus색상적용</strong></font><br/>
 <font color="#34a28a">Docusaurus색상적용</font>
 
 Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.  
@@ -549,6 +566,7 @@ In development, you can only use one locale at a same time.
 ### Sidebar
 
 items를 이용하여 mbd->윈도우 하위에 design,realize,verify 카테고리 추가
+[link를 이용하여 상위카테고리(mbd) 클릭 시 mbd 문서 Open](https://docusaurus.io/ko/docs/2.1.0/sidebar#complex-sidebars-example)
 ```
 module.exports = {
   // By default, Docusaurus generates a sidebar from the docs folder structure

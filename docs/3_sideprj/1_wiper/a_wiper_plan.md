@@ -1,6 +1,6 @@
 ---
 id: wiper_plan
-title: 계획
+title: 프로젝트관리
 ---
 
 ---

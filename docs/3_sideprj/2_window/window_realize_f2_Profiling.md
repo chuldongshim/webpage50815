@@ -2,13 +2,6 @@
 id: window_realize_f2_Profiling
 title: F2 Profiling
 ---
-
-<div align="right">
-  <font size="4">
-    Since 21.08.20 ~ 21.11.30
-  </font>
-</div>
-
 ---
 
 ## 분석
@@ -102,18 +95,8 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 
 ### 프로파일링
 
-속도프로파일은 가속/등속/감속 세구간으로 나눠 직선의 방정식을 vel=f(t)와 같은 수식으로 만들어 각 샘플시간마다 속도를 계산한다. 역방향 프로파일은 정방향 프로파일과 부호만 반대로 계산한다.  
+속도프로파일은 가속/등속/감속 세구간으로 나눠 직선의 방정식을 vel=f(t)와 같은 수식으로 만들어 각 샘플시간마다 속도를 계산한다. 역방향 프로파일은 정방향 프로파일과 부호만 반대로 계산한다. 수식을 Stateflow를 통해 다음과 같이 구현한다.  
 속도프로파일을 적분하여 위치프로파일을 생성하고, 미분을 통해 가속도 프로파일을 생성한다.
-
-<p align="center">
-	<img
-		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_3_vel_formula.png').default}
-		alt="Example banner"
-		width="350"
-	/><br/><em>&lt;가속/등속/감속 프로파일링 생성 수식&gt;</em>
-</p>
-
-이와 같은 수식을 Stateflow를 통해 다음과 같이 구현한다.
 
 <p align="center">
 	<img

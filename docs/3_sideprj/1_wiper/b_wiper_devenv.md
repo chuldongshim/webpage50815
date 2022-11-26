@@ -1,6 +1,6 @@
 ---
 id: wiper_devenv
-title: 개발환경구축 및 설계
+title: 기본동작확인
 ---
 
 ---

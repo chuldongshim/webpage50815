@@ -14,21 +14,19 @@ title: 경력요약
 
 ## 모델기반설계 {#mycareer-mbd}
 
-### 습득기술
+다음 기술을 활용하여 모델기반설계 방식으로 개발을 수행할 수 있습니다.
 
-* MBD기반 제어로직 설계 및 시뮬레이션 검증
-* MBD기반 제어로직 C코드 자동생성 및 실제 타겟구동
-* 시뮬레이션-타겟구동 설계 비교검증
+1. MBD기반 제어로직 설계 및 시뮬레이션 검증
+2. MBD기반 제어로직 C코드 자동생성 및 실제 타겟 MCU에서 구동
+3. 시뮬레이션-타겟구동 설계 비교검증
 
-### 관련활동
-
-#### BLDC 선행학습
+### BLDC 선행학습
 
 1. [추후계획 : Sensorless BLDC by Kalman Filter ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-plan)
 2. [22.10.21~22.11.05 : Sensored BLDC MBD ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-sensered)
 3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-kalman)
 
-#### 와이퍼 알고리즘 개발
+### 와이퍼 알고리즘 개발
 
 1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR) ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
 관측기 상태피드백을 통한 LQR제어
@@ -61,7 +59,7 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-#### MBD고객대응
+### MBD고객대응
 
 1. [22.03.03~22.05.03 : PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer-psb)  
 기능에 따른 모터 구동을 위한 기능별 모터제어 프로파일링
@@ -75,7 +73,7 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-#### 윈도우 선행학습 {#mycareer-mbd-window}
+### 윈도우 선행학습 {#mycareer-mbd-window}
 
 1. [21.07.30~21.12.31 : Safety Power Window MBD 기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-func)  
 장애물 감지 시 윈도우 반전 실제적용(21년12월)
@@ -100,7 +98,7 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-#### MBD 시작
+### MBD 시작
 
 1. [07.03.02~08.08.31 : 졸업논문 ☜ click for more](/docs/mycareer/mymbd#mymbd-start-graduation)  
 센서 입력에 따른 모터 PID제어
@@ -117,21 +115,19 @@ Auto Wiping 동작확인
 
 ## 개발프로세스 {#mycareer-process}
 
-### 습득기술
+다음의 프로세스 및 기법을 통해 프로젝트를 관리할 수 있습니다.
 
 * A-SPICE/ISO26262를 통한 프로세스 구축
 * 프로세스 기반 선루프/윈도우 시스템 설계
 * Redmine을 통한 이슈 및 품질관리
 * Github/Gitlab 기반 Agile 프로젝트 관리
 
-### 관련활동
-
-#### MBD+AUTOSAR
+### MBD+AUTOSAR
 
 1. [22.11.01~22.11.30 : 개발전략 수립 2차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)
 2. [21.01.15~21.02.16 : 개발전략 수립 1차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)
 
-#### MBD+Agile {#mycareer-process-agile}
+### MBD+Agile {#mycareer-process-agile}
 
 1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)  
 KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스코드 형상관리 수행
@@ -148,7 +144,7 @@ GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 	</div>
 </p>
 
-#### 이슈관리
+### 이슈관리
 
 1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
@@ -172,7 +168,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	</div>
 </p>
 
-#### 표준프로세스 구축
+### 표준프로세스 구축
 
 1. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-cl3)
 <p align="left">
@@ -189,16 +185,14 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ## 임베디드개발 {#mycareer-embed}
 
-### 습득기술
+다음 기술을 활용하여 임베디드 제품을 개발할 수 있습니다.
 
 * 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
 * 임베디드 리눅스기반 어플리케이션 소프트웨어 개발
 * RTOS기반 실시간 제어시스템 소프트웨어 개발
 * 펌웨어 업데이트용 시리얼통신 부트로더 개발
 
-### 관련활동
-
-#### 부트로더 개발 {#mycareer-embed-fota}
+### 부트로더 개발 {#mycareer-embed-fota}
 
 1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader-fota)
 <p align="left">
@@ -214,7 +208,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현 ☜ click for more](/docs/mycareer/myembedded#myembedded-bootloader-iap)
 
-#### 제어기 개발 {#mycareer-embed-train}
+### 제어기 개발 {#mycareer-embed-train}
 
 1. [17.06.07~19.01.13 : 열차 출입문 제어기 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-controller-train)  
 전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
@@ -247,7 +241,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-#### 리눅스 응용프로그램 개발
+### 리눅스 응용프로그램 개발
 
 1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux-stm32f7)
 <p align="left">
@@ -260,7 +254,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux-maintenance)  
 3. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅 ☜ click for more](/docs/mycareer/myembedded#myembedded-linux-porting)  
 
-#### 센서 개발
+### 센서 개발
 
 1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-sensor-ft)
 <p align="left">

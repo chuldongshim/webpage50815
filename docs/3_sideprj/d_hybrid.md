@@ -1,6 +1,6 @@
 ---
 id: hybrid
-title: 하이브리드 MBD 개요
+title: 임베디드 웹서버OTA 개요
 ---
 
 <div align="right">

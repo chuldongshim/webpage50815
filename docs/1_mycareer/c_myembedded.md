@@ -39,7 +39,7 @@ X-CUBE-DSPDEMO by stm32f4-disco
 * MPU6050 IIR필터링 동영상
 * MPU6050 Kalman필터링 동영상
 
-### PC Python/LIN을 통한 NXP MCU FW업데이트 {#myembedded-bootloader-nxp-iap}
+### Python/LIN을 통한 NXP MCU FW업데이트 {#myembedded-bootloader-nxp-iap}
 
 * 기간 : 20.07.20 ~ 20.09.22 (책임 2년)
 
@@ -225,7 +225,6 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 	<img
 		src={require('/img/3_embedded/img1_1_kist.png').default}
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 
@@ -238,16 +237,6 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 * 상위제어기로부터 전송되는 경로에 대한 차량 선속도 및 각도 명령을 플랫폼 제어기에서 실시간 제어
 * 무인차 구동 중 고려되어야 하는 모든 Action에 대한 처리 구현
 (유/무선 비상정지, 후진 시 Brake 등 점등, 차량제어 수/자동 전환 등)
-
-<p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_2.png').default}
-			alt="Example banner"
-			width="350"
-		/><br/><em>&lt;그림제목&gt;</em>
-	</div>
-</p>
 
 [전기차 속도제어 실험](https://www.hellodd.com/news/articleView.html?idxno=29509)
 

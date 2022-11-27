@@ -6,7 +6,7 @@ title: 모델기반설계
 
 ## BLDC 선행학습 {#mymbd-bldc}
 
-### 추후계획 - Sensorless BLDC by Kalman Filter {#mymbd-bldc-plan}
+### Sensorless BLDC by Kalman Filter (TBD) {#mymbd-bldc-plan}
 
 * CAD연동(ProE/Solidworks 등)을 통한 Simulnik모델 가상 시뮬레이션
 * 하드웨어 없이 시뮬레이션 만으로 타겟 소프트웨어 개발
@@ -28,6 +28,12 @@ Self_Study
 * <a href="/assets/kalman/Maxon_Motor_4_Stochastic_.html" target="_blank">Stochastic Estimation Control by LQG</a>
 * <a href="/assets/kalman/Q_filter.html" target="_blank">Q-Filter</a>
 
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-kalman-simulation.png').default}
+		alt="Example banner"
+	/><br/><em>&lt;Simulink 모델을 통한 칼만필터 시뮬레이션&gt;</em>
+</p>
 
 ## 와이퍼 알고리즘 개발 {#mymbd-wiper}
 
@@ -85,8 +91,6 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 
 ### 와이퍼 MBD 기본기능구현 {#mymbd-wiper-func}
 
-시뮬레이션 검증을 통해 제어로직을 개발하고, 
-
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)
 * 목적 : GitLab-Agile방식을 통한 Wiper MBD개발
@@ -99,6 +103,8 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
   * 위치/속도 PID제어
 (공유한 구동부-통신부-제어로직부 ... 블록다이어그램 이미지(fig_2_1 추가)
 
+제어로직을 개발하고, 시뮬레이션을 통해 제어로직 검증(MIL, Model In the Loop)을 수행하였습니다. 
+
 <p align="center">
 	<iframe
 		src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
@@ -106,10 +112,10 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;모터 단품 3D시뮬레이션&gt;</em>
+	</iframe><br/><em>&lt;입력각도로 Linkage 위치 피드백제어 3D시뮬레이션&gt;</em>
 </p>
 
-MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬레이션과 동일하게 동작하는 것을 확인함으로써 MBD가 개발실무에 적용이 가능한지 타당성을 확인하는 것을 목적으로 프로젝트를 진행하였습니다.
+제어로직 개발 후 MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬레이션과 동일하게 동작하는 것을 확인함으로써 MBD가 개발실무에 적용이 가능한지 타당성을 확인하는 것을 목적으로 프로젝트를 진행하였습니다.
 
 <p align="center">
 	<iframe
@@ -124,7 +130,7 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 
 ## MBD고객대응 {#mymbd-customer}
 
-### PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현 {#mymbd-customer-psb}
+### PSB(안전벨트) 기능로직 MBD구현 {#mymbd-customer-psb}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 22.03.01 ~ 현재 (책임 4년차)
@@ -132,15 +138,15 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 * S32K144+Simulink를 통한 제어 알고리즘 개발 및 AutoCode
 * Cypress MCU에서 동작 가능한 HW 독립적인 코드 생성
 
-양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하고 시뮬링크를 통해 '요구사항-아키텍처모델-C코드' 간의 양방향 추적성을 확보하였다.
+양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하여 Profiling 기능로직을 구현하였다.
 <p align="center">
 	<img
-		src={require('/img/2_mbd/mymbd-psb-traceability.png').default}
+		src={require('/img/2_mbd/mymbd-psb-architecture.png').default}
 		alt="Example banner"
 	/>
 </p>
 
-시뮬레이션을 통해 구현된 기능로직을 확인해 가면서 구현을 진행하였으며, 최종 구현결과는 다음과 같다.
+Profiling 기능로직을 시뮬레이션으로 확인해 가면서 구현을 진행하였으며, 최종 구현결과는 다음과 같다.
 <p align="center">
 	<iframe 
 		width="350" height="250"
@@ -149,6 +155,22 @@ MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬�
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe><br/><em>&lt;안전벨트 기능로직 MBD구현&gt;</em>
+</p>
+
+PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하하고, 제어입력(Reference Profiling)과 제어출력(Motor Current Sensing)을 비교한 결과가 동일하므로 제어입력을 제어기가 잘 추종하는 것을 확인하였다.
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-psb-verify.png').default}
+		alt="Example banner"
+	/>
+</p>
+
+시뮬링크를 통해 '요구사항-아키텍처모델-C코드' 간의 양방향 추적성을 확보하였다.
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-psb-traceability.png').default}
+		alt="Example banner"
+	/>
 </p>
 
 ## 윈도우 선행학습 {#mymbd-window}

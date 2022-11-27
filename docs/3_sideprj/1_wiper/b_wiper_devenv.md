@@ -14,7 +14,10 @@ title: 기본동작확인
 ## MCU - S32K144
 
 ###  주요특징
-[S32K1_Overview_Presentation pdf 참고](https://www.nxp.com/docs/en/supporting-information/S32K1_Overview_Presentation.pdf)
+[S32K1_Overview_Presentation pdf](https://www.nxp.com/docs/en/supporting-information/S32K1_Overview_Presentation.pdf)  
+[S32K1xx Bootloader pdf](https://www.nxp.com/docs/en/application-note/AN12218.pdf)  
+[S32K1xx Firmware updates pdf](https://www.nxp.com/docs/en/application-note/AN12323.pdf)  
+[S32 SDK software architecture](https://www.programmersought.com/article/36523455668/)
 
 <p align="center">
 	<img
@@ -254,51 +257,3 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 
 동작확인 시 사용한 시뮬링크 모델 : nxp_s32k144_gpio_pwm_ic_dual_VNH5019.slx
 
-## 참고자료
-
-### S32K1x datasheet
-
-* [S32 SDK software architecture](https://www.programmersought.com/article/36523455668/)
-* [S32K1xx Bootloader ](https://www.nxp.com/docs/en/application-note/AN12218.pdf)
-* [S32K1xx Firmware updates](https://www.nxp.com/docs/en/application-note/AN12323.pdf)
-
-### 시뮬링크 예제
-
-[로직제어]
-
-* SysTick
-* Timer
-  * ftm_sw_control_s32k14x.mdl
-  * lpit_s32k14x.mdl
-  * lptmr_time_counter_s32k14x.mdl
-  * lptmr_pulse_counter_s32k14x.mdl
-* ExtInt
-* GPIO
-  * sl_gpio_isr_control_s32k144.mdl
-  * sl_gpio_s32k144.slx
-
-[모터제어]
-
-* PWM
-  * sl_ftm_complementary_pwm_s32k14x.slx
-  * ftm_independent_pwm_s32k14x.mdl
-* ADC
-  * adc_isr_s32k14x.mdl
-  * adc_software_trigger_s32k14x.mdl
-* Quadrature Decoder
-  * sl_ftm_hall_sensor_s32k14x.mdl
-  * sl_ftm_qd_s32k14x.mdl
-* Input Capture
-  * sl_ftm_input_capture_s32k14x.mdl
-
-[통신]
-
-* UART
-  * lpuart_hello_world_s32k14x.mdl
-  * lpuart_s32k14x.mdl
-* UART Rx Interrupt
-* FreeMASTER
-* SPI
-  * lpspi_master_slave_s32k14x.mdl
-  * lpspi_master_s32k144W.mdl
-  * lpspi_slave_s32k144.mdl

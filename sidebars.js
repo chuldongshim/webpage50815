@@ -114,8 +114,9 @@ module.exports = {
           },
           collapsed: false,
           items: [
-            'sideprj/window/window_verify_autocode',
+            //'sideprj/window/window_verify_autocode_strategy',
             //'sideprj/window/window_verify_mcu_porting',
+            'sideprj/window/window_verify_autocode_generate',
             'sideprj/window/window_verify_func_test',
             'sideprj/window/window_verify_traceability',
           ],
@@ -124,7 +125,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '4. 임베디드 웹서버',
+      label: '4. 임베디드 웹서버OTA',
       link: {
         type: 'doc',
         id: 'sideprj/hybrid',

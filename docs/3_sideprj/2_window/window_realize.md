@@ -15,4 +15,4 @@ title: 구현
 6. [F4 초기화](./window_realize_f4_Initialize)
 7. [F5 Soft-Stop](./window_realize_f5_SoftStop)
 8. [F6 Anti-Pinch](./window_realize_f6_AntiPinch)
-9. [F6 Anti-Pinch](./window_realize_f7_KalmanFilter)
+9. [F7 칼만필터(TBD)](./window_realize_f7_KalmanFilter)

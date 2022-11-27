@@ -26,20 +26,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
 ### GitLab기반 온도 PID제어 MBD {#myprocess-mbdagile-temperature}
 
-MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다. 
-처음 MBD로 설계한 로직에서 C코드를 자동생성하고, 타겟 MCU에서 구동해 봄으로써 이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다. 이는 이후 회사에서 MBD 프로젝트를 수행할 수 있는 계기가 되었습니다.
-
-<p align="center">
-	<div class="box">
-		<img
-			src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
-			alt="Example banner"
-		/><br/><em>&lt;온도PID제어 구현 및 타겟적용&gt;</em>
-	</div>
-</p>
-
-처음으로 GitLab을 사용하여 소스를 관리하였고, GitLab을 통해 Task(할일) 및 Issue(문제) 관리를 시도 하였습니다. 처음이라 그런지 프로젝트 관리가 제대로 되지 않아서 고민을 하던 차에 Github/GitLab하면 Agile 이야기가 나오는 것을 알게 되었고, "애자일, 민첩하고 유연한 조직의 비밀"이라는 책을 읽게 되었습니다. 프로젝트 경험과 책을 통해서 느낀점은 이후 Agile방식의 프로젝트를 지향하는 계기가 되었고, 그 생각과 실천은 지금까지 이어지고 있습니다.
-
+MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.  
 <p align="center">
 	<div class="box">
 		<img
@@ -49,6 +36,13 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 	</div>
 </p>
 
+처음이라 그런지 프로젝트 관리가 제대로 되지 않아서 고민을 하던 차에 Github/GitLab하면 Agile 이야기가 나오는 것을 알게 되었고, "애자일, 민첩하고 유연한 조직의 비밀"이라는 책을 읽게 되었습니다. 프로젝트 경험과 책을 통해서 느낀점은 이후 Agile방식의 프로젝트를 지향하는 계기가 되었고, 그 생각과 실천은 지금까지 이어지고 있습니다.
+* 처음으로 GitLab기반 소스 형상관리 수행
+* 처음으로 GitLab기반 Task(할일) 및 Issue(문제) 관리 -> 프로젝트 관리 관리 수행
+
+이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다. 이는 이후 회사에서 MBD 프로젝트를 수행할 수 있는 계기가 되었습니다.  
+* 처음으로 MBD기반으로 설계한 로직을 C코드를 자동생성하고 타겟 MCU에 구동
+* 모든 MBD기반 프로젝트 진행의 계기가 됨
 
 ## 이슈관리 {#myprocess-management}
 
@@ -161,6 +155,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 		<img
 			src={require('/img/1_process/c_process_sunroof_sysads.png').default}
 			alt="Example banner"
+			width="350"
 		/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
 	</div>
 </p>

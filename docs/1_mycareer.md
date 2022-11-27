@@ -22,13 +22,14 @@ title: 경력요약
 
 ### BLDC 선행학습
 
+
 1. [추후계획 : Sensorless BLDC by Kalman Filter ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-plan)
-2. [22.10.21~22.11.05 : Sensored BLDC MBD ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-sensered)
+2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-sensered)
 3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-kalman)
 
 ### 와이퍼 알고리즘 개발
 
-1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR) ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
+1. [22.09.01~22.10.18 : MBD기반 와이퍼 제어기설계 (관측기,LQR) ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-lqr)  
 관측기 상태피드백을 통한 LQR제어
 <p align="left">
 	<iframe 
@@ -40,14 +41,14 @@ title: 경력요약
 	</iframe>
 </p>
 2. [22.08.14~22.08.29 : FFT MCU 구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-fft)  
-MCU FFT연산 후 Matlab Realtime Plot
+MCU에서 FFT연산 -> Serial 송/수신 -> Matlab에서 FFT Realtime Plot
 <p align="left">
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-fft_1.png').default}
 		alt="Example banner"
 	/>
 </p>
-3. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-func)  
+3. [21.01.08~21.07.13 : MBD기반 와이퍼 기본기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-wiper-func)  
 Auto Wiping 동작확인
 <p align="left">
 	<iframe
@@ -61,8 +62,9 @@ Auto Wiping 동작확인
 
 ### MBD고객대응
 
-1. [22.03.03~22.05.03 : PSB(안전벨트, Pre-safe Seat Belt) 기능로직 MBD구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer-psb)  
-기능에 따른 모터 구동을 위한 기능별 모터제어 프로파일링
+1. [22.03.03~22.05.03 : MBD기반 PSB(안전벨트) 기능로직 구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-customer-psb)  
+PSB(Pre-safe Seat Belt)기능에 따른 모터 구동을 위한 기능별 모터제어 프로파일링  
+제어기에 자동생성코드를 통합하여 고객사에 납품함
 <p align="left">
 	<iframe 
 		width="350" height="250"
@@ -75,7 +77,7 @@ Auto Wiping 동작확인
 
 ### 윈도우 선행학습 {#mycareer-mbd-window}
 
-1. [21.07.30~21.12.31 : Safety Power Window MBD 기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-func)  
+1. [21.07.30~21.12.31 : MBD기반 Safety Power Window 기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-func)  
 장애물 감지 시 윈도우 반전 실제적용(21년12월)
 <p align="left">
 	<iframe
@@ -86,7 +88,7 @@ Auto Wiping 동작확인
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [13.10.01~14.05.16 : MicroAutoBox를 통한 Window MBD 기본기능 구동 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-basic)  
+2. [13.10.01~14.05.16 : MBD기반 MicroAutoBox를 통한 Window 기본기능 구동 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-basic)  
 장애물 감지 시 윈도우 반전 시뮬레이션(13년4월~14년3월)
 <p align="left">
 	<iframe 
@@ -101,7 +103,8 @@ Auto Wiping 동작확인
 ### MBD 시작
 
 1. [07.03.02~08.08.31 : 졸업논문 ☜ click for more](/docs/mycareer/mymbd#mymbd-start-graduation)  
-센서 입력에 따른 모터 PID제어
+센서 입력에 따른 모터 PID제어  
+C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink를 처음으로 사용함
 <p align="left">
 	<iframe 
 		width="350" height="250"
@@ -174,13 +177,21 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 <p align="left">
 	<div class="box" >
 		<img
-			src={require('/img/1_process/a_certification.png').default}
+			src={require('/img/1_process/a_certification_cl3.png').default}
 			alt="Example banner"
 		/>
 	</div>
 </p>
 2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-sys-design)
 3. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-cl2)
+<p align="left">
+	<div class="box" >
+		<img
+			src={require('/img/1_process/a_certification_cl2.png').default}
+			alt="Example banner"
+		/>
+	</div>
+</p>
 
 
 ## 임베디드개발 {#mycareer-embed}

@@ -30,8 +30,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot1_raw_data.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Real: 입력전압(0~12V)에 따른 Motor_Shaft RPM 출력(0~75rpm)&gt;</em>
 </p>
 
@@ -40,8 +40,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot2_sys_id.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Estimation: 입력전압(0~12V) vs Motor_Shaft RPM 출력(0~75rpm)&gt;</em>
 </p>
 
@@ -50,8 +50,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot3_sys_id_result.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;입력전압 vs Motor_Shaft RPM 출력 시뮬레이션&gt;</em>
 </p>
 
@@ -65,8 +65,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot4_sys_verify_tooth.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;삼각파 전압 입력 시 모터 출력 (좌-Real vs 우-Simulation)&gt;</em>
 </p>
 
@@ -78,8 +78,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_5_mot5_sys_verify_profiling.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;시뮬레이션 결과와 실제 모터구동 결과 비교&gt;</em>
 </p>
 
@@ -101,8 +101,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win1_raw_data.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;입력전압 vs Window 시스템에 장착된 모터 RPM 출력&gt;</em>
 </p>
 * Matlab System Identification을 통한 Nonlinear Model Estimation 수행  
@@ -110,8 +110,8 @@ System Identification을 통해 모터 모델링을 수행한다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win2_sys_id.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Estimated Model Output vs Real Output&gt;</em>
 </p>
 * 시뮬레이션 결과확인  
@@ -119,16 +119,16 @@ Voltage Step Input에 대한 Window Rpm 출력 확인
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;스텝 전압입력 시 실제출력과 모델 출력 시뮬레이션 결과 비교&gt;</em>
 </p>
 Step입력을 통해 모델링 한 모델에 다른전압(사다리꼴 프로파일)을 인가할 때에도 모델출력과 실제출력이 동일한지 확인한다.  
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_6_win3_sys_id_result2.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;사다리꼴 전압입력 시 실제출력과 모델출력 시뮬레이션 결과 비교&gt;</em>
 </p>
 확인 결과 사다리꼴 입력 시에는 실제출력과 모델출력에 오차가 약간 존재하는 것으로 확인되며, 실제 타겟시스템에서 튜닝을 통해 극복한다.

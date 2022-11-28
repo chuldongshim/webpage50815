@@ -16,6 +16,7 @@ title: 윈도우 MBD 개요
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_design_init_system_comcept.png').default}
+		width="450"
 		alt="Example banner"
 	/><br/><em>&lt;시뮬레이션모델(상) vs 코드생성용모델(하)&gt;</em>
 </p>

@@ -18,8 +18,8 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_1_solver.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Simulink Solver Settings&gt;</em>
 </p>
 
@@ -88,8 +88,8 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_2_profile_trigger.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;WindowState로직(좌) 및 OutputProcessing로직(우)&gt;</em>
 </p>
 
@@ -101,8 +101,8 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_3_vel_profiling.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;가속/등속/감속 프로파일링&gt;</em>
 </p>
 
@@ -123,8 +123,8 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_4_Sync_problem.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;모터 구동명령 동기화 문제&gt;</em>
 </p>
 
@@ -135,8 +135,8 @@ WindowState로직과 OutputProcessing로직 동기화를 위해 다음과 같이
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_5_Sync_solution.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;모터 구동명령 동기화 해결방법&gt;</em>
 </p>
 
@@ -161,8 +161,8 @@ WindowState로직과 OutputProcessing로직 동기화를 위해 다음과 같이
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f2_VelProfile_6_out_without_FbCtrl.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;피드백 없는 프로파일 모터 출력&gt;</em>
 </p>
 

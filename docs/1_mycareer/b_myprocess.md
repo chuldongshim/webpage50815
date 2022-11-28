@@ -31,6 +31,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 	<div class="box">
 		<img
 			src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;GitLab을 통한 프로젝트 관리&gt;</em>
 	</div>
@@ -54,6 +55,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 	<div class="box">
 		<img
 			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;AWS Cloud 환경에서 Redmine을 통한 이슈관리&gt;</em>
 	</div>
@@ -71,6 +73,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 	<div class="box">
 		<img
 			src={require('/img/1_process/d_process_train_issue_mgn.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;Redmine을 통한 이슈관리&gt;</em>
 	</div>
@@ -107,6 +110,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	<div class="box" >
 		<img
 			src={require('/img/1_process/a_process_std.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;A-SPICE/ISO26262 통합 표준 프로세스 수립&gt;</em>
 	</div>
@@ -114,14 +118,18 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 
 ### A-SPICE 및 ISO26262 시스템 설계 {#myprocess-std-sys-design}
 
+:::important
+표준 프로세스를 구축하면서 진행한 시스템 설계활동을 통해 MBD개발에서 요구되는 아키텍처 설계 역량을 키울 수 있었습니다.
+:::
+
 #### 윈도우 시스템 설계
 
 <p align="center">
 	<div class="box" >
 		<img
 			src={require('/img/1_process/process_iso26262_function_Architecture.png').default}
+			width="450"
 			alt="Example banner"
-			width="350"
 		/>
 	</div>
 </p>
@@ -143,6 +151,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	<div class="box">
 		<img
 			src={require('/img/1_process/b_process_sunroof_prj_mgn.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;선루프 개발 프로젝트 일정 관리&gt;</em>
 	</div>
@@ -154,8 +163,8 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	<div class="box">
 		<img
 			src={require('/img/1_process/c_process_sunroof_sysads.png').default}
+			width="450"
 			alt="Example banner"
-			width="350"
 		/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
 	</div>
 </p>

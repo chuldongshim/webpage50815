@@ -55,8 +55,8 @@ title: F7 칼만필터(TBD)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f7_mpu6050_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;MPU6050 인터페이스&gt;</em>
 </p>
 
@@ -67,8 +67,8 @@ title: F7 칼만필터(TBD)
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//lSM-kUjmdFw?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

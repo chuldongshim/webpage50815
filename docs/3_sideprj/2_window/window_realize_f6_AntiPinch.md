@@ -48,8 +48,8 @@ title: F6 Anti-Pinch
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f6_antipinch1_selfstudy.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Anti-Pinch반전에 부하학습 적용&gt;</em>
 </p>
 
@@ -58,8 +58,8 @@ title: F6 Anti-Pinch
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f6_antipinch2_test.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Anti-Pinch 반전 테스트&gt;</em>
 </p>
 

@@ -11,8 +11,8 @@ title: 하드웨어
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devKitC_v4_board.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Modules on ESP32-DevKitC v4&gt;</em>
 </p>
 
@@ -27,16 +27,16 @@ title: 하드웨어
 <p align="left">
 	<img
 		src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devkitC_v4_pinout.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;PinMap of ESP32-DevKitC v4&gt;</em>
 </p>
 * 메모리맵
 <p align="left">
 	<img
 		src={require('/img/3_embedded/mbd_hw_module_mcu_memory_map.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;MemoroyMap in technical reference manual&gt;</em>
 </p>
 
@@ -474,8 +474,8 @@ SRCS를 example_spp_acceptor_demo.c -> bt_uart.c로 변경
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio1_pinmap.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;GPIO Alternative Configuration&gt;</em>
 </p>
 
@@ -487,8 +487,8 @@ SRCS를 example_spp_acceptor_demo.c -> bt_uart.c로 변경
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio2_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;입/출력 포트 정의&gt;</em>
 </p>
 
@@ -548,16 +548,16 @@ void app_main(void)
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio3_prj_create.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;esp32-idf에저 제공되는 gpio 예제프로젝트 생성&gt;</em>
 </p>
 2. 타겟을 esp32로 선택한 다음 Build&Run을 통해 ESP32보드에 실행파일을 다운로드 한다.
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio4_prj_create.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;프로젝트 빌드 및 실행&gt;</em>
 </p>
 3. esp32-idf eclipse에서 제공되는 터미널을 통해 printf 출력을 모니터링 한다.  
@@ -565,8 +565,8 @@ Window 탭 -> Show view -> terminal
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio5_prj_create.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;printf 콘솔 모니터링&gt;</em>
 </p>
 
@@ -731,8 +731,8 @@ timer_start(group, timer);
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_uart1_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;입/출력 포트 정의&gt;</em>
 </p>
 

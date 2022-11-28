@@ -14,8 +14,8 @@ Controller는 C코드생성을 고려해 Discrete block을 사용하여 구현�
 <p align="center">
   <img
     src={require('/img/2_mbd/mbd_sys_design_pre_arch_concept.png').default}
+    width="450"
     alt="Example banner"
-    width="550"
   /><br/><em>&lt;System Architecture Concept&gt;</em>
 </p>
 
@@ -29,8 +29,8 @@ Controller는 C코드생성을 고려해 Discrete block을 사용하여 구현�
 <p align="center">
   <img
     src={require('/img/2_mbd/mbd_sys_design_pre_arch_system.png').default}
+    width="450"
     alt="Example banner"
-    width="550"
   /><br/><em>&lt;System Architecture&gt;</em>
 </p>
 
@@ -41,8 +41,8 @@ Controller는 C코드생성을 고려해 Discrete block을 사용하여 구현�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_design_pre_arch_physical.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Physical Architecture&gt;</em>
 </p>
 
@@ -56,8 +56,8 @@ Controller는 C코드생성을 고려해 Discrete block을 사용하여 구현�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_design_pre_arch_logical.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Logical Architecture&gt;</em>
 </p>
 

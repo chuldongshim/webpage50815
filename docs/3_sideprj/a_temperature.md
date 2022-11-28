@@ -22,6 +22,7 @@ title: MBD기반 온도PID제어 개요
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/img3_3_hw_config.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;출처 - 싱크웍스&gt;</em>
 	</div>

@@ -28,8 +28,8 @@ Robust 제어기 설계 시 적용(T.B.D)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_1_timing.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;피드백 제어주기&gt;</em>
 </p>
 
@@ -51,8 +51,8 @@ Robust 제어기 설계 시 적용(T.B.D)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_2_simulation.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;No Feedback(상) vs Feedback(하)&gt;</em>
 </p>
 
@@ -66,8 +66,8 @@ Robust 제어기 설계 시 적용(T.B.D)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_3_gain_tune.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;속도제어 게인 튜닝&gt;</em>
 </p>
 
@@ -83,8 +83,8 @@ Robust 제어기 설계 시 적용(T.B.D)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_4_AutoCode.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;코드자동생성&gt;</em>
 </p>
 
@@ -97,8 +97,8 @@ Robust 제어기 설계 시 적용(T.B.D)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f3_Feedback_5_verification.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;모터구동 출력신호 확인&gt;</em>
 </p>
 

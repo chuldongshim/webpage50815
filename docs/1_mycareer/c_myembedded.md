@@ -15,6 +15,7 @@ ESP32 Embedded WebServer를 통한 stm32f746 OTA
 <p align="center">
 	<img
 		src={require('/img/fourth_wifi_ota.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -60,8 +61,8 @@ X-CUBE-DSPDEMO by stm32f4-disco
 <p align="center">
 	<img
 		src={require('/img/3_embedded/bootloader_1.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Memory Address Allocation&gt;</em>
 </p>
 
@@ -95,8 +96,8 @@ nxp(mc9s12zvmb48) 펌웨어 업데이터 개발은 3개의 소프트웨어로 �
 <p align="center">
 	<img
 		src={require('/img/3_embedded/bootloader_2.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;bootloader flow diagram&gt;</em>
 </p>
 
@@ -111,8 +112,8 @@ Application이 Application Address부터 시작되도록 펌웨어를 빌드해�
 <p align="center">
 	<img
 		src={require('/img/3_embedded/bootloader_3.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Binary(Compiled Image) Analysis&gt;</em>
 </p>
 
@@ -122,8 +123,8 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 <p align="center">
 	<img
 		src={require('/img/3_embedded/bootloader_4.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Binary(Compiled Image) Analysis&gt;</em>
 </p>
 
@@ -180,8 +181,8 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img5_1_train_door.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 
@@ -201,8 +202,8 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 * 장애물 3회감지(1,2,3회로 갈수록 장애물 감지 시 도어 닫힘력이 높아짐) 후 열림완료동작 시험
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -224,6 +225,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img1_1_kist.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -242,8 +244,8 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -264,8 +266,8 @@ FND 디지털 시계
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -277,8 +279,8 @@ FND 디지털 시계
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 
@@ -316,8 +318,8 @@ FND 디지털 시계
 	<div class="box" >
 		<img
 			src={require('/img/3_embedded/myhistory_4.png').default}
+			width="450"
 			alt="Example banner"
-			width="350"
 		/><br/><em>&lt;그림제목&gt;</em>
 	</div>
 </p>
@@ -327,8 +329,8 @@ FND 디지털 시계
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 
@@ -355,8 +357,8 @@ FND 디지털 시계
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img3_2_arm9_linux_porting.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;S3C2440 ARM9에 Embedded Linux 포팅&gt;</em>
 </p>
 
@@ -375,8 +377,8 @@ FND 디지털 시계
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img2_1_yonsei_ftsensor.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 
@@ -391,8 +393,8 @@ FND 디지털 시계
 	<div class="box" >
 		<img
 			src={require('/img/3_embedded/myhistory_3.png').default}
+			width="450"
 			alt="Example banner"
-			width="350"
 		/><br/><em>&lt;FT센서 개발&gt;</em>
 	</div>
 </p>
@@ -404,8 +406,8 @@ FND 디지털 시계
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed/eEmyj61OwYo?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

@@ -90,8 +90,8 @@ title: MCU포팅
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil2_1_PIL_mode.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;PIL모드 동작확인&gt;</em>
 </p>
 
@@ -112,8 +112,8 @@ prototyping 또는 알고리즘 개발중인 경우 외부모드를 사용하면
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil2_2_External_mode_concept.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;External모드&gt;</em>
 </p>
 
@@ -126,8 +126,8 @@ Configuration Parameters -> Hardware Implementation -> Hardware board settings -
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil2_3_External_comport.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;External모드 시리얼포트 설정&gt;</em>
 </p>
 4. Simulation Mode 설정  
@@ -146,8 +146,8 @@ External모드에서는 MCU Peripherals Real Signal 입출력 및 모델로직(s
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil2_4_External_mode_ex.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;External모드 Peripherals+Stateflow 동작확인&gt;</em>
 </p>
 

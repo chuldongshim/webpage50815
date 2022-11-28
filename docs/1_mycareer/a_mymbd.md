@@ -31,6 +31,7 @@ Self_Study
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-kalman-simulation.png').default}
+		width="450"
 		alt="Example banner"
 	/><br/><em>&lt;Simulink 모델을 통한 칼만필터 시뮬레이션&gt;</em>
 </p>
@@ -54,6 +55,7 @@ Self_Study
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-lqr_1.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -61,8 +63,8 @@ Self_Study
 알고리즘을 Simulink를 통해 C코드로 자동생성한 다음, C코드를 컴파일 하여 타겟 MCU에서 실행
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -73,6 +75,7 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-lqr_2.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -85,6 +88,7 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-fft_1.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -142,6 +146,7 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-psb-architecture.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -149,8 +154,8 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 Profiling 기능로직을 시뮬레이션으로 확인해 가면서 구현을 진행하였으며, 최종 구현결과는 다음과 같다.
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -161,6 +166,7 @@ PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-psb-verify.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -169,6 +175,7 @@ PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-psb-traceability.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -210,6 +217,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 <p align="center">
 	<img
 		src={require('/img/2_mbd/img2_1_dyauto_mbd.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>
@@ -222,8 +230,8 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -240,8 +248,8 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 <p align="center">
 	<img
 		src={require('/img/3_embedded/img1_0_mju_paper.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 
@@ -259,8 +267,8 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 
 <p align="center">
 	<iframe 
-		width="350" height="250"
 		src="https://www.youtube.com/embed/Bdt_fOkhiw8?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

@@ -144,6 +144,8 @@ module.exports = {
       link: {
         type: 'doc',
         id: 'sideprj/linux',
+        //type: 'generated-index',
+		//description: '리눅스 플랫폼 상에서 IOT 통합 시스템 개발!',
       },
       collapsed: true,
       items: [

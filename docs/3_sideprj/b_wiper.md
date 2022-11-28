@@ -16,6 +16,7 @@ title: 와이퍼 MBD 개요
 <p align="left">
 	<img
 		src={require('/img/2_mbd/img4_1_wiper_system.png').default}
+		width="450"
 		alt="Example banner"
 	/>
 </p>

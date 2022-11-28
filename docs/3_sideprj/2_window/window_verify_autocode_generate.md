@@ -17,8 +17,8 @@ title: 코드자동생성
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil1_3_AutoCode_FuncLogic.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;시뮬레이션모델(상) vs 코드생성용모델(하)&gt;</em>
 </p>
 

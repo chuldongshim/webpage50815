@@ -36,8 +36,8 @@ title: 프로젝트관리
 <p align="center">
 	<img
 		src={require('/img/2_mbd/2_pil_simulation_concept.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;선행개발 컨셉&gt;</em>
 </p>
 
@@ -86,8 +86,8 @@ MBD개발은 다음과 같이 MIL/SIL/PIL/HIL 단계를 통해 진행한다.
 	<p align="center">
 		<img
 			src={require('/img/2_mbd/1_mil_sil_pil.png').default}
+			width="450"
 			alt="Example banner"
-			width="350"
 		/>
 	</p>
 	</div>

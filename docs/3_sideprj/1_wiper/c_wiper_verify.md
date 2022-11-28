@@ -18,8 +18,8 @@ title: 설계 및 검증
 <p align="center">
 	<img
 		src={require('/img/2_mbd/img4_3_logic_modeling.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;사다리꼴 속도 프로파일&gt;</em>
 </p>
 
@@ -30,8 +30,8 @@ title: 설계 및 검증
 <p align="center">
 	<img
 		src={require('/img/2_mbd/img4_4_simulation.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;로직 시뮬레이션&gt;</em>
 </p>
 
@@ -45,8 +45,8 @@ title: 설계 및 검증
 <body>
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">f
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -58,8 +58,8 @@ title: 설계 및 검증
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed/Vi7RNYXipMQ?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -76,8 +76,8 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 <p align="center">
 	<img
 		src={require('/img/2_mbd/img4_5_MCU_porting.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;시스템 구성&gt;</em>
 </p>
 
@@ -86,8 +86,8 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 <p align="center">
 	<img
 		src={require('/img/2_mbd/img4_2_hw_configuration2.jpg').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;하드웨어 인터페이스&gt;</em>
 </p>
 
@@ -98,8 +98,8 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed/SH5TJdI_F8M?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -110,8 +110,8 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed/gZ7yAiUIIdw?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

@@ -229,8 +229,8 @@ Window탭 -> Show View -> Terminal -> 시리얼 통신 설정 후 연결/확인
 <p align="center">
 	<img
 		src={require('/img/3_embedded/esp_sup_env_16_terminal.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 

@@ -16,6 +16,7 @@ TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
 	</div>
@@ -56,6 +57,7 @@ TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/mbd_hw_ti_fw_ccs_installation.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;소프트웨어 설치 확인&gt;</em>
 	</div>
@@ -72,6 +74,7 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/mbd_hw_ti_fw_controlSUITE_PinMuxUtility.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;Pin Mux Utility&gt;</em>
 	</div>
@@ -112,6 +115,7 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_gpio.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;gpio by external mode&gt;</em>
 	</div>
@@ -144,8 +148,8 @@ fc=1.59KHz(628us Period)에서 45.4us는 고주파 차단
 <p align="center">
 	<img
 	  src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc_simulate.png').default}
+	  width="450"
 	  alt="Example banner"
-	  width="350"
 	/><br/><em>&lt;LPF Simulation&gt;</em>
 </p>
 
@@ -155,8 +159,8 @@ fc=1.59KHz(628us Period)에서 45.4us는 고주파 차단
 <p align="center">
 	<img
 	  src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc.png').default}
+	  width="450"
 	  alt="Example banner"
-	  width="350"
 	/><br/><em>&lt;PWM->ADC&gt;</em>
 </p>
 
@@ -175,8 +179,8 @@ Configuration Parameters -> Hardware Implementation -> Hardware board settings -
   <p align="center">
    <img
 	  src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_eQEP.png').default}
+	  width="450"
 	  alt="Example banner"
-	  width="350"
 	/><br/><em>&lt;eQEP&gt;</em>
   </p>
 
@@ -197,6 +201,7 @@ Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/img3_3_hw_config.png').default}
+			width="450"
 			alt="Example banner"
 		/>
 	</div>
@@ -214,6 +219,7 @@ Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+			width="450"
 			alt="Example banner"
 		/>
 	</div>

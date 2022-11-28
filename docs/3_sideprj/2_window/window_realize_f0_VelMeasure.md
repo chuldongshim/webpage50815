@@ -21,8 +21,8 @@ HW-Simulink에서 구현한 시뮬링크 모델([GPIO-ADC-PWM-QD-IC](/.)를 통�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd_ic.slx&gt;</em>
 </p>
 
@@ -112,8 +112,8 @@ B상	   |￣￣|____|￣￣|____
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_0_vel_process.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;속도 정확도 향상처리 방법&gt;</em>
 </p>
 
@@ -196,8 +196,8 @@ Velocity = 0.5회전/1펄스측정시간 = pi/dt
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_1_IC_hw_filter.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Input Capture HW 필터 설정&gt;</em>
 </p>
 
@@ -242,8 +242,8 @@ freq_out = freq_in*2pi
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_2_LPFnButterworth.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;1차 (좌) LPF fc=1Hz, Ts=0.001s vs (우) Butterworth fc=6Hz&gt;</em>
 </p>
 
@@ -266,8 +266,8 @@ freq_out = freq_in*2pi
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_3_LPF_targetExecution.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;LPF를 통한 저속구간 속도 필터링 필요성&gt;</em>
 </p>
 
@@ -290,8 +290,8 @@ freq_out = freq_in*2pi
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f0_modeling_4_vel_measure.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;PWM출력 vs 속도측정(1펄스시간/주기동안펄스카운트)&gt;</em>
 </p>
 

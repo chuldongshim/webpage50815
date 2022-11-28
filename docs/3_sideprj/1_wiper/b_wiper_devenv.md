@@ -22,8 +22,8 @@ title: 기본동작확인
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_1_mcu_brief.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;MCU Spec(Brief)&gt;</em>
 </p>
 
@@ -63,8 +63,8 @@ title: 기본동작확인
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_2_evb_pinout.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;S32K144EVB-Q100 pinout&gt;</em>
 </p>
 
@@ -73,8 +73,8 @@ title: 기본동작확인
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_s32k14x_3_evb_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
@@ -148,8 +148,8 @@ uint32 – 32bit (4 byte), integer
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
@@ -160,8 +160,8 @@ C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Exam
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_1_basic_ex.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd.slx&gt;</em>
 </p>
 
@@ -172,8 +172,8 @@ C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Exam
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
@@ -182,8 +182,8 @@ C:\Users\User\Documents\MATLAB\Add-Ons\Toolboxes\NXP_MBDToolbox_S32K1xx\S32_Exam
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_2_basic_ex.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;nxp_s32k144_gpio_pwm_ic.slx&gt;</em>
 </p>
 
@@ -200,8 +200,8 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;s32k144 evb interface&gt;</em>
 </p>
 
@@ -214,8 +214,8 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_simulink_3_basic_ex.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;nxp_s32k144_gpio_pwm_adc_qd_ic.slx&gt;</em>
 </p>
 
@@ -230,8 +230,8 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_single_vnh5019_interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;VNH5019 인터페이스&gt;</em>
 </p>
 
@@ -242,16 +242,16 @@ FTM0_PWM, FTM1_IC 모두 System Clock(80MHz)를 사용하는데, FTM0_PWM(펄스
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m1_Interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;VNH5019 Motor1 인터페이스&gt;</em>
 </p>
 
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_hw_nxp_fw_driver_dual_vnh5019_m2_Interface.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;VNH5019 Motor2 인터페이스&gt;</em>
 </p>
 

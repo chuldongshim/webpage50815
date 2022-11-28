@@ -33,8 +33,8 @@ title: F4 초기화
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f4_init_1_SetAutoByInit.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;초기화 상태에 따른 Auto 설정&gt;</em>
 </p>
 
@@ -50,8 +50,8 @@ Simulink 상에서 시뮬레이션을 통해 초기화기능을 구현할 때 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f4_init_2_reset_tf.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Decomposition of Transfer Function&gt;</em>
 </p>
 
@@ -108,8 +108,8 @@ int main(void)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f4_init_3_StuckDetect.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;구속판단&gt;</em>
 </p>
 * 초기화 시 구속판단
@@ -126,8 +126,8 @@ int main(void)
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f4_init_4_InitLogic.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;초기화 로직&gt;</em>
 </p>
 
@@ -231,7 +231,7 @@ CW이동중엔 장애물이 없다가 CCW이동중 장애물이 감지되는 경
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f4_init_5_InitSequence.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;초기화 시퀀스&gt;</em>
 </p>

@@ -19,8 +19,8 @@ temperature PID 프로젝트와 같이 제어대상 Plant(PWM출력->션트저�
 <p align="center">
 	<img
 		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Hybrid AutoCodeGen&gt;</em>
 </p>
 
@@ -37,8 +37,8 @@ Window 프로젝트와 같이 시뮬링크에서 Peripherals 관련 Function Blo
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeStrategy.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Hybrid AutoCode Strategy&gt;</em>
 </p>
 
@@ -51,8 +51,8 @@ Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil1_1_Hybrid_AutoCodeGen.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/><br/><em>&lt;Hybrid AutoCode Integration&gt;</em>
 </p>
 
@@ -72,8 +72,8 @@ Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil1_2_DD_Sequence1_Init.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
   * Coding  
@@ -81,8 +81,8 @@ Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil1_2_DD_Sequence2_Coding.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>  
   <u>코드생성 시 HW의존적인 부분은 #ifndef MATLAB_MEX_FILE ~ #endif 매크로 처리를 해야 빌드에러가 발생하지 않음</u><br/>
@@ -92,8 +92,8 @@ Mathworks에서 제공하는 예제(mbdt_mpc_autosar_system_top.slx)를 통해 �
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_pil1_2_DD_Sequence3_Compile.png').default}
+		width="450"
 		alt="Example banner"
-		width="350"
 	/>
 </p>
 

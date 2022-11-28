@@ -35,6 +35,7 @@ Piccolo ControlStick F28069 인터페이스
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/mbd_hw_ti_evb_ControlStick_pinout.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
 	</div>
@@ -46,6 +47,7 @@ Piccolo ControlStick F28069 인터페이스
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/mbd_hw_ti_evb_LAUNCHXL_pinout.png').default}
+			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;LAUNCHXL-F28069M pinout&gt;</em>
 	</div>

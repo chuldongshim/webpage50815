@@ -12,8 +12,8 @@ title: 기능시험
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed//IEqg8dDzfDI?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -22,8 +22,8 @@ title: 기능시험
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed//jCq4ktn4KRU?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -37,8 +37,8 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed//ML_fRinUlRI?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -62,8 +62,8 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed//rUO6xONQ8OM?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -80,8 +80,8 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 
 <p align="center">
 	<iframe
-		width="350" height="250"
 		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

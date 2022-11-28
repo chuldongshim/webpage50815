@@ -23,6 +23,7 @@ title: 프로젝트 관리
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/img3_2_mbd_concept.png').default}
+			width="450"
 			alt="Example banner"
 		/>
 	</div>
@@ -57,6 +58,7 @@ GitLab을 통해 Task(할일,일정) 및 Issue(문제) 관리
 	<div class="box" >
 		<img
 			src={require('/img/2_mbd/img3_1_svn_log.png').default}
+			width="450"
 			alt="Example banner"
 		/>
 	</div>
@@ -65,3 +67,4 @@ GitLab을 통해 Task(할일,일정) 및 Issue(문제) 관리
 ### 이슈관리
 
 gitlab repository에 Project를 생성하여 agile 기반으로 프로젝트 이슈를 관리한다.  
+

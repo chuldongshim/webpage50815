@@ -24,7 +24,8 @@ title: 하드웨어
 * IO Usage
   * USB커넥트 양쪽 근처에 그룹화 된 D0, D1, D2, D3, CMD 및 CLK는 내부적으로 ESP32와 SPI메모리(Flash/RAM) 간의 통신에 사용된다.
 * [ESP32 GPIO 포트 설명](https://arsviator.blogspot.com/2018/11/esp32-gpio.html)
-<p align="left">
+
+<p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_module_mcu_esp32_devkitC_v4_pinout.png').default}
 		width="450"
@@ -32,7 +33,8 @@ title: 하드웨어
 	/><br/><em>&lt;PinMap of ESP32-DevKitC v4&gt;</em>
 </p>
 * 메모리맵
-<p align="left">
+
+<p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_module_mcu_memory_map.png').default}
 		width="450"
@@ -545,6 +547,7 @@ void app_main(void)
 다음 절차를 통해 ESP에서 제공하는 예제프로젝트를 생성한다.
 1. esp32-idf eclipse에서 File->New->Espressif IDF Project를 선택한다.
 여기서는 peripherals->gpio->`generic_gpio` 프로젝트를 선택한다.
+
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio3_prj_create.png').default}
@@ -553,6 +556,7 @@ void app_main(void)
 	/><br/><em>&lt;esp32-idf에저 제공되는 gpio 예제프로젝트 생성&gt;</em>
 </p>
 2. 타겟을 esp32로 선택한 다음 Build&Run을 통해 ESP32보드에 실행파일을 다운로드 한다.
+
 <p align="center">
 	<img
 		src={require('/img/3_embedded/mbd_hw_fw_gpio4_prj_create.png').default}
@@ -560,7 +564,8 @@ void app_main(void)
 		alt="Example banner"
 	/><br/><em>&lt;프로젝트 빌드 및 실행&gt;</em>
 </p>
-3. esp32-idf eclipse에서 제공되는 터미널을 통해 printf 출력을 모니터링 한다.  
+3. esp32-idf eclipse에서 제공되는 터미널을 통해 printf 출력을 모니터링 한다.
+
 Window 탭 -> Show view -> terminal
 <p align="center">
 	<img

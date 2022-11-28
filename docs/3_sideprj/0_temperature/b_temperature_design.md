@@ -145,6 +145,7 @@ fc=1.59KHz(628us Period)에서 454us는 저주파 통과
 PWM Period=`2048` → 11ns*2048=22.7us(실제측정 22.7us\*2=45.4us)
 fc=1.59KHz(628us Period)에서 45.4us는 고주파 차단  
 → 감쇠되어 ADC측정 가능
+
 <p align="center">
 	<img
 	  src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc_simulate.png').default}
@@ -156,6 +157,7 @@ fc=1.59KHz(628us Period)에서 45.4us는 고주파 차단
 인터페이스 및 Extermal Mode를 통한 동작확인
 * PWM을 ADC로 직접 측정할 수 없으므로 RC회로를 거쳐 평활한 다음 측정한다. 따라서 다음과 같이 ePWM7B(GPIO41) -> RC회로를 통한 DAC2(J4_31pin) -> ADCINA0(J3_29pin)
 * PMW주파수를 변경하면 ADC 측정결과가 달라지는 것을 확인할 수 있다.
+
 <p align="center">
 	<img
 	  src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_PwmAdc.png').default}
@@ -176,13 +178,14 @@ Configuration Parameters -> Hardware Implementation -> Hardware board settings -
 
 * eQEP는 16bit TimerCounter를 사용하므로, Max Pos Count는 0xFFFF.FFFF가 된다.
 * 인터페이스 및 Extermal Mode를 통한 동작확인
-  <p align="center">
-   <img
-	  src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_eQEP.png').default}
-	  width="450"
-	  alt="Example banner"
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_eQEP.png').default}
+		width="450"
+		alt="Example banner"
 	/><br/><em>&lt;eQEP&gt;</em>
-  </p>
+</p>
 
 :::important
 * eQEP 포트설정  

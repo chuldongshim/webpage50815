@@ -187,6 +187,7 @@ ESP32은 다음과 같이 JTAG or UART를 통해 디버깅을 수행할 수 있�
 * UART는 EVB보드에 내장되어 있는 CP2102N 칩(USB-UART)을 이용하여 가상 USB를 통해 모니터링이 가능하다.
 * 디버깅은 JTAG 장비가 있어야 가능하며, <font color="blue"><u>ESP32-WROOM-32D는 JTAG adapter는 없고 usb-uart interface만 embed 되어 있다.</u></font>  
 [ESP-IDF GDB OpenOCD Debugging](https://github.com/espressif/idf-eclipse-plugin/blob/master/docs/OpenOCD%20Debugging.md) 또는 [ESP-WROVER-KIT(on-board debuger 내장)](https://docs.platformio.org/en/latest/boards/espressif32/esp-wrover-kit.html#debugging) 참조
+
 ![](/img/3_embedded/esp_sup_env_OpenOCD_over_JTAG.png)
 
 ## Hello World
@@ -195,16 +196,20 @@ ESP32은 다음과 같이 JTAG or UART를 통해 디버깅을 수행할 수 있�
 
 #### 이클립스 프로젝트 생성
 
-동작확인을 위해 Espressif IDF에서 제공하는 기본 예제 Project를 생성한다. Espressif IDF Project -> 디폴트경로, 프로젝트 이름을 정의 후 Next -> 예제 프로젝트를 생성할 수 있는 Template가 나타난다.   
+동작확인을 위해 Espressif IDF에서 제공하는 기본 예제 Project를 생성한다. Espressif IDF Project -> 디폴트경로, 프로젝트 이름을 정의 후 Next -> 예제 프로젝트를 생성할 수 있는 Template가 나타난다.
+
 ![](/img/3_embedded/esp_sup_env_09.png)
 
-여기서는 Blink Example 선택 후 Finish 버튼을 누른다.  
+여기서는 Blink Example 선택 후 Finish 버튼을 누른다.
+
 ![](/img/3_embedded/esp_sup_env_10.png)
 
-타겟을 esp32로 설정하고  
+타겟을 esp32로 설정하고
+
 ![](/img/3_embedded/esp_sup_env_11.png)
 
-장치관리자에서 인식한 시리얼포트로 포트번호를 설정한다.  
+장치관리자에서 인식한 시리얼포트로 포트번호를 설정한다.
+
 ![](/img/3_embedded/esp_sup_env_12.png)
 
 :::important
@@ -214,13 +219,16 @@ Help -> Download and Configure ESP-IDF -> Check "Use an existing ESP-IDF directo
 
 #### 이클립스 빌드/다운로드/터미널모니터
 
-빌드버튼을 눌러 프로젝트를 빌드한다.(처음 빌드 시 빌드시간 오래 걸림) 에러 없이 빌드가 완료되면 `sdkconfig.defaults`파일이 `sdkconfig파일`(콘솔 idf.py menuconfig를 통해서 설정할 수 있는 프로젝트 설정파일로 ESP-IDF eclipse에서 sdkconfig파일 더블클릭하여 설정이 가능함)로 변경된다.  
+빌드버튼을 눌러 프로젝트를 빌드한다.(처음 빌드 시 빌드시간 오래 걸림) 에러 없이 빌드가 완료되면 `sdkconfig.defaults`파일이 `sdkconfig파일`(콘솔 idf.py menuconfig를 통해서 설정할 수 있는 프로젝트 설정파일로 ESP-IDF eclipse에서 sdkconfig파일 더블클릭하여 설정이 가능함)로 변경된다.
+
 ![](/img/3_embedded/esp_sup_env_13.png)
 
-테라텀 연결 해제 후(시리얼을 통해 업데이트 하는 것으로 보임) RUN버튼을 눌러 다운로드를 진행한다.  
+테라텀 연결 해제 후(시리얼을 통해 업데이트 하는 것으로 보임) RUN버튼을 눌러 다운로드를 진행한다.
+
 ![](/img/3_embedded/esp_sup_env_14.png)
 
 다운로드가 완료되면 테라텀(115200bps)을 연결하여 printf메시지 출력을 확인하거나
+
 ![](/img/3_embedded/esp_sup_env_15.png)
 
 ESP-IDF에서 제공하는 Serial Monitor를 통해 메시지 출력을 확인한다.  

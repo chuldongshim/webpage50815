@@ -105,6 +105,7 @@ int main(void)
 * 초기화 해제 시 구속판단
   * 초기화해제 상태에서 PWM출력 시 200ms±10ms동안 Quadrature Decoder Count Value값에 변화가 없으면 구속으로 판단한다.
   * PWM출력 duty가 작을 경우 PWM출력 시 Hall Pulse가 발생하지 않으므로 PWM출력은 모터 구동이 가능한 최소한의 duty여야 하며, 파라미터를 통해 튜닝할 수 있어야 한다.
+
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mbd_sys_mil_f4_init_3_StuckDetect.png').default}

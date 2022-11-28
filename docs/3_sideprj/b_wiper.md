@@ -13,7 +13,7 @@ title: 와이퍼 MBD 개요
 
 ## 시스템 구성
 
-<p align="left">
+<p align="center">
 	<img
 		src={require('/img/2_mbd/img4_1_wiper_system.png').default}
 		width="450"

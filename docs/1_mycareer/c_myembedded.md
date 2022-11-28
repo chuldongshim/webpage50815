@@ -200,6 +200,7 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
   Rhapsody를 통한 소프트웨어 설계 (`Software Architecture & Design Specification_v1_190308.docx` 문서내용 정리)  
   EA를 통해 사양서 기술(`코레일128량 통로문 소프트웨어 설계 규격서_v06_수정후.docx` 문서내용 정리)
 * 장애물 3회감지(1,2,3회로 갈수록 장애물 감지 시 도어 닫힘력이 높아짐) 후 열림완료동작 시험
+
 <p align="center">
 	<iframe 
 		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"

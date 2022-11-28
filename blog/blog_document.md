@@ -78,7 +78,13 @@ a태크의 href 속성을 통해 링크를 연결한 경우 title 속성을 통�
 	</body>
 </html>
 ```
+left(default)/center align External url Link
+
 <a href="https://blog.naver.com/alyssa111" title="일상 글">하양의 블로그</a>
+
+<p align="center">
+	<a href="https://blog.naver.com/alyssa111" title="일상 글">하양의 블로그</a>
+</p>
 
 ### 이미지 링크
 

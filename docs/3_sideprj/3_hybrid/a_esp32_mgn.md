@@ -139,15 +139,42 @@ C:\Users\cdshim
 * [ESP-IDF SDK 다운로드](https://github.com/espressif/esp-idf)
 :::
 
-다음과 같이 Off-line mode로 설치파일 `esp-idf-tools-setup-offline-2.10.exe`를 다운로드 하고, 더블클릭하여 디폴트로 설치를 진행한다(단 경로는 아래와 같이 변경).  
-![](/img/3_embedded/esp_sup_env_01.png)
+다음과 같이 Off-line mode로 설치파일 `esp-idf-tools-setup-offline-2.10.exe`를 다운로드 하고, 더블클릭하여 디폴트로 설치를 진행한다(단 경로는 아래와 같이 변경).
 
-설치가 완료되면 `Run ESP-IDF Eclipse Environment`를 체크하고 Finish 버튼을 눌러 설치를 종료한다.  
-![](/img/3_embedded/esp_sup_env_02.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_01.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
-이후 이클립스가 자동으로 실행되는데, workspace를 `C:\Users\cdshim\esp\esp-idf`로 설정하여 이클립스를 실행한다.  
-![](/img/3_embedded/esp_sup_env_03.png)
-![](/img/3_embedded/esp_sup_env_04.png)
+설치가 완료되면 `Run ESP-IDF Eclipse Environment`를 체크하고 Finish 버튼을 눌러 설치를 종료한다.
+
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_02.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+이후 이클립스가 자동으로 실행되는데, workspace를 `C:\Users\cdshim\esp\esp-idf`로 설정하여 이클립스를 실행한다.
+
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_03.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_04.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 나중에 ESP-IDF를 재시작하려면...
 * 바탕화면에 생성되는 "ESP-IDF Eclipse" 아이콘 실행
@@ -162,16 +189,35 @@ ESP-IDF eclipse를 설치하면 esp-idf plug-in이 자동으로 설치되며, Ec
 
 ESP-IDF Tool 설치를 진행하지 않은 상태에서 eclipse에서 Expressif IDF Project를 생성하거나 Workspace를 변경한 상태에서 ESP-IDF Tool을 다시 설치하지 않으면 다음과 같은 Path Error가 발생하므로 ESP-IDF 툴 설치를 진행해야 한다.
   
-![](/img/3_embedded/esp_sup_env_07.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_07.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 `Help -> ESP-IDF Tools Manager -> Install Tools`를 선택하여 다이얼로그를 열고 git실행파일이 위치하는 경로를 Git Executable Location으로 입력하고 ESP-IDF 툴 설치를 진행한다. (ES_-IDF Directory, Choose Python version은 자동으로 인식 됨)
 * [업데이트 사이트 URL을 사용하여 eclipse에 IDF 플러그인 설치](https://github.com/espressif/idf-eclipse-plugin#Prerequisites)
 * [ESP-IDF 도구 설치 프로그램](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/windows-setup.html)
 
-![](/img/3_embedded/esp_sup_env_05.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_05.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 설치 완료 후 프로젝트가 정상적으로 생성/빌드되는지 확인한다. (재부팅 필요 없음)
-![](/img/3_embedded/esp_sup_env_06.png)
+
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_06.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ### 기타 설치
 
@@ -179,7 +225,14 @@ ESP-IDF Tool 설치를 진행하지 않은 상태에서 eclipse에서 Expressif 
 
 ESP32 EVB보드는 [CP2192 드라이버를 통해 usb to serial converting을 수행](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=solsol8711&logNo=172613469)한다.
 프로그램 설치 완료 후 ESP32를 PC와 연결하면 자동으로 usb to serial 장치를 검색하는데, 드라이버가 설치되지 않으면 장치를 인식할 수 없으므로 드라이버를 설치하여 장치인식을 확인한다.  
-![](/img/3_embedded/esp_sup_env_08.png)
+
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_08.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 #### Debugger 설치
 
@@ -188,7 +241,13 @@ ESP32은 다음과 같이 JTAG or UART를 통해 디버깅을 수행할 수 있�
 * 디버깅은 JTAG 장비가 있어야 가능하며, <font color="blue"><u>ESP32-WROOM-32D는 JTAG adapter는 없고 usb-uart interface만 embed 되어 있다.</u></font>  
 [ESP-IDF GDB OpenOCD Debugging](https://github.com/espressif/idf-eclipse-plugin/blob/master/docs/OpenOCD%20Debugging.md) 또는 [ESP-WROVER-KIT(on-board debuger 내장)](https://docs.platformio.org/en/latest/boards/espressif32/esp-wrover-kit.html#debugging) 참조
 
-![](/img/3_embedded/esp_sup_env_OpenOCD_over_JTAG.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_OpenOCD_over_JTAG.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ## Hello World
 
@@ -198,19 +257,43 @@ ESP32은 다음과 같이 JTAG or UART를 통해 디버깅을 수행할 수 있�
 
 동작확인을 위해 Espressif IDF에서 제공하는 기본 예제 Project를 생성한다. Espressif IDF Project -> 디폴트경로, 프로젝트 이름을 정의 후 Next -> 예제 프로젝트를 생성할 수 있는 Template가 나타난다.
 
-![](/img/3_embedded/esp_sup_env_09.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_09.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 여기서는 Blink Example 선택 후 Finish 버튼을 누른다.
 
-![](/img/3_embedded/esp_sup_env_10.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_10.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 타겟을 esp32로 설정하고
 
-![](/img/3_embedded/esp_sup_env_11.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_11.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 장치관리자에서 인식한 시리얼포트로 포트번호를 설정한다.
 
-![](/img/3_embedded/esp_sup_env_12.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_12.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 :::important
 예제 프로젝트를 불러오지 못하는 경우 환경변수가 인식되지 않아서 그런 것 같으므로 다음과 같이 ESP-IDF를 재설치 해준다.
@@ -221,15 +304,33 @@ Help -> Download and Configure ESP-IDF -> Check "Use an existing ESP-IDF directo
 
 빌드버튼을 눌러 프로젝트를 빌드한다.(처음 빌드 시 빌드시간 오래 걸림) 에러 없이 빌드가 완료되면 `sdkconfig.defaults`파일이 `sdkconfig파일`(콘솔 idf.py menuconfig를 통해서 설정할 수 있는 프로젝트 설정파일로 ESP-IDF eclipse에서 sdkconfig파일 더블클릭하여 설정이 가능함)로 변경된다.
 
-![](/img/3_embedded/esp_sup_env_13.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_13.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 테라텀 연결 해제 후(시리얼을 통해 업데이트 하는 것으로 보임) RUN버튼을 눌러 다운로드를 진행한다.
 
-![](/img/3_embedded/esp_sup_env_14.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_14.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 다운로드가 완료되면 테라텀(115200bps)을 연결하여 printf메시지 출력을 확인하거나
 
-![](/img/3_embedded/esp_sup_env_15.png)
+<p align="center">
+	<img
+		src={require('/img/3_embedded/esp_sup_env_15.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ESP-IDF에서 제공하는 Serial Monitor를 통해 메시지 출력을 확인한다.  
 Window탭 -> Show View -> Terminal -> 시리얼 통신 설정 후 연결/확인

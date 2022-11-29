@@ -102,12 +102,13 @@ left(default)/center align External url Link
 ```
 [![homepage](http://commonmark.org/help/images/favicon.png)](http://commonmark.org "Redirect to homepage")
 
-이미지 클릭 시 링크된 Docusaurus html 파일로 연결
 a태그 안에 있는 target 속성의 값에 따라 링크여는 방법을 변경할 수 있다.
 * _blank(새창이나 새탭에서 열기)
 * _self(기본값으로 링크가 있는 화면에서 열기)
 * _parent(프레임 사용 시 부모프레임에 표시)
 * _top(프레임 사용 시 전체화면에 표시)
+
+이미지 클릭 시 링크된 Docusaurus html 파일로 연결
 
 <p align="center">
     <a target="_blank"
@@ -119,6 +120,8 @@ a태그 안에 있는 target 속성의 값에 따라 링크여는 방법을 변�
         /><br/><em>&lt;이미지와 html파일 연결&gt;</em>
     </a>
 </p>
+
+이미지 클릭 시 이밎 확대
 
 <p align="center">
     <a target="_blank"

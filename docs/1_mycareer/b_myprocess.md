@@ -24,18 +24,30 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 * Github - Agile 기반 프로젝트 관리 및 개발환경 구축
 * Matlab/Simulink를 통한 MBD 개발 프로세스 구축 (요구사항부터 코드/시험까지 일관된 추적성을 유지하며 개발하는 방법론 수립)
 
+<p align="center">
+    <a target="_blank"
+		href={require('/img/1_process/f_process_gitlab_Escalator.png').default}>
+        <img
+            src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+            alt="Example banner"
+            width="450"
+        /><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
+    </a>
+</p>
+
 ### GitLab기반 온도 PID제어 MBD {#myprocess-mbdagile-temperature}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 
 <p align="center">
-	<div class="box">
+    <a target="_blank"
+		href={require('/img/1_process/f_process_gitlab_temp_pid.png').default}>
 		<img
 			src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
 			width="450"
 			alt="Example banner"
-		/><br/><em>&lt;GitLab을 통한 프로젝트 관리&gt;</em>
-	</div>
+		/><br/><em>&lt;GitLab 이슈를 통한 프로젝트 관리&gt;</em>
+    </a>
 </p>
 
 처음이라 그런지 프로젝트 관리가 제대로 되지 않아서 고민을 하던 차에 Github/GitLab하면 Agile 이야기가 나오는 것을 알게 되었고, "애자일, 민첩하고 유연한 조직의 비밀"이라는 책을 읽게 되었습니다. 프로젝트 경험과 책을 통해서 느낀점은 이후 Agile방식의 프로젝트를 지향하는 계기가 되었고, 그 생각과 실천은 지금까지 이어지고 있습니다.
@@ -53,13 +65,14 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 처음에는 서버구축에 대한 고민이 없었기 때문에 Local환경에서 Redmine을 설치하고, 현장에서 발생된 이슈는 회사로 복귀하여 Local Redmine에 업데이트 하였습니다. 이후 프로젝트 인원이 2명이었기 때문에 가능했던 것이라고 생각했고, 인원이 많아지면 불가능 한 방식이라고 생각하여 현장에서도 서버에 접속할 수 있는 방법을 고민하던 중 AWS에 Redmine을 설치하는 방법을 알게되어 개인 프로젝트로 주말에 작업을 진행하여 직접 클라우드 기반 서버를 구축하여 대규모 프로젝트에서 프로젝트를 관리할 수 있는 역량을 확보하였습니다.
 
 <p align="center">
-	<div class="box">
+    <a target="_blank"
+		href={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}>
 		<img
 			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
 			width="450"
 			alt="Example banner"
 		/><br/><em>&lt;AWS Cloud 환경에서 Redmine을 통한 이슈관리&gt;</em>
-	</div>
+    </a>
 </p>
 
 * 클라우드 서버를 구축하여 장소와 무관하게 Redmine에 접속할 수 있도록 환경 구축
@@ -71,13 +84,14 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 고객사에 출입문 제어 시스템을 처음 납품하는 사례였는데, 입사 시점에 이미 제품이 납품된 상태 여서 초기 품질이슈가 많이 발생하였습니다. ms-office를 통해 이슈를 관리하다가 체계적인 이슈관리의 필요성을 느끼게 되어 프로젝트 관리 솔루션에 관심을 가지게 되었습니다. 이때 Redmine을 처음 접하게 되었고, Redmine을 통해 이슈관리를 수행하였습니다.
 
 <p align="center">
-	<div class="box">
-		<img
-			src={require('/img/1_process/d_process_train_issue_mgn.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;Redmine을 통한 이슈관리&gt;</em>
-	</div>
+    <a target="_blank"
+		href={require('/img/1_process/d_process_train_issue_mgn.png').default}>
+			<img
+				src={require('/img/1_process/d_process_train_issue_mgn.png').default}
+				width="450"
+				alt="Example banner"
+			/><br/><em>&lt;Redmine을 통한 이슈관리&gt;</em>
+    </a>
 </p>
 
 * redmine 개발환경 구축
@@ -108,13 +122,11 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 * 인증 심사 대응
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/1_process/a_process_std.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;A-SPICE/ISO26262 통합 표준 프로세스 수립&gt;</em>
-	</div>
+	<img
+		src={require('/img/1_process/a_process_std.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;A-SPICE/ISO26262 통합 표준 프로세스 수립&gt;</em>
 </p>
 
 ### A-SPICE 및 ISO26262 시스템 설계 {#myprocess-std-sys-design}
@@ -126,13 +138,11 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 #### 윈도우 시스템 설계
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/1_process/process_iso26262_function_Architecture.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/1_process/process_iso26262_function_Architecture.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;Functional Architecture 설계&gt;</em>
 </p>
 
 * ISO26262 기능안전 시스템 요구사항 명세서 작성
@@ -149,25 +159,21 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 표준 프로세스를 기반으로 Process Tailoring을 수행하여 선행개발 프로세스를 수립하고 프로젝트 일정을 관리하였습니다. 이 프로젝트는 요구사항정의/설계/구현/검증 절차를 따라서 개발 진행하고 프로젝트 일정 및 이슈관리를 수행한 내용들을 고객에게 어필하여 추후 고객에게 수주를 받아 양산 개발로 이어질 수 있었습니다.
 
 <p align="center">
-	<div class="box">
-		<img
-			src={require('/img/1_process/b_process_sunroof_prj_mgn.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;선루프 개발 프로젝트 일정 관리&gt;</em>
-	</div>
+	<img
+		src={require('/img/1_process/b_process_sunroof_prj_mgn.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;선루프 개발 프로젝트 일정 관리&gt;</em>
 </p>
 
 일정관리와 함께 선루프 아이템을 대상으로 고객 요구사항을 분석하여 시스템 아키텍처를 설계하고 기능을 정의하였습니다. 소프트웨어 엔지니어를 통한 기능구현 완료 후 기능 시험스펙을 작성하고 시스템 시험을 직접 수행하여 요구사항에 따라 소프트웨어가 구현되었는지를 검증하였습니다.
 
 <p align="center">
-	<div class="box">
-		<img
-			src={require('/img/1_process/c_process_sunroof_sysads.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
-	</div>
+	<img
+		src={require('/img/1_process/c_process_sunroof_sysads.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
 </p>
 
 ### ISO26262프로세스구축 & A-SPICE CL2인증 {#myprocess-std-cl2}

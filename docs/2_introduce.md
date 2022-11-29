@@ -20,12 +20,10 @@ title: 자기소개
 그리고 앞으로는 좀 더 즐겁게 이 길을 걸어가고 싶습니다.
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/Nietzsche_Quotes.jpg').default}
-			alt="Example banner"
-		/><br/><em>&lt;나 자신에게 하고 싶은 말...&gt;</em>
-	</div>
+	<img
+		src={require('/img/Nietzsche_Quotes.jpg').default}
+		alt="Example banner"
+	/><br/><em>&lt;나 자신에게 하고 싶은 말...&gt;</em>
 </p>
 
 ### 공부는 왜 하는가?

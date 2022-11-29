@@ -19,13 +19,11 @@ title: MBD기반 온도PID제어 개요
 저항에 붙어있는 온도센서를 통해 온도를 센싱하면서 Watt저항에 PID제어로 PWM을 출력하여 온도를 조절함
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/img3_3_hw_config.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;출처 - 싱크웍스&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/img3_3_hw_config.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;출처 - 싱크웍스&gt;</em>
 </p>
 
 ## 개요

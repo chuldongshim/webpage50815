@@ -24,7 +24,14 @@ title: 경력요약
 
 1. [추후계획 : Sensorless BLDC by Kalman Filter ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-plan)
 2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-sensered)
-3. [16.10.03~17.04.30 : Kalman Filter학습 및 시뮬레이션 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-kalman)
+3. [16.10.03~17.04.30 : Kalman Filter 이론학습 및 시뮬레이션 ☜ click for more](/docs/mycareer/mymbd#mymbd-bldc-kalman)
+<p align="left">
+	<img
+		src={require('/img/2_mbd/mymbd-kalman-modeling.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ### 와이퍼 알고리즘 개발
 
@@ -138,13 +145,11 @@ KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스�
 2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
 GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 <p align="left">
-	<div class="box">
-		<img
-			src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 
 ### 이슈관리
@@ -152,47 +157,39 @@ GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 <p align="left">
-	<div class="box">
-		<img
-			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 2. [18.01.18~18.08.12 : Redmine을 통한 SW품질이슈관리 ☜ click for more](/docs/mycareer/myprocess#myprocess-management-redmine)
 <p align="left">
-	<div class="box">
-		<img
-			src={require('/img/1_process/d_process_train_issue_mgn.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/1_process/d_process_train_issue_mgn.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 
 ### 표준프로세스 구축
 
 1. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-cl3)
 <p align="left">
-	<div class="box" >
-		<img
-			src={require('/img/1_process/a_certification_cl3.png').default}
-			width="200"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/1_process/a_certification_cl3.png').default}
+		width="200"
+		alt="Example banner"
+	/>
 </p>
 2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-sys-design)
 3. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증 ☜ click for more](/docs/mycareer/myprocess#myprocess-std-cl2)
 <p align="left">
-	<div class="box" >
-		<img
-			src={require('/img/1_process/a_certification_cl2.png').default}
-			width="200"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/1_process/a_certification_cl2.png').default}
+		width="200"
+		alt="Example banner"
+	/>
 </p>
 
 
@@ -272,11 +269,9 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발 ☜ click for more](/docs/mycareer/myembedded#myembedded-sensor-ft)
 <p align="left">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_3.png').default}
-				width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/3_embedded/myhistory_3.png').default}
+			width="450"
+		alt="Example banner"
+	/>
 </p>

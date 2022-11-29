@@ -32,25 +32,21 @@ The VHN5019A-E is a full bridge motor driver intended for a wide range of automo
 Piccolo ControlStick F28069 인터페이스
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_ControlStick_pinout.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_evb_ControlStick_pinout.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
 </p>
 
 #### LAUNCHXL-F28069M
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_LAUNCHXL_pinout.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;LAUNCHXL-F28069M pinout&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_evb_LAUNCHXL_pinout.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;LAUNCHXL-F28069M pinout&gt;</em>
 </p>
 
 #### 참고자료

@@ -20,13 +20,11 @@ title: 프로젝트 관리
 * 가변저항으로 설정한 목표값으로 온도가 피드백 제어되는지 확인한다.
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/img3_2_mbd_concept.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/2_mbd/img3_2_mbd_concept.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 
 ### 진행결과
@@ -55,13 +53,11 @@ GitLab을 통해 Task(할일,일정) 및 Issue(문제) 관리
 산출물(코드, 문서 등)은 gitlab repository에 저장하여 이력관리를 수행한다.
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/img3_1_svn_log.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/2_mbd/img3_1_svn_log.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 
 ### 이슈관리

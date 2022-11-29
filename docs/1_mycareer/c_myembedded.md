@@ -316,13 +316,11 @@ FND 디지털 시계
 임베디드 리눅스를 직접 경험하고, 리눅스 기반 application을 개발하는 역할을 수행하였습니다. 리눅스라는 OS와 친해지고 싶은 마음이 생기는 계기가 되었습니다. 이후 자동차 분야로 업종을 변경하여 아지까지 리눅스에 대한 아쉬음이 많이 남아 있으며, 앞으로 꾸준히 시간을 투자하여 임베디드 리눅스 상에서 동작하는 네트워크 소프트웨어를 개발할 계획을 가지고 있습니다.
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_4.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;그림제목&gt;</em>
-	</div>
+	<img
+		src={require('/img/3_embedded/myhistory_4.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;그림제목&gt;</em>
 </p>
 
 [인증 단말기 개발 및 유지보수](https://m.blog.naver.com/PostView.nhn?blogId=humanwr&logNo=220517005542&proxyReferer=https:%2F%2Fwww.google.com%2F)
@@ -391,13 +389,11 @@ FND 디지털 시계
 * Calibraion Jig 기구부 설계/발주 (Pro-E, AutoCAD 이용)
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/3_embedded/myhistory_3.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;FT센서 개발&gt;</em>
-	</div>
+	<img
+		src={require('/img/3_embedded/myhistory_3.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;FT센서 개발&gt;</em>
 </p>
 
 해당 프로젝트는 양산 전 선행 프로젝트로 추후 양산제품적용 기반기술로 활용되었음

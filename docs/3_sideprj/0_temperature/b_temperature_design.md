@@ -13,13 +13,11 @@ title: 설계 및 검증
 TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_evb_TR28069_pinout.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;Piccolo ControlStick F28069 pinout&gt;</em>
 </p>
 
 * Piccolo TMS320F28069U PZP T 칩 탑재
@@ -54,13 +52,11 @@ TR28069 EVB보드를 이용하여 온도PID제어 기능을 구현한다.
 애드온 매니저를 통해 Simulink에서 F2806x 사용을 위한 소프트웨어가 모두 설치되어 있는지 확인해야 Simulink로만 빌드/다운로딩이 가능하다.
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_fw_ccs_installation.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;소프트웨어 설치 확인&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_fw_ccs_installation.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;소프트웨어 설치 확인&gt;</em>
 </p>
 
 #### 드라이버 설치
@@ -71,13 +67,11 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
 #### Pin Mux Utility
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_fw_controlSUITE_PinMuxUtility.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;Pin Mux Utility&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_fw_controlSUITE_PinMuxUtility.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;Pin Mux Utility&gt;</em>
 </p>
 
 ## 기본동작 확인
@@ -112,13 +106,11 @@ XDS100S는 Texas Instruments(TI) 사의 XDS100 에뮬레이션 기술을 적용�
 3. GPIO18에서 출력이 안나가면(EnableOut=0) GPIO19를 통해 펄스신호가 읽히지 않으면서, Red LED가 Blinking하지 않는다
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_gpio.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;gpio by external mode&gt;</em>
-	</div>
+	<img
+		src={require('/img/2_mbd/mbd_hw_ti_sl_LAUNCHXL_gpio.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;gpio by external mode&gt;</em>
 </p>
 
 :::note External mode 실행
@@ -201,13 +193,11 @@ Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드
 ### 하드웨어 구현
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/img3_3_hw_config.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/2_mbd/img3_3_hw_config.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 
 ### 소프트웨어 구현
@@ -219,12 +209,10 @@ Sinkwork에서 제공되는 온도제어 예제를 위해 사용되는 EVB보드
 4. 온도센서를 통해 피드백 되는 온도(ADC Value)가 타겟온도를 추종하는지 시리얼 통신으로 모니터링
 
 <p align="center">
-	<div class="box" >
-		<img
-			src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
-			width="450"
-			alt="Example banner"
-		/>
-	</div>
+	<img
+		src={require('/img/2_mbd/img3_4_mbd_realization.png').default}
+		width="450"
+		alt="Example banner"
+	/>
 </p>
 

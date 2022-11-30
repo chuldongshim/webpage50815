@@ -141,6 +141,13 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 
 1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile-escalator)  
 KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스코드 형상관리 수행
+<p align="left">
+	<img
+		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+		alt="Example banner"
+		width="450"
+	/><br/>
+</p>
 
 2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdagile-temperature)  
 GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행

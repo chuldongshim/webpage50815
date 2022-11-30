@@ -20,9 +20,10 @@ KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트�
 Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
 * Github를 통한 프로젝트 관리  
-  (agile 기반 개발 프로세스 효율화/최적화)
+  : agile 기반 개발 프로세스 효율화/최적화
 * Github - Agile 기반 프로젝트 관리 및 개발환경 구축
-* Matlab/Simulink를 통한 MBD 개발 프로세스 구축 (요구사항부터 코드/시험까지 일관된 추적성을 유지하며 개발하는 방법론 수립)
+* Matlab/Simulink를 통한 MBD 개발 프로세스 구축  
+  : 요구사항부터 코드/시험까지 일관된 추적성을 유지하며 개발하는 방법론 수립
 
 <p align="center">
     <a target="_blank"

@@ -45,7 +45,7 @@ Self_Study
   * 3.5s 주기로 Wiping을 수행하다 1s 주기로 Wiping 수행
   * 60[CPM] 구동 - 1s 당 1회 Wiping
   * Wiping 주기가 1s인 경우 0.5s동안 0°->134°, 0.5s동안 134°->0°로 Wiping 수행
-  * Execution Time : 10us @ s32k144
+  * 제어로직 실행시간 : 10us @ s32k144
   * 개발 하드웨어 - S32K144(48MHz Cortex-M4 with FPU) + VNH5019(ST모터드라이버)
 * 구현내용
   * 상태관측기를 통한 상태추정
@@ -83,7 +83,7 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 ### FFT MCU 구현 {#mymbd-wiper-fft}
 
 샘플신호를 MCU에서 생성한 다음 MCU에서 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot  
-* <a href="/assets/mbd/Ews_S32K1_FFT.html" target="_blank">fft 이론 학습 및 matlab 시뮬레이션</a>
+* <a href="/assets/mbd/Ews_S32K1_FFT.html" target="_blank">fft 이론 학습 및 matlab 시뮬레이션  ☜ click for more</a>
 
 <p align="center">
 	<img

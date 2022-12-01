@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/webpage/blog</id>
-    <title>Coding is my life... bravo my life... Blog</title>
+    <title>Who am I and What should I do next... Blog</title>
     <updated>2022-03-09T06:58:05.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/webpage/blog"/>
-    <subtitle>Coding is my life... bravo my life... Blog</subtitle>
+    <subtitle>Who am I and What should I do next... Blog</subtitle>
     <icon>https://github.com/webpage/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[문서작성]]></title>

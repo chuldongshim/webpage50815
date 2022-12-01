@@ -33,7 +33,7 @@ title: F1 AutoManual
 		src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_1_def_pos_vel.png').default}
 		width="450"
 		alt="Example banner"
-	/><br/><em>&lt;윈도우 위치/속도 정의&gt;</em>
+	/><br/><em>&lt;윈도우 영역 정의&gt;</em>
 </p>
 
 :::important 비율에 따른 윈도우 영역구분

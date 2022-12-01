@@ -88,7 +88,7 @@ rpm에 `(85*8)/60`를 곱하면 [pulse/s]가 된다.
 * 1[rpm] = (85)/60[rev/s]
 * 1[rpm] = (85*8)/60[pulse/s]
 
-## Period 측정을 통한 속도계산
+## Period 측정을 통한 속도계산 {#window-realize-f0-vel-by-period}
 
 ### Manual Coding 방법 - Ext_Int로 1펄스 시간을 측정해 속도계산
 

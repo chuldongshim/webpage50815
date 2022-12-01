@@ -5,7 +5,7 @@ title: 경력요약
 ---
 
 :::important
-관심과 흥미를 가지고 꾸준히 경험해온 만큼 다음 3가지 분야에 강점을 발휘할 수 있습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
+다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
 * [모델기반설계](/docs/mycareer#mycareer-mbd)
 * [개발프로세스](/docs/mycareer#mycareer-process)
@@ -85,7 +85,7 @@ PSB(Pre-safe Seat Belt)기능에 따른 모터 구동을 위한 기능별 모터
 ### 윈도우 선행학습 {#mycareer-mbd-window}
 
 1. [21.07.30~21.12.31 : MBD기반 Safety Power Window 기능구현 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-func)  
-장애물 감지 시 윈도우 반전 실제적용(21년12월)
+2013년 진행에 이어 장애물 감지 시 윈도우 반전 타겟MCU에 실제 구현/적용(21년12월)
 <p align="left">
 	<iframe
 		src="https://www.youtube.com/embed/eEmUgEgfH4k?rel=0"
@@ -96,7 +96,7 @@ PSB(Pre-safe Seat Belt)기능에 따른 모터 구동을 위한 기능별 모터
 	</iframe>
 </p>
 2. [13.10.01~14.05.16 : MBD기반 MicroAutoBox를 통한 Window 기본기능 구동 ☜ click for more](/docs/mycareer/mymbd#mymbd-window-basic)  
-장애물 감지 시 윈도우 반전 시뮬레이션(13년4월~14년3월)
+장애물 감지 시 윈도우 반전 시뮬레이션 및 MicroAutoBox 구현(13년4월~14년3월)
 <p align="left">
 	<iframe 
 		src="https://www.youtube.com/embed/JWzVYKv_Eac?rel=0"

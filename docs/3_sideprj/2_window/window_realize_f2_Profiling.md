@@ -93,7 +93,7 @@ Continuous Transfer Function으로 모델링 된 Plant Model과, MCU실행을 �
 	/><br/><em>&lt;WindowState로직(좌) 및 OutputProcessing로직(우)&gt;</em>
 </p>
 
-### 프로파일링
+### 프로파일링 {#vel-profiling}
 
 속도프로파일은 가속/등속/감속 세구간으로 나눠 직선의 방정식을 vel=f(t)와 같은 수식으로 만들어 각 샘플시간마다 속도를 계산한다. 역방향 프로파일은 정방향 프로파일과 부호만 반대로 계산한다. 수식을 Stateflow를 통해 다음과 같이 구현한다.  
 속도프로파일을 적분하여 위치프로파일을 생성하고, 미분을 통해 가속도 프로파일을 생성한다.

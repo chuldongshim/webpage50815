@@ -29,6 +29,20 @@ title: F6 Anti-Pinch
 * 꾹 눌렀을 때는 반전해야 하고, 임펄스로 눌렀을 때에는 반전하면 안됨
 * 전압변동도 고려해야 함.
 
+### 윈도우영역에 따른 반전동작 {#anti-pinch-by-window-area}
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mbd_sys_mil_f1_AuMa_1_def_pos_vel.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;윈도우 영역 정의&gt;</em>
+</p>
+
+* AutoUp 동작 중 반전영역 II에서 장애물을 감지하면 300±10mm 하강 후 정지해야 한다.
+* AutoUp 동작 중 반전영역 III에서 장애물을 감지하면 50±10mm 하강 후 정지해야 한다.
+* AutoUp 동작 중 반전영역 I, IV에서는 반전동작을 수행하지 않는다.
+
 ## 반전기능구현
 
 ### 오반전 요인 제거

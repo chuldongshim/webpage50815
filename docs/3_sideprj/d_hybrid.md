@@ -12,7 +12,13 @@ title: 임베디드 웹서버OTA 개요
 
 ---
 
-
+<p align="center">
+	<img
+		src={require('/img/fourth_wifi_ota.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ## 임베디드 웹서버OTA 개발 개요 {#embed-ota-webserver-summary}
 

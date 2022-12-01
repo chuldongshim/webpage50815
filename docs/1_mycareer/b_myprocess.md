@@ -36,7 +36,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
     </a>
 </p>
 
-### GitLab기반 온도 PID제어 MBD {#myprocess-mbdagile-temperature}
+### [GitLab기반 온도 PID제어 MBD ☜ click for side project](/docs/sideprj/temperature#temperature-pid-ctrl-system) {#myprocess-mbdagile-temperature}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 
@@ -59,7 +59,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 * 처음으로 MBD기반으로 설계한 로직을 C코드를 자동생성하고 타겟 MCU에 구동
 * 모든 MBD기반 프로젝트 진행의 계기가 됨
 
-## 이슈관리 {#myprocess-management}
+## Redmine 이슈관리 {#myprocess-management}
 
 ### AWS Cloud를 통한 Redmine 환경구축 {#myprocess-management-aws-redmine}
 
@@ -97,7 +97,6 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 
 * redmine 개발환경 구축
 * redmine을 통한 프로젝트 이슈&소스코드 관리 실무적용
-
 * 현장에서 발생된 이슈를 회사로 복귀하여 Local Server에 업데이트
   * 2명에서 해당 프로젝트 이슈를 관리했기 때문에 Local 방식으로 가능
   * 인원이 많으면 불가능 할 것으로 판단되었음

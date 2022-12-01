@@ -11,7 +11,7 @@ title: 와이퍼 MBD 개요
 
 ---
 
-## 시스템 구성
+## 와이퍼 시스템 구성 {#wiper-system-config}
 
 <p align="center">
 	<img
@@ -21,9 +21,9 @@ title: 와이퍼 MBD 개요
 	/>
 </p>
 
-## 개요
+## 와이퍼 개발 개요
 
-1. [프로젝트관리](./wiper/wiper_plan) : 진행절차 및 목표정의
-2. [기본동작확인](./wiper/wiper_devenv) : 기능로직 구현 전 기본동작 확인
-3. [설계 및 검증](./wiper/wiper_verify) : 기능로직 구현 및 검증
+1. [프로젝트관리 ☜ click for more](./wiper/wiper_plan) : 진행절차 및 목표정의
+2. [기본동작확인 ☜ click for more](./wiper/wiper_devenv) : 기능로직 구현 전 기본동작 확인
+3. [설계 및 검증 ☜ click for more](./wiper/wiper_verify) : 기능로직 구현 및 검증
 

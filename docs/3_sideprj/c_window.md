@@ -11,7 +11,7 @@ title: 윈도우 MBD 개요
 
 ---
 
-## 시스템 구성
+## 윈도우 시스템 구성 {#window-system-config}
 
 <p align="center">
 	<img
@@ -21,9 +21,9 @@ title: 윈도우 MBD 개요
 	/><br/><em>&lt;시뮬레이션모델(상) vs 코드생성용모델(하)&gt;</em>
 </p>
 
-## 개요
+## 윈도우 개발 개요
 
-1. [설계](./window/window_design) : 개발 컨셉을 수립하고, 정의한 요구사항을 토대로 아키텍처를 설계한다.
-2. [구현](./window/window_realize) : MBD를 통해 기능로직을 구현한다.
-3. [검증](./window/window_verify) : 코드를 자동생성하고, 타겟구동을 통해 기능을 검증하고, 요구사항-구현 간의 추적성을 확보한다.
+1. [설계 ☜ click for more](./window/window_design) : 개발 컨셉을 수립하고, 정의한 요구사항을 토대로 아키텍처를 설계한다.
+2. [구현 ☜ click for more](./window/window_realize) : MBD를 통해 기능로직을 구현한다.
+3. [검증 ☜ click for more](./window/window_verify) : 코드를 자동생성하고, 타겟구동을 통해 기능을 검증하고, 요구사항-구현 간의 추적성을 확보한다.
 

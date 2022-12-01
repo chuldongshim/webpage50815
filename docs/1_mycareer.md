@@ -159,7 +159,7 @@ GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 	/>
 </p>
 
-### 이슈관리
+### Redmine 이슈관리
 
 1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 ☜ click for more](/docs/mycareer/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동

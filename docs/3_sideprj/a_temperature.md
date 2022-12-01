@@ -14,7 +14,7 @@ title: MBD기반 온도PID제어 개요
 
 ---
 
-## 시스템 구성
+## 온도 PID제어 시스템 구성 {#temperature-pid-ctrl-system}
 
 저항에 붙어있는 온도센서를 통해 온도를 센싱하면서 Watt저항에 PID제어로 PWM을 출력하여 온도를 조절함
 
@@ -26,11 +26,11 @@ title: MBD기반 온도PID제어 개요
 	/><br/><em>&lt;출처 - 싱크웍스&gt;</em>
 </p>
 
-## 개요
+## 온도 PID제어 개발 개요
 
-* [프로젝트 관리](./temperature/temperature_mgn)
+* [프로젝트 관리 ☜ click for more](./temperature/temperature_mgn)
   * 처음으로 진행한 MBD프로젝트
   * 프로젝트를 통해 MBD 개발 프로세스 수립
   * 최초 자동생성 C코드를 타겟에서 구동하여 모델 시뮬레이션과 실제구현이 동일하게 동작되는 것을 확인함
-* [설계 및 검증](./temperature/temperature_design)
+* [설계 및 검증 ☜ click for more](./temperature/temperature_design)
   * MBD구현

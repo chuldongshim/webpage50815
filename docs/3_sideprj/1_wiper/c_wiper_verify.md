@@ -85,7 +85,7 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 
 <p align="center">
 	<img
-		src={require('/img/2_mbd/img4_2_hw_configuration2.jpg').default}
+		src={require('/img/2_mbd/img4_2_hw_configuration2.png').default}
 		width="450"
 		alt="Example banner"
 	/><br/><em>&lt;하드웨어 인터페이스&gt;</em>

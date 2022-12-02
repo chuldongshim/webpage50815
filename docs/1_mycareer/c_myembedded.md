@@ -6,7 +6,7 @@ title: 임베디드개발
 
 ## 부트로더 개발 {#myembedded-bootloader}
 
-### [wifi 웹서버를 통한 STM FW업데이트 ☜ click for side project](/docs/sideprj/hybrid#embed-ota-webserver-summary) {#myembedded-bootloader-fota}
+### [wifi 웹서버를 통한 STM FW업데이트 [☜ click for side project]](/docs/sideprj/hybrid#embed-ota-webserver-summary) {#myembedded-bootloader-fota}
 
 #### ESP32 Embedded WebServer를 통한 stm32f746 OTA
 

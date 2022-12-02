@@ -22,7 +22,7 @@ title: 임베디드 웹서버OTA 개요
 
 ## 임베디드 웹서버OTA 개발 개요 {#embed-ota-webserver-summary}
 
-1. [관리 ☜ click for more](./hybrid/esp32_mgn)
-2. [시스템 ☜ click for more](./hybrid/esp32_sys)
-3. [하드웨어 ☜ click for more](./hybrid/esp32_hw)
-4. [소프트웨어 ☜ click for more](./hybrid/esp32_sw)
+1. [관리 [☜ click for more]](./hybrid/esp32_mgn)
+2. [시스템 [☜ click for more]](./hybrid/esp32_sys)
+3. [하드웨어 [☜ click for more]](./hybrid/esp32_hw)
+4. [소프트웨어 [☜ click for more]](./hybrid/esp32_sw)

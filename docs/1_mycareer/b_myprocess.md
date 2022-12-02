@@ -42,7 +42,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
     </a>
 </p>
 
-### [GitLab기반 온도 PID제어 MBD ☜ click for side project](/docs/sideprj/temperature#temperature-pid-ctrl-system) {#myprocess-mbdagile-temperature}
+### [GitLab기반 온도 PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system) {#myprocess-mbdagile-temperature}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 

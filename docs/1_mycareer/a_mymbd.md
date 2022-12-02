@@ -20,13 +20,12 @@ title: 모델기반설계
 
 ### Kalman Filter학습 및 시뮬레이션 {#mymbd-bldc-kalman}
 
-Self_Study
-* <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수</a>
-* <a href="/assets/kalman/Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링)</a>
-* <a href="/assets/kalman/Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한)</a>
-* <a href="/assets/kalman/Maxon_Motor_3_Kalman_.html" target="_blank">Kalman Filter</a>
-* <a href="/assets/kalman/Maxon_Motor_4_Stochastic_.html" target="_blank">Stochastic Estimation Control by LQG</a>
-* <a href="/assets/kalman/Q_filter.html" target="_blank">Q-Filter</a>
+* <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수 [☜ click for more]</a>
+* <a href="/assets/kalman/Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링) [☜ click for more]</a>
+* <a href="/assets/kalman/Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한) [☜ click for more]</a>
+* <a href="/assets/kalman/Maxon_Motor_3_Kalman_.html" target="_blank">Kalman Filter [☜ click for more]</a>
+* <a href="/assets/kalman/Maxon_Motor_4_Stochastic_.html" target="_blank">Stochastic Estimation Control by LQG [☜ click for more]</a>
+* <a href="/assets/kalman/Q_filter.html" target="_blank">Q-Filter [☜ click for more]</a>
 
 <p align="center">
 	<img
@@ -82,8 +81,7 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 
 ### FFT MCU 구현 {#mymbd-wiper-fft}
 
-샘플신호를 MCU에서 생성한 다음 MCU에서 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot  
-* <a href="/assets/mbd/Ews_S32K1_FFT.html" target="_blank">fft 이론 학습 및 matlab 시뮬레이션 ☜ click for more</a>
+* <a href="/assets/mbd/Ews_S32K1_FFT.html" target="_blank">MCU에서 생성한 샘플신호를 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot [☜ click for more]</a> 
 
 <p align="center">
 	<img
@@ -93,7 +91,7 @@ MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작�
 	/>
 </p>
 
-### [와이퍼 MBD 기본기능구현 ☜ click for side project](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
+### [와이퍼 MBD 기본기능구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)
@@ -187,7 +185,7 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 * 개발환경 구축 및 윈도우 타겟구동 확인
 * MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
 
-### [윈도우 MBD 기본기능구현 ☜ click for side project](/docs/sideprj/window#window-system-config) {#mymbd-window-func}
+### [윈도우 MBD 기본기능구현 [☜ click for side project]](/docs/sideprj/window#window-system-config) {#mymbd-window-func}
 
 2013년도에 MBD를 처음 시작하였으며, 사내 표준프로세스 구축 업무로 MBD개발 업무가 Holding되어 시뮬레이션을 통해 알고리즘만 개발하고 실제 타겟에 적용하지 못하여 아쉬움이 많이 남았습니다.
 하지만 꾸준한 관심과 하고자 하는 의지로 21년에 결국 Manual Coding 없이 모델기반설계로 제어기 개발환경을 구축/적용해 보았고, 제품 수주를 위한 개발활동에 MBD를 적용하여 개발을 진행하고 있습니다.

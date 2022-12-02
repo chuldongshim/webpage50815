@@ -4,13 +4,17 @@ title: 프로세스개발
 ---
 ---
 
-## MBD+AUTOSAR {#myprocess-mbdautosar}
+## SwC 개발
+
+### Escalator SwC 개발 {#myprocess-escalator-swc}
 
 ### 개발전략 수립 2차 {#myprocess-mbdautosar-strategy2}
 
-### 개발전략 수립 1차 {#myprocess-mbdautosar-strategy1}
+* Library와 같이 독립적으로 재사용 가능한 SwC개발  
+* SwC에 대한 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 개발 및 Full Traceability 확보  
+* SwC를 AUTOSAR 기반으로 변경  
 
-### AUTOSAR SwC 개발 {#myprocess-mbdautosar-swc}
+### 개발전략 수립 1차 {#myprocess-mbdautosar-strategy1}
 
 
 ## MBD+Agile {#myprocess-mbdagile}

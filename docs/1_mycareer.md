@@ -132,15 +132,14 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 * Redmine을 통한 이슈 및 품질관리
 * Github/Gitlab 기반 Agile 프로젝트 관리
 
-### MBD+AUTOSAR
+### SwC 개발 프로세스
 
-1. [22.11.01~22.11.30 : 개발전략 수립 2차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)
-2. [21.01.15~21.02.16 : 개발전략 수립 1차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)  
-Library와 같이 독립적으로 재사용 가능한 SwC개발  
-SwC에 대한 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 개발 및 Full Traceability 확보  
-SwC를 AUTOSAR 기반으로 변경
-3. [22.11.30~ : AUTOSAR SwC 개발](/docs/mycareer/myprocess#myprocess-mbdautosar-swc)  
+1. TBD : AUTOSAR ASW 개발  
 기존에 개발한 PSB 프로파일링로직을 Non-AUTOSAR/AUTOSAR에 모두 사용 가능한 SwC로 개발
+2. [22.11.30~ : Escalator SwC 개발](/docs/mycareer/myprocess##myprocess-escalator-swc)  
+요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발
+3. [22.11.01~22.11.30 : 개발전략 수립 2차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy2)  
+4. [21.01.15~21.02.16 : 개발전략 수립 1차 ☜ click for more](/docs/mycareer/myprocess#myprocess-mbdautosar-strategy1)
 
 ### MBD+Agile {#mycareer-process-agile}
 

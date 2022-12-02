@@ -46,7 +46,18 @@ title: 모델기반설계
   * Wiping 주기가 1s인 경우 0.5s동안 0°->134°, 0.5s동안 134°->0°로 Wiping 수행
   * 제어로직 실행시간 : 10us @ s32k144
   * 개발 하드웨어 - S32K144(48MHz Cortex-M4 with FPU) + VNH5019(ST모터드라이버)
-* 구현내용
+* 기본 동작확인을 위한 PID 피드백 구현
+  * 위치/속도 피드백 제어
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-wiper-pid.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+* 성능개선을 위한 상태피드백 구현
   * 상태관측기를 통한 상태추정
   * 상태피드백 제어 + 오차적분제어 + Anti-Windup
   * LQR로 설계한 Optimal Gain을 바탕으로 튜닝 수행
@@ -59,7 +70,7 @@ title: 모델기반설계
 	/>
 </p>
 
-알고리즘을 Simulink를 통해 C코드로 자동생성한 다음, C코드를 컴파일 하여 타겟 MCU에서 실행
+상태피드백 제어 알고리즘을 Simulink를 통해 C코드로 자동생성하고, 컴파일 하여 타겟 MCU에서 실행
 <p align="center">
 	<iframe 
 		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
@@ -70,7 +81,7 @@ title: 모델기반설계
 	</iframe><br/><em>&lt;관측기 상태피드백을 통한 LQR제어&gt;</em>
 </p>
 
-MCU에서 위치정보를 통해 다음과 같이 1s 주기마다 Wiping 동작하는 것을 확인
+MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, 통신으로 위치정보를 수신하여 다음과 같이 1s 주기마다 Wiping 동작하는 것을 확인함
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-lqr_2.png').default}

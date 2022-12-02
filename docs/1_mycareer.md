@@ -4,21 +4,23 @@ title: 경력요약
 ---
 ---
 
-:::important
 다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
 * [모델기반설계](/docs/mycareer#mycareer-mbd)
 * [개발프로세스](/docs/mycareer#mycareer-process)
 * [임베디드개발](/docs/mycareer#mycareer-embed)
-:::
+
+---
 
 ## 모델기반설계 {#mycareer-mbd}
 
+:::important
 다음 기술을 활용하여 모델기반설계 방식으로 개발을 수행할 수 있습니다.
 
 1. MBD기반 제어로직 설계 및 시뮬레이션 검증
 2. MBD기반 제어로직 C코드 자동생성 및 실제 타겟 MCU에서 구동
 3. 시뮬레이션-타겟구동 설계 비교검증
+:::
 
 ### BLDC 선행학습
 
@@ -122,15 +124,18 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 	</iframe>
 </p>
 
+---
 
 ## 개발프로세스 {#mycareer-process}
 
+:::important
 다음의 프로세스 및 기법을 통해 프로젝트를 관리할 수 있습니다.
 
 * A-SPICE/ISO26262를 통한 프로세스 구축
 * 프로세스 기반 선루프/윈도우 시스템 설계
 * Redmine을 통한 이슈 및 품질관리
 * Github/Gitlab 기반 Agile 프로젝트 관리
+:::
 
 ### SwC 개발 프로세스
 
@@ -203,15 +208,18 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
+---
 
 ## 임베디드개발 {#mycareer-embed}
 
+:::important
 다음 기술을 활용하여 임베디드 제품을 개발할 수 있습니다.
 
 * 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
 * 임베디드 리눅스기반 어플리케이션 소프트웨어 개발
 * RTOS기반 실시간 제어시스템 소프트웨어 개발
 * 펌웨어 업데이트용 시리얼통신 부트로더 개발
+:::
 
 ### 부트로더 개발 {#mycareer-embed-fota}
 

@@ -20,8 +20,8 @@ title: 모델기반설계
 
 ### Kalman Filter학습 및 시뮬레이션 {#mymbd-bldc-kalman}
 
-* 칼만필터 이론 학습 및 칼만필터를 통한 Noisy DC모터 속도측정 : <a href="/assets/kalman/Maxon_Motor_3_Kalman_.html" target="_blank">Kalman Filter [☜ click for more]</a>
-* 칼만필터를 통한 상태피드백 제어 : <a href="/assets/kalman/Maxon_Motor_4_Stochastic_.html" target="_blank">Stochastic Estimation Control by LQG [☜ click for more]</a>
+* 칼만필터 이론 학습 및 칼만필터를 통한 Noisy DC모터 속도측정 : <a href="/assets/kalman/Webpage_Maxon_Motor_3_Kalman_.html" target="_blank">Kalman Filter [☜ click for more]</a>
+* 칼만필터를 통한 상태피드백 제어 : <a href="/assets/kalman/Webpage_Maxon_Motor_4_Stochastic_.html" target="_blank">Stochastic Estimation Control by LQG [☜ click for more]</a>
 * 외란관측기(TBD) : <a href="/assets/kalman/Q_filter.html" target="_blank">Q-Filter [☜ click for more]</a>
 
 <p align="center">
@@ -55,8 +55,8 @@ title: 모델기반설계
 
 * 성능개선을 위한 상태피드백 구현
   * 전달함수->상태방정식 : <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수 모델링[☜ click for more]</a>
-  * 상태관측기를 통한 상태추정 : <a href="/assets/kalman/Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링) [☜ click for more]</a>
-  * LQR상태피드백 제어 + 오차적분제어 + Anti-Windup : <a href="/assets/kalman/Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한) [☜ click for more]</a>
+  * 상태관측기를 통한 상태추정 : <a href="/assets/kalman/Webpage_Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링) [☜ click for more]</a>
+  * LQR상태피드백 제어 + 오차적분제어 + Anti-Windup : <a href="/assets/kalman/Webpage_Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한) [☜ click for more]</a>
 
 <p align="center">
 	<img
@@ -87,7 +87,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 </p>
 
 ### FFT MCU 구현 {#mymbd-wiper-fft}
-* <a href="/assets/mbd/Ews_S32K1_FFT.html" target="_blank">MCU에서 생성한 샘플신호를 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot [☜ click for more]</a>
+* <a href="/assets/mbd/Webpage_Ews_S32K1_FFT.html" target="_blank">MCU에서 생성한 샘플신호를 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot [☜ click for more]</a>
 
 <p align="center">
 	<img

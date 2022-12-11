@@ -72,7 +72,7 @@ Auto Wiping 동작확인
 ### MBD고객대응
 
 1. [22.03.03~22.05.03 : MBD기반 PSB(안전벨트) 기능로직 구현 [☜ click for more]](/docs/mycareer/mymbd#mymbd-customer-psb)  
-기능에 따른 PSB(Pre-safe Seat Belt)모터 구동을 위한 모터제어 입력신호 프로파일링  
+PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신호 프로파일링  
 프로파일링 코드를 MBD로 자동생성하고, 제어기에 통합하여 고객사에 납품함
 <p align="left">
 	<iframe 

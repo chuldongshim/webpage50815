@@ -23,7 +23,8 @@ const FeatureList = [
         MBD 프로젝트 관리<br />
         Agile-GitHub 프로젝트 관리<br />
         <code><a href="https://hackersstudy.tistory.com/35" target="_blank" rel="noopener noreferrer">Redmine?</a></code>&emsp;
-        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>
+        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>&emsp;
+        <code><a href="https://www.itworld.co.kr/news/232234" target="_blank" rel="noopener noreferrer">Why Agile?</a></code>
       </>
     ),
   },

@@ -140,7 +140,21 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '5. 임베디드 리눅스 (TBD)',
+      label: '5. MBD를 통한 A-SPICE 준수',
+      link: {
+        type: 'doc',
+        id: 'sideprj/mbd',
+      },
+      collapsed: true,
+      items: [
+        'sideprj/mbd/escswc_mgn',
+        'sideprj/mbd/escswc_sys',
+        'sideprj/mbd/escswc_sw',
+      ],
+    },
+    {
+      type: 'category',
+      label: '6. 임베디드 리눅스 (TBD)',
       link: {
         type: 'doc',
         id: 'sideprj/linux',

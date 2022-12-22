@@ -1,0 +1,75 @@
+---
+id: escswc_mgn
+title: 관리
+---
+---
+
+## 개요
+
+### 목적
+
+본 프로젝트는 모델기반설계 활동을 통해 A-SPICE 표준 프로세스를 준수할 수 있음을 검증하기 위한 프로젝트이다.
+* 개발은 Agile기반으로 진행하되, A-SPICE에서 요구하는 산출물은 모두 개발하며
+* 개발되는 산출물은 『요구사항-코드-테스트』까지 추적이 가능한 산출물을 개발한다.
+* 예제를 통해 요구사항부터 검증까지 일련의 과정을 수행하므로 기능요구사항에 한정하여 관련활동을 수행한다.
+
+### 개발절차
+
+* 시스템 설계
+  * 시스템 요구사항정의
+  * 시스템 Functional Architecture 설계
+  * Physical/Logical Architecture 설계
+  * 요구사항-시스템아키텍처 추적성 확보
+* 소프트웨어 설계
+  * 소프트웨어 요구사항정의
+  * 소프트웨어 아키텍처 설계
+  * 상세설계
+  * 요구사항-시스템아키텍처 추적성 확보
+  * 상세설계 테스트 하네스 개발 및 테스트
+* 산출물 자동생성
+  * 시스템/소프트웨어 요구사항
+  * 시스템/소프트웨어 설계 명세서
+  * 모든 추적표 자동생성
+  * 소프트웨어 기능 테스트케이스 및 레포트
+
+## 관리
+
+### 일정/이슈/형상관리
+
+본 프로젝트는 제품개발을 목적으로 하지 않고, 모델기반설계 활동으로 A-SPICE 프로세스 활동을 커버(대체)할 수 있는지 유무를 검증하는데 목적이 있으므로 본 프로젝트에서는 일정/이슈/형상관리는 수행하지 않음.
+
+### 개발 산출물
+
+* 시스템설계
+  * 요구사항정의
+    * 기능, 비기능, 인터페이스 요구사항
+  * 아키텍처설계
+    * Functional Architecture
+    * Physical Architecture
+    * Logical Architecture
+    * Traceability
+  * 설계사양서
+    * System Design Specification
+    * Traceability for Requirement and Function
+    * Traceability for Requirement and Element
+  * 설계검증
+    * 시스템 테스트 케이스
+	* 시스템 테스트결과 레포트
+    * Traceability for Requirement and TestCase
+* 소프트웨어개발
+  * 요구사항
+    * 기능 요구사항
+    * Traceability for System Requirement and Software Requirement
+  * 아키텍처설계
+    * Software Architecture
+    * Traceability for Requirement and Function
+  * 상세설계
+	* Software Simulation Harness
+	* Development Software Component
+    * Traceability for Requirement and Element
+  * 설계검증
+	* Static Analysis (T.B.D)
+	* Dynamic Test - Unit
+	* Dynamic Test - Integration
+	* Dynamic Test - Embedded
+    * Traceability for Requirement and TestCase

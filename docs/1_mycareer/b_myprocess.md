@@ -46,14 +46,11 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
   : 요구사항부터 코드/시험까지 일관된 추적성을 유지하며 개발하는 방법론 수립
 
 <p align="center">
-    <a target="_blank"
-		href={require('/img/1_process/f_process_gitlab_Escalator.png').default}>
-        <img
-            src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
-            alt="Example banner"
-            width="450"
-        /><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
-    </a>
+	<img
+		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+		alt="Example banner"
+		width="450"
+	/><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
 </p>
 
 ## 3. Redmine 이슈관리 {#myprocess-management}
@@ -63,14 +60,11 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 처음에는 서버구축에 대한 고민이 없었기 때문에 Local환경에서 Redmine을 설치하고, 현장에서 발생된 이슈는 회사로 복귀하여 Local Redmine에 업데이트 하였습니다. 이후 프로젝트 인원이 2명이었기 때문에 가능했던 것이라고 생각했고, 인원이 많아지면 불가능 한 방식이라고 생각하여 현장에서도 서버에 접속할 수 있는 방법을 고민하던 중 AWS에 Redmine을 설치하는 방법을 알게되어 개인 프로젝트로 주말에 작업을 진행하여 직접 클라우드 기반 서버를 구축하여 대규모 프로젝트에서 프로젝트를 관리할 수 있는 역량을 확보하였습니다.
 
 <p align="center">
-    <a target="_blank"
-		href={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}>
-		<img
-			src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;AWS Cloud 환경에서 Redmine을 통한 이슈관리&gt;</em>
-    </a>
+	<img
+		src={require('/img/1_process/e_process_aws_redmine_with_phone.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;AWS Cloud 환경에서 Redmine을 통한 이슈관리&gt;</em>
 </p>
 
 * 클라우드 서버를 구축하여 장소와 무관하게 Redmine에 접속할 수 있도록 환경 구축
@@ -82,14 +76,11 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 고객사에 출입문 제어 시스템을 처음 납품하는 사례였는데, 입사 시점에 이미 제품이 납품된 상태 여서 초기 품질이슈가 많이 발생하였습니다. ms-office를 통해 이슈를 관리하다가 체계적인 이슈관리의 필요성을 느끼게 되어 프로젝트 관리 솔루션에 관심을 가지게 되었습니다. 이때 Redmine을 처음 접하게 되었고, Redmine을 통해 이슈관리를 수행하였습니다.
 
 <p align="center">
-    <a target="_blank"
-		href={require('/img/1_process/d_process_train_issue_mgn.png').default}>
-			<img
-				src={require('/img/1_process/d_process_train_issue_mgn.png').default}
-				width="450"
-				alt="Example banner"
-			/><br/><em>&lt;Redmine을 통한 이슈관리&gt;</em>
-    </a>
+	<img
+		src={require('/img/1_process/d_process_train_issue_mgn.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;Redmine을 통한 이슈관리&gt;</em>
 </p>
 
 * redmine 개발환경 구축
@@ -111,7 +102,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 요구사항을 정의하고, 정의된 요구사항을 바탕으로 아키텍처를 설계한 다음
 <p align="center">
 	<img
-		src={require('/img/2_mbd/Esc_1_Architecture_Desing.png').default}
+		src={require('/img/1_process/Esc_1_Architecture_Desing.png').default}
 		width="450"
 		alt="Example banner"
 	/><br/><em>&lt;아키텍처 설계(요구사항을 아키텍처에 할당)&gt;</em>
@@ -125,7 +116,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 기능 아키텍처를 바탕으로 소프트웨어 아키텍처 설계를 완료하면 
 <p align="center">
 	<img
-		src={require('/img/2_mbd/Esc_2_Architecture_Total.png').default}
+		src={require('/img/1_process/Esc_2_Architecture_Total.png').default}
 		width="450"
 		alt="Example banner"
 	/><br/><em>&lt;최종 아키텍처&gt;</em>
@@ -138,7 +129,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 상세설계를 진행합니다.
 <p align="center">
 	<img
-		src={require('/img/2_mbd/Esc_3_Design_Realization.png').default}
+		src={require('/img/1_process/Esc_3_Design_Realization.png').default}
 		width="450"
 		alt="Example banner"
 	/><br/><em>&lt;상세설계 및 구현&gt;</em>
@@ -149,10 +140,10 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 상세설계 이후 테스트케이스를 기반으로 설계한 기능이 원하는 동작을 수행하는지 기능시험을 진행하고, 테스트레포트를 생성하여 소프트웨어 기능검증을 완료하고,
 <p align="center">
 	<img
-		src={require('/img/2_mbd/Esc_4_Reqs_based_Func_Test.png').default}
+		src={require('/img/1_process/Esc_4_Reqs_based_Func_Test.png').default}
 		width="450"
 		alt="Example banner"
-	/><br/><em>&lt;기능검증gt;</em>
+	/><br/><em>&lt;기능검증&gt;</em>
 </p>
 
 * 소프트웨어 정적분석(T.B.D)
@@ -162,17 +153,17 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 끝으로 모든 요구사항이 시스템 엘리먼트와 소프트웨어 컴포넌트에 할당되었는지와 요구사항이 시스템/소프트웨어 기능에 모두 할당되었는지 Traceability Matrix를 통하 확인 하였습니다.
 <p align="center">
 	<img
-		src={require('/img/2_mbd/Esc_5_All_Traceability.png').default}
-		width="450"
+		src={require('/img/1_process/Esc_5_All_Traceability.png').default}
+		width="600"
 		alt="Example banner"
 	/><br/><em>&lt;추적성을 통한 무결성 확보&gt;</em>
 </p>
 
-* 시스템 요구사항과 소프트웨어 요구사항 추적
-* 시스템 요구사항과 시스템 기능 추적
-* 시스템 요구사항과 시스템 엘리먼트 추적
-* 소프트웨어 요구사항과 소프트웨어 기능 추적
-* 소프트웨어 요구사항과 소프트웨어 유닛 추적
+* ①SysR_SysF : 시스템 요구사항과 시스템 기능 추적
+* ②SysR_SysEL : 시스템 요구사항과 시스템 엘리먼트 추적
+* ③SysR_SwR : 시스템 요구사항과 소프트웨어 요구사항 추적
+* ④SwR_SwC : 소프트웨어 요구사항과 소프트웨어 유닛 추적
+* ⑤SwR_SwF : 소프트웨어 요구사항과 소프트웨어 기능 추적
 
 ### 4.2 프로젝트 관리 및 A-SPICE CL3 인증 {#myprocess-std-cl3}
 

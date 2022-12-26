@@ -36,30 +36,31 @@ module.exports = {
     'sideprj',
     {
       type: 'category',
-      label: '1. MBD기반 온도PID제어',
+      label: '1. MBD를 통한 A-SPICE 준수',
       link: {
         type: 'doc',
-        id: 'sideprj/temperature',
+        id: 'sideprj/mbd',
       },
       collapsed: true,
       items: [
-        'sideprj/temperature/temperature_mgn',
-        'sideprj/temperature/temperature_design',
-        //'sideprj/temperature/temperature_controlStick',
+        'sideprj/mbd/escswc_mgn',
+        'sideprj/mbd/escswc_sys',
+        'sideprj/mbd/escswc_sw',
       ],
     },
     {
       type: 'category',
-      label: '2. MBD기반 와이퍼',
+      label: '2. 임베디드 웹서버OTA',
       link: {
         type: 'doc',
-        id: 'sideprj/wiper',
+        id: 'sideprj/hybrid',
       },
       collapsed: true,
       items: [
-        'sideprj/wiper/wiper_plan',
-        'sideprj/wiper/wiper_devenv',
-        'sideprj/wiper/wiper_verify',
+        'sideprj/hybrid/esp32_mgn',
+        'sideprj/hybrid/esp32_sys',
+        'sideprj/hybrid/esp32_hw',
+        'sideprj/hybrid/esp32_sw',
       ],
     },
     {
@@ -125,34 +126,33 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '4. 임베디드 웹서버OTA',
+      label: '4. MBD기반 와이퍼',
       link: {
         type: 'doc',
-        id: 'sideprj/hybrid',
+        id: 'sideprj/wiper',
       },
       collapsed: true,
       items: [
-        'sideprj/hybrid/esp32_mgn',
-        'sideprj/hybrid/esp32_sys',
-        'sideprj/hybrid/esp32_hw',
-        'sideprj/hybrid/esp32_sw',
+        'sideprj/wiper/wiper_plan',
+        'sideprj/wiper/wiper_devenv',
+        'sideprj/wiper/wiper_verify',
       ],
     },
     {
       type: 'category',
-      label: '5. MBD를 통한 A-SPICE 준수',
+      label: '5. MBD기반 온도PID제어',
       link: {
         type: 'doc',
-        id: 'sideprj/mbd',
+        id: 'sideprj/temperature',
       },
       collapsed: true,
       items: [
-        'sideprj/mbd/escswc_mgn',
-        'sideprj/mbd/escswc_sys',
-        'sideprj/mbd/escswc_sw',
+        'sideprj/temperature/temperature_mgn',
+        'sideprj/temperature/temperature_design',
+        //'sideprj/temperature/temperature_controlStick',
       ],
     },
-    {
+    /*{
       type: 'category',
       label: '6. 임베디드 리눅스 (TBD)',
       link: {
@@ -165,6 +165,6 @@ module.exports = {
       items: [
         'sideprj/linux/linuxapp',
       ],
-    },
+    },*/
   ],
 };

@@ -16,19 +16,21 @@ title: 관리
 ### 개발절차
 
 * 시스템 설계
-  * 시스템 요구사항정의
-  * 시스템 Functional Architecture 설계
-  * Physical/Logical Architecture 설계
-  * 요구사항-시스템아키텍처 추적성 확보
+  * 시스템요구사항 정의
+  * 시스템아키텍처 설계
+  * 시스템요구사항 - 시스템아키텍처 추적성 확보
+  * 시스템요구사항 - 시스템기능 추적성 확보
 * 소프트웨어 설계
-  * 소프트웨어 요구사항정의
-  * 소프트웨어 아키텍처 설계
-  * 상세설계
-  * 요구사항-시스템아키텍처 추적성 확보
-  * 상세설계 테스트 하네스 개발 및 테스트
+  * 소프트웨어요구사항정의
+  * 소프트웨어아키텍처 설계
+  * 소프트웨어상세설계
+  * 소프트웨어요구사항 - 소프트웨어컴포넌트 추적성 확보
+  * 소프트웨어요구사항 - 소프트웨어기능 추적성 확보
+  * 소프트웨어요구사항 기반 소프트웨어기능 테스트 케이스
+  * 소프트웨어요구사항 기반 소프트웨어기능 테스트 레포트
 * 산출물 자동생성
-  * 시스템/소프트웨어 요구사항
-  * 시스템/소프트웨어 설계 명세서
+  * 시스템/소프트웨어 요구사항 사양서
+  * 시스템/소프트웨어 설계 사양서
   * 모든 추적표 자동생성
   * 소프트웨어 기능 테스트케이스 및 레포트
 
@@ -41,33 +43,24 @@ title: 관리
 ### 개발 산출물
 
 * 시스템설계
-  * 요구사항정의
-    * 기능, 비기능, 인터페이스 요구사항
-  * 아키텍처설계
-    * Functional Architecture
-    * Physical Architecture
-    * Logical Architecture
-    * Traceability
-  * 설계사양서
-    * System Design Specification
-    * Traceability for Requirement and Function
-    * Traceability for Requirement and Element
-  * 설계검증
-    * 시스템 테스트 케이스
-	* 시스템 테스트결과 레포트
-    * Traceability for Requirement and TestCase
+  * 시스템요구사항정의
+    * 기능,비기능,인터페이스
+  * 시스템설계
+    * 시스템아키텍처(Functional,Physical,Logical) 설계
+    * 시스템설계 사양서
+	* 시스템요구사항-엘리먼트, 시스템요구사항-시스템기능 추적표
 * 소프트웨어개발
-  * 요구사항
-    * 기능 요구사항
+  * 소프트웨어요구사항정의
+    * 기능,비기능,인터페이스
     * Traceability for System Requirement and Software Requirement
-  * 아키텍처설계
-    * Software Architecture
-    * Traceability for Requirement and Function
-  * 상세설계
-	* Software Simulation Harness
-	* Development Software Component
-    * Traceability for Requirement and Element
-  * 설계검증
+  * 소프트웨어설계
+    * 소프트웨어아키텍처 설계
+	* 소프트웨어설계 사양서
+	* 소프트웨어 상세설계
+	* 시스템-소프트웨어 요구사항 추적표, 소프트웨어요구사항-컴포넌트, 소프트웨어요구사항-소프트웨어기능 추적표
+  * 소프트웨어설계검증
+    * 소프트웨어 기능 테스트케이스
+    * 소프트웨어 기능 테스트레포트
 	* Static Analysis (T.B.D)
 	* Dynamic Test - Unit
 	* Dynamic Test - Integration

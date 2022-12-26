@@ -2,24 +2,38 @@
 id: myprocess
 title: 프로세스개발
 ---
+
+<b><big>[목차]</big></b>
+
+* [1. MBD+AUTOSAR](#myprocess-mbdautosar)
+  * [[22.11.01~22.11.30] : 1.1 개발전략 수립 2차](#myprocess-mbdautosar-strategy1)
+  * [[21.01.15~21.02.16] : 1.2 개발전략 수립 1차](#myprocess-mbdautosar-strategy2)
+* [2. MBD+Agile](#myprocess-mbdagile)
+  * [[21.11.20~22.03.21] : 2.1 GitLab기반 Escalator MBD](#myprocess-mbdagile-escalator)
+* [3. Redmine 이슈관리](#myprocess-management)
+  * [[19.09.10~20.09.10] : 3.1 AWS Cloud를 통한 Redmine 환경구축](#myprocess-management-aws-redmine)
+  * [[18.01.18~18.08.12] : 3.2 Redmine을 통한 SW품질이슈 관리](#myprocess-management-redmine)
+* [4. 표준프로세스 구축](#myprocess-std)
+  * [[22.12.02~22.12.26] : 4.1 A-SPICE를 준수한 ESC 소프트웨어 컴포넌트 개발](#mymbd-esc-swc-by-aspice)
+  * [[19.05.20~19.12.10] : 4.2 프로젝트 관리 및 A-SPICE CL3 인증](#myprocess-std-cl3)
+  * [[16.04.25~16.09.20] : 4.3 A-SPICE 및 ISO26262 시스템 설계](#myprocess-std-sys-design)
+  * [[14.04.01~16.03.31] : 4.4 ISO26262프로세스구축 & A-SPICE CL2인증](#myprocess-std-cl2)
+
 ---
 
-## SwC 개발
+## 1. MBD+AUTOSAR {#myprocess-mbdautosar}
 
-### Escalator SwC 개발 {#myprocess-escalator-swc}
+### 1.1 개발전략 수립 1차 {#myprocess-mbdautosar-strategy1}
 
-### 개발전략 수립 2차 {#myprocess-mbdautosar-strategy2}
+### 1.2 개발전략 수립 2차 {#myprocess-mbdautosar-strategy2}
 
 * Library와 같이 독립적으로 재사용 가능한 SwC개발  
 * SwC에 대한 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 개발 및 Full Traceability 확보  
 * SwC를 AUTOSAR 기반으로 변경  
 
-### 개발전략 수립 1차 {#myprocess-mbdautosar-strategy1}
+## 2. MBD+Agile {#myprocess-mbdagile}
 
-
-## MBD+Agile {#myprocess-mbdagile}
-
-### GitLab기반 Escalator MBD {#myprocess-mbdagile-escalator}
+### 2.1 GitLab기반 Escalator MBD {#myprocess-mbdagile-escalator}
 
 KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다. 
 
@@ -42,32 +56,9 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
     </a>
 </p>
 
-### [GitLab기반 온도 PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system) {#myprocess-mbdagile-temperature}
+## 3. Redmine 이슈관리 {#myprocess-management}
 
-MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
-
-<p align="center">
-    <a target="_blank"
-		href={require('/img/1_process/f_process_gitlab_temp_pid.png').default}>
-		<img
-			src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
-			width="450"
-			alt="Example banner"
-		/><br/><em>&lt;GitLab 이슈를 통한 프로젝트 관리&gt;</em>
-    </a>
-</p>
-
-처음이라 그런지 프로젝트 관리가 제대로 되지 않아서 고민을 하던 차에 Github/GitLab하면 Agile 이야기가 나오는 것을 알게 되었고, "애자일, 민첩하고 유연한 조직의 비밀"이라는 책을 읽게 되었습니다. 프로젝트 경험과 책을 통해서 느낀점은 이후 Agile방식의 프로젝트를 지향하는 계기가 되었고, 그 생각과 실천은 지금까지 이어지고 있습니다.
-* 처음으로 GitLab기반 소스 형상관리 수행
-* 처음으로 GitLab기반 Task(할일) 및 Issue(문제) 관리 -> 프로젝트 관리 관리 수행
-
-이 프로젝트를 통해 MBD 기반 개발을 타겟에 실제 적용할 수 있겠다는 확신을 갖을 수 있었습니다. 이는 이후 회사에서 MBD 프로젝트를 수행할 수 있는 계기가 되었습니다.  
-* 처음으로 MBD기반으로 설계한 로직을 C코드를 자동생성하고 타겟 MCU에 구동
-* 모든 MBD기반 프로젝트 진행의 계기가 됨
-
-## Redmine 이슈관리 {#myprocess-management}
-
-### AWS Cloud를 통한 Redmine 환경구축 {#myprocess-management-aws-redmine}
+### 3.1 AWS Cloud를 통한 Redmine 환경구축 {#myprocess-management-aws-redmine}
 
 처음에는 서버구축에 대한 고민이 없었기 때문에 Local환경에서 Redmine을 설치하고, 현장에서 발생된 이슈는 회사로 복귀하여 Local Redmine에 업데이트 하였습니다. 이후 프로젝트 인원이 2명이었기 때문에 가능했던 것이라고 생각했고, 인원이 많아지면 불가능 한 방식이라고 생각하여 현장에서도 서버에 접속할 수 있는 방법을 고민하던 중 AWS에 Redmine을 설치하는 방법을 알게되어 개인 프로젝트로 주말에 작업을 진행하여 직접 클라우드 기반 서버를 구축하여 대규모 프로젝트에서 프로젝트를 관리할 수 있는 역량을 확보하였습니다.
 
@@ -86,7 +77,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 * Local에서만 Redmine에 접속하는 문제를 개선하기 위해 개인적으로 주말 프로젝트로 진행
 * 서버 구축 없이 저비용으로 클라우드 서버 구축방법 습득 -> 소규모/저비용 프로젝트에서 활용 가능
 
-### Redmine을 통한 SW품질이슈 관리 {#myprocess-management-redmine}
+### 3.2 Redmine을 통한 SW품질이슈 관리 {#myprocess-management-redmine}
 
 고객사에 출입문 제어 시스템을 처음 납품하는 사례였는데, 입사 시점에 이미 제품이 납품된 상태 여서 초기 품질이슈가 많이 발생하였습니다. ms-office를 통해 이슈를 관리하다가 체계적인 이슈관리의 필요성을 느끼게 되어 프로젝트 관리 솔루션에 관심을 가지게 되었습니다. 이때 Redmine을 처음 접하게 되었고, Redmine을 통해 이슈관리를 수행하였습니다.
 
@@ -109,9 +100,81 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 * 엑셀을 통해 이슈를 관리했는데 이슈들이 정리가 되지 않아 이를 해결하고자 이슈관리 툴 Redmine을 도입
 
 
-## 표준프로세스 구축 {#myprocess-std}
+## 4. 표준프로세스 구축 {#myprocess-std}
 
-### 프로젝트 관리 및 A-SPICE CL3 인증 {#myprocess-std-cl3}
+### 4.1 A-SPICE를 준수한 ESC 소프트웨어 컴포넌트 개발]{#mymbd-esc-swc-by-aspice}
+
+소프트웨어 개발 시 모델기반설계기법이 어떻게 A-SPICE 프로세스를 준수할 수 있는지 예제를 통해 검증하였습니다.
+본 프로젝트에서는 시스템 전체를 개발대상으로 하지 않고, 특정 SwC(Safety Logic)만을 개발 대상으로 한정하여 진행하였습니다.
+개발은 요구사항을 정의하고 아키텍처 설계 후 이를 바탕으로 상세설계/구현을 진행하고 마지막으로 구현된 기능을 검증하는 순서로 진행하였습니다.
+
+요구사항을 정의하고, 정의된 요구사항을 바탕으로 아키텍처를 설계한 다음
+<p align="center">
+	<img
+		src={require('/img/2_mbd/Esc_1_Architecture_Desing.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;아키텍처 설계(요구사항을 아키텍처에 할당)&gt;</em>
+</p>
+
+* 시스템 요구사항 정의
+* 소프트웨어 요구사항 정의
+* 시스템 아키텍처 설계
+* 소프트웨어 아키텍처 설계
+
+기능 아키텍처를 바탕으로 소프트웨어 아키텍처 설계를 완료하면 
+<p align="center">
+	<img
+		src={require('/img/2_mbd/Esc_2_Architecture_Total.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;최종 아키텍처&gt;</em>
+</p>
+
+* Functional Architecture
+* Hardware(Physical) Architecture
+* Software(Logical) Architecture
+
+시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 상세설계를 진행합니다.
+<p align="center">
+	<img
+		src={require('/img/2_mbd/Esc_3_Design_Realization.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;상세설계 및 구현&gt;</em>
+</p>
+
+* 시뮬레이션을 통해 소프트웨어 상세 설계 진행
+
+상세설계 이후 테스트케이스를 기반으로 설계한 기능이 원하는 동작을 수행하는지 기능시험을 진행하고, 테스트레포트를 생성하여 소프트웨어 기능검증을 완료하고,
+<p align="center">
+	<img
+		src={require('/img/2_mbd/Esc_4_Reqs_based_Func_Test.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;기능검증gt;</em>
+</p>
+
+* 소프트웨어 정적분석(T.B.D)
+* 소프트웨어 유닛/통합 시험(T.B.D)
+* 소프트웨어 기능 시험
+
+끝으로 모든 요구사항이 시스템 엘리먼트와 소프트웨어 컴포넌트에 할당되었는지와 요구사항이 시스템/소프트웨어 기능에 모두 할당되었는지 Traceability Matrix를 통하 확인 하였습니다.
+<p align="center">
+	<img
+		src={require('/img/2_mbd/Esc_5_All_Traceability.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;추적성을 통한 무결성 확보&gt;</em>
+</p>
+
+* 시스템 요구사항과 소프트웨어 요구사항 추적
+* 시스템 요구사항과 시스템 기능 추적
+* 시스템 요구사항과 시스템 엘리먼트 추적
+* 소프트웨어 요구사항과 소프트웨어 기능 추적
+* 소프트웨어 요구사항과 소프트웨어 유닛 추적
+
+### 4.2 프로젝트 관리 및 A-SPICE CL3 인증 {#myprocess-std-cl3}
 
 A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
 
@@ -135,7 +198,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;A-SPICE/ISO26262 통합 표준 프로세스 수립&gt;</em>
 </p>
 
-### A-SPICE 및 ISO26262 시스템 설계 {#myprocess-std-sys-design}
+### 4.3 A-SPICE 및 ISO26262 시스템 설계 {#myprocess-std-sys-design}
 
 :::important
 표준 프로세스를 구축하면서 진행한 시스템 설계활동을 통해 MBD개발에서 요구되는 아키텍처 설계 역량을 키울 수 있었습니다.
@@ -182,7 +245,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
 </p>
 
-### ISO26262프로세스구축 & A-SPICE CL2인증 {#myprocess-std-cl2}
+### 4.4 ISO26262프로세스구축 & A-SPICE CL2인증 {#myprocess-std-cl2}
 
 * A-SPICE(CL2달성) 및 ISO26262 대응
 * 소속 : 동양기전/DYAUTO

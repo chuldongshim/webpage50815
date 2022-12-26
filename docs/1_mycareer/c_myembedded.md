@@ -2,11 +2,30 @@
 id: myembedded
 title: 임베디드개발
 ---
+
+<b><big>[목차]</big></b>
+
+* [1. 부트로더 개발](#myembedded-bootloader)
+  * [[22.05.22~22.08.04] : 1.1 wifi 웹서버를 통한 STM FW업데이트 [☜ click for side project]](#myembedded-bootloader-fota)
+  * [[20.05.16~20.08.10] : 1.2 PC Python/LIN을 통한 NXP MCU FW업데이트](#myembedded-bootloader-nxp-iap)
+  * [[18.12.09~18.12.10] : 1.3 UART를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
+  * [[16.10.03~17.04.30] : 1.4 RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
+* [2. 제어기 개발](#myembedded-controller)
+  * [[17.06.07~19.04.12] : 2.1 열차 출입문 제어기 개발](#myembedded-controller-train)
+  * [[09.03.16~09.12.18] : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
+  * [[08.09.01~09.02.26] : 2.3 유도인형 제어기 개발](#myembedded-controller-judo)
+* [3. 리눅스 응용프로그램 개발](#myembedded-linux)
+  * [[16.10.03~17.04.30] : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
+  * [[11.11.01~13.10.30] : 3.2 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
+  * [[11.11.01~13.10.30] : 3.3 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
+* [4. 센서 개발](#myembedded-sensor)
+  * [[10.09.01~11.08.31] : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
+
 ---
 
-## 부트로더 개발 {#myembedded-bootloader}
+## 1. 부트로더 개발 {#myembedded-bootloader}
 
-### [wifi 웹서버를 통한 STM FW업데이트 [☜ click for side project]](/docs/sideprj/hybrid#embed-ota-webserver-summary) {#myembedded-bootloader-fota}
+### [1.1 wifi 웹서버를 통한 STM FW업데이트 [☜ click for side project]](/docs/sideprj/hybrid#embed-ota-webserver-summary) {#myembedded-bootloader-fota}
 
 #### ESP32 Embedded WebServer를 통한 stm32f746 OTA
 
@@ -40,7 +59,7 @@ X-CUBE-DSPDEMO by stm32f4-disco
 * MPU6050 IIR필터링 동영상
 * MPU6050 Kalman필터링 동영상
 
-### Python/LIN을 통한 NXP MCU FW업데이트 {#myembedded-bootloader-nxp-iap}
+### 1.2 Python/LIN을 통한 NXP MCU FW업데이트 {#myembedded-bootloader-nxp-iap}
 
 * 기간 : 20.07.20 ~ 20.09.22 (책임 2년)
 
@@ -132,9 +151,9 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 * Master/Slave 구조를 갖는 시스템(열차 출입문은 Master MCU가 7개의 Slave MCU를 제어함)의 경우 Master 펌웨어만 업데이트 하면 자동으로 나머지 7개의 Slave 펌웨어를 업데이트하는 부트로더 개발
 * Server/Client 구조를 갖는 시스템의 경우 서버에 펌웨어를 업데이트 하면 특정 시간에 Slave가 자동으로 펌웨어를 업데이트 하는 부트로더 개발
 
-### UART를 통한 STM MCU FW업데이트 {#myembedded-bootloader-stm-iap}
+### 1.3 UART를 통한 STM MCU FW업데이트 {#myembedded-bootloader-stm-iap}
 
-### RTOS포팅 및 IAP구현(Self_Study) {#myembedded-bootloader-iap}
+### 1.4 RTOS포팅 및 IAP구현(Self_Study) {#myembedded-bootloader-iap}
 
 :::note History
 * 성과
@@ -149,9 +168,9 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
   * 열차 노이즈 유입으로 잦은 에뮬레이터 고장 발생 -> 에뮬레이터 재구매 안함
 
 
-## 제어기 개발 {#myembedded-controller}
+## 2. 제어기 개발 {#myembedded-controller}
 
-### 열차 출입문 제어기 개발 {#myembedded-controller-train}
+### 2.1 열차 출입문 제어기 개발 {#myembedded-controller-train}
 
 #### 열차 측출입문/통로문 제어기 유지보수
 
@@ -213,7 +232,7 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 
 IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 
-### 무인 전기자동차 하위 제어기 개발 {#myembedded-controller-kist}
+### 2.2 무인 전기자동차 하위 제어기 개발 {#myembedded-controller-kist}
 
 * 전기차 하위 인터페이스 제어기 개발/제작/관리 및 유지보수
 * 기간 : 2009.03 ~ 2009.12
@@ -253,7 +272,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
 </p>
 
-### 유도인형 제어기 개발 {#myembedded-controller-judo}
+### 2.3 유도인형 제어기 개발 {#myembedded-controller-judo}
 
 학부생활동안 FND 디지털 시계 및 디지털 도아락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
 FND 디지털 시계
@@ -296,13 +315,13 @@ FND 디지털 시계
   * 파우더브레이크를 이용한 유도로봇 몸통 및 좌우다리 제동력 조절
 
 
-## 리눅스 응용프로그램 개발 {#myembedded-linux}
+## 3. 리눅스 응용프로그램 개발 {#myembedded-linux}
 
-### stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
+### 3.1 stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
 
 * stm32f4-discovery에 uClinux 포팅
 
-### 복합기 인증단말기 개발/유지보수 {#myembedded-linux-maintenance}
+### 3.2 복합기 인증단말기 개발/유지보수 {#myembedded-linux-maintenance}
 
 * 단말기를 통한 복합기 인증 솔루션 개발
 * 소속 : 한국후지제록스
@@ -347,7 +366,7 @@ FND 디지털 시계
   * 인증 성공 시 문서관리 솔루션 정책에 따른 출력 동작 수행
 * MMU가 없는 MCU uClinux(mln7400) 및 linux kernel 2.6(mlc3700) 포팅 - IO device driver 구현/확인
 
-### 카드리더기 단말기 uCLinux/Linux 포팅 {#myembedded-linux-porting}
+### 3.3 카드리더기 단말기 uCLinux/Linux 포팅 {#myembedded-linux-porting}
 
 * 2440에 ARM9 Linux 포팅
   * 기간 : 2011.11 ~ 2013.10 (사원 2년)
@@ -362,9 +381,9 @@ FND 디지털 시계
 </p>
 
 
-## 센서 개발 {#myembedded-sensor}
+## 4. 센서 개발 {#myembedded-sensor}
 
-### 다축 Force/Torque센서 상용화 기술 개발 {#myembedded-sensor-ft}
+### 4.1 다축 Force/Torque센서 상용화 기술 개발 {#myembedded-sensor-ft}
 
 * 삼성전자HME 사업부 주관 다축 Force/Torque 센서 개발
 * 소속 : 연세대 자동화기술연구소 계약직 연구원

@@ -407,14 +407,6 @@ FND 디지털 시계
 * 기구부/전장부 일체형 센서 개발
 * Calibraion Jig 기구부 설계/발주 (Pro-E, AutoCAD 이용)
 
-<p align="center">
-	<img
-		src={require('/img/3_embedded/myhistory_3.png').default}
-		width="450"
-		alt="Example banner"
-	/><br/><em>&lt;FT센서 개발&gt;</em>
-</p>
-
 해당 프로젝트는 양산 전 선행 프로젝트로 추후 양산제품적용 기반기술로 활용되었음
 
 > 1000만원 이상의 고가센서를 대신하여 상용화 및 양산 성공  

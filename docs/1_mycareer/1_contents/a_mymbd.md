@@ -15,7 +15,7 @@ title: 모델기반설계 상세
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [[22.09.01~22.10.18] : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
   * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
-  * [[21.01.08~21.07.13] : 3.3 MBD기반 와이퍼 기본기능구현 [☜ click for side project]](#mymbd-wiper-func)
+  * [[21.01.08~21.07.13] : 3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](#mymbd-wiper-func)
 * [4. 윈도우 선행학습](#mymbd-window)
   * [[21.07.30~21.12.31] : 4.1 윈도우 MBD 기본기능구현 [☜ click for side project]](#mymbd-window-func)
   * [[13.10.01~14.05.16] : 4.2 윈도우 MBD 선행학습](#mymbd-window-basic)
@@ -168,7 +168,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 	/>
 </p>
 
-### [3.3 MBD기반 와이퍼 기본기능구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
+### [3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)

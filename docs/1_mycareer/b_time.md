@@ -3,7 +3,7 @@ id: time
 title: 시간별
 ---
 
-어렸을 때보다 오히려 지금이 더 열정적으로 살아가고 있습니다.
+한해한해 살아온 자취를 통해서도 알 수 있듯이 개발을 할 수 있는 시간이 얼마 남지 않았다고 생각하니 30대 였을 때보다 40대인 지금이 더 개발에 열정적이며 하루하루를 소중하게 살아가고 있습니다.
 
 ## 직장
 ### 2022년
@@ -25,19 +25,19 @@ title: 시간별
 * [[20.08.12~20.11.13] : 모델기반 - 온도 PID제어 MBD](/docs/mycareer/contents/mymbd#mymbd-start-temp-pid)
 * [[20.05.16~20.08.10] : 임베디드 - PC Python과 LIN부트로더를 통한 NXP FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
 ### 2019년
-* [[19.09.10~20.09.10] : 프로세스 - AWS Cloud를 통한 Redmine 환경구축](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)
 * [[19.05.20~19.12.10] : 프로세스 - 프로젝트 관리 및 A-SPICE CL3 인증](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
+* [[19.09.10~20.09.10] : 프로세스 - AWS Cloud를 통한 Redmine 환경구축](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)
 ### 2018년
 * [[18.12.09~18.12.10] : 임베디드 - UART부트로더를 통한 STM FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
-* [[18.01.18~18.08.12] : 프로세스 - Redmine을 통한 SW품질이슈 관리](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
+* [[18.01.18~18.08.12] : 프로세스 - Redmine을 통한 열차출입문제어기SW 품질이슈 관리](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
 ### 2017년
-* [[17.06.07~19.04.12] : 임베디드 - 열차 출입문 제어기 개발](/docs/mycareer/contents/myembedded#myembedded-controller-train)
+* [[17.06.07~19.04.12] : 임베디드 - 열차출입문제어기 개발](/docs/mycareer/contents/myembedded#myembedded-controller-train)
 ### 2016년
 * [[16.10.03~17.04.30] : 모델기반 - Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-basic-study)
 * [[16.10.03~17.04.30] : 임베디드 - RTOS포팅 및 IAP구현(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
 * [[16.10.03~17.04.30] : 임베디드 - stm32f7에 uCLinux포팅(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
 * [[16.04.25~16.09.20] : 프로세스 - A-SPICE 및 ISO26262 시스템 설계](/docs/mycareer/contents/myprocess#myprocess-std-sys-design)
-### 2014년
+### 2014년~2015년
 * [[14.04.01~16.03.31] : 프로세스 - ISO26262프로세스 구축 및 A-SPICE CL2인증](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
 ### 2013년
 * [[13.10.01~14.05.16] : 모델기반 - 윈도우 MBD 선행학습](/docs/mycareer/contents/mymbd#mymbd-window-basic)

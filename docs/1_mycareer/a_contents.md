@@ -6,9 +6,9 @@ title: 1. 컨텐츠별
 
 다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
-* [모델기반설계](/docs/mycareer#mycareer-mbd)
-* [개발프로세스](/docs/mycareer#mycareer-process)
-* [임베디드개발](/docs/mycareer#mycareer-embed)
+* [모델기반설계](/docs/mycareer/contents#mycareer-mbd)
+* [개발프로세스](/docs/mycareer/contents#mycareer-process)
+* [임베디드개발](/docs/mycareer/contents#mycareer-embed)
 
 ---
 

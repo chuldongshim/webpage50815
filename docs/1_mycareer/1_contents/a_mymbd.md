@@ -11,16 +11,16 @@ title: 모델기반설계 상세
   * [[xx.xx.xx~xx.xx.xx] : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
   * [[16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-bldc-kalman-basic-study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
-  * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb-mbd)
+  * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현 고객대응](#mymbd-customer-psb)
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [[22.09.01~22.10.18] : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
-  * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현](#mymbd-wiper-fft)
+  * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
   * [[21.01.08~21.07.13] : 3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](#mymbd-wiper-func)
 * [4. 윈도우 선행학습](#mymbd-window)
   * [[21.07.30~21.12.31] : 4.1 윈도우 MBD 기본기능구현 [☜ click for side project]](#mymbd-window-func)
   * [[13.10.01~14.05.16] : 4.2 윈도우 MBD 선행학습](#mymbd-window-basic)
 * [5. MBD 시작](#mymbd-start)
-  * [[20.08.12~20.11.13] : 5.1 온도PID제어 MBD [☜ click for side project]](#mymbd-start-temp-pid)
+  * [[20.08.12~20.11.13] : 5.1 온도 PID제어 MBD [☜ click for side project]](#mymbd-start-temp-pid)
   * [[07.03.02~08.08.31] : 5.2 졸업논문](#mymbd-start-graduation)
 
 ---
@@ -57,7 +57,7 @@ title: 모델기반설계 상세
 
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 
-### 2.1 PSB(안전벨트) 기능로직 MBD구현{#mymbd-customer-psb-mbd}
+### 2.1 PSB(안전벨트) 기능로직 MBD구현 고객대응{#mymbd-customer-psb}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 22.03.01 ~ 현재 (책임 4년차)
@@ -157,7 +157,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 	/>
 </p>
 
-### 3.2 FFT MCU 구현 {#mymbd-wiper-fft}
+### 3.2 FFT MCU 구현 및 Matlab 연동  {#mymbd-wiper-fft}
 * <a href="/assets/mbd/Webpage_Ews_S32K1_FFT.html" target="_blank">MCU에서 생성한 샘플신호를 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot [☜ click for more]</a>
 
 <p align="center">
@@ -268,7 +268,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 
 ## 5. MBD 시작 {#mymbd-start}
 
-### [5.1 온도PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system){#mymbd-start-temp-pid}
+### [5.1 온도 PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system){#mymbd-start-temp-pid}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 

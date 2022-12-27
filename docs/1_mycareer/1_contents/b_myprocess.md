@@ -6,10 +6,10 @@ title: 프로세스개발 상세
 <b><big>[목차]</big></b>
 
 * [1. MBD+AUTOSAR](#myprocess-mbdautosar)
-  * [[22.11.01~22.11.30] : 1.1 개발전략 수립 2차](#myprocess-mbdautosar-strategy1)
-  * [[21.01.15~21.02.16] : 1.2 개발전략 수립 1차](#myprocess-mbdautosar-strategy2)
+  * [[22.11.01~22.11.30] : 1.1 AUTOSAR+MBD 개발전략 수립 2차](#myprocess-mbdautosar-strategy2)
+  * [[21.01.15~21.02.16] : 1.2 AUTOSAR+MBD 개발전략 수립 1차](#myprocess-mbdautosar-strategy1)
 * [2. MBD+Agile](#myprocess-mbdagile)
-  * [[21.11.20~22.03.21] : 2.1 GitLab기반 Escalator MBD](#myprocess-mbdagile-escalator)
+  * [[21.11.20~22.03.21] : 2.1 GitLab Agile기반 Escalator MBD](#myprocess-mbdagile-escalator)
 * [3. Redmine 이슈관리](#myprocess-management)
   * [[19.09.10~20.09.10] : 3.1 AWS Cloud를 통한 Redmine 환경구축](#myprocess-management-aws-redmine)
   * [[18.01.18~18.08.12] : 3.2 Redmine을 통한 SW품질이슈 관리](#myprocess-management-redmine)
@@ -17,7 +17,7 @@ title: 프로세스개발 상세
   * [[22.12.02~22.12.26] : 4.1 A-SPICE를 준수한 ESC 소프트웨어 컴포넌트 개발](#mymbd-esc-swc-by-aspice)
   * [[19.05.20~19.12.10] : 4.2 프로젝트 관리 및 A-SPICE CL3 인증](#myprocess-std-cl3)
   * [[16.04.25~16.09.20] : 4.3 A-SPICE 및 ISO26262 시스템 설계](#myprocess-std-sys-design)
-  * [[14.04.01~16.03.31] : 4.4 ISO26262프로세스구축 & A-SPICE CL2인증](#myprocess-std-cl2)
+  * [[14.04.01~16.03.31] : 4.4 ISO26262프로세스 구축 및 A-SPICE CL2인증](#myprocess-std-cl2)
 
 ---
 
@@ -33,7 +33,7 @@ title: 프로세스개발 상세
 
 ## 2. MBD+Agile {#myprocess-mbdagile}
 
-### 2.1 GitLab기반 Escalator MBD {#myprocess-mbdagile-escalator}
+### 2.1 GitLab Agile기반 Escalator MBD {#myprocess-mbdagile-escalator}
 
 KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다. 
 
@@ -93,7 +93,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
 ## 4. 표준프로세스 구축 {#myprocess-std}
 
-### 4.1 A-SPICE를 준수한 ESC 소프트웨어 컴포넌트 개발]{#mymbd-esc-swc-by-aspice}
+### 4.1 A-SPICE를 준수한 ESC 소프트웨어 컴포넌트 개발 {#mymbd-esc-swc-by-aspice}
 
 소프트웨어 개발 시 모델기반설계기법이 어떻게 A-SPICE 프로세스를 준수할 수 있는지 예제를 통해 검증하였습니다.
 본 프로젝트에서는 시스템 전체를 개발대상으로 하지 않고, 특정 SwC(Safety Logic)만을 개발 대상으로 한정하여 진행하였습니다.
@@ -236,7 +236,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
 </p>
 
-### 4.4 ISO26262프로세스구축 & A-SPICE CL2인증 {#myprocess-std-cl2}
+### 4.4 ISO26262프로세스 구축 및 A-SPICE CL2인증 {#myprocess-std-cl2}
 
 * A-SPICE(CL2달성) 및 ISO26262 대응
 * 소속 : 동양기전/DYAUTO

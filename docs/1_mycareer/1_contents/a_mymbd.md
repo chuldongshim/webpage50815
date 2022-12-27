@@ -7,15 +7,15 @@ title: 모델기반설계 상세
 
 * [1. BLDC 선행학습](#mymbd-bldc)
   * [[23.XX.xx~23.xx.xx] : 1.1 Sensorless BLDC by Kalman Filter (TBD)](#mymbd-bldc-plan)
-  * [[22.10.21~22.11.05] : 1.2 Sensored BLDC MBD](#mymbd-bldc-sensered)
+  * [[22.10.21~22.11.05] : 1.2 MBD기반 Sensored BLDC 속도제어](#mymbd-bldc-sensered)
   * [[xx.xx.xx~xx.xx.xx] : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
   * [[16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-bldc-kalman-basic-study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
-  * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현 고객대응](#mymbd-customer-psb)
+  * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb)
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [[22.09.01~22.10.18] : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
   * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
-  * [[21.01.08~21.07.13] : 3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](#mymbd-wiper-func)
+  * [[21.01.08~21.07.13] : 3.3 MBD기반 와이퍼 기본기능구현 [☜ click for side project]](#mymbd-wiper-func)
 * [4. 윈도우 선행학습](#mymbd-window)
   * [[21.07.30~21.12.31] : 4.1 윈도우 MBD 기본기능구현 [☜ click for side project]](#mymbd-window-func)
   * [[13.10.01~14.05.16] : 4.2 윈도우 MBD 선행학습](#mymbd-window-basic)
@@ -35,7 +35,7 @@ title: 모델기반설계 상세
 * Software Component개발(T.B.D)
 * 칼만필터를 이용한 DC/BLDC 모터 제어
 
-### 1.2 Sensored BLDC MBD {#mymbd-bldc-sensered}
+### 1.2 MBD기반 Sensored BLDC 속도제어 {#mymbd-bldc-sensered}
 
 * MBD기반 BLDC모터 제어
 
@@ -57,7 +57,7 @@ title: 모델기반설계 상세
 
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 
-### 2.1 PSB(안전벨트) 기능로직 MBD구현 고객대응{#mymbd-customer-psb}
+### 2.1 PSB(안전벨트) 기능로직 MBD구현{#mymbd-customer-psb}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 22.03.01 ~ 현재 (책임 4년차)
@@ -158,7 +158,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 </p>
 
 ### 3.2 FFT MCU 구현 및 Matlab 연동  {#mymbd-wiper-fft}
-* <a href="/assets/mbd/Webpage_Ews_S32K1_FFT.html" target="_blank">MCU에서 생성한 샘플신호를 FFT연산 후 Serial통신을 통해 Matlab Realtime Plot [☜ click for more]</a>
+* <a href="/assets/mbd/Webpage_Ews_S32K1_FFT.html" target="_blank">MCU에서 생성한 샘플신호에 대하여 FFT연산을 수행한 다음 Serial통신을 통해 Matlab Realtime Plot [☜ click for more detail]</a>
 
 <p align="center">
 	<img
@@ -168,7 +168,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 	/>
 </p>
 
-### [3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
+### [3.3 MBD기반 와이퍼 기본기능구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)

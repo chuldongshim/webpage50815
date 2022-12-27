@@ -18,7 +18,7 @@ module.exports = {
 	'mycareer',
     {
       type: 'category',
-      label: '1. 컨텐츠별',
+      label: '컨텐츠별',
       link: {
         type: 'doc',
         id: 'mycareer/contents',

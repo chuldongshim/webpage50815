@@ -1,15 +1,27 @@
 ---
 id: contents
-title: 1. 컨텐츠별
+title: 컨텐츠별
 ---
 ---
 
 다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
-* [모델기반설계](/docs/mycareer/contents#mycareer-mbd)
-* [개발프로세스](/docs/mycareer/contents#mycareer-process)
-* [임베디드개발](/docs/mycareer/contents#mycareer-embed)
-
+* [모델기반설계](#mycareer-mbd)  
+  [BLDC 선행학습](#mbd-bldc-study) / 
+  [와이퍼 알고리즘 개발](#mbd-wiper-dev) / 
+  [MBD고객대응](#mbd-customer) / 
+  [윈도우 선행학습](#mycareer-mbd-window) / 
+  [MBD 시작](#mbd-start)
+* [개발프로세스](#mycareer-process)  
+  [MBD+AUTOSAR](#swc-mbd-autosar) / 
+  [MBD+Agile](#mycareer-process-agile) / 
+  [Redmine 이슈관리](#redmine-issue) / 
+  [표준프로세스 구축](#process-dev)
+* [임베디드개발](#mycareer-embed)  
+  [부트로더 개발](#mycareer-embed-fota) / 
+  [제어기 개발](#mycareer-embed-train) / 
+  [리눅스 응용프로그램 개발](#linux-app-dev) / 
+  [센서 개발](#ftsensor-dev)
 ---
 
 ## 모델기반설계 {#mycareer-mbd}
@@ -22,11 +34,11 @@ title: 1. 컨텐츠별
 3. 시뮬레이션-타겟구동 설계 비교검증
 :::
 
-### BLDC 선행학습
+### BLDC 선행학습 {#mbd-bldc-study}
 
-1. [추후계획 : Sensorless BLDC by Kalman Filter [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)
+1. [23.XX.xx~23.xx.xx : Sensorless BLDC by Kalman Filter [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)
 2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)
-3. [16.10.03~17.04.30 : Kalman Filter 이론학습 및 시뮬레이션 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman)
+3. [xx.xx.xx~xx.xx.xx : Kalman Filter학습 및 시뮬레이션 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)
 <p align="left">
 	<img
 		src={require('/img/2_mbd/mymbd-kalman-modeling.png').default}
@@ -34,8 +46,24 @@ title: 1. 컨텐츠별
 		alt="Example banner"
 	/>
 </p>
+4. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-basic-study)
 
-### 와이퍼 알고리즘 개발
+### MBD고객대응 {#mbd-customer}
+
+1. [22.03.03~22.05.17 : PSB(안전벨트) 기능로직 MBD구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
+PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신호 프로파일링  
+프로파일링 코드를 MBD로 자동생성하고, 제어기에 통합하여 고객사에 납품함
+<p align="left">
+	<iframe 
+		src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+
+### 와이퍼 알고리즘 개발 {#mbd-wiper-dev}
 
 1. [22.09.01~22.10.18 : MBD기반 와이퍼 제어기설계 (관측기,LQR) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)  
 관측기 상태피드백을 통한 LQR제어
@@ -69,24 +97,9 @@ Auto Wiping 동작확인
 	</iframe>
 </p>
 
-### MBD고객대응
-
-1. [22.03.03~22.05.03 : MBD기반 PSB(안전벨트) 기능로직 구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
-PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신호 프로파일링  
-프로파일링 코드를 MBD로 자동생성하고, 제어기에 통합하여 고객사에 납품함
-<p align="left">
-	<iframe 
-		src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-
 ### 윈도우 선행학습 {#mycareer-mbd-window}
 
-1. [21.07.30~21.12.31 : MBD기반 Safety Power Window 기능구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-func)  
+1. [21.07.30~21.12.31 : 윈도우 MBD 기본기능구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-func)  
 2013년 진행에 이어 장애물 감지 시 윈도우 반전 타겟MCU에 실제 구현/적용(21년12월)
 <p align="left">
 	<iframe
@@ -97,7 +110,7 @@ PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신�
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [13.10.01~14.05.16 : MBD기반 MicroAutoBox를 통한 Window 기본기능 구동 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-basic)  
+2. [13.10.01~14.05.16 : 윈도우 MBD 선행학습 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-basic)  
 장애물 감지 시 윈도우 반전 시뮬레이션 및 MicroAutoBox 구현(13년4월~14년3월)
 <p align="left">
 	<iframe 
@@ -109,9 +122,19 @@ PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신�
 	</iframe>
 </p>
 
-### MBD 시작
+### MBD 시작 {#mbd-start}
 
-1. [07.03.02~08.08.31 : 졸업논문 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-start-graduation)  
+1. [20.08.12~20.11.13 : 온도 PID제어 MBD [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-start-temp-pid)  
+GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
+<p align="left">
+	<img
+		src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+2. [07.03.02~08.08.31 : 졸업논문 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-start-graduation)  
 센서 입력에 따른 모터 PID제어  
 C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink를 처음으로 사용함
 <p align="left">
@@ -137,19 +160,17 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 * Github/Gitlab 기반 Agile 프로젝트 관리
 :::
 
-### SwC 개발 프로세스
+### MBD+AUTOSAR {#swc-mbd-autosar}
 
 1. TBD : AUTOSAR ASW 개발  
 기존에 개발한 PSB 프로파일링로직을 Non-AUTOSAR/AUTOSAR에 모두 사용 가능한 SwC로 개발
-2. [22.11.30~ : Escalator SwC 개발 [☜ click for more]](/docs/mycareer/contents/myprocess##myprocess-escalator-swc)  
-요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발
-3. [22.11.01~22.11.30 : 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
-4. [21.01.15~21.02.16 : 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
+3. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
+4. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 
 ### MBD+Agile {#mycareer-process-agile}
 
-1. [21.11.20~22.03.21 : GitLab기반 Escalator MBD [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-escalator)  
-KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스코드 형상관리 수행
+1. [21.11.20~22.03.21 : GitLab Agile기반 Escalator MBD [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-escalator)  
+KTL 교육 목적으로 프로젝트를 진행하였으며, 진행 시 일정관리/이슈관리/소스코드형상관리를 수행함
 <p align="left">
 	<img
 		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
@@ -158,17 +179,7 @@ KTL 교육 목적으로 프로젝트 진행, 일정관리, 이슈관리, 소스�
 	/><br/>
 </p>
 
-2. [20.08.12~20.11.13 : GitLab기반 온도 PID제어 MBD [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-temperature)  
-GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
-<p align="left">
-	<img
-		src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
-		width="450"
-		alt="Example banner"
-	/>
-</p>
-
-### Redmine 이슈관리
+### Redmine 이슈관리 {#redmine-issue}
 
 1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
@@ -188,9 +199,12 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-### 표준프로세스 구축
+### 표준프로세스 구축 {#process-dev}
 
-1. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
+1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 개발 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
+요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발
+
+2. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
 <p align="left">
 	<img
 		src={require('/img/1_process/a_certification_cl3.png').default}
@@ -198,8 +212,8 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-2. [16.04.25~16.09.20 : A-SPICE CL2/ISO26262 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design)
-3. [14.04.01~16.03.31 : ISO26262 프로세스구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
+3. [16.04.25~16.09.20 : A-SPICE 및 ISO26262 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design)
+4. [14.04.01~16.03.31 : ISO26262프로세스 구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
 <p align="left">
 	<img
 		src={require('/img/1_process/a_certification_cl2.png').default}
@@ -232,7 +246,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-2. [20.05.16~20.08.10 : PC Python/LIN을 통한 NXP MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
+2. [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
 
 3. [18.12.09~18.12.10 : UART를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
 
@@ -271,7 +285,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-### 리눅스 응용프로그램 개발
+### 리눅스 응용프로그램 개발 {#linux-app-dev}
 
 1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
 <p align="left">
@@ -284,7 +298,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-maintenance)  
 3. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-porting)  
 
-### 센서 개발
+### 센서 개발 {#ftsensor-dev}
 
 1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-sensor-ft)
 <p align="left">

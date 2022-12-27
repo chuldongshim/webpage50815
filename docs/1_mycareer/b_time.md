@@ -1,6 +1,6 @@
 ---
 id: time
-title: 2. 시간별
+title: 시간별
 ---
 
 어렸을 때보다 오히려 지금이 더 열정적으로 살아가고 있습니다.
@@ -9,9 +9,9 @@ title: 2. 시간별
 ### 2022년
 * [00.00.00~00.00.00] : 모델기반 － Sensorless BLDC by Kalman Filter (TBD)
 * [00.00.00~00.00.00] : 모델기반 － Kalman Filter학습 및 시뮬레이션
-* [[22.12.02~22.12.26] : 프로세스 － A-SPICE를 준수한 ESC 소프트웨어 컴포넌트 개발](/docs/mycareer/contents/myprocess#mymbd-esc-swc-by-aspice)
+* [[22.12.02~22.12.26] : 프로세스 － A-SPICE를 준수하는 소프트웨어 컴포넌트(Escalator SwC) 개발](/docs/mycareer/contents/myprocess#mymbd-esc-swc-by-aspice)
 * [[22.11.01~22.11.30] : 프로세스 － AUTOSAR+MBD 개발전략 수립 2차](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)
-* [[22.10.21~22.11.05] : 모델기반 － Sensored BLDC MBD](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)
+* [[22.10.21~22.11.05] : 모델기반 － MBD기반 Sensored BLDC 속도제어](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)
 * [[22.09.01~22.10.18] : 모델기반 － 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)
 * [[22.08.14~22.08.29] : 모델기반 － FFT MCU 구현 및 Matlab 연동 확인](/docs/mycareer/contents/mymbd#mymbd-wiper-fft)
 * [[22.05.22~22.08.04] : 임베디드 － wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
@@ -29,10 +29,9 @@ title: 2. 시간별
 * [[19.05.20~19.12.10] : 프로세스 － 프로젝트 관리 및 A-SPICE CL3 인증](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
 ### 2018년
 * [[18.12.09~18.12.10] : 임베디드 － UART부트로더를 통한 STM FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
-* [[18.08.29~19.01.13] : 임베디드 － 열차 측출입문 제어기 양산SW 신규개발](/docs/mycareer/contents/myembedded#myembedded-train-new-sw)
 * [[18.01.18~18.08.12] : 프로세스 － Redmine을 통한 SW품질이슈 관리](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
 ### 2017년
-* [[17.06.07~19.04.12] : 임베디드 － 열차 측출입문/통로문 제어기 유지보수](/docs/mycareer/contents/myembedded#myembedded-train-maintenance)
+* [[17.06.07~19.04.12] : 임베디드 － 열차 출입문 제어기 개발](/docs/mycareer/contents/myembedded#myembedded-controller-train)
 ### 2016년
 * [[16.10.03~17.04.30] : 모델기반 － Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-basic-study)
 * [[16.10.03~17.04.30] : 임베디드 － RTOS포팅 및 IAP구현(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)

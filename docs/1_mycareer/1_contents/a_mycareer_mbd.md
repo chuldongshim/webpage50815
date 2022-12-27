@@ -1,5 +1,5 @@
 ---
-id: mycareer_mbd
+id: mymbd
 title: 모델기반설계 상세
 ---
 

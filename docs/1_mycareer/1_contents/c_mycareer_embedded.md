@@ -1,5 +1,5 @@
 ---
-id: mycareer_embedded
+id: myembedded
 title: 임베디드개발 상세
 ---
 

@@ -1,5 +1,5 @@
 ---
-id: mycareer_process
+id: myprocess
 title: 프로세스개발 상세
 ---
 

@@ -25,9 +25,9 @@ module.exports = {
       },
       collapsed: false,
       items: [
-        'mycareer/contents/mycareer_mbd',
-        'mycareer/contents/mycareer_process',
-        'mycareer/contents/mycareer_embedded',
+        'mycareer/contents/mymbd',
+        'mycareer/contents/myprocess',
+        'mycareer/contents/myembedded',
       ],
     },
 	'mycareer/time',

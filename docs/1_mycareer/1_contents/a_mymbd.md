@@ -12,6 +12,7 @@ title: 모델기반설계 상세
   * [[16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-bldc-kalman-basic-study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
   * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb)
+  * [[21.11.20~22.03.21] : 2.2 Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for  dev-process]](#myprocess-mbdagile-esc-dev)
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [[22.09.01~22.10.18] : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
   * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
@@ -57,7 +58,7 @@ title: 모델기반설계 상세
 
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 
-### 2.1 PSB(안전벨트) 기능로직 MBD구현{#mymbd-customer-psb}
+### 2.1 PSB(안전벨트) 기능로직 MBD구현 {#mymbd-customer-psb}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 22.03.01 ~ 현재 (책임 4년차)
@@ -102,6 +103,16 @@ PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하�
 		alt="Example banner"
 	/>
 </p>
+
+### [2.2 Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for  dev-process]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-esc-process) {#myprocess-mbdagile-esc-dev}
+
+요구사항 정의
+
+기능정의
+
+아키텍처 설계
+
+
 
 ## 3. 와이퍼 알고리즘 개발 {#mymbd-wiper}
 
@@ -268,7 +279,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 
 ## 5. MBD 시작 {#mymbd-start}
 
-### [5.1 온도 PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system){#mymbd-start-temp-pid}
+### [5.1 온도 PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system) {#mymbd-start-temp-pid}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 

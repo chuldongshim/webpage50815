@@ -63,6 +63,11 @@ PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신�
 	</iframe>
 </p>
 
+2. [21.11.20~22.03.21 : Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for more]](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)  
+처음으로 프로세스와 요구사항/기능을 정의하고, 프로젝트를 관리하면서 개발을 진행한 프로젝트입니다.  
+(요구사항을 정의 -> 기능정의 -> 시뮬레이션 기능검증을 통한 소프트웨어 로직개발 -> 타겟코드 생성 -> 타겟 검증)
+
+
 ### 와이퍼 알고리즘 개발 {#mbd-wiper-dev}
 
 1. [22.09.01~22.10.18 : MBD기반 와이퍼 제어기설계 (관측기,LQR) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)  
@@ -169,7 +174,7 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 
 ### MBD+Agile {#mycareer-process-agile}
 
-1. [21.11.20~22.03.21 : GitLab Agile기반 Escalator MBD [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-escalator)  
+1. [21.11.20~22.03.21 : Escalator를 통한 GitLab Agile기반 MBD 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-esc-process)  
 KTL 교육 목적으로 프로젝트를 진행하였으며, 진행 시 일정관리/이슈관리/소스코드형상관리를 수행함
 <p align="left">
 	<img
@@ -201,8 +206,9 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ### 표준프로세스 구축 {#process-dev}
 
-1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 개발 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
-요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발
+1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 개발 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
+예제를 통해 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발을 진행해 봄으로써 MBD를 통해 A-SPICE를 준수하는 프로세스를 구축함  
+<시뮬레이션 기능검증 동영상 추가할 것>
 
 2. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
 <p align="left">

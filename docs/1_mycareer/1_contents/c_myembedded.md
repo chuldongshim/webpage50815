@@ -2,7 +2,7 @@
 id: myembedded
 title: 임베디드개발 상세
 ---
-
+---
 <b><big>[목차]</big></b>
 
 * [1. 부트로더 개발](#myembedded-bootloader)
@@ -11,7 +11,7 @@ title: 임베디드개발 상세
   * [[18.12.09~18.12.10] : 1.3 UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
   * [[16.10.03~17.04.30] : 1.4 RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
 * [2. 제어기 개발](#myembedded-controller)
-  * [[17.06.07~19.04.12] : 2.1 열차출입문제어기 개발](#myembedded-controller-train)
+  * [[17.06.07~19.04.12] : 2.1 열차 출입문 제어기 개발](#myembedded-controller-train)
   * [[09.03.16~09.12.18] : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
   * [[08.09.01~09.02.26] : 2.3 유도인형 제어기 개발](#myembedded-controller-judo)
 * [3. 리눅스 응용프로그램 개발](#myembedded-linux)
@@ -20,7 +20,6 @@ title: 임베디드개발 상세
   * [[11.11.01~13.10.30] : 3.3 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
 * [4. 센서 개발](#myembedded-sensor)
   * [[10.09.01~11.08.31] : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
-
 ---
 
 ## 1. 부트로더 개발 {#myembedded-bootloader}
@@ -151,7 +150,7 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 * Master/Slave 구조를 갖는 시스템(열차 출입문은 Master MCU가 7개의 Slave MCU를 제어함)의 경우 Master 펌웨어만 업데이트 하면 자동으로 나머지 7개의 Slave 펌웨어를 업데이트하는 부트로더 개발
 * Server/Client 구조를 갖는 시스템의 경우 서버에 펌웨어를 업데이트 하면 특정 시간에 Slave가 자동으로 펌웨어를 업데이트 하는 부트로더 개발
 
-### 1.3 UART를 통한 STM MCU FW업데이트 {#myembedded-bootloader-stm-iap}
+### 1.3 UART부트로더를 통한 STM MCU FW업데이트 {#myembedded-bootloader-stm-iap}
 
 ### 1.4 RTOS포팅 및 IAP구현(Self_Study) {#myembedded-bootloader-iap}
 
@@ -170,7 +169,7 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 
 ## 2. 제어기 개발 {#myembedded-controller}
 
-### 2.1 열차출입문제어기 개발 {#myembedded-controller-train}
+### 2.1 열차 출입문 제어기 개발 {#myembedded-controller-train}
 
 #### 열차 측출입문/통로문 제어기 유지보수
 

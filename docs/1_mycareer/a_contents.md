@@ -3,25 +3,14 @@ id: contents
 title: 컨텐츠별
 ---
 ---
-
 다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
 * [모델기반설계](#mycareer-mbd)  
-  [BLDC 선행학습](#mbd-bldc-study) / 
-  [와이퍼 알고리즘 개발](#mbd-wiper-dev) / 
-  [MBD고객대응](#mbd-customer) / 
-  [윈도우 선행학습](#mycareer-mbd-window) / 
-  [MBD 시작](#mbd-start)
+  | [BLDC 선행학습](#mbd-bldc-study) | [MBD고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
 * [개발프로세스](#mycareer-process)  
-  [MBD+AUTOSAR](#swc-mbd-autosar) / 
-  [MBD+Agile](#mycareer-process-agile) / 
-  [Redmine 이슈관리](#redmine-issue) / 
-  [표준프로세스 구축](#process-dev)
+  | [MBD+AUTOSAR](#swc-mbd-autosar) | [표준프로세스 구축](#process-dev) | [Redmine 이슈관리](#redmine-issue) |
 * [임베디드개발](#mycareer-embed)  
-  [부트로더 개발](#mycareer-embed-fota) / 
-  [제어기 개발](#mycareer-embed-train) / 
-  [리눅스 응용프로그램 개발](#linux-app-dev) / 
-  [센서 개발](#ftsensor-dev)
+  | [부트로더 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
 ---
 
 ## 모델기반설계 {#mycareer-mbd}
@@ -36,9 +25,20 @@ title: 컨텐츠별
 
 ### BLDC 선행학습 {#mbd-bldc-study}
 
-1. [23.XX.xx~23.xx.xx : Sensorless BLDC by Kalman Filter [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)
-2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)
-3. [xx.xx.xx~xx.xx.xx : Kalman Filter학습 및 시뮬레이션 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)
+1. [23.XX.xx~23.xx.xx : Sensorless BLDC by Kalman Filter (TBD) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)  
+추후에 진행할 계획임
+2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)  
+NXP MBD 예제를 통해 동작원리를 파악하고 BLDC모터를 구동시켜 보았음.
+<p align="left">
+	<img
+		src={require('/img/2_mbd/bldc_control_hardware.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+3. [xx.xx.xx~xx.xx.xx : Kalman Filter학습 및 시뮬레이션 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)  
+칼만필터 시뮬레이션을 통해 동작원리를 파악함
+<시뮬링크 파일 시뮬레이션 동영상으로 찍기>
 <p align="left">
 	<img
 		src={require('/img/2_mbd/mymbd-kalman-modeling.png').default}
@@ -46,11 +46,13 @@ title: 컨텐츠별
 		alt="Example banner"
 	/>
 </p>
-4. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-basic-study)
+4. 16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)  
+현대제어 이론 이해 완료  
+<"20170416_포트폴리오.pptx"에서 제어이론학습 책이미지랑 필기한거 이미지캡처>
 
 ### MBD고객대응 {#mbd-customer}
 
-1. [22.03.03~22.05.17 : PSB(안전벨트) 기능로직 MBD구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
+1. [22.03.03~22.05.17 : PSB(안전벨트) 기능로직 MBD구현 고객대응[☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
 PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신호 프로파일링  
 프로파일링 코드를 MBD로 자동생성하고, 제어기에 통합하여 고객사에 납품함
 <p align="left">
@@ -64,13 +66,20 @@ PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신�
 </p>
 
 2. [21.11.20~22.03.21 : Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for more]](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)  
-처음으로 프로세스와 요구사항/기능을 정의하고, 프로젝트를 관리하면서 개발을 진행한 프로젝트입니다.  
-(요구사항을 정의 -> 기능정의 -> 시뮬레이션 기능검증을 통한 소프트웨어 로직개발 -> 타겟코드 생성 -> 타겟 검증)
+KTL 교육 목적으로 프로젝트를 진행하였으며, 진행 시 일정관리/이슈관리/소스코드형상관리를 수행함
+처음으로 요구사항/기능을 정의하고, 프로젝트를 관리하면서 개발을 진행한 프로젝트입니다.  
+<p align="left">
+	<img
+		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+		alt="Example banner"
+		width="450"
+	/><br/>
+</p>
 
 
 ### 와이퍼 알고리즘 개발 {#mbd-wiper-dev}
 
-1. [22.09.01~22.10.18 : MBD기반 와이퍼 제어기설계 (관측기,LQR) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)  
+1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)  
 관측기 상태피드백을 통한 LQR제어
 <p align="left">
 	<iframe 
@@ -81,7 +90,7 @@ PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신�
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-2. [22.08.14~22.08.29 : FFT MCU 구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-fft)  
+2. [22.08.14~22.08.29 : FFT MCU 구현 및 Matlab 연동 확인 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-fft)  
 MCU에서 FFT연산 -> Serial 송/수신 -> Matlab에서 FFT Realtime Plot
 <p align="left">
 	<img
@@ -90,7 +99,7 @@ MCU에서 FFT연산 -> Serial 송/수신 -> Matlab에서 FFT Realtime Plot
 		alt="Example banner"
 	/>
 </p>
-3. [21.01.08~21.07.13 : MBD기반 와이퍼 기본기능구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-func)  
+3. [21.01.08~21.07.13 : 와이퍼 MBD 기본기능 구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-func)  
 Auto Wiping 동작확인
 <p align="left">
 	<iframe
@@ -104,7 +113,7 @@ Auto Wiping 동작확인
 
 ### 윈도우 선행학습 {#mycareer-mbd-window}
 
-1. [21.07.30~21.12.31 : 윈도우 MBD 기본기능구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-func)  
+1. [21.07.30~21.12.31 : 윈도우 MBD 기본기능 구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-func)  
 2013년 진행에 이어 장애물 감지 시 윈도우 반전 타겟MCU에 실제 구현/적용(21년12월)
 <p align="left">
 	<iframe
@@ -172,18 +181,6 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 3. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
 4. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 
-### MBD+Agile {#mycareer-process-agile}
-
-1. [21.11.20~22.03.21 : Escalator를 통한 GitLab Agile기반 MBD 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-esc-process)  
-KTL 교육 목적으로 프로젝트를 진행하였으며, 진행 시 일정관리/이슈관리/소스코드형상관리를 수행함
-<p align="left">
-	<img
-		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
-		alt="Example banner"
-		width="450"
-	/><br/>
-</p>
-
 ### Redmine 이슈관리 {#redmine-issue}
 
 1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
@@ -195,7 +192,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-2. [18.01.18~18.08.12 : Redmine을 통한 SW품질이슈관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
+2. [18.01.18~18.08.12 : Redmine을 통한 열차출입문제어기SW 품질이슈 관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
 <p align="left">
 	<img
 		src={require('/img/1_process/d_process_train_issue_mgn.png').default}
@@ -206,7 +203,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ### 표준프로세스 구축 {#process-dev}
 
-1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 개발 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
+1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
 예제를 통해 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발을 진행해 봄으로써 MBD를 통해 A-SPICE를 준수하는 프로세스를 구축함  
 <시뮬레이션 기능검증 동영상 추가할 것>
 
@@ -254,9 +251,9 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 2. [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
 
-3. [18.12.09~18.12.10 : UART를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
+3. [18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
 
-4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
+4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
 
 ### 제어기 개발 {#mycareer-embed-train}
 
@@ -293,7 +290,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ### 리눅스 응용프로그램 개발 {#linux-app-dev}
 
-1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
+1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
 <p align="left">
 	<img
 		src={require('/img/3_embedded/img3_1_fujixerox.png').default}

@@ -2,28 +2,27 @@
 id: mymbd
 title: 모델기반설계 상세
 ---
-
+---
 <b><big>[목차]</big></b>
 
 * [1. BLDC 선행학습](#mymbd-bldc)
   * [[23.XX.xx~23.xx.xx] : 1.1 Sensorless BLDC by Kalman Filter (TBD)](#mymbd-bldc-plan)
   * [[22.10.21~22.11.05] : 1.2 MBD기반 Sensored BLDC 속도제어](#mymbd-bldc-sensered)
   * [[xx.xx.xx~xx.xx.xx] : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
-  * [[16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-bldc-kalman-basic-study)
+  * [16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
   * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb)
-  * [[21.11.20~22.03.21] : 2.2 Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for  dev-process]](#myprocess-mbdagile-esc-dev)
+  * [[21.11.20~22.03.21] : 2.2 Escalator를 통한 GitLab Agile기반 MBD 개발](#myprocess-mbdagile-esc-dev)
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [[22.09.01~22.10.18] : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
   * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
-  * [[21.01.08~21.07.13] : 3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](#mymbd-wiper-func)
+  * [[21.01.08~21.07.13] : 3.3 와이퍼 MBD 기본기능 구현 [☜ click for side project]](#mymbd-wiper-func)
 * [4. 윈도우 선행학습](#mymbd-window)
-  * [[21.07.30~21.12.31] : 4.1 윈도우 MBD 기본기능구현 [☜ click for side project]](#mymbd-window-func)
+  * [[21.07.30~21.12.31] : 4.1 윈도우 MBD 기본기능 구현 [☜ click for side project]](#mymbd-window-func)
   * [[13.10.01~14.05.16] : 4.2 윈도우 MBD 선행학습](#mymbd-window-basic)
 * [5. MBD 시작](#mymbd-start)
   * [[20.08.12~20.11.13] : 5.1 온도 PID제어 MBD [☜ click for side project]](#mymbd-start-temp-pid)
   * [[07.03.02~08.08.31] : 5.2 졸업논문](#mymbd-start-graduation)
-
 ---
 
 ## 1. BLDC 선행학습 {#mymbd-bldc}
@@ -38,7 +37,23 @@ title: 모델기반설계 상세
 
 ### 1.2 MBD기반 Sensored BLDC 속도제어 {#mymbd-bldc-sensered}
 
-* MBD기반 BLDC모터 제어
+* MBD기반 Open-loop BLDC모터 제어
+<p align="center">
+	<img
+		src={require('/img/2_mbd/bldc_control_openloop.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+* MBD기반 closed-loop BLDC모터 제어
+<p align="center">
+	<img
+		src={require('/img/2_mbd/bldc_control_closedloop.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ### 1.3 Kalman Filter학습 및 시뮬레이션 {#mymbd-bldc-kalman-simulation-study}
 
@@ -53,8 +68,6 @@ title: 모델기반설계 상세
 		alt="Example banner"
 	/><br/><em>&lt;Simulink 모델을 통한 칼만필터 시뮬레이션&gt;</em>
 </p>
-
-### 1.4 Kalman Filter이론학습(Self_Study) {#mymbd-bldc-kalman-basic-study}
 
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 
@@ -104,15 +117,70 @@ PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하�
 	/>
 </p>
 
-### [2.2 Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for  dev-process]](/docs/mycareer/contents/myprocess#myprocess-mbdagile-esc-process) {#myprocess-mbdagile-esc-dev}
+### [2.2 Escalator를 통한 GitLab Agile기반 MBD 개발] {#myprocess-mbdagile-esc-dev}
 
-요구사항 정의
+KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다.  
 
-기능정의
+#### 프로젝트 일정관리
 
-아키텍처 설계
+Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
+* Github - Agile 기반 프로젝트 관리개발환경 구축  
+  : 프로젝트 일정관리 스냅샷 - [esc_progress_total.pdf](/assets/esc_progress_total.pdf)  
+  : Github-Gantt차트 연동을 통한 프로젝트 일정관리  
+  : Github Repository를 통한 프로젝트 소스 및 산출물 형상관리  
+  : 일정-이슈-소스코드 추적성을 확보하여 개발 효율성을 높임
+* 를 통한 MBD 개발 프로세스 구축  
+  : 
+<p align="center">
+	<img
+		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+		alt="Example banner"
+		width="450"
+	/><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
+</p>
 
+#### 설계 구현 및 검증
+
+요구사항으로부터 기능을 정의하고, Matlab/Simulink를 이용하여 기능 아키텍처를 설계한 다음
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-esc-architecture.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+시뮬레이션을 통해 기능(Function block)에 대한 상세로직을 구현하고, 
+* 기능 상세구현 예1 - 기본기능(F1_Basic)
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-esc-f1-vel-measure.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+* 기능 상세구현 예2 - 역주행방지기능(F3_ReverseRun)
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-esc-f3-reverserun.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+시뮬링크 모델로부터 C코드를 자동생성하고, 빌드를 통해 타겟에서 구동검증을 수행하였습니다.
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-esc-func-test.png').default}
+		width="550"
+		alt="Example banner"
+	/>
+</p>
 
 ## 3. 와이퍼 알고리즘 개발 {#mymbd-wiper}
 
@@ -179,7 +247,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 	/>
 </p>
 
-### [3.3 와이퍼 MBD 기본기능구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
+### [3.3 와이퍼 MBD 기본기능 구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)
@@ -225,7 +293,7 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 * 개발환경 구축 및 윈도우 타겟구동 확인
 * MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
 
-### [4.1 윈도우 MBD 기본기능구현 [☜ click for side project]](/docs/sideprj/window#window-system-config) {#mymbd-window-func}
+### [4.1 윈도우 MBD 기본기능 구현 [☜ click for side project]](/docs/sideprj/window#window-system-config) {#mymbd-window-func}
 
 2013년도에 MBD를 처음 시작하였으며, 사내 표준프로세스 구축 업무로 MBD개발 업무가 Holding되어 시뮬레이션을 통해 알고리즘만 개발하고 실제 타겟에 적용하지 못하여 아쉬움이 많이 남았습니다.
 하지만 꾸준한 관심과 하고자 하는 의지로 21년에 결국 Manual Coding 없이 모델기반설계로 제어기 개발환경을 구축/적용해 보았고, 제품 수주를 위한 개발활동에 MBD를 적용하여 개발을 진행하고 있습니다.

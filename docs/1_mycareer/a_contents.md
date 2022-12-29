@@ -205,7 +205,13 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
 예제를 통해 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발을 진행해 봄으로써 MBD를 통해 A-SPICE를 준수하는 프로세스를 구축함  
-<시뮬레이션 기능검증 동영상 추가할 것>
+<p align="left">
+	<img
+		src={require('/img/1_process/swc_dev_process_by_mbd_and_aspice.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 2. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
 <p align="left">

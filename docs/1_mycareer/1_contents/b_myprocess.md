@@ -64,7 +64,8 @@ title: 프로세스개발 상세
 * Hardware(Physical) Architecture
 * Software(Logical) Architecture
 
-시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 상세설계를 진행합니다.
+시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 상세설계를 진행합니다.  
+(시뮬레이션 기능검증 동영상으로 대체할 것)
 <p align="center">
 	<img
 		src={require('/img/1_process/Esc_3_Design_Realization.png').default}
@@ -75,7 +76,7 @@ title: 프로세스개발 상세
 
 * 시뮬레이션을 통해 소프트웨어 상세 설계 진행
 
-상세설계 이후 테스트케이스를 기반으로 설계한 기능이 원하는 동작을 수행하는지 기능시험을 진행하고, 테스트레포트를 생성하여 소프트웨어 기능검증을 완료하고,
+상세설계 이후 테스트케이스를 기반으로 설계한 기능이 원하는 동작을 수행하는지 기능시험을 진행하고, 테스트레포트를 생성하여 소프트웨어 기능검증을 완료한 다음
 <p align="center">
 	<img
 		src={require('/img/1_process/Esc_4_Reqs_based_Func_Test.png').default}

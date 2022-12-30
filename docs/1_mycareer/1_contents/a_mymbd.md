@@ -40,7 +40,7 @@ title: 모델기반설계 상세
 * BLDC Simulation을 통한 동작원리 이해
 <p align="center">
 	<img
-		src={require('/img/2_mbd/bldc_control_openloop.png').default}
+		src={require('/img/2_mbd/bldc-simulation.png').default}
 		width="450"
 		alt="Example banner"
 	/>

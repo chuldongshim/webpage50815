@@ -10,16 +10,16 @@ title: 시스템
 
 ### 기능 요구사항
 선행이므로 비기능/인터페이스 요구사항은 고려하지 않고, 기능 요구사항만을 고려한다.
-* [F1 무선통신기능](./)
+* [F1 무선통신 기능](#f1-wireless-comm)
   * `F1_Req1` 근거리(블루투스) 제어를 제공해야 한다.
   * `F1_Req2` 원거리(와이파이) 제어를 제공해야 한다.
   * `F1_Req3` CAN_to_Wifi를 제공하여 CAN통신만 존재하는 장비와 인터페이스를 제공해야 한다.  
   [(Development of a CAN-Wifi converter based on a ESP32.pdf)](https://upcommons.upc.edu/bitstream/handle/2117/118541/report-tfm-eduard-valentino.pdf)
-* [F2 무선업데이트기능](./)
+* [F2 무선업데이트기능](#f2-wireless-update)
   * `F2_Req1` 제어기 펌웨어를 무선으로 업데이트 해야 한다.
   * `F2_Req2` 통신불가 상황을 고려하여 업데이트가 진행되어야 한다.
   * `F2_Req3` 허가된 사용자만 업데이트를 수행할 수 있어야 한다.
-* [F3 모니터링기능](./)
+* [F3 모니터링기능](#f3-monitoring)
   * `F3_Req1` 펌웨어 업데이트, Signal Monitoring을 위한 웹GUI를 제공해야 한다.
 
 ### 아키텍처
@@ -47,7 +47,7 @@ title: 시스템
 * [ESP32의 Dual core 확인해 보기](https://chocoball.tistory.com/entry/Hardware-ESP32-Dual-core?category=729036)
 
 
-### F1 무선통신
+### [F1 무선통신 기능] {#f1-wireless-comm}
 
 #### 관련 요구사항
 
@@ -67,7 +67,7 @@ title: 시스템
     * [BLE+WIFI 통합 - 자료](https://github.com/gcamp-hub/ESP32_Middle_Class/blob/master/ESP32_%EC%A4%91%EA%B8%89%EA%B3%BC%EC%A0%953.pdf)
     * [온라인 동영상 교육](https://www.g.camp/1664?category=816908)
 
-### F2 무선업데이트
+### [F2 무선업데이트 기능] {#f2-wireless-update}
 
 #### 관련 요구사항
 
@@ -80,7 +80,7 @@ title: 시스템
 * [Secure Boot](https://docs.espressif.com/projects/esp-idf/en/stable/security/secure-boot-v1.html)
 * [Flash encryption](https://docs.espressif.com/projects/esp-idf/en/stable/security/flash-encryption.html)
 
-### F3 모니터링
+### [F3 모니터링 기능] {#f3-monitoring}
 
 #### 관련 요구사항
 

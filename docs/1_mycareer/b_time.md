@@ -17,7 +17,7 @@ title: 시간별
 * [[22.05.22~22.08.04] : 임베디드 - wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
 * [[22.03.03~22.05.17] : 모델기반 - PSB(안전벨트) 기능로직 MBD구현 고객대응](/docs/mycareer/contents/mymbd#mymbd-customer-psb)
 ### 2021년
-* [[21.11.20~22.03.21] : 모델기반 - Escalator를 통한 GitLab Agile기반 MBD 개발](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)
+* [[21.11.20~22.03.21] : 모델기반 - Escalator를 통한 GitLab Agile기반 MBD개발 고객대응](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)
 * [[21.07.30~21.12.31] : 모델기반 - 윈도우 MBD 기본기능 구현](/docs/mycareer/contents/mymbd#mymbd-window-func)
 * [[21.01.15~21.02.16] : 프로세스 - MBD+AUTOSAR 개발전략 수립 1차](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 * [[21.01.08~21.07.13] : 모델기반 - 와이퍼 MBD 기본기능 구현](/docs/mycareer/contents/mymbd#mymbd-wiper-func)

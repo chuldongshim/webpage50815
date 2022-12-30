@@ -12,7 +12,7 @@ title: 모델기반설계 상세
   * [16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
   * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb)
-  * [[21.11.20~22.03.21] : 2.2 Escalator를 통한 GitLab Agile기반 MBD 개발](#myprocess-mbdagile-esc-dev)
+  * [[21.11.20~22.03.21] : 2.2 Escalator를 통한 GitLab Agile기반 MBD개발](#myprocess-mbdagile-esc-dev)
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [[22.09.01~22.10.18] : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
   * [[22.08.14~22.08.29] : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
@@ -36,6 +36,15 @@ title: 모델기반설계 상세
 * 칼만필터를 이용한 DC/BLDC 모터 제어
 
 ### 1.2 MBD기반 Sensored BLDC 속도제어 {#mymbd-bldc-sensered}
+
+* BLDC Simulation을 통한 동작원리 이해
+<p align="center">
+	<img
+		src={require('/img/2_mbd/bldc_control_openloop.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 * MBD기반 Open-loop BLDC모터 제어
 <p align="center">
@@ -79,7 +88,20 @@ title: 모델기반설계 상세
 * S32K144+Simulink를 통한 제어 알고리즘 개발 및 AutoCode
 * Cypress MCU에서 동작 가능한 HW 독립적인 코드 생성
 
-양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로 MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며, 시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하여 Profiling 기능로직을 구현하였다.
+양산적용을 타겟으로 고객 요청하에 진행된 프로젝트로,
+MBD를 통해 PSB(Pre-safe Seat Belt)의 기능로직SW를 개발하는 것이 주요 목적이며,
+시뮬링크를 이용하여 아키텍처를 설계하고 기능을 아키텍처에 할당(allocation)하여 Profiling 기능로직을 구현하였다.
+
+다음과 같이 정의된 기능 요구사항을 분석하여,
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-psb-requirements.png').default}
+		width="650"
+		alt="Example banner"
+	/>
+</p>
+
+시스템 아키텍처 설계 후 MBD로 구현할 개발범위/인터페이스를 결정하였다.
 <p align="center">
 	<img
 		src={require('/img/2_mbd/mymbd-psb-architecture.png').default}
@@ -117,7 +139,7 @@ PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하�
 	/>
 </p>
 
-### [2.2 Escalator를 통한 GitLab Agile기반 MBD 개발] {#myprocess-mbdagile-esc-dev}
+### [2.2 Escalator를 통한 GitLab Agile기반 MBD개발] {#myprocess-mbdagile-esc-dev}
 
 KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다.  
 

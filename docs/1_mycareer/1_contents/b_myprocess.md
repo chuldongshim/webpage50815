@@ -71,10 +71,8 @@ title: 프로세스개발 상세
 		src={require('/img/1_process/Esc_3_Design_Realization.png').default}
 		width="450"
 		alt="Example banner"
-	/><br/><em>&lt;상세설계 및 구현&gt;</em>
+	/><br/><em>&lt;시뮬레이션을 통한 소프트웨어 상세설계 및 구현&gt;</em>
 </p>
-
-* 시뮬레이션을 통해 소프트웨어 상세 설계 진행
 
 상세설계 이후 테스트케이스를 기반으로 설계한 기능이 원하는 동작을 수행하는지 기능시험을 진행하고, 테스트레포트를 생성하여 소프트웨어 기능검증을 완료한 다음
 <p align="center">

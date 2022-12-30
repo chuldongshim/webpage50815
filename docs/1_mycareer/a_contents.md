@@ -6,7 +6,7 @@ title: 컨텐츠별
 다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
 * [모델기반설계](#mycareer-mbd)  
-  | [BLDC 선행학습](#mbd-bldc-study) | [MBD고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
+  | [BLDC 선행학습](#mbd-bldc-study) | [MBD 고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
 * [개발프로세스](#mycareer-process)  
   | [MBD+AUTOSAR](#swc-mbd-autosar) | [표준프로세스 구축](#process-dev) | [Redmine 이슈관리](#redmine-issue) |
 * [임베디드개발](#mycareer-embed)  
@@ -28,7 +28,7 @@ title: 컨텐츠별
 1. [23.XX.xx~23.xx.xx : Sensorless BLDC by Kalman Filter (TBD) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)  
 추후에 진행할 계획임
 2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)  
-NXP MBD 예제를 통해 동작원리를 파악하고 BLDC모터를 구동시켜 보았음.
+Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD 예제를 통해 BLDC 모터를 구동시켜 보았음
 <p align="left">
 	<img
 		src={require('/img/2_mbd/bldc_control_hardware.png').default}
@@ -50,7 +50,7 @@ NXP MBD 예제를 통해 동작원리를 파악하고 BLDC모터를 구동시켜
 현대제어 이론 이해 완료  
 <"20170416_포트폴리오.pptx"에서 제어이론학습 책이미지랑 필기한거 이미지캡처>
 
-### MBD고객대응 {#mbd-customer}
+### MBD 고객대응 {#mbd-customer}
 
 1. [22.03.03~22.05.17 : PSB(안전벨트) 기능로직 MBD구현 고객대응[☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
 PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신호 프로파일링  

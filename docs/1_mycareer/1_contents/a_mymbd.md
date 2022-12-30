@@ -8,8 +8,8 @@ title: 모델기반설계 상세
 * [1. BLDC 선행학습](#mymbd-bldc)
   * [[23.XX.xx~23.xx.xx] : 1.1 Sensorless BLDC by Kalman Filter (TBD)](#mymbd-bldc-plan)
   * [[22.10.21~22.11.05] : 1.2 MBD기반 Sensored BLDC 속도제어](#mymbd-bldc-sensered)
-  * [[xx.xx.xx~xx.xx.xx] : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
-  * [16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)
+  * [[21.04.07~21.05.06] : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
+  * [[16.10.03~17.04.30] : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-kalman-therom-study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
   * [[22.03.03~22.05.17] : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb)
   * [[21.11.20~22.03.21] : 2.2 Escalator를 통한 GitLab Agile기반 MBD개발](#myprocess-mbdagile-esc-dev)
@@ -77,6 +77,8 @@ title: 모델기반설계 상세
 		alt="Example banner"
 	/><br/><em>&lt;Simulink 모델을 통한 칼만필터 시뮬레이션&gt;</em>
 </p>
+
+### 1.4 Kalman Filter이론학습(Self_Study) {#mymbd-kalman-therom-study}
 
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 

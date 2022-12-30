@@ -8,7 +8,7 @@ title: 시간별
 ## 직장
 ### 2022년
 * [00.00.00~00.00.00] : 모델기반 - Sensorless BLDC by Kalman Filter (TBD)
-* [00.00.00~00.00.00] : 모델기반 - Kalman Filter학습 및 시뮬레이션
+* [[21.04.07~21.05.06] : 모델기반 - Kalman Filter학습 및 시뮬레이션](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)
 * [[22.12.02~22.12.26] : 프로세스 - A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)
 * [[22.11.01~22.11.30] : 프로세스 - MBD+AUTOSAR 개발전략 수립 2차](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)
 * [[22.10.21~22.11.05] : 모델기반 - MBD기반 Sensored BLDC 속도제어](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)
@@ -33,7 +33,7 @@ title: 시간별
 ### 2017년
 * [[17.06.07~19.04.12] : 임베디드 - 열차 출입문 제어기 개발](/docs/mycareer/contents/myembedded#myembedded-controller-train)
 ### 2016년
-* [16.10.03~17.04.30] : 모델기반 - Kalman Filter이론학습(Self_Study)
+* [[16.10.03~17.04.30] : 모델기반 - Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-kalman-therom-study)
 * [[16.10.03~17.04.30] : 임베디드 - RTOS포팅 및 IAP구현(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
 * [[16.10.03~17.04.30] : 임베디드 - stm32f7에 uCLinux포팅(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
 * [[16.04.25~16.09.20] : 프로세스 - A-SPICE 및 ISO26262 시스템 설계](/docs/mycareer/contents/myprocess#myprocess-std-sys-design)

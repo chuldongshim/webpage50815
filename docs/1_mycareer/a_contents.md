@@ -36,7 +36,7 @@ Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD �
 		alt="Example banner"
 	/>
 </p>
-3. [xx.xx.xx~xx.xx.xx : Kalman Filter학습 및 시뮬레이션 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)  
+3. [21.04.07~21.05.06 : Kalman Filter학습 및 시뮬레이션 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)  
 칼만필터 시뮬레이션을 통해 동작원리를 파악함
 <시뮬링크 파일 시뮬레이션 동영상으로 찍기>
 <p align="left">
@@ -46,7 +46,7 @@ Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD �
 		alt="Example banner"
 	/>
 </p>
-4. 16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study)  
+4. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-kalman-therom-study)  
 현대제어 이론 이해 완료  
 <"20170416_포트폴리오.pptx"에서 제어이론학습 책이미지랑 필기한거 이미지캡처>
 

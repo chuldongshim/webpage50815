@@ -10,9 +10,9 @@ title: 프로세스개발 상세
   * [[21.01.15~21.02.16] : 1.2 MBD+AUTOSAR 개발전략 수립 1차](#myprocess-mbdautosar-strategy1)
 * [2. 표준프로세스 구축](#myprocess-std)
   * [[22.12.02~22.12.26] : 2.1 A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축](#myprocess-esc-swc-by-mbd-aspice)
-  * [[19.11.14~20.05.31] : 2.2 A-SPICE 및 ISO26262 시스템 설계 - 선루프](#myprocess-std-sys-design-sunroof)
+  * [[19.11.14~20.05.31] : 2.2 A-SPICE 대응 선루프 시스템 설계](#myprocess-std-sys-design-sunroof)
   * [[19.05.20~19.12.10] : 2.3 프로젝트 관리 및 A-SPICE CL3 인증](#myprocess-std-cl3)
-  * [[16.04.25~16.09.20] : 2.4 A-SPICE 및 ISO26262 시스템 설계 - 윈도우](#myprocess-std-sys-design-window)
+  * [[16.04.25~16.09.20] : 2.4 A-SPICE 및 ISO26262 대응 윈도우 시스템 설계](#myprocess-std-sys-design-window)
   * [[14.04.01~16.03.31] : 2.5 ISO26262프로세스 구축 및 A-SPICE CL2인증](#myprocess-std-cl2)
 * [3. Redmine 이슈관리](#myprocess-management)
   * [[19.09.10~20.09.10] : 3.1 AWS Cloud를 통한 Redmine 환경구축](#myprocess-management-aws-redmine)
@@ -105,7 +105,7 @@ title: 프로세스개발 상세
 * ⑤SwR_SwF : 소프트웨어 요구사항과 소프트웨어 기능 추적
 * ⑥SwF_SwFTC : 소프트웨어 기능과 소프트웨어 기능 테스트케이스 추적
 
-### 2.2 A-SPICE 및 ISO26262 시스템 설계 - 선루프 {#myprocess-std-sys-design-sunroof}
+### 2.2 A-SPICE 대응 선루프 시스템 설계 {#myprocess-std-sys-design-sunroof}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 19.11.14 ~ 20.05.31 (책임 2년차)
@@ -155,7 +155,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;A-SPICE/ISO26262 통합 표준 프로세스 수립&gt;</em>
 </p>
 
-### 2.4 A-SPICE 및 ISO26262 시스템 설계 - 윈도우 {#myprocess-std-sys-design-window}
+### 2.4 A-SPICE 및 ISO26262 대응 윈도우 시스템 설계 {#myprocess-std-sys-design-window}
 
 :::important
 표준 프로세스를 구축하면서 진행한 시스템 설계활동을 통해 MBD개발에서 요구되는 아키텍처 설계 역량을 키울 수 있었습니다.

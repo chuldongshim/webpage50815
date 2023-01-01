@@ -24,7 +24,7 @@ title: 시간별
 ### 2020년
 * [[20.08.12~20.11.13] : 모델기반 - 온도 PID제어 MBD](/docs/mycareer/contents/mymbd#mymbd-start-temp-pid)
 * [[20.05.16~20.08.10] : 임베디드 - PC Python과 LIN부트로더를 통한 NXP FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
-* [[19.11.14~20.05.31] : 프로세스 - A-SPICE 및 ISO26262 시스템 설계 - 선루프](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-sunroof)
+* [[19.11.14~20.05.31] : 프로세스 - A-SPICE 대응 선루프 시스템 설계](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-sunroof)
 ### 2019년
 * [[19.05.20~19.12.10] : 프로세스 - 프로젝트 관리 및 A-SPICE CL3 인증](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
 * [[19.09.10~20.09.10] : 프로세스 - AWS Cloud를 통한 Redmine 환경구축](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)
@@ -36,7 +36,7 @@ title: 시간별
 * [[16.10.03~17.04.30] : 모델기반 - Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-kalman-therom-study)
 * [[16.10.03~17.04.30] : 임베디드 - RTOS포팅 및 IAP구현(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
 * [[16.10.03~17.04.30] : 임베디드 - stm32f7에 uCLinux포팅(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
-* [[16.04.25~16.09.20] : 프로세스 - A-SPICE 및 ISO26262 시스템 설계 - 윈도우](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
+* [[16.04.25~16.09.20] : 프로세스 - A-SPICE 및 ISO26262 대응 윈도우 시스템 설계](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
 ### 2014년~2015년
 * [[14.04.01~16.03.31] : 프로세스 - ISO26262프로세스 구축 및 A-SPICE CL2인증](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
 ### 2013년

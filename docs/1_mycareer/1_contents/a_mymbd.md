@@ -80,6 +80,18 @@ title: 모델기반설계 상세
 
 ### 1.4 Kalman Filter이론학습(Self_Study) {#mymbd-kalman-therom-study}
 
+* 현대제어이론 습득  
+* 현대제어이론 구현방법 습득  
+* 칼만필터 이론 습득
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-kalman-selfstudy-note.png').default}
+		width="550"
+		alt="Example banner"
+	/><br/>
+</p>
+
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 
 ### 2.1 PSB(안전벨트) 기능로직 MBD구현 {#mymbd-customer-psb}
@@ -116,7 +128,7 @@ Profiling 기능로직을 시뮬레이션으로 확인해 가면서 구현을 �
 <p align="center">
 	<iframe 
 		src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
-		width="350" height="250"
+		width="400" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
@@ -141,7 +153,7 @@ PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하�
 	/>
 </p>
 
-### [2.2 Escalator를 통한 GitLab Agile기반 MBD개발] {#myprocess-mbdagile-esc-dev}
+### 2.2 Escalator를 통한 GitLab Agile기반 MBD개발 {#myprocess-mbdagile-esc-dev}
 
 KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다.  
 
@@ -154,8 +166,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
   : Github-Gantt차트 연동을 통한 프로젝트 일정관리  
   : Github Repository를 통한 프로젝트 소스 및 산출물 형상관리  
   : 일정-이슈-소스코드 추적성을 확보하여 개발 효율성을 높임
-* 를 통한 MBD 개발 프로세스 구축  
-  : 
+
 <p align="center">
 	<img
 		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}

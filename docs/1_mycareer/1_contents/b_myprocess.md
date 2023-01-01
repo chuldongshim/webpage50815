@@ -10,9 +10,10 @@ title: 프로세스개발 상세
   * [[21.01.15~21.02.16] : 1.2 MBD+AUTOSAR 개발전략 수립 1차](#myprocess-mbdautosar-strategy1)
 * [2. 표준프로세스 구축](#myprocess-std)
   * [[22.12.02~22.12.26] : 2.1 A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축](#myprocess-esc-swc-by-mbd-aspice)
-  * [[19.05.20~19.12.10] : 2.2 프로젝트 관리 및 A-SPICE CL3 인증](#myprocess-std-cl3)
-  * [[16.04.25~16.09.20] : 2.3 A-SPICE 및 ISO26262 시스템 설계](#myprocess-std-sys-design)
-  * [[14.04.01~16.03.31] : 2.4 ISO26262프로세스 구축 및 A-SPICE CL2인증](#myprocess-std-cl2)
+  * [[19.11.14~20.05.31] : 2.2 A-SPICE 및 ISO26262 시스템 설계 - 선루프](#myprocess-std-sys-design-sunroof)
+  * [[19.05.20~19.12.10] : 2.3 프로젝트 관리 및 A-SPICE CL3 인증](#myprocess-std-cl3)
+  * [[16.04.25~16.09.20] : 2.4 A-SPICE 및 ISO26262 시스템 설계 - 윈도우](#myprocess-std-sys-design-window)
+  * [[14.04.01~16.03.31] : 2.5 ISO26262프로세스 구축 및 A-SPICE CL2인증](#myprocess-std-cl2)
 * [3. Redmine 이슈관리](#myprocess-management)
   * [[19.09.10~20.09.10] : 3.1 AWS Cloud를 통한 Redmine 환경구축](#myprocess-management-aws-redmine)
   * [[18.01.18~18.08.12] : 3.2 Redmine을 통한 SW품질이슈 관리](#myprocess-management-redmine)
@@ -65,13 +66,14 @@ title: 프로세스개발 상세
 * Software(Logical) Architecture
 
 시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 상세설계를 진행합니다.  
-(시뮬레이션 기능검증 동영상으로 대체할 것)
 <p align="center">
-	<img
-		src={require('/img/1_process/Esc_3_Design_Realization.png').default}
-		width="450"
-		alt="Example banner"
-	/><br/><em>&lt;시뮬레이션을 통한 소프트웨어 상세설계 및 구현&gt;</em>
+	<iframe 
+		src="https://www.youtube.com/embed//UangAsyZEFc?rel=0"
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;시뮬레이션을 통한 소프트웨어 상세설계 및 구현&gt;</em>
 </p>
 
 상세설계 이후 테스트케이스를 기반으로 설계한 기능이 원하는 동작을 수행하는지 기능시험을 진행하고, 테스트레포트를 생성하여 소프트웨어 기능검증을 완료한 다음
@@ -103,7 +105,33 @@ title: 프로세스개발 상세
 * ⑤SwR_SwF : 소프트웨어 요구사항과 소프트웨어 기능 추적
 * ⑥SwF_SwFTC : 소프트웨어 기능과 소프트웨어 기능 테스트케이스 추적
 
-### 2.2 프로젝트 관리 및 A-SPICE CL3 인증 {#myprocess-std-cl3}
+### 2.2 A-SPICE 및 ISO26262 시스템 설계 - 선루프 {#myprocess-std-sys-design-sunroof}
+
+* 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
+* 기간 : 19.11.14 ~ 20.05.31 (책임 2년차)
+* 역할 : Sunroof 선행개발 프로젝트 시스템 설계(양산수주로 이어짐)
+
+표준 프로세스를 기반으로 Process Tailoring을 수행하여 선행개발 프로세스를 수립하고 프로젝트 일정을 관리하였습니다. 이 프로젝트는 요구사항정의/설계/구현/검증 절차를 따라서 개발 진행하고 프로젝트 일정 및 이슈관리를 수행한 내용들을 고객에게 어필하여 추후 고객에게 수주를 받아 양산 개발로 이어질 수 있었습니다.
+
+<p align="center">
+	<img
+		src={require('/img/1_process/b_process_sunroof_prj_mgn.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;선루프 개발 프로젝트 일정 관리&gt;</em>
+</p>
+
+일정관리와 함께 선루프 아이템을 대상으로 고객 요구사항을 분석하여 시스템 아키텍처를 설계하고 기능을 정의하였습니다. 소프트웨어 엔지니어를 통한 기능구현 완료 후 기능 시험스펙을 작성하고 시스템 시험을 직접 수행하여 요구사항에 따라 소프트웨어가 구현되었는지를 검증하였습니다.
+
+<p align="center">
+	<img
+		src={require('/img/1_process/c_process_sunroof_sysads.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
+</p>
+
+### 2.3 프로젝트 관리 및 A-SPICE CL3 인증 {#myprocess-std-cl3}
 
 A-SPICE/ISO26262 표준 프로세스 구축 프로젝트 PM으로 다음 역할을 수행하여 A-SPICE CL3 인증을 획득하였습니다.
 
@@ -127,13 +155,25 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;A-SPICE/ISO26262 통합 표준 프로세스 수립&gt;</em>
 </p>
 
-### 2.3 A-SPICE 및 ISO26262 시스템 설계 {#myprocess-std-sys-design}
+### 2.4 A-SPICE 및 ISO26262 시스템 설계 - 윈도우 {#myprocess-std-sys-design-window}
 
 :::important
 표준 프로세스를 구축하면서 진행한 시스템 설계활동을 통해 MBD개발에서 요구되는 아키텍처 설계 역량을 키울 수 있었습니다.
 :::
 
-#### 윈도우 시스템 설계
+* ISO26262 기능안전 시스템 요구사항 명세서 작성
+* FMEA & FTA 수행을 통한 시스템 아키텍처 분석
+* 시스템 설계 명세서 작성
+
+<p align="center">
+	<img
+		src={require('/img/1_process/process_iso26262_system_Architecture.png').default}
+		width="450"
+		alt="Example banner"
+	/><br/><em>&lt;System Architecture 설계&gt;</em>
+</p>
+
+* 시스템 아키텍처 및 Safety Mechanism 설계
 
 <p align="center">
 	<img
@@ -143,38 +183,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;Functional Architecture 설계&gt;</em>
 </p>
 
-* ISO26262 기능안전 시스템 요구사항 명세서 작성
-* 시스템 아키텍처 및 Safety Mechanism 설계
-* FMEA & FTA 수행을 통한 시스템 아키텍처 분석
-* 시스템 설계 명세서 작성
-
-#### 선루프 시스템 설계
-
-* 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
-* 기간 : 2019.12 ~ 2020.08 (책임 2년차)
-* 역할 : Sunroof 선행개발 프로젝트 시스템 설계(양산수주로 이어짐)
-
-표준 프로세스를 기반으로 Process Tailoring을 수행하여 선행개발 프로세스를 수립하고 프로젝트 일정을 관리하였습니다. 이 프로젝트는 요구사항정의/설계/구현/검증 절차를 따라서 개발 진행하고 프로젝트 일정 및 이슈관리를 수행한 내용들을 고객에게 어필하여 추후 고객에게 수주를 받아 양산 개발로 이어질 수 있었습니다.
-
-<p align="center">
-	<img
-		src={require('/img/1_process/b_process_sunroof_prj_mgn.png').default}
-		width="450"
-		alt="Example banner"
-	/><br/><em>&lt;선루프 개발 프로젝트 일정 관리&gt;</em>
-</p>
-
-일정관리와 함께 선루프 아이템을 대상으로 고객 요구사항을 분석하여 시스템 아키텍처를 설계하고 기능을 정의하였습니다. 소프트웨어 엔지니어를 통한 기능구현 완료 후 기능 시험스펙을 작성하고 시스템 시험을 직접 수행하여 요구사항에 따라 소프트웨어가 구현되었는지를 검증하였습니다.
-
-<p align="center">
-	<img
-		src={require('/img/1_process/c_process_sunroof_sysads.png').default}
-		width="450"
-		alt="Example banner"
-	/><br/><em>&lt;선루프 시스템 아키텍처 설계&gt;</em>
-</p>
-
-### 2.4 ISO26262프로세스 구축 및 A-SPICE CL2인증 {#myprocess-std-cl2}
+### 2.5 ISO26262프로세스 구축 및 A-SPICE CL2인증 {#myprocess-std-cl2}
 
 * A-SPICE(CL2달성) 및 ISO26262 대응
 * 소속 : 동양기전/DYAUTO

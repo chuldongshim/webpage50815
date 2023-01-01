@@ -47,8 +47,14 @@ Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD �
 	/>
 </p>
 4. [16.10.03~17.04.30 : Kalman Filter이론학습(Self_Study) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-kalman-therom-study)  
-현대제어 이론 이해 완료  
-<"20170416_포트폴리오.pptx"에서 제어이론학습 책이미지랑 필기한거 이미지캡처>
+현대제어 이론 이해 완료
+<p align="left">
+	<img
+		src={require('/img/2_mbd/mymbd-kalman-selfstudy.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
 
 ### MBD 고객대응 {#mbd-customer}
 
@@ -212,8 +218,8 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-
-2. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
+2. [19.11.14~20.05.31 : A-SPICE 및 ISO26262 시스템 설계 - 선루프[☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-sunroof)
+3. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
 <p align="left">
 	<img
 		src={require('/img/1_process/a_certification_cl3.png').default}
@@ -221,8 +227,8 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-3. [16.04.25~16.09.20 : A-SPICE 및 ISO26262 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design)
-4. [14.04.01~16.03.31 : ISO26262프로세스 구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
+4. [16.04.25~16.09.20 : A-SPICE 및 ISO26262 시스템 설계 - 윈도우[☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
+5. [14.04.01~16.03.31 : ISO26262프로세스 구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
 <p align="left">
 	<img
 		src={require('/img/1_process/a_certification_cl2.png').default}

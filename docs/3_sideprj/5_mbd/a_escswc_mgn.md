@@ -2,6 +2,13 @@
 id: escswc_mgn
 title: 관리
 ---
+
+<div align="right">
+  <font size="4">
+    작성중...<br/>
+  </font>
+</div>
+
 ---
 
 ## 개요

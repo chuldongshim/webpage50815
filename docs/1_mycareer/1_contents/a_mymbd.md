@@ -128,7 +128,7 @@ Profiling 기능로직을 시뮬레이션으로 확인해 가면서 구현을 �
 <p align="center">
 	<iframe 
 		src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
-		width="400" height="250"
+		width="350" height="250"
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.

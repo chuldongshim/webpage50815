@@ -16,7 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer/contents#mycareer-process-agile" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
+    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
       <>

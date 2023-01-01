@@ -6,20 +6,20 @@ title: 임베디드개발 상세
 <b><big>[목차]</big></b>
 
 * [1. 부트로더 개발](#myembedded-bootloader)
-  * [[22.05.22~22.08.04] : 1.1 wifi 웹서버를 통한 STM FW업데이트 [☜ click for side project]](#myembedded-bootloader-fota)
-  * [[20.05.16~20.08.10] : 1.2 PC Python과 LIN부트로더를 통한 NXP FW업데이트](#myembedded-bootloader-nxp-iap)
-  * [[18.12.09~18.12.10] : 1.3 UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
-  * [[16.10.03~17.04.30] : 1.4 RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
+  * [22.05.22~22.08.04 : 1.1 wifi 웹서버를 통한 STM FW업데이트 [☜ click for side project]](#myembedded-bootloader-fota)
+  * [20.05.16~20.08.10 : 1.2 PC Python과 LIN부트로더를 통한 NXP FW업데이트](#myembedded-bootloader-nxp-iap)
+  * [18.12.09~18.12.10 : 1.3 UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
+  * [16.10.03~17.04.30 : 1.4 RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
 * [2. 제어기 개발](#myembedded-controller)
-  * [[17.06.07~19.04.12] : 2.1 열차 출입문 제어기 개발](#myembedded-controller-train)
-  * [[09.03.16~09.12.18] : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
-  * [[08.09.01~09.02.26] : 2.3 유도인형 제어기 개발](#myembedded-controller-judo)
+  * [17.06.07~19.04.12 : 2.1 열차 출입문 제어기 개발](#myembedded-controller-train)
+  * [09.03.16~09.12.18 : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
+  * [08.09.01~09.02.26 : 2.3 유도인형 제어기 개발](#myembedded-controller-judo)
 * [3. 리눅스 응용프로그램 개발](#myembedded-linux)
-  * [[16.10.03~17.04.30] : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
-  * [[11.11.01~13.10.30] : 3.2 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
-  * [[11.11.01~13.10.30] : 3.3 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
+  * [16.10.03~17.04.30 : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
+  * [11.11.01~13.10.30 : 3.2 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
+  * [11.11.01~13.10.30 : 3.3 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
 * [4. 센서 개발](#myembedded-sensor)
-  * [[10.09.01~11.08.31] : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
+  * [10.09.01~11.08.31 : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
 ---
 
 ## 1. 부트로더 개발 {#myembedded-bootloader}

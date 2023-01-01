@@ -182,10 +182,10 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 
 ### MBD+AUTOSAR {#swc-mbd-autosar}
 
-1. TBD : AUTOSAR ASW 개발  
+1. [22.12.29~ : AUTOSAR ASW 개발   [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
 기존에 개발한 PSB 프로파일링로직을 Non-AUTOSAR/AUTOSAR에 모두 사용 가능한 SwC로 개발
-3. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
-4. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
+2. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
+3. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 
 ### Redmine 이슈관리 {#redmine-issue}
 

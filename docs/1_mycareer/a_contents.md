@@ -8,7 +8,7 @@ title: 컨텐츠별
 * [모델기반설계](#mycareer-mbd)  
   | [BLDC 선행학습](#mbd-bldc-study) | [MBD 고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
 * [개발프로세스](#mycareer-process)  
-  | [MBD+AUTOSAR(진행중)](#swc-mbd-autosar) | [표준프로세스 구축](#process-dev) | [Redmine 이슈관리](#redmine-issue) |
+  | [MBD+AUTOSAR](#swc-mbd-autosar) | [표준프로세스 구축](#process-dev) | [Redmine 이슈관리](#redmine-issue) |
 * [임베디드개발](#mycareer-embed)  
   | [부트로더 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
 ---
@@ -180,9 +180,9 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 * Github/Gitlab 기반 Agile 프로젝트 관리
 :::
 
-### MBD+AUTOSAR(진행중) {#swc-mbd-autosar}
+### MBD+AUTOSAR {#swc-mbd-autosar}
 
-1. [22.12.29~23.xx.xx : AUTOSAR ASW 개발   [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
+1. [22.12.29~23.xx.xx : AUTOSAR ASW 개발(진행중)   [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
 기존에 개발한 PSB 프로파일링로직을 Non-AUTOSAR/AUTOSAR에 모두 사용 가능한 SwC로 개발
 2. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
 3. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)

@@ -11,7 +11,7 @@ title: 시간별
 * [22.12.29~23.xx.xx : 프로세스 - AUTOSAR ASW 개발(진행중)](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
 ### 2022년
 * [22.12.02~22.12.26 : 프로세스 - A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)
-* [22.11.01~22.11.30 : 프로세스 - MBD+AUTOSAR 개발전략 수립 2차(진행중)](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)
+* [22.11.01~22.11.30 : 프로세스 - MBD+AUTOSAR 개발전략 수립 2차](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)
 * [22.10.21~22.11.05 : 모델기반 - MBD기반 Sensored BLDC 속도제어](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)
 * [22.09.01~22.10.18 : 모델기반 - 와이퍼 MBD 제어기설계(관측기,LQR)](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)
 * [22.08.14~22.08.29 : 모델기반 - FFT MCU 구현 및 Matlab 연동 확인](/docs/mycareer/contents/mymbd#mymbd-wiper-fft)
@@ -22,7 +22,7 @@ title: 시간별
 * [21.11.20~22.03.21 : 모델기반 - Escalator를 통한 GitLab Agile기반 MBD개발 고객대응](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)
 * [21.07.30~21.12.31 : 모델기반 - 윈도우 MBD 기본기능 구현](/docs/mycareer/contents/mymbd#mymbd-window-func)
 * [21.01.08~21.07.13 : 모델기반 - 와이퍼 MBD 기본기능 구현](/docs/mycareer/contents/mymbd#mymbd-wiper-func)
-* [21.01.15~21.02.16 : 프로세스 - MBD+AUTOSAR 개발전략 수립 1차(진행중)](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
+* [21.01.15~21.02.16 : 프로세스 - MBD+AUTOSAR 개발전략 수립 1차](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 ### 2020년
 * [20.08.12~20.11.13 : 모델기반 - 온도 PID제어 MBD](/docs/mycareer/contents/mymbd#mymbd-start-temp-pid)
 * [20.05.16~20.08.10 : 임베디드 - PC Python과 LIN부트로더를 통한 NXP FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)

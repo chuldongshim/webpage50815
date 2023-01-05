@@ -1,6 +1,6 @@
 ---
 id: myembedded
-title: 임베디드개발 상세
+title: 임베디드개발 경력상세
 ---
 ---
 <b><big>[목차]</big></b>
@@ -16,8 +16,8 @@ title: 임베디드개발 상세
   * [08.09.01~09.02.26 : 2.3 유도인형 제어기 개발](#myembedded-controller-judo)
 * [3. 리눅스 응용프로그램 개발](#myembedded-linux)
   * [16.10.03~17.04.30 : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
-  * [11.11.01~13.10.30 : 3.2 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
-  * [11.11.01~13.10.30 : 3.3 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
+  * [12.10.01~13.09.30 : 3.2 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
+  * [11.11.28~13.09.30 : 3.3 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
 * [4. 센서 개발](#myembedded-sensor)
   * [10.09.01~11.08.31 : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
 ---

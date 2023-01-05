@@ -7,8 +7,8 @@ title: 시간별
 
 ## 직장
 ### 2023년
-* [00.00.00~00.00.00 : 모델기반 - Sensorless BLDC by Kalman Filter (TBD)
-* [22.12.29~23.00.00 : 프로세스 - AUTOSAR ASW 개발](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
+* 23.XX.xx~23.xx.xx : 모델기반 - Sensorless BLDC by Kalman Filter (TBD)
+* [22.12.29~23.xx.xx : 프로세스 - AUTOSAR ASW 개발](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
 ### 2022년
 * [22.12.02~22.12.26 : 프로세스 - A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)
 * [22.11.01~22.11.30 : 프로세스 - MBD+AUTOSAR 개발전략 수립 2차](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)
@@ -17,7 +17,7 @@ title: 시간별
 * [22.08.14~22.08.29 : 모델기반 - FFT MCU 구현 및 Matlab 연동 확인](/docs/mycareer/contents/mymbd#mymbd-wiper-fft)
 * [22.05.22~22.08.04 : 임베디드 - wifi 웹서버를 통한 STM FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
 * [21.04.07~21.05.06 : 모델기반 - Kalman Filter학습 및 시뮬레이션](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)
-* [22.03.03~22.05.17 : 모델기반 - PSB(안전벨트) 기능로직 MBD구현 고객대응](/docs/mycareer/contents/mymbd#mymbd-customer-psb)
+* [22.03.03~22.05.17 : 모델기반 - PSB(안전벨트) 기능로직 MBD구현 선행개발 고객대응](/docs/mycareer/contents/mymbd#mymbd-customer-psb)
 ### 2021년
 * [21.11.20~22.03.21 : 모델기반 - Escalator를 통한 GitLab Agile기반 MBD개발 고객대응](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)
 * [21.07.30~21.12.31 : 모델기반 - 윈도우 MBD 기본기능 구현](/docs/mycareer/contents/mymbd#mymbd-window-func)

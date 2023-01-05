@@ -1,6 +1,6 @@
 ---
 id: mymbd
-title: 모델기반설계 상세
+title: 모델기반설계 경력상세
 ---
 ---
 <b><big>[목차]</big></b>
@@ -11,7 +11,7 @@ title: 모델기반설계 상세
   * [21.04.07~21.05.06 : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
   * [16.10.03~17.04.30 : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-kalman-therom-study)
 * [2. MBD 고객대응](#mymbd-psb-mbd)
-  * [22.03.03~22.05.17 : 2.1 PSB(안전벨트) 기능로직 MBD구현](#mymbd-customer-psb)
+  * [22.03.03~22.05.17 : 2.1 PSB(안전벨트) 기능로직 MBD구현 선행개발](#mymbd-customer-psb)
   * [21.11.20~22.03.21 : 2.2 Escalator를 통한 GitLab Agile기반 MBD개발](#myprocess-mbdagile-esc-dev)
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [22.09.01~22.10.18 : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
@@ -94,7 +94,7 @@ title: 모델기반설계 상세
 
 ## 2. MBD 고객대응 {#mymbd-psb-mbd}
 
-### 2.1 PSB(안전벨트) 기능로직 MBD구현 {#mymbd-customer-psb}
+### 2.1 PSB(안전벨트) 기능로직 MBD구현 선행개발 {#mymbd-customer-psb}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 22.03.01 ~ 현재 (책임 4년차)

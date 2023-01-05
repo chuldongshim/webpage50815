@@ -58,7 +58,7 @@ Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD �
 
 ### MBD 고객대응 {#mbd-customer}
 
-1. [22.03.03~22.05.17 : PSB(안전벨트) 기능로직 MBD구현 고객대응[☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
+1. [22.03.03~22.05.17 : PSB(안전벨트) 기능로직 MBD구현 선행개발 고객대응[☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-customer-psb)  
 PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신호 프로파일링  
 프로파일링 코드를 MBD로 자동생성하고, 제어기에 통합하여 고객사에 납품함
 <p align="left">
@@ -182,14 +182,14 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 
 ### MBD+AUTOSAR {#swc-mbd-autosar}
 
-1. [22.12.29~ : AUTOSAR ASW 개발   [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
+1. [22.12.29~23.xx.xx : AUTOSAR ASW 개발   [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
 기존에 개발한 PSB 프로파일링로직을 Non-AUTOSAR/AUTOSAR에 모두 사용 가능한 SwC로 개발
 2. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
 3. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 
 ### Redmine 이슈관리 {#redmine-issue}
 
-1. [18.01.23~19.11.29 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
+1. [19.09.10~20.09.10 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 <p align="left">
 	<img
@@ -269,7 +269,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ### 제어기 개발 {#mycareer-embed-train}
 
-1. [17.06.07~19.01.13 : 열차 출입문 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-train)  
+1. [17.06.07~19.04.12 : 열차 출입문 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-train)  
 전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
 <p align="left">
 	<iframe
@@ -310,8 +310,8 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-2. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-maintenance)  
-3. [13.06.09~16.12.26 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-porting)  
+2. [12.10.01~13.09.30 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-porting)  
+3. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-maintenance)  
 
 ### 센서 개발 {#ftsensor-dev}
 

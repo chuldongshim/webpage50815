@@ -154,7 +154,7 @@ GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 	/>
 </p>
 
-2. [07.03.02~08.08.31 : 졸업논문 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-start-graduation)  
+2. [07.03.02~08.08.31 : 졸업논문 DC모터 PID제어[☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-start-graduation)  
 센서 입력에 따른 모터 PID제어  
 C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink를 처음으로 사용함
 <p align="left">

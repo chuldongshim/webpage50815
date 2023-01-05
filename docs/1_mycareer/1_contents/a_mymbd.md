@@ -22,7 +22,7 @@ title: 모델기반설계 경력상세
   * [13.10.01~14.05.16 : 4.2 윈도우 MBD 선행학습](#mymbd-window-basic)
 * [5. MBD 시작](#mymbd-start)
   * [20.08.12~20.11.13 : 5.1 온도 PID제어 MBD [☜ click for side project]](#mymbd-start-temp-pid)
-  * [07.03.02~08.08.31 : 5.2 졸업논문](#mymbd-start-graduation)
+  * [07.03.02~08.08.31 : 5.2 졸업논문 DC모터 PID제어](#mymbd-start-graduation)
 ---
 
 ## 1. BLDC 선행학습 {#mymbd-bldc}
@@ -404,7 +404,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 
 
 
-### 5.2 졸업논문 {#mymbd-start-graduation}
+### 5.2 졸업논문 DC모터 PID제어 {#mymbd-start-graduation}
 
 졸업논문에서 지능형 근력강화 시스템을 수학적으로 모델링하고, 모델링한 시스템을 분석할 때 처음으로 Matlab/Simulink를 사용하였습니다.
 처음 시뮬링크를 사용하였을 때에는 시스템을 모델링하여 분석하는 용도로만 사용했었고, 분석내용을 이용하여 Manual Coding으로 개발을 진행하였습니다.

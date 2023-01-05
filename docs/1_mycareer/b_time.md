@@ -53,4 +53,4 @@ title: 시간별
 * [09.03.16~09.12.18 : 임베디드 - 무인 전기자동차 하위 제어기 개발](/docs/mycareer/contents/myembedded#myembedded-controller-kist)
 ### 2007년~2008년
 * [08.09.01~09.02.26 : 임베디드 - 유도인형 제어기 개발](/docs/mycareer/contents/myembedded#myembedded-controller-judo)
-* [07.03.02~08.08.31 : 모델기반 - 졸업논문](/docs/mycareer/contents/mymbd#mymbd-start-graduation)
+* [07.03.02~08.08.31 : 모델기반 - 졸업논문 DC모터 PID제어](/docs/mycareer/contents/mymbd#mymbd-start-graduation)

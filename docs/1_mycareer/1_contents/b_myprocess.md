@@ -5,7 +5,7 @@ title: 프로세스개발 경력상세
 ---
 <b><big>[목차]</big></b>
 
-* [1. MBD+AUTOSAR](#myprocess-mbdautosar)
+* [1. MBD+AUTOSAR(진행중)](#myprocess-mbdautosar)
   * [22.12.29~23.xx.xx : 1.1 MBD+AUTOSAR ASW개발](#myprocess-mbdautosar-asw)
   * [22.11.01~22.11.30 : 1.2 MBD+AUTOSAR 개발전략 수립 2차](#myprocess-mbdautosar-strategy2)
   * [21.01.15~21.02.16 : 1.3 MBD+AUTOSAR 개발전략 수립 1차](#myprocess-mbdautosar-strategy1)
@@ -20,7 +20,7 @@ title: 프로세스개발 경력상세
   * [18.01.18~18.08.12 : 3.2 Redmine을 통한 SW품질이슈 관리](#myprocess-management-redmine)
 ---
 
-## 1. MBD+AUTOSAR {#myprocess-mbdautosar}
+## 1. MBD+AUTOSAR(진행중) {#myprocess-mbdautosar}
 
 ### 1.1 MBD+AUTOSAR ASW개발 {#myprocess-mbdautosar-asw}
 

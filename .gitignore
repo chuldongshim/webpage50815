@@ -81,3 +81,6 @@ yarn-error.log*
 /static/img/2_mbd/Esc_2_Architecture_Total.png
 /static/img/2_mbd/Esc_3_Design_Realization.png
 /static/img/2_mbd/Esc_4_Reqs_based_Func_Test.png
+/static/img/1_process/f_process_gitlab_Escalator.png
+/static/img/1_process/f_process_gitlab_Escalator_Gantt.png
+/static/img/1_process/f_process_gitlab_Escalator_Github.png

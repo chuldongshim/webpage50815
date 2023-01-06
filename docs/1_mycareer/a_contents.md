@@ -70,13 +70,12 @@ PSB(Pre-safe Seat Belt)모터 구동을 위한 기능별 모터제어 입력신�
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
 </p>
-
 2. [21.11.20~22.03.21 : Escalator를 통한 GitLab Agile기반 MBD 개발 [☜ click for more]](/docs/mycareer/contents/mymbd#myprocess-mbdagile-esc-dev)  
 KTL 교육 목적으로 프로젝트를 진행하였으며, 진행 시 일정관리/이슈관리/소스코드형상관리를 수행함
 처음으로 요구사항/기능을 정의하고, 프로젝트를 관리하면서 개발을 진행한 프로젝트입니다.  
 <p align="left">
 	<img
-		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+		src={require('/img/2_mbd/mymbd-esc-overview.png').default}
 		alt="Example banner"
 		width="450"
 	/><br/>
@@ -153,7 +152,6 @@ GitLab을 통한 프로젝트 관리, MBD프로젝트 처음 진행
 		alt="Example banner"
 	/>
 </p>
-
 2. [07.03.02~08.08.31 : 졸업논문 DC모터 PID제어[☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-start-graduation)  
 센서 입력에 따른 모터 PID제어  
 C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink를 처음으로 사용함
@@ -187,6 +185,51 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 2. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
 3. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
 
+### 표준프로세스 구축 {#process-dev}
+
+1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
+예제를 통해 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발을 진행해 봄으로써 MBD를 통해 A-SPICE를 준수하는 프로세스를 구축함  
+<p align="left">
+	<img
+		src={require('/img/1_process/swc_dev_process_by_mbd_and_aspice.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+2. [19.11.14~20.05.31 : A-SPICE 대응 선루프 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-sunroof)
+<p align="left">
+	<img
+		src={require('/img/1_process/c_process_sunroof_sysads.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+3. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
+<p align="left">
+	<img
+		src={require('/img/1_process/a_certification_cl3.png').default}
+		width="200"
+		alt="Example banner"
+	/>
+</p>
+4. [16.04.25~16.09.20 : A-SPICE 및 ISO26262 대응 윈도우 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
+<p align="left">
+	<img
+		src={require('/img/1_process/process_iso26262_function_Architecture.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+5. [14.04.01~16.03.31 : ISO26262프로세스 구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
+<p align="left">
+	<img
+		src={require('/img/1_process/a_certification_cl2.png').default}
+		width="200"
+		alt="Example banner"
+	/>
+</p>
+
+
 ### Redmine 이슈관리 {#redmine-issue}
 
 1. [19.09.10~20.09.10 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
@@ -207,36 +250,6 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
-### 표준프로세스 구축 {#process-dev}
-
-1. [22.12.02~22.12.26 : A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-esc-swc-by-mbd-aspice)  
-예제를 통해 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 추적성을 확보하면서 개발을 진행해 봄으로써 MBD를 통해 A-SPICE를 준수하는 프로세스를 구축함  
-<p align="left">
-	<img
-		src={require('/img/1_process/swc_dev_process_by_mbd_and_aspice.png').default}
-		width="450"
-		alt="Example banner"
-	/>
-</p>
-2. [19.11.14~20.05.31 : A-SPICE 대응 선루프 시스템 설계 - [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-sunroof)
-3. [19.05.20~19.12.10 : 프로젝트 관리 및 A-SPICE CL3 인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl3)
-<p align="left">
-	<img
-		src={require('/img/1_process/a_certification_cl3.png').default}
-		width="200"
-		alt="Example banner"
-	/>
-</p>
-4. [16.04.25~16.09.20 : A-SPICE 및 ISO26262 대응 윈도우 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
-5. [14.04.01~16.03.31 : ISO26262프로세스 구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
-<p align="left">
-	<img
-		src={require('/img/1_process/a_certification_cl2.png').default}
-		width="200"
-		alt="Example banner"
-	/>
-</p>
-
 ---
 
 ## 임베디드개발 {#mycareer-embed}
@@ -252,7 +265,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 
 ### 부트로더 개발 {#mycareer-embed-fota}
 
-1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
+1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
 <p align="left">
 	<img
 		src={require('/img/3_embedded/embedded_bootloader-fota_1.png').default}
@@ -260,11 +273,8 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-
-2. [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
-
+2. [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
 3. [18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
-
 4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
 
 ### 제어기 개발 {#mycareer-embed-train}

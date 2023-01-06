@@ -37,7 +37,15 @@ title: 프로세스개발 경력상세
 
 ### 2.1 A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축 {#myprocess-esc-swc-by-mbd-aspice}
 
-예제 프로젝트 진행을 통해 소프트웨어 개발 시 모델기반설계기법이 어떻게 A-SPICE 프로세스를 준수할 수 있는지 검증하였으며, 요구사항부터 시험까지 일관된 추적성을 유지하며 개발하는 방법론을 수립하였습니다.
+Mathworks에서 제안하는 개발프로세스를 기반으로 예제 프로젝트 진행를 진행하여 소프트웨어 개발 시 모델기반설계기법이 어떻게 A-SPICE 프로세스를 준수할 수 있는지 검증하였으며, 요구사항부터 시험까지 일관된 추적성을 유지하며 개발하는 방법론을 수립하였습니다.
+<p align="center">
+	<img
+		src={require('/img/1_process/swc_dev_process_by_mbd_and_aspice.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
 본 프로젝트에서는 시스템 전체를 개발대상으로 하지 않고, 특정 SwC(Safety Logic)만을 개발 대상으로 한정하여 진행하였습니다.
 예제를 통해 A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스를 구축발은 요구사항을 정의하고 아키텍처 설계 후 이를 바탕으로 상세설계/구현을 진행하고 마지막으로 구현된 기능을 검증하는 순서로 진행하였습니다.
 
@@ -68,7 +76,7 @@ title: 프로세스개발 경력상세
 * Hardware(Physical) Architecture
 * Software(Logical) Architecture
 
-시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 상세설계를 진행합니다.  
+시뮬레이션을 통해 소프트웨어 로직이 어떻게 동작하는지 확인하면서 상세설계를 진행합니다.  
 <p align="center">
 	<iframe 
 		src="https://www.youtube.com/embed//UangAsyZEFc?rel=0"
@@ -165,8 +173,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 :::
 
 * ISO26262 기능안전 시스템 요구사항 명세서 작성
-* FMEA & FTA 수행을 통한 시스템 아키텍처 분석
-* 시스템 설계 명세서 작성
+* 시스템 아키텍처 설계 및 FMEA&FTA를 통한 아키텍처 분석
 
 <p align="center">
 	<img
@@ -176,7 +183,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 	/><br/><em>&lt;System Architecture 설계&gt;</em>
 </p>
 
-* 시스템 아키텍처 및 Safety Mechanism 설계
+* 시스템 Functional Architecture 및 Safety Mechanism 설계
 
 <p align="center">
 	<img

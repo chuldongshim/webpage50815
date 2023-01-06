@@ -64,6 +64,15 @@ title: 모델기반설계 경력상세
 	/>
 </p>
 
+* 코드자동생성 후 타겟 MCU에서 BLDC모터 구동확인
+<p align="center">
+	<img
+		src={require('/img/2_mbd/bldc_control_hardware.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
 ### 1.3 Kalman Filter학습 및 시뮬레이션 {#mymbd-bldc-kalman-simulation-study}
 
 * 칼만필터 이론 학습 및 칼만필터를 통한 Noisy DC모터 속도측정 : <a href="/assets/kalman/Webpage_Maxon_Motor_3_Kalman_.html" target="_blank">Kalman Filter [☜ click for more]</a>
@@ -80,9 +89,17 @@ title: 모델기반설계 경력상세
 
 ### 1.4 Kalman Filter이론학습(Self_Study) {#mymbd-kalman-therom-study}
 
-* 현대제어이론 습득  
-* 현대제어이론 구현방법 습득  
-* 칼만필터 이론 습득
+고전제어만 경험하고 현대제어이론을 경험해 보지 못한부분에 대한 아쉬움으로 현대제어이론과 이를 응용하는 칼만필터이론을 책을 통해 학습하였습니다.
+
+<p align="center">
+	<img
+		src={require('/img/2_mbd/mymbd-kalman-selfstudy.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+처음에는 대부분이 이해가 되지 않았지만 모르는 것을 하나하나 정리하고 이해하는 과정을 통해 현대제어 이론이 어떤 것이라는 것을 얕게나마 이해할 수 있었습니다.
 
 <p align="center">
 	<img
@@ -169,7 +186,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
 <p align="center">
 	<img
-		src={require('/img/1_process/f_process_gitlab_Escalator.png').default}
+		src={require('/img/2_mbd/mymbd-esc-gitlab-schedule-mgn.png').default}
 		alt="Example banner"
 		width="450"
 	/><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
@@ -406,6 +423,7 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 
 ### 5.2 졸업논문 DC모터 PID제어 {#mymbd-start-graduation}
 
+졸업논문 : 논문명 (pdf파일 github에 추가해 링크걸고, 논문요양 ptt내용 추가하기)
 졸업논문에서 지능형 근력강화 시스템을 수학적으로 모델링하고, 모델링한 시스템을 분석할 때 처음으로 Matlab/Simulink를 사용하였습니다.
 처음 시뮬링크를 사용하였을 때에는 시스템을 모델링하여 분석하는 용도로만 사용했었고, 분석내용을 이용하여 Manual Coding으로 개발을 진행하였습니다.
 

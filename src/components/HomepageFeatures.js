@@ -34,8 +34,8 @@ const FeatureList = [
     description: (
       <>
         RTOS 소프트웨어 개발<br />
-        OTA 펌웨어 업데이트<br />
-        <code><a href="https://os.mbed.com/" target="_blank" rel="noopener noreferrer">Mbed?</a></code>&emsp;
+        이중화 제어기 설계<br />
+        <code><a href="https://www.freertos.org/" target="_blank" rel="noopener noreferrer">RTOS?</a></code>&emsp;
         <code><a href="https://www.elec4.co.kr/article/articleView.asp?idx=18469" target="_blank" rel="noopener noreferrer">OTA?</a></code>
       </>
     ),
@@ -45,9 +45,9 @@ const FeatureList = [
     Svg: require('../../static/img/fourth-wifi-ota.svg').default,
     description: (
       <>
-        RTOS 소프트웨어 개발<br />
+        Embedded WebServer 개발<br />
         OTA 펌웨어 업데이트<br />
-        <code><a href="https://os.mbed.com/" target="_blank" rel="noopener noreferrer">Mbed?</a></code>&emsp;
+        <code><a href="https://realtimelogic.com/articles/Embedded-Web-Server-Tutorials" target="_blank" rel="noopener noreferrer">WebServer?</a></code>&emsp;
         <code><a href="https://www.elec4.co.kr/article/articleView.asp?idx=18469" target="_blank" rel="noopener noreferrer">OTA?</a></code>
       </>
     ),

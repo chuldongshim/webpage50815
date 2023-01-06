@@ -36,7 +36,7 @@ const FeatureList = [
         RTOS 소프트웨어 개발<br />
         이중화 제어기 설계<br />
         <code><a href="https://www.freertos.org/" target="_blank" rel="noopener noreferrer">RTOS?</a></code>&emsp;
-        <code><a href="https://www.elec4.co.kr/article/articleView.asp?idx=18469" target="_blank" rel="noopener noreferrer">OTA?</a></code>
+        <code><a href="https://patentimages.storage.googleapis.com/77/7c/a5/d4f9b351104eff/KR101490022B1.pdf" target="_blank" rel="noopener noreferrer">이중화설계?</a></code>
       </>
     ),
   },

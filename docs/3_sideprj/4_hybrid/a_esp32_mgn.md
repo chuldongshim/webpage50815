@@ -37,25 +37,18 @@ ews는 웹서버를 통해 GUI 기능(신호모니터링출력, 스위치입력 
 > Gantt View for Github(Chrome Extension)를 통한 WBS일정 관리
 
 * 프로젝트는 Agile 기반으로 진행하며, 이슈를 최소 활동단위로 정의하고 관리한다.
-* 프로젝트/마일스톤/실행기간 속성을 적용하여 이슈를 발행하고, GanttViewer Chrome Extension을 통해 일정을 관리한다.  
-[(Issue_#7 gantt차트를 통한 일정관리 참고)](https://github.com/chuldongshim/webpage/issues/7)
+* 프로젝트/마일스톤/실행기간 속성을 적용하여 이슈를 발행하고, Gantt를 통해 일정을 관리한다.  
 
 ### 이슈관리
 
-> GitHub -> WBS일정 관리를 위한 이슈  
-> GitLab -> 프로젝트 진행을 위한 이슈  
-> 
-> Gitlab을 소스 저장소로 사용하므로 프로젝트 진행(소스개발) 중 발생되는 이슈는 Gitlab을 통해 등록/해결/관리하며, Github에서는 WBS를 위한 이슈로만 사용한다.
+> GitHub(공유프로젝트) / GitLab(개인프로젝트)을 통해 형상(소스,사양서 등)관리를 수행하고, 프로젝트 진행 중 발생되는 이슈를 Scrum보드를 통해 등록/해결/관리한다.
 
 * GitHub(Open Project로 공개) 또는 GitLab(Private Project로 배공개)에서 프로젝트를 생성하여 이슈를 관리한다.
 * <font color="red"><strong>이슈 Link를 통해 Docusaurus 산출물과 이슈를 연결하여 관리한다.</strong></font><br/>
--> 이 내용 이슈로 등록해서 이슈해결할 것
 
 ### 형상관리
 
 #### 형상관리 방법
-
-> [Github Repository를 통한 형상관리](https://github.com/chuldongshim/webpage/tree/main/static/assets)
 
 * 프로젝트 진행 중 생성되는 모든 산출물은 Github/Gitlab Repository에만 저장한다.
   * Github Docusaurus를 통해 문서화(사양서, 제품 사용자 매뉴얼, 유지보수 매뉴얼 등) 작업을 진행하고, 필요 시 Docusaurus를 pdf로 문서를 추출하여 공유한다.

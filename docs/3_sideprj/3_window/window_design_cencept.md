@@ -41,14 +41,3 @@ title: 개발컨셉
 * Comm Processing
   * T.B.D
 
-## 참고자료
-
-* [S32K1xx Series Safety Manual](https://usermanual.wiki/Document/S32K1xx20Series20Safety20ManualREV204.925554493/view)
-* Simulink Library  
-Matlab Path에 lib파일위치 추가→set_param(gcs,'EnableLBRepository','on') 실행→Simulink Library Browser 새로고침(F5)
-* [사용자 지정 라이브러리 (by Mathworks)](https://kr.mathworks.com/help/simulink/libraries.html)
-* [라이브러리 브라우저에 라이브러리 추가 (by Mathworks)](https://kr.mathworks.com/help/simulink/ug/adding-libraries-to-the-library-browser.html)
-* [Creating Customized Block Libraries 동영상 (by Mathworks)](https://kr.mathworks.com/videos/creating-customized-block-libraries-101591.html)
-* [사용자 지정 라이브러리 만들기 (by Mathworks)](https://kr.mathworks.com/help/simulink/ug/creating-block-libraries.html)
-* [구성요소 기반 모델링 지침 (by Mathworks)](https://kr.mathworks.com/help/simulink/ug/component-based-modeling-guidelines.html)
-

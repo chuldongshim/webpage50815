@@ -38,6 +38,8 @@ export default function Home() {
               <center>개발자로서 살아온 흔적을 정리하여 나를 돌아보고,</center>
               <center>앞으로 내가 세상에 기여할 수 있는 것들이 무엇이 있을지 찾기 위한 공간입니다.</center>
             <center><font size="4" color="#34a28a"><strong>"Yesterday is History. Tomorrow is a Mystery. Today is a Gift."</strong></font></center>
+            <center><font size="4" color="#34a28a"><strong>"Only one last chance in my life. If I can't do it, developer Sim Cheol-dong will no longer exist."</strong></font></center>
+            <center><font size="4" color="#34a28a"><strong>"With more urgency and earnestness than anyone else"</strong></font></center>
           </>
         }
         <HomepageFeatures />

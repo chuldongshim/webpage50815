@@ -49,10 +49,6 @@ title: 임베디드개발 경력상세
   * 입력신호 FFT -> TFT-LCD Display
   * Kalman Filter룰 이용한 모터제어 알고리즘 개발 적용(Kalman Filter 이론학습 및 시뮬레이션 완료)
 
-X-CUBE-DSPDEMO by stm32f4-disco
-* _[중요]AN4841 - CMSIS로 stm32f429와 stm32f746에서 FFT 구현.pdf
-* en.x-cube-dspdemo_AN4841.zip
-
 구현결과 동영상 추가할 것
 * MPU6050 FIR필터링 동영상
 * MPU6050 IIR필터링 동영상

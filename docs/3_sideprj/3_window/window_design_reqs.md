@@ -50,7 +50,7 @@ Window모터는 SW를 누르는 동안에만 속도프로파일을 수행하고 
 
 * [`F6_Req1`](./window_realize_f6_AntiPinch#anti-pinch-by-window-area) Pinch 감지 시 윈도우 영역에 따라 각각 정의된 반전동작을 수행해야 한다.
   
-## F7 칼만필터링
+## F7 칼만필터(TBD)
 
 * [`F7_Req1`](./window_realize_f7_KalmanFilter#basic-concept) 엔코더 신호를 칼만필터링하여 전류정보를 추정한다.
   

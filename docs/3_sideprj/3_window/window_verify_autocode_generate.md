@@ -33,10 +33,3 @@ title: 코드자동생성
 
 Function Block을 각각의 C파일로 생성하는 방법
 
-
-## 참고자료
-
-* [step-by-step으로 Arduino Device Drivers 만들기](https://kr.mathworks.com/matlabcentral/fileexchange/39354-device-drivers)
-* [How Do I Create My Own Hardware Support Package](https://itectec.com/matlab/matlab-how-do-i-create-my-own-hardware-support-package)
-* DriverGuide.pdf (Writing a Simulink Device Driver block: a step by step guide) - 아두이노는 include path가 설정되어 있어서 그대로 따라면 Device Driver Block 잘 동작함
-

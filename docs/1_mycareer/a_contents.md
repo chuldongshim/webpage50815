@@ -85,7 +85,7 @@ KTL 교육 목적으로 프로젝트를 진행하였으며, 진행 시 일정관
 ### 와이퍼 알고리즘 개발 {#mbd-wiper-dev}
 
 1. [22.09.01~22.10.18 : 와이퍼 MBD 제어기설계(관측기,LQR) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-wiper-lqr)  
-관측기 상태피드백을 통한 LQR제어
+관측기 및 LQR제어기를 통해 Max 1s주기로 135도 Wiping Angle 상태피드백제어 수행
 <p align="left">
 	<iframe 
 		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"

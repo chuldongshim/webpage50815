@@ -38,9 +38,8 @@ title: 시간별
 * [16.10.03~17.04.30 : 모델기반 - Kalman Filter이론학습(Self_Study)](/docs/mycareer/contents/mymbd#mymbd-kalman-therom-study)
 * [16.10.03~17.04.30 : 임베디드 - RTOS포팅 및 IAP구현(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
 * [16.10.03~17.04.30 : 임베디드 - stm32f7에 uCLinux포팅(Self_Study)](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
-* [16.04.25~16.09.20 : 프로세스 - A-SPICE 및 ISO26262 대응 윈도우 시스템 설계](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
 ### 2014년~2015년
-* [14.04.01~16.03.31 : 프로세스 - ISO26262프로세스 구축 및 A-SPICE CL2인증](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
+* [14.04.01~16.09.20 : 프로세스 - A-SPICE CL2 인증 및 ISO26262 윈도우 시스템 설계](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
 ### 2013년
 * [13.10.01~14.05.16 : 모델기반 - 윈도우 MBD 선행학습](/docs/mycareer/contents/mymbd#mymbd-window-basic)
 ### 2011년~2012년

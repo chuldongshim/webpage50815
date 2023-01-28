@@ -212,7 +212,7 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 		alt="Example banner"
 	/>
 </p>
-4. [16.04.25~16.09.20 : A-SPICE 및 ISO26262 대응 윈도우 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
+4. [14.04.01~16.09.20 : A-SPICE CL2 인증 및 ISO26262 윈도우 시스템 설계 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-sys-design-window)
 <p align="left">
 	<img
 		src={require('/img/1_process/process_iso26262_function_Architecture.png').default}
@@ -220,7 +220,6 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 		alt="Example banner"
 	/>
 </p>
-5. [14.04.01~16.03.31 : ISO26262프로세스 구축 및 A-SPICE CL2인증 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-std-cl2)
 <p align="left">
 	<img
 		src={require('/img/1_process/a_certification_cl2.png').default}

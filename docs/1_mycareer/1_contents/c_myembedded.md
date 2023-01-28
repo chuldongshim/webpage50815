@@ -284,7 +284,7 @@ FND 디지털 시계
 	</iframe>
 </p>
 
-프로젝트를 통해 개발에 대한 경험을 쌓을 수 있었습니다.
+대학원생활동안 수행한 프로젝트를 통해 개발에 대한 경험을 쌓을 수 있었습니다.
 
 <p align="center">
 	<img
@@ -331,7 +331,7 @@ FND 디지털 시계
 		src={require('/img/3_embedded/myhistory_4.png').default}
 		width="450"
 		alt="Example banner"
-	/><br/><em>&lt;그림제목&gt;</em>
+	/>
 </p>
 
 [인증 단말기 개발 및 유지보수](https://m.blog.naver.com/PostView.nhn?blogId=humanwr&logNo=220517005542&proxyReferer=https:%2F%2Fwww.google.com%2F)

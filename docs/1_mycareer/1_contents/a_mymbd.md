@@ -420,12 +420,10 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 * 처음으로 MBD기반으로 설계한 로직을 C코드를 자동생성하고 타겟 MCU에 구동
 * 모든 MBD기반 프로젝트 진행의 계기가 됨
 
-
-
 ### 5.2 졸업논문 DC모터 PID제어 {#mymbd-start-graduation}
 
-졸업논문 : 논문명 (pdf파일 github에 추가해 링크걸고, 논문요양 ptt내용 추가하기)
-졸업논문에서 지능형 근력강화 시스템을 수학적으로 모델링하고, 모델링한 시스템을 분석할 때 처음으로 Matlab/Simulink를 사용하였습니다.
+졸업논문 : [제어모드 변환을 통한 지능형 근력강화 시스템 개발 [☜ Click here to see the paper]](/assets/MyongJi_ChuldongShim_Paper_2008.pdf)  
+졸업논문에서 지능형 근력강화 시스템을 수학적으로 모델링하고, 모델링한 시스템을 분석할 때 처음으로 Matlab/Simulink를 사용하였습니다.  
 처음 시뮬링크를 사용하였을 때에는 시스템을 모델링하여 분석하는 용도로만 사용했었고, 분석내용을 이용하여 Manual Coding으로 개발을 진행하였습니다.
 
 <p align="center">

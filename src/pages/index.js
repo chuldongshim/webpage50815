@@ -38,7 +38,7 @@ export default function Home() {
               <center>개발자로서 살아온 흔적을 정리하여 나를 돌아보고,</center>
               <center>앞으로 내가 세상에 기여할 수 있는 것들이 무엇이 있을지 찾기 위한 공간입니다.</center>
             <center><font size="4" color="#34a28a"><strong>"Yesterday is History. Tomorrow is a Mystery. Today is a Gift."</strong></font></center>
-            <center>간절함과 절박함속에서도 포기하지 말고, 비교하지 말고, 나의 걸을걸이로 나의 길을 찾아서...</center>
+            <center>포기하지 말고, 비교하지 말고, 나의 걸을걸이로 그리고 간절함으로 나의 길을 찾아서...</center>
           </>
         }
         <HomepageFeatures />

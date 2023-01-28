@@ -6,7 +6,7 @@ title: 모델기반설계 경력상세
 <b><big>[목차]</big></b>
 
 * [1. BLDC 선행학습](#mymbd-bldc)
-  * [23.XX.xx~23.xx.xx : 1.1 Sensorless BLDC by Kalman Filter (TBD)](#mymbd-bldc-plan)
+  * [23.XX.xx~23.xx.xx : 1.1 Sensorless BLDC with Kalman Filter (TBD)](#mymbd-bldc-plan)
   * [22.10.21~22.11.05 : 1.2 MBD기반 Sensored BLDC 속도제어](#mymbd-bldc-sensered)
   * [21.04.07~21.05.06 : 1.3 Kalman Filter학습 및 시뮬레이션](#mymbd-bldc-kalman-simulation-study)
   * [16.10.03~17.04.30 : 1.4 Kalman Filter이론학습(Self_Study)](#mymbd-kalman-therom-study)
@@ -27,7 +27,7 @@ title: 모델기반설계 경력상세
 
 ## 1. BLDC 선행학습 {#mymbd-bldc}
 
-### 1.1 Sensorless BLDC by Kalman Filter (TBD) {#mymbd-bldc-plan}
+### 1.1 Sensorless BLDC with Kalman Filter (TBD) {#mymbd-bldc-plan}
 
 * CAD연동(ProE/Solidworks 등)을 통한 Simulnik모델 가상 시뮬레이션
 * 하드웨어 없이 시뮬레이션 만으로 타겟 소프트웨어 개발
@@ -268,7 +268,8 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 	/>
 </p>
 
-상태피드백 제어 알고리즘을 Simulink를 통해 C코드로 자동생성하고, 컴파일 하여 타겟 MCU에서 실행
+상태피드백 제어 알고리즘을 Simulink를 통해 C코드로 자동생성하고, 컴파일 하여 타겟 MCU에서 실행  
+0°~135°를 3.5s 주기로 Wiping 하다가 1s 주기로 변경하여 Wiping 수행
 <p align="center">
 	<iframe 
 		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"

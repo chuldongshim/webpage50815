@@ -13,7 +13,7 @@ title: 임베디드개발 경력상세
 * [2. 제어기 개발](#myembedded-controller)
   * [17.06.07~19.04.12 : 2.1 열차 출입문 제어기 개발](#myembedded-controller-train)
   * [09.03.16~09.12.18 : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
-  * [08.09.01~09.02.26 : 2.3 제어기 개발 시작](#myembedded-controller-start)
+  * [08.09.01~09.02.26 : 2.3 유도인형시스템 개발](#myembedded-controller-judo)
 * [3. 리눅스 응용프로그램 개발](#myembedded-linux)
   * [16.10.03~17.04.30 : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
   * [12.10.01~13.09.30 : 3.2 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
@@ -262,7 +262,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
 </p>
 
-### 2.3 제어기 개발 시작 {#myembedded-controller-start}
+### 2.3 유도인형시스템 개발 {#myembedded-controller-judo}
 
 학부생활동안 FND 디지털 시계 및 디지털 도아락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
 FND 디지털 시계
@@ -284,7 +284,7 @@ FND 디지털 시계
 	</iframe>
 </p>
 
-대학원생활동안 수행한 프로젝트를 통해 개발에 대한 경험을 쌓을 수 있었습니다.
+이를 바탕으로 대학원생활동안 수행한 프로젝트를 통해 개발에 대한 경험을 쌓을 수 있었습니다.
 
 <p align="center">
 	<img
@@ -303,13 +303,16 @@ FND 디지털 시계
   * 힘센서(로드셀)의 아날로그 하드웨어 신호처리
   * 힘센서데이터 DAQ 및 데이터 PC Display
   * 파우더브레이크를 이용한 유도로봇 몸통 및 좌우다리 제동력 조절
-
+* 성과
+  * 논문 : [유도경기력 향상을 위한 유도인형시스템 개발](https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201700003559)
+  * 특허등록 : [유도훈련 장치](https://patents.google.com/patent/KR101117353B1/ko)
 
 ## 3. 리눅스 응용프로그램 개발 {#myembedded-linux}
 
 ### 3.1 stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
 
 * stm32f4-discovery에 uClinux 포팅
+* stm32f7-discovery에 uClinux 포팅
 
 포팅로그 이미지 추가
 

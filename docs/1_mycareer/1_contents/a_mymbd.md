@@ -16,12 +16,12 @@ title: 모델기반설계 경력상세
 * [3. 와이퍼 알고리즘 개발](#mymbd-wiper)
   * [22.09.01~22.10.18 : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)](#mymbd-wiper-lqr)
   * [22.08.14~22.08.29 : 3.2 FFT MCU 구현 및 Matlab 연동 ](#mymbd-wiper-fft)
-  * [21.01.08~21.07.13 : 3.3 와이퍼 MBD 기본기능 구현 [☜ click for side project]](#mymbd-wiper-func)
+  * [21.01.08~21.07.13 : 3.3 와이퍼 MBD 기본기능 구현](#mymbd-wiper-func)
 * [4. 윈도우 선행학습](#mymbd-window)
-  * [21.07.30~21.12.31 : 4.1 윈도우 MBD 기본기능 구현 [☜ click for side project]](#mymbd-window-func)
+  * [21.07.30~21.12.31 : 4.1 윈도우 MBD 기본기능 구현](#mymbd-window-func)
   * [13.10.01~14.05.16 : 4.2 윈도우 MBD 선행학습](#mymbd-window-basic)
 * [5. MBD 시작](#mymbd-start)
-  * [20.08.12~20.11.13 : 5.1 온도 PID제어 MBD [☜ click for side project]](#mymbd-start-temp-pid)
+  * [20.08.12~20.11.13 : 5.1 온도 PID제어 MBD](#mymbd-start-temp-pid)
   * [07.03.02~08.08.31 : 5.2 졸업논문 DC모터 PID제어](#mymbd-start-graduation)
 ---
 
@@ -300,7 +300,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 	/>
 </p>
 
-### [3.3 와이퍼 MBD 기본기능 구현 [☜ click for side project]](/docs/sideprj/wiper#wiper-system-config) {#mymbd-wiper-func}
+### [3.3 와이퍼 MBD 기본기능 구현 ] {#mymbd-wiper-func}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)
@@ -346,7 +346,7 @@ MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실�
 * 개발환경 구축 및 윈도우 타겟구동 확인
 * MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
 
-### [4.1 윈도우 MBD 기본기능 구현 [☜ click for side project]](/docs/sideprj/window#window-system-config) {#mymbd-window-func}
+### [4.1 윈도우 MBD 기본기능 구현] {#mymbd-window-func}
 
 2013년도에 MBD를 처음 시작하였으며, 사내 표준프로세스 구축 업무로 MBD개발 업무가 Holding되어 시뮬레이션을 통해 알고리즘만 개발하고 실제 타겟에 적용하지 못하여 아쉬움이 많이 남았습니다.
 하지만 꾸준한 관심과 하고자 하는 의지로 21년에 결국 Manual Coding 없이 모델기반설계로 제어기 개발환경을 구축/적용해 보았고, 제품 수주를 위한 개발활동에 MBD를 적용하여 개발을 진행하고 있습니다.
@@ -400,7 +400,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 
 ## 5. MBD 시작 {#mymbd-start}
 
-### [5.1 온도 PID제어 MBD [☜ click for side project]](/docs/sideprj/temperature#temperature-pid-ctrl-system) {#mymbd-start-temp-pid}
+### [5.1 온도 PID제어 MBD] {#mymbd-start-temp-pid}
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 

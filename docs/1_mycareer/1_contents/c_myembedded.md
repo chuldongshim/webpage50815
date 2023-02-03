@@ -6,7 +6,7 @@ title: 임베디드개발 경력상세
 <b><big>[목차]</big></b>
 
 * [1. 부트로더 개발](#myembedded-bootloader)
-  * [22.05.22~22.08.04 : 1.1 wifi 웹서버를 통한 STM MCU FW업데이트 [☜ click for side project]](#myembedded-bootloader-fota)
+  * [22.05.22~22.08.04 : 1.1 wifi 웹서버를 통한 STM MCU FW업데이트](#myembedded-bootloader-fota)
   * [20.05.16~20.08.10 : 1.2 PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트](#myembedded-bootloader-nxp-iap)
   * [18.12.09~18.12.10 : 1.3 UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
   * [16.10.03~17.04.30 : 1.4 RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
@@ -24,7 +24,7 @@ title: 임베디드개발 경력상세
 
 ## 1. 부트로더 개발 {#myembedded-bootloader}
 
-### [1.1 wifi 웹서버를 통한 STM MCU FW업데이트 [☜ click for side project]](/docs/sideprj/hybrid#embed-ota-webserver-summary) {#myembedded-bootloader-fota}
+### [1.1 wifi 웹서버를 통한 STM MCU FW업데이트] {#myembedded-bootloader-fota}
 
 #### ESP32 Embedded WebServer를 통한 stm32f746 OTA
 

@@ -10,7 +10,7 @@ title: 컨텐츠별
 * [개발프로세스](#mycareer-process)  
   | [MBD+AUTOSAR](#swc-mbd-autosar) | [표준프로세스 구축](#process-dev) | [Redmine 이슈관리](#redmine-issue) |
 * [임베디드개발](#mycareer-embed)  
-  | [부트로더 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
+  | [원격 펌웨어 업데이트(OTA) 솔루션 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
 ---
 
 ## 모델기반설계 {#mycareer-mbd}
@@ -262,7 +262,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 * 펌웨어 업데이트용 시리얼통신 부트로더 개발
 :::
 
-### 부트로더 개발 {#mycareer-embed-fota}
+### 원격 펌웨어 업데이트(OTA) 솔루션 개발 {#mycareer-embed-fota}
 
 1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
 <p align="left">

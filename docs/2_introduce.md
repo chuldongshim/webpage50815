@@ -38,37 +38,16 @@ title: 자기소개
 
 ## 경력
 
-### 취업후
-* DY-ESSYS(DY-AUTO에서 분사)
-  * 사내 개발 표준 프로세스 구축 (2019.04 ~ 2019.12)  
-  A-SPICE/ISO26262 통합 개발 표준 프로세스 구축  
-  A-SPICE CL3 인증 획득(PM역할 수행)
-  * Sunroof 선행 프로젝트 시스템 설계 (2020.02 ~ 2020.06)  
-  PM역할 수행 및 요구사항 분석, 시스템 아키텍처 설계
-  * Bootloader 개발 (2020.06 ~ 2020.08)  
-  F/W image hex 파일을 LIN으로 전송하고 LIN을 통한 제어기 상태를 모니터링하는 Python Image Updater SW 개발  
-  Freescale s12zvmb48 기반 LIN bootloader F/W 개발
-  * Wiper 기능안전 컨셉 설계 (2020.10 ~ 2020.11)
-  * 2020.09 ~ 2020.11 (현재)  
-  09~10월 : 코드레벨에서 tms320f28069 Basic Peripherals 동작확인  
-  11월 : Simulink를 통한 Basic Peripherals 동작확인 및 AutoCode Generation  
-  11~12월 : Simulink를 통한 MBD 기반 DC모터 속도제어 (T.B.D)
-* 인터콘시스템스
-  * 출입문 제어기 개발 및 유지보수
-  * 양산개발/적용 및 SW품질관리
-* 동양기전 및 DY-AUTO(동양기전에서 분사)
-  * A-SPICE/ISO26262 프로세스 구축
-* 한국후지제록스
-  * 복합기 인증 단말기 개발 및 유지보수
-  * Customize개발/적용 및 SW품질관리
+이력 및 경력소개 : [Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae_v13_230204.pdf)
 
-### 취업전
-* 6축 Force/Torque센서
-  * 센서개발
-* 무인차 구동부 인터페이스 제어기
-* 유도로봇
-* 졸업논문
-  * DC모터제어
+<p align="center">
+	<img
+		src={require('/img/ChuldongShim_Curriculum_Vitae_v13_230204.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
 
 ## 희망사항
 

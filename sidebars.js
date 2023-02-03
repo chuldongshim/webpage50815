@@ -32,7 +32,7 @@ module.exports = {
     },
 	'mycareer/time',
   ],
-  sideprj: [
+/*  sideprj: [
     'sideprj',
     {
       type: 'category',
@@ -152,7 +152,7 @@ module.exports = {
         //'sideprj/temperature/temperature_controlStick',
       ],
     },
-    /*{
+    {
       type: 'category',
       label: '6. 임베디드 리눅스 (TBD)',
       link: {
@@ -165,6 +165,6 @@ module.exports = {
       items: [
         'sideprj/linux/linuxapp',
       ],
-    },*/
-  ],
+    },
+  ],*/
 };

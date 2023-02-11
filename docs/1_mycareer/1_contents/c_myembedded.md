@@ -5,7 +5,7 @@ title: 임베디드개발 경력상세
 ---
 <b><big>[목차]</big></b>
 
-* [1. 원격 펌웨어 업데이트(OTA) 솔루션 개발](#myembedded-bootloader)
+* [1. 부트로더 개발](#myembedded-bootloader)
   * [22.05.22~22.08.04 : 1.1 wifi 웹서버를 통한 STM MCU FW업데이트](#myembedded-bootloader-fota)
   * [20.05.16~20.08.10 : 1.2 PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트](#myembedded-bootloader-nxp-iap)
   * [18.12.09~18.12.10 : 1.3 UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
@@ -22,9 +22,9 @@ title: 임베디드개발 경력상세
   * [10.09.01~11.08.31 : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
 ---
 
-## 1. 원격 펌웨어 업데이트(OTA) 솔루션 개발 {#myembedded-bootloader}
+## 1. 부트로더 개발 {#myembedded-bootloader}
 
-### 1.1 wifi 웹서버를 통한 STM MCU FW업데이트 {#myembedded-bootloader-fota}
+### [1.1 wifi 웹서버를 통한 STM MCU FW업데이트] {#myembedded-bootloader-fota}
 
 #### ESP32 Embedded WebServer를 통한 stm32f746 OTA
 
@@ -327,7 +327,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
   * Linux 및 uClinux 포팅
 	* Embedded Linux 기반 tcp/ip 네트워크 어플리케이션 개발
 	* C++ Multi-thread 기반 TCP/IP Server Programming
-  * [인증용단말기 SW 양산개발](https://www.fujixerox.co.kr/ko-KR/Products/KR-Software/Printing-Management)
+  * [인증용단말기 양산SW개발](https://www.fujixerox.co.kr/ko-KR/Products/KR-Software/Printing-Management)
   * [복합기-결재 단말기 연동 동영상](https://www.youtube.com/watch?v=ArtCujt2TUQ)
 
 임베디드 리눅스를 직접 경험하고, 리눅스 기반 application을 개발하는 역할을 수행하였습니다. 리눅스라는 OS와 친해지고 싶은 마음이 생기는 계기가 되었습니다. 이후 자동차 분야로 업종을 변경하여 아지까지 리눅스에 대한 아쉬음이 많이 남아 있으며, 앞으로 꾸준히 시간을 투자하여 임베디드 리눅스 상에서 동작하는 네트워크 소프트웨어를 개발할 계획을 가지고 있습니다.

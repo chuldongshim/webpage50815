@@ -6,7 +6,6 @@ title: 경력요약
 
 지금까지 제가 수행한 일들을 내용별, 시간별로 구분하여 정리해 보았습니다.
 
-
 ### [컨텐츠별 경력요약 [☜ click for more]](./mycareer/contents)
 
 크게 3가지 분야에 관심을 가지고 있으며, 현재(22.12.27)는 지금까지의 경험을 모두 통합하여 개발을 진행하는 것에 관심을 가지고 있습니다.
@@ -22,3 +21,16 @@ title: 경력요약
 * 모델기반설계 경험 - 대략4년
 * 개발 프로세스 활동 경험 - 대략4년
 * 임베디드시스템 개발 경험 - 대략3년
+
+### 이력 및 경력소개
+
+[Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae_v13_230212.pdf)
+
+<p align="center">
+	<img
+		src={require('/img/ChuldongShim_Curriculum_Vitae_v13_230212.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+

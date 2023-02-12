@@ -24,7 +24,7 @@ title: 임베디드개발 경력상세
 
 ## 1. 부트로더 개발 {#myembedded-bootloader}
 
-### [1.1 wifi 웹서버를 통한 STM MCU FW업데이트] {#myembedded-bootloader-fota}
+### 1.1 wifi 웹서버를 통한 STM MCU FW업데이트 {#myembedded-bootloader-fota}
 
 #### ESP32 Embedded WebServer를 통한 stm32f746 OTA
 
@@ -39,9 +39,10 @@ title: 임베디드개발 경력상세
 </p>
 
 * 웹서버에 bin파일 업로드  
-  Wifi를 통해 PC or 휴대폰에서 WebServer(ESP32) file system으로 bin파일 업로드가 성공하면 웹페이지를 통해 파일 업데이트를 확인
+  Wifi를 통해 PC or 휴대폰에서 WebServer(ESP32) file system으로 bin/hex파일 업로드 후 웹페이지에서 파일 업로드 성공 확인
 * 웹서버를 통해 MCU 펌웨어 업데이트 수행  
-  웹페이지에서 업데이트 버튼을 눌러 WebServer에서 타겟 MCU로 bin파일 전송
+  웹페이지에서 업데이트 버튼을 눌러 WebServer에서 타겟 MCU로 bin/hex파일 전송  
+  bin/hex파일을 수신한 MCU는 부트로더 모드에서 펌웨어 업데이트 수행
 
 #### 통합 시뮬레이터 (TBD) {#myembedded-bootloader-integrate}
 

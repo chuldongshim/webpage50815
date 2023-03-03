@@ -67,13 +67,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: '경력요약',
           },
-          {
-            type: 'doc',
-            docId: 'devprj',
-            position: 'left',
-            label: '제품개발',
-          },
-/*          {
+/*        {
             type: 'doc',
             docId: 'sideprj',
             position: 'left',
@@ -84,6 +78,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             docId: 'introduce',
             position: 'left',
             label: '자기소개',
+          },
+          {
+            type: 'doc',
+            docId: 'devprj',
+            position: 'left',
+            label: '제품개발',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

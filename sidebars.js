@@ -15,7 +15,7 @@ module.exports = {
 
   // But you can create a sidebar manually
   mycareer: [
-	'mycareer',
+		'mycareer',
     {
       type: 'category',
       label: '컨텐츠별',
@@ -30,7 +30,24 @@ module.exports = {
         'mycareer/contents/myembedded',
       ],
     },
-	'mycareer/time',
+		'mycareer/time',
+  ],
+	devprj: [
+		'devprj',
+    {
+      type: 'category',
+      label: '스마트 도어',
+      link: {
+        type: 'doc',
+        id: 'devprj/ews2',
+      },
+      collapsed: false,
+      items: [
+        'devprj/ews2/summary',
+        'devprj/ews2/install',
+        'devprj/ews2/usage',
+      ],
+    },
   ],
 /*  sideprj: [
     'sideprj',

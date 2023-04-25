@@ -43,9 +43,21 @@ module.exports = {
       },
       collapsed: false,
       items: [
-        'devprj/ews2/summary',
-        'devprj/ews2/install',
-        'devprj/ews2/usage',
+        'devprj/ews2/guide',
+        'devprj/ews2/spec',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'bldc확장보드',
+      link: {
+        type: 'doc',
+        id: 'devprj/bldc',
+      },
+      collapsed: false,
+      items: [
+        'devprj/bldc/guide',
+        'devprj/bldc/spec',
       ],
     },
   ],

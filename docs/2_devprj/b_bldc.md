@@ -5,9 +5,11 @@ title: bldc 확장보드
 
 ---
 
-스마트 도어 센서는 현재 시제품개발 진행중이며 개발이 완료되면 관련 내용을 업데이트 할 예정입니다.
-bldc 확장보드는 아두이노와 호환되어 bldc 모터를 제어할 수 있는 
+bldc 확장보드(bldcExtBoard)와 아두이노 호환 Evaluation Board를 연결하면 BLDC모터를 제어할 수 있습니다.
 
-1. [bldc 확장보드란 [☜ click for more]](./blde/guide)
-2. [설치방법 [☜ click for more]](./blde/spec)
+	<대표 이미지 추가>
 
+1. [User Guide [☜ click for more]](./bldc/guide)
+  * 사용자 관점에서 사용법을 설명합니다.
+2. [Technical Reference [☜ click for more]](./bldc/spec)
+  * 관리 및 유지보수를 위해 필요한 기술적인 내용을 설명합니다.

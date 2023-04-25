@@ -1,6 +1,6 @@
 ---
 id: guide
-title: 스마트 도어 센서란
+title: bldc 확장보드란
 ---
 
 ---

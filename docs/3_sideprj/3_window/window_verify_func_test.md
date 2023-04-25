@@ -17,7 +17,7 @@ title: 기능시험
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window 상단구속에서 Relay초기화 (21년11월17일)&gt;</em>
+	</iframe><br/><em>&lt;Window 상단구속에서 Relay초기화 동영상(21년11월17일)&gt;</em>
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ title: 기능시험
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window 하단구속에서 Relay초기화 (21년11월17일)&gt;</em>
+	</iframe><br/><em>&lt;Window 하단구속에서 Relay초기화 동영상(21년11월17일)&gt;</em>
 </p>
 
 ## F2 속도프로파일
@@ -42,7 +42,7 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window FET Manual Up & Down (21년11월17일)&gt;</em>
+	</iframe><br/><em>&lt;Window FET Manual Up & Down 동영상(21년11월17일)&gt;</em>
 </p>
 
 ## F3 피드백제어
@@ -67,7 +67,7 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Window 상단구속에서 FET초기화 (21년11월17일)&gt;</em>
+	</iframe><br/><em>&lt;Window 상단구속에서 FET초기화 동영상(21년11월17일)&gt;</em>
 </p>
 
 ## F6 AntiPinch 반전
@@ -85,7 +85,7 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 (21년12월03일)&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 동영상(21년12월03일)&gt;</em>
 </p>
 
 ## 참고자료

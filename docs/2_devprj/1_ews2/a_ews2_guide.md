@@ -1,5 +1,5 @@
 ---
-id: summary
+id: guide
 title: 스마트 도어 센서란
 ---
 

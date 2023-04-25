@@ -1,5 +1,5 @@
 ---
-id: install
+id: spec
 title: 설치방법
 ---
 

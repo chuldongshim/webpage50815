@@ -1,6 +1,6 @@
 ---
-id: usage
-title: 사용법
+id: spec
+title: 설치방법
 ---
 
 ---

@@ -149,7 +149,7 @@ Profiling 기능로직을 시뮬레이션으로 확인해 가면서 구현을 �
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;안전벨트 기능로직 MBD구현&gt;</em>
+	</iframe><br/><em>&lt;안전벨트 기능로직 MBD구현 동영상&gt;</em>
 </p>
 
 PC에서 설정된 파라미터 정보를 CAN을 통해 제어기로 전송하하고, 제어입력(Reference Profiling)과 제어출력(Motor Current Sensing)을 비교한 결과가 동일하므로 제어입력을 제어기가 잘 추종하는 것을 확인하였다.
@@ -277,7 +277,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;관측기 상태피드백을 통한 LQR제어&gt;</em>
+	</iframe><br/><em>&lt;관측기 상태피드백을 통한 LQR제어 동영상&gt;</em>
 </p>
 
 MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, 통신으로 위치정보를 수신하여 다음과 같이 1s 주기마다 Wiping 동작하는 것을 확인함
@@ -323,7 +323,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;입력각도로 Linkage 위치 피드백제어 3D시뮬레이션&gt;</em>
+	</iframe><br/><em>&lt;입력각도로 Linkage 위치 피드백제어 3D시뮬레이션 동영상&gt;</em>
 </p>
 
 제어로직 개발 후 MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬레이션과 동일하게 동작하는 것을 확인함으로써 MBD가 개발실무에 적용이 가능한지 타당성을 확인하는 것을 목적으로 프로젝트를 진행하였습니다.
@@ -335,7 +335,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Auto Wiping 동작확인&gt;</em>
+	</iframe><br/><em>&lt;Auto Wiping 동작확인 동영상&gt;</em>
 </p>
 
 
@@ -363,7 +363,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 (21년12월03일)&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 동영상(21년12월03일) 동영상&gt;</em>
 </p>
 
 ### 4.2 윈도우 MBD 선행학습 {#mymbd-window-basic}
@@ -394,7 +394,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 반전 알고리즘 시뮬레이션&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 반전 알고리즘 시뮬레이션 동영상&gt;</em>
 </p>
 
 
@@ -453,6 +453,6 @@ MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;명지대 석사논문(2007.03 ~ 2009.02)&gt;</em>
+	</iframe><br/><em>&lt;명지대 석사논문 동영상 (2007.03 ~ 2009.02)&gt;</em>
 </p>
 

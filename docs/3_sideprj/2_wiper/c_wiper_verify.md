@@ -50,7 +50,7 @@ title: 설계 및 검증
 		frameborder="0"
 		allowfullscreen="true">f
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;모터 단품 3D시뮬레이션&gt;</em>
+	</iframe><br/><em>&lt;모터 단품 3D시뮬레이션 동영상&gt;</em>
 </p>
 </body>
 
@@ -63,7 +63,7 @@ title: 설계 및 검증
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Wiper 시스템 3D시뮬레이션&gt;</em>
+	</iframe><br/><em>&lt;Wiper 시스템 3D시뮬레이션 동영상&gt;</em>
 </p>
 
 ### 구현
@@ -103,7 +103,7 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Manual Wiping 동작확인&gt;</em>
+	</iframe><br/><em>&lt;Manual Wiping 동작확인 동영상&gt;</em>
 </p>
 
 ### Auto Wiping
@@ -115,7 +115,7 @@ Simulink Auto-Code-Generation 기능을 이용하여 모델로부터 C코드를 
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Auto Wiping 동작확인&gt;</em>
+	</iframe><br/><em>&lt;Auto Wiping 동작확인 동영상&gt;</em>
 </p>
 
 

@@ -73,7 +73,7 @@ title: F7 칼만필터(TBD)
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
 	</iframe>
-	<br/><em>&lt;MPU6050와 TI ControlStick의 Simulink 연동&gt;</em>
+	<br/><em>&lt;MPU6050와 TI ControlStick의 Simulink 연동 동영상&gt;</em>
 </p>
 
 ### MPU6050 칼만필터링

@@ -54,7 +54,7 @@ module.exports = {
         type: 'doc',
         id: 'devprj/bldc',
       },
-      collapsed: false,
+      collapsed: true,
       items: [
         'devprj/bldc/guide',
         'devprj/bldc/spec',

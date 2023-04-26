@@ -1,6 +1,6 @@
 ---
 id: guide
-title: bldc 확장보드란
+title: User Guide
 ---
 
 ---

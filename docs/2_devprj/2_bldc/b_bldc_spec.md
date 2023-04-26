@@ -1,6 +1,6 @@
 ---
 id: spec
-title: 설치방법
+title: Technical Reference
 ---
 
 ---

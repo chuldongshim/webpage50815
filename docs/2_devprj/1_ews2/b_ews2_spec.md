@@ -21,7 +21,7 @@ title: Technical Reference
 
 <p align="center">
 	<img
-		src={require('/img/4_ews2/ews2_spec_summary_strategy.png').default}
+		src={require('/img/4_ews2/ews2_spec_summary_plan.png').default}
 		alt="Example banner"
 		width="550"
 	/>

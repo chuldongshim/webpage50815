@@ -198,7 +198,7 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작&gt;</em>
+	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작 동영상&gt;</em>
 </p>
 
 
@@ -265,7 +265,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어&gt;</em>
+	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어 동영상&gt;</em>
 </p>
 
 ### 2.3 유도인형시스템 개발 {#myembedded-controller-judo}
@@ -286,7 +286,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
+	</iframe><br/><em>&lt;디지털 도어락 만들기 동영상&gt;</em>
 </p>
 
 학부생 때 MCU를 접한것을 계기로 대학원을 진학하였고, 대학원생활동안 수행한 유도인형시스템 개발 프로젝트(문화체육관광부 주관, 용인대 주최)를 통해 개발에 대한 경험을 쌓을 수 있었습니다.

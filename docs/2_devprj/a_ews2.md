@@ -8,7 +8,7 @@ title: 스마트 도어 센서
     23.02.02 ~ 23.04.25<br/>
 		about 12 weeks (3 month)
   </font>
-</div><br/>
+</div>
 
 ---
 

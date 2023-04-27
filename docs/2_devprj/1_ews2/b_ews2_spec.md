@@ -8,7 +8,7 @@ title: Technical Reference
     23.02.02 ~ 23.04.25<br/>
 		about 12 weeks (3 month)
   </font>
-</div><br/>
+</div>
 
 ---
 
@@ -16,8 +16,8 @@ title: Technical Reference
 
 ### 프로젝트 관리
 
-개발기간 12주 내내 Agile 방식으로 개발이 진행되어 빈번히 변경되는 요구사항에 대한 민첩한 대응이 가능합니다. 따라서 사용자 요구가 발생할 경우 컨셉수정부터 코드구현 및 적용까지 민첩하게 대응할 수 있습니다.  
-원격지에서 시스템 상테를 모니터링하고, 제어할 수 있는 솔루션 개발을 타겟으로 정하고 제품개발을 진행하였기 때문에 이와 비슷한 제품개발에 본 솔루션을 동일하게 적용할 수 있습니다.
+개발기간 12주 동안 Agile 방식으로 개발이 진행되어 사용자 요구사항에 대한 추가/수정 발생할 경우 컨셉수정부터 코드구현 및 적용까지 민첩하게 대응할 수 있습니다.  
+원격지에서 시스템 상테를 모니터링하고, 제어할 수 있는 솔루션 개발을 타겟으로 정하고 제품개발을 진행하였기 때문에 이와 비슷한 제품개발에 본 솔루션을 재활용할 수 있습니다.
 
 <p align="center">
 	<img
@@ -30,15 +30,13 @@ title: Technical Reference
 ### 개발전략
 
 본 제품개발 프로젝트는 기존에 수행된 2개의 프로젝트에 적용된 기술들을 통합하여 새로운 기능을 구현하는 컨셉으로 진행되었습니다.
-* 기존에 수행된 내용
+* 기존에 수행된 작업
   * [Kalman Filter학습 및 시뮬레이션](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)
   * [wifi 웹서버를 통한 STM MCU FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
-* 추가된 내용
-  * Matlab/Simulink를 통해 칼만필터 알고리즘을 C코드로 자동생성하여 MCU에 적용
-  * Simulink State-Machine Diagram을 통한 도어상태판단 기능을 구현하고, C코드로 자동생성하여 MCU에 적용
-	* 웹페이지를 통한 상태정보 원격 모니터링
-	* HTTPS Secure Communication
-
+* 추가한 작업
+  * 칼만필터 알고리즘을 Matlab/Simulink를 통해 C코드로 자동생성하여 MCU에 적용
+  * 도어상태판단 기능을 Simulink State-Machine Diagram으로 구현하고, C코드로 자동생성하여 MCU에 적용
+  * 웹페이지 Revision - 상태정보 확인, Self-OTA
 
 ## 시스템 사양
 
@@ -48,11 +46,11 @@ title: Technical Reference
 	* Kalman Filter를 통한 센서 신호 노이즈 필터링
 	* MBD를 통한 필터 및 기능로직 코드 자동생성
 	* https를 통한 웹서버 Secure 통신
-	* 열림/닫힘, 배터리전압 상태 원격 모니터링
+	* 열림/닫힘, 배터리전압 상태정보 원격 모니터링
 	* 펌웨어 원격 Secure 업데이트 (Self-OTA)
 	* file server 및 file system을 통한 로깅정보 파일저장/업로드/다운로드
 	* sntp 접속을 통한 rtc 시간 업데이트
-* 리비전(T.B.D) 시 보완되어야 할 사항입니다.
+* 리비전(T.B.D) 시 보완되어야 할 기능입니다.
 	* BLE를 통한 Wifi 연결정보 설정
 	* 카메라를 통한 입력/출력 인원 카운트
 	* 원격 화면 모니터링
@@ -62,7 +60,7 @@ title: Technical Reference
 
 smartGaurd 시스템은 0(UnInit), 1(Closed), 2(Opening), 3(Opened), 4(Closing)와 같이 5개의 상태가 있으며, 최초 Power On 후 초기화가 진행되지 않거나, 오류가 발생하면 0(UnInit) 상태가 됩니다. 초기화 이후에는 도어의 움직임에 따라 자동으로 1~4 상태 중 하나의 상태가 됩니다.
 
-mcu와 mpu6050은 i2c를 통해 인터페이스 되어 3축의 각속도와 3축의 각가속도를 측정할 수 있습니다.
+smartGaurd mcu는 i2c 인터페이스로 mpu6050 센서의 3축의 각속도와 3축의 각가속도 정보를 수신합니다.
 
 <p align="center">
 	<img
@@ -72,7 +70,7 @@ mcu와 mpu6050은 i2c를 통해 인터페이스 되어 3축의 각속도와 3축
 	/>
 </p>
 
-이렇게 측정된 가속도 정보를 통해 각도를 계산하는데, 가속도계의 drift 현상으로 측정오차가 발생하여 계산된 각도정보에도 오차가 발생하게 됩니다. 각도오차를 보정하기 위해 각속도정보를 추가로 이용하여 칼만필터링을 수행하며, 그 결과 측정오차 및 노이즈가 제거된 각도정보를 계산할 수 있습니다.
+이렇게 수신된 가속도 정보를 통해 각도를 계산하는데, 가속도계의 drift 현상으로 측정오차가 발생하여 계산된 각도정보에도 오차가 발생하게 됩니다. 각도오차를 보정하기 위해 각속도정보를 추가로 이용하여 칼만필터링을 수행하며, 그 결과 측정오차 및 노이즈가 제거된 각도정보를 계산할 수 있습니다.
 
 <p align="center">
 	<img
@@ -112,28 +110,65 @@ mcu와 mpu6050은 i2c를 통해 인터페이스 되어 3축의 각속도와 3축
 	/>
 </p>
 
-### 상태정보 원격 모니터링
+### 로그인
 
 smartGaurd WebServer는 HTTPS 통신을 통해 서버와 클라이언트가 연결되어, 인증서로 생성된 키값으로 패킷 암호화를 수행하여 통신을 수행하기 때문에 제3자가 통신 내용을 수신하더라도 패킷 내용을 복호화 할 수가 없어 통신내용 확인이 불가능합니다.  
 
 wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 웹서버 주소(https://192.168.4.1) 로 접속합니다. 현재 smartGaurd WebServer는 공인된 인증기관으로부터 인증서를 발급받지 않았기 때문에 Self-Signed(안전하지 않은 연결) Connection을 통해 HTTPS연결을 수행해야 합니다(단, 비용을 지불하고 공인된 인증서를 발급받아 적용하면 정상적으로 안전한 HTTPS 통신을 수행할 수 있습니다).
-[고급 -> https 안전하지 않음]
 
-POST 방식으로 로그인을 수행합니다.
-[로그인 창]
+<p align="center">
+	<img
+		src={require('/img/4_ews2/ews2_spec_sw_html2_connect.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
+로그인은 POST 방식을 사용하며 로그인을 수행합니다.
+
+<p align="center">
+	<img
+		src={require('/img/4_ews2/ews2_spec_sw_html3_login.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
 
 로그인에 성공하면 첫 화면으로 시스템을 간략히 설명하는 창이 활성화 됩니다.
-[시스템 설명 창]
 
-모니터링 탭을 클릭하여 나타나는 창을 통해 도어의 열림/닫힘 상태 및 상태 변경시간을 확인할 수 있습니다.
-[모니터링 창]
+<p align="center">
+	<img
+		src={require('/img/4_ews2/ews2_spec_sw_html4_homepg.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
+### 상태정보 모니터링
+
+모니터링 탭을 클릭하여 나타나는 창을 통해 도어의 열림/닫힘 상태 및 상태 변경시간을 확인할 수 있습니다. 인터넷이 연결되면 smartGuard는 sntp 서버에 접속하여 시간정보를 가져온 다음 내부 rtc time을 업데이트 합니다.
+
+<p align="center">
+	<img
+		src={require('/img/4_ews2/ews2_spec_sw_html5_openclose.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
 
 ### 소프트웨어 업데이트
 
-업데이트 탭을 클릭하면 두 섹션으로 구분되는 창이 나타나는데, 상부영역에서 SOTA(Self-OTA) 기능을 수행하고, 하부영역에서 FOTA(FW-OTA) 기능을 수행합니다.
+업데이트 탭을 클릭하면 두 섹션으로 구분되는 창이 나타나는데, 상부영역에서 SOTA(Master Self-OTA) 기능을 수행하고, 하부영역에서 FOTA(Slave FW-OTA) 기능을 수행합니다.
 
-상부영역에 해당하는 SOTA에서 smartGaurd 자체 MCU의 소프트웨어를 업데이트 기능이 수행됩니다.
-[업데이트 창 - SOTA 설명]
+상부영역에 해당하는 SOTA에서 smartGaurd 자체 MCU의 소프트웨어를 업데이트 기능이 수행됩니다. local에 저장된 smartGuard MCU의 실행 가능한 이미지 파일을 선택한 다음 [start SOTA] 버튼을 클릭하면 업데이트가 수행되면서 버튼 아래에 진행상태가 나타난다. 업데이트가 완료되면 MCU는 자동으로 재부팅을 수행하여 업데이트 된 이미지를 수행한다.
+
+<p align="center">
+	<img
+		src={require('/img/4_ews2/ews2_spec_sw_html6_ota.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
 
 하부영역에 해당하는 FOTA에서 smartGaurd와 연결된 MCU의 소프트웨어를 업데이트 할 수 있습니다. 이 기능은 무선통신 기능 없이 smartGaurd와 유선으로 연결된 장비를 원격에서 업데이트 하기 위해 준비된 기능힙니다.
 [업데이트 창 - FOTA 설명]
@@ -173,7 +208,7 @@ Top면에는 Vcc, Bottom면에는 GND로 Copper를 채웠습니다.
 	<img
 		src={require('/img/4_ews2/ews2_spec_hw_pcb_topbottom.png').default}
 		alt="Example banner"
-		width="350"
+		width="450"
 	/>
 </p>
 

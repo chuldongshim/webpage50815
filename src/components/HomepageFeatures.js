@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: <a href="./docs/mycareer/contents#mycareer-mbd-window" target="_blank" rel="noopener noreferrer">윈도우 모델기반설계<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/second_motor_control_wiper_window.svg').default,
+    Svg: require('../../static/img/second_motor_control_window_AntiPinch.svg').default,
     description: (
       <>
         제어로직 SW MBD개발<br />
@@ -41,8 +41,8 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer/contents#mycareer-embed-fota" target="_blank" rel="noopener noreferrer">임베디드 웹서버 OTA<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/fourth-wifi-ota.svg').default,
+    title: <a href="./docs/devprj/ews2" target="_blank" rel="noopener noreferrer">웹서버 모니터링 & OTA<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/fourth_smartGuard.svg').default,
     description: (
       <>
         Embedded WebServer 개발<br />

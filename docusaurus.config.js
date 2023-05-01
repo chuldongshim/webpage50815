@@ -108,8 +108,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/introduce',
               },
               {
-                label: '사이드프로젝트',
-                to: '/docs/sideprj',
+                label: '제품개발',
+                to: '/docs/devprj',
               },
             ],
           },

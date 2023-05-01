@@ -179,7 +179,7 @@ wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 �
 ### Electronic
 
 전장부는 전원부, wifi가 통합된 MCU, 가속도 및 각속도 측정을 위한 MEMS센서로 구성되어 있습니다.
-[(smartGaurd BOM Lists - excel format)](/assets/smartGuard_BOM_Lists.pdf)  
+[(smartGaurd BOM Lists)](/assets/smartGuard_BOM_Lists.pdf)  
 
 <p align="center">
 	<img

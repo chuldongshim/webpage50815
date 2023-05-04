@@ -11,5 +11,5 @@ bldc 확장보드(bldcExtBoard)와 아두이노 호환 Evaluation Board를 연�
 
 1. [User Guide [☜ click for more]](./bldc/guide)
   * 사용자 관점에서 사용법을 설명합니다.
-2. [Technical Reference [☜ click for more]](./bldc/spec)
+2. [Technical Reference [☜ click for more]](https://chuldongshim.github.io/bldc/build/html/index.html)
   * 시스템을 파악하는데 필요한 기술적인 내용을 설명합니다.

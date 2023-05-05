@@ -57,7 +57,6 @@ module.exports = {
       collapsed: true,
       items: [
         'devprj/bldc/guide',
-        'devprj/bldc/spec',
       ],
     },
   ],

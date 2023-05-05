@@ -119,7 +119,7 @@ Auto Wiping 동작확인
 ### 윈도우 선행학습 {#mycareer-mbd-window}
 
 1. [21.07.30~21.12.31 : 윈도우 MBD 기본기능 구현 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-window-func)  
-2013년 진행에 이어 장애물 감지 시 윈도우 반전기능 타겟MCU에 실제 구현/적용(21년12월)
+2013년 진행에 이어 장애물 감지 시 윈도우 반전기능을 MBD로 구현하여 타겟MCU에 실제 적용(21년12월)
 <p align="left">
 	<iframe
 		src="https://www.youtube.com/embed/eEmUgEgfH4k?rel=0"

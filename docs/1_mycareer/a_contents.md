@@ -25,8 +25,8 @@ title: 컨텐츠별
 
 ### BLDC 선행학습 {#mbd-bldc-study}
 
-1. [23.XX.xx~23.xx.xx : Sensorless BLDC by Kalman Filter (TBD) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)  
-추후에 진행할 계획임
+1. [23.05.03~23.xx.xx : Sensorless BLDC by Kalman Filter (TBD) [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-plan)  
+현재 진행중
 2. [22.10.21~22.11.05 : MBD기반 Sensored BLDC 속도제어 [☜ click for more]](/docs/mycareer/contents/mymbd#mymbd-bldc-sensered)  
 Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD 예제를 통해 BLDC 모터를 구동시켜 보았음
 <p align="left">

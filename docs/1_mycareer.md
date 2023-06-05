@@ -24,11 +24,11 @@ title: 경력요약
 
 ### 이력 및 경력소개
 
-[Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae_v13_230212.pdf)
+[Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae.pdf)
 
 <p align="center">
 	<img
-		src={require('/img/ChuldongShim_Curriculum_Vitae_v13_230212.png').default}
+		src={require('/img/ChuldongShim_Curriculum_Vitae.png').default}
 		alt="Example banner"
 		width="450"
 	/>

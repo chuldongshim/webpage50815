@@ -38,7 +38,7 @@ title: 자기소개
 
 ## 경력
 
-이력 및 경력소개 : [Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae_v13_230212.pdf)
+이력 및 경력소개 : [Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae.pdf)
 
 <p align="center">
 	<img

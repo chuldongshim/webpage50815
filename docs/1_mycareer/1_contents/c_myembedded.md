@@ -15,6 +15,7 @@ title: 임베디드개발 경력상세
   * [09.03.16~09.12.18 : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
   * [08.09.01~09.02.26 : 2.3 유도인형시스템 개발](#myembedded-controller-judo)
 * [3. 리눅스 응용프로그램 개발](#myembedded-linux)
+  * 23.07.01~현재       : BeagleboneBlack을 통한 Embedded Linux IOT Application 개발
   * [16.10.03~17.04.30 : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
   * [12.10.01~13.09.30 : 3.2 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
   * [11.11.28~13.09.30 : 3.3 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)

@@ -8,7 +8,7 @@ title: 컨텐츠별
 * [모델기반설계](#mycareer-mbd)  
   | [BLDC 선행학습](#mbd-bldc-study) | [MBD 고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
 * [개발프로세스](#mycareer-process)  
-  | [MBD+AUTOSAR](#swc-mbd-autosar) | [표준프로세스 구축](#process-dev) | [이슈관리](#issue-mgn) |
+  | [Agile 프로잭트](#swc-mbd-agile) | [표준프로세스 구축](#process-dev) | [이슈관리](#issue-mgn) |
 * [임베디드개발](#mycareer-embed)  
   | [원격 펌웨어 업데이트(OTA) 솔루션 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
 ---
@@ -178,12 +178,22 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 * Github/Gitlab 기반 Agile 프로젝트 관리
 :::
 
-### MBD+AUTOSAR {#swc-mbd-autosar}
+### Agile 프로잭트 {#swc-mbd-agile}
 
-1. [22.12.29~23.xx.xx : AUTOSAR ASW 개발(진행중)   [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-asw)  
-기존에 개발한 PSB 프로파일링로직을 Non-AUTOSAR/AUTOSAR에 모두 사용 가능한 SwC로 개발
-2. [22.11.01~22.11.30 : MBD+AUTOSAR 개발전략 수립 2차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy2)  
-3. [21.01.15~21.02.16 : MBD+AUTOSAR 개발전략 수립 1차 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-mbdautosar-strategy1)
+1. [23.09.01~23.xx.xx : Github를 통한 Agile기반 리눅스 프로젝트 일정 및 이슈관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-github-linux)  
+Beaglebone Black Linux 플랫폼에서 C++ 기반 IOT 어플리케이션 개발
+2. [23.09.01~23.xx.xx : Github를 통한 Agile기반 MBD 프로젝트 일정 및 이슈관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-github-mbd)  
+Simulink를 이용한 알고리즘 개발
+3. [23.02.02~23.04.25 : Github를 통한 Agile기반 임베디드 프로젝트 일정 및 이슈관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-github-embedded)  
+Github 환경에서 프로젝트 일정 및 이슈관리
+<p align="left">
+	<img
+		src={require('/img/4_ews2/ews2_spec_summary_plan.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
 
 ### 표준프로세스 구축 {#process-dev}
 
@@ -231,16 +241,7 @@ C코드 자동생성 없이 제어시스템을 분석하는데 Matlab/Simulink�
 
 ### 이슈관리 {#issue-mgn}
 
-1. [23.02.02~23.04.25 : Github를 통한 Agile기반 프로젝트 일정 및 이슈관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-github)  
-Github 환경에서 프로젝트 일정 및 이슈관리
-<p align="left">
-	<img
-		src={require('/img/4_ews2/ews2_spec_summary_plan.png').default}
-		alt="Example banner"
-		width="450"
-	/>
-</p>
-2. [19.09.10~20.09.10 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
+1. [19.09.10~20.09.10 : AWS Cloud를 통한 Redmine 환경구축 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-aws-redmine)  
 AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 <p align="left">
 	<img
@@ -249,7 +250,7 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 		alt="Example banner"
 	/>
 </p>
-3. [18.01.18~18.08.12 : Redmine을 통한 열차출입문제어기SW 품질이슈 관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
+2. [18.01.18~18.08.12 : Redmine을 통한 열차출입문제어기SW 품질이슈 관리 [☜ click for more]](/docs/mycareer/contents/myprocess#myprocess-management-redmine)
 <p align="left">
 	<img
 		src={require('/img/1_process/d_process_train_issue_mgn.png').default}

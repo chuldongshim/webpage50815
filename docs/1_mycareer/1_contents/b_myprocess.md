@@ -1,37 +1,43 @@
 ---
 id: myprocess
-title: 프로세스개발 경력상세
+title: 개발프로세스 경력상세
 ---
 ---
 <b><big>[목차]</big></b>
 
-* [1. MBD+AUTOSAR](#myprocess-mbdautosar)
-  * [22.12.29~23.xx.xx : 1.1 MBD+AUTOSAR ASW개발(진행중)](#myprocess-mbdautosar-asw)
-  * [22.11.01~22.11.30 : 1.2 MBD+AUTOSAR 개발전략 수립 2차](#myprocess-mbdautosar-strategy2)
-  * [21.01.15~21.02.16 : 1.3 MBD+AUTOSAR 개발전략 수립 1차](#myprocess-mbdautosar-strategy1)
+* [1. Agile](#myprocess-github)
+  * [23.09.01~23.xx.xx : 1.1 Github를 통한 Agile기반 리눅스 프로젝트 일정 및 이슈관리](#myprocess-github-linux)
+  * [23.09.01~23.xx.xx : 1.2 Github를 통한 Agile기반 MBD 프로젝트 일정 및 이슈관리](#myprocess-github-mbd)
+  * [23.02.02~23.04.25 : 1.3 Github를 통한 Agile기반 임베디드 프로젝트 일정 및 이슈관리](#myprocess-github-embedded)
 * [2. 표준프로세스 구축](#myprocess-std)
   * [22.12.02~22.12.26 : 2.1 A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축](#myprocess-esc-swc-by-mbd-aspice)
   * [19.11.14~20.05.31 : 2.2 A-SPICE 대응 선루프 시스템 설계](#myprocess-std-sys-design-sunroof)
   * [19.05.20~19.12.10 : 2.3 프로젝트 관리 및 A-SPICE CL3 인증](#myprocess-std-cl3)
   * [14.04.01~16.09.20 : 2.4 A-SPICE CL2 인증 및 ISO26262 윈도우 시스템 설계](#myprocess-std-sys-design-window)
 * [3. Redmine 이슈관리](#myprocess-management)
-  * [23.02.02~23.04.25 : 3.1 Github를 통한 Agile기반 프로젝트 일정 및 이슈관리](#myprocess-management-github)
-  * [19.09.10~20.09.10 : 3.2 AWS Cloud를 통한 Redmine 환경구축](#myprocess-management-aws-redmine)
-  * [18.01.18~18.08.12 : 3.3 Redmine을 통한 SW품질이슈 관리](#myprocess-management-redmine)
+  * [19.09.10~20.09.10 : 3.1 AWS Cloud를 통한 Redmine 환경구축](#myprocess-management-aws-redmine)
+  * [18.01.18~18.08.12 : 3.2 Redmine을 통한 SW품질이슈 관리](#myprocess-management-redmine)
 ---
 
-## 1. MBD+AUTOSAR {#myprocess-mbdautosar}
+## 1. Agile {#myprocess-github}
 
-### 1.1 MBD+AUTOSAR ASW개발(진행중) {#myprocess-mbdautosar-asw}
+### 1.1 Github를 통한 Agile기반 리눅스 프로젝트 일정 및 이슈관리 {#myprocess-github-linux}
+리눅스 기반 IOT 제품 개발
 
-### 1.2 MBD+AUTOSAR 개발전략 수립 2차 {#myprocess-mbdautosar-strategy2}
+### 1.2 Github를 통한 Agile기반 MBD 프로젝트 일정 및 이슈관리 {#myprocess-github-mbd}
+알고리즘 개발
 
-* Library와 같이 독립적으로 재사용 가능한 SwC개발  
-* SwC에 대한 요구사양서-설계사양서-모델-코드-테스트스펙-테스트레포트 개발 및 Full Traceability 확보  
-* SwC를 AUTOSAR 기반으로 변경  
+### 1.3 Github를 통한 Agile기반 임베디드 프로젝트 일정 및 이슈관리 {#myprocess-github-embedded}
+MBD로 구현한 기능을 코드로 자동생성하고, 임베디드 시스템에 통합한 프로젝트([스마트도어 [☜ click for more]](../../devprj/ews2/spec))로 Github를 통해 Agile 기반으로 프로젝트를 진행하였습니다.
+본 프로젝트를 통해 단기간에 개발 목표를 완료할 수 있는 경험을 하였고, 앞으로 Agile 기반으로 프로젝트를 수행해야 겠다고 생각할 수 있는 계기가 되었습니다.
 
-### 1.3 MBD+AUTOSAR 개발전략 수립 1차 {#myprocess-mbdautosar-strategy1}
-
+<p align="center">
+	<img
+		src={require('/img/4_ews2/ews2_spec_summary_plan.png').default}
+		alt="Example banner"
+		width="550"
+	/><br/><em>&lt;Github 환경에서 프로젝트 일정 및 이슈관리&gt;</em>
+</p>
 
 ## 2. 표준프로세스 구축 {#myprocess-std}
 
@@ -208,19 +214,7 @@ A-SPICE CL2 인증을 받은 파워윈도우 양산 재품을 대상으로 A-SPI
 
 ## 3. Redmine 이슈관리 {#myprocess-management}
 
-### 3.1 Github를 통한 Agile기반 프로젝트 일정 및 이슈관리 {#myprocess-management-github}
-MBD로 구현한 기능을 코드로 자동생성하고, 임베디드 시스템에 통합한 프로젝트([스마트도어 [☜ click for more]](../../devprj/ews2/spec))로 Github를 통해 Agile 기반으로 프로젝트를 진행하였습니다.
-본 프로젝트를 통해 단기간에 개발 목표를 완료할 수 있는 경험을 하였고, 앞으로 Agile 기반으로 프로젝트를 수행해야 겠다고 생각할 수 있는 계기가 되었습니다.
-
-<p align="center">
-	<img
-		src={require('/img/4_ews2/ews2_spec_summary_plan.png').default}
-		alt="Example banner"
-		width="550"
-	/><br/><em>&lt;Github 환경에서 프로젝트 일정 및 이슈관리&gt;</em>
-</p>
-
-### 3.2 AWS Cloud를 통한 Redmine 환경구축 {#myprocess-management-aws-redmine}
+### 3.1 AWS Cloud를 통한 Redmine 환경구축 {#myprocess-management-aws-redmine}
 
 처음에는 서버구축에 대한 고민이 없었기 때문에 Local환경에서 Redmine을 설치하고, 현장에서 발생된 이슈는 회사로 복귀하여 Local Redmine에 업데이트 하였습니다. 이후 프로젝트 인원이 2명이었기 때문에 가능했던 것이라고 생각했고, 인원이 많아지면 불가능 한 방식이라고 생각하여 현장에서도 서버에 접속할 수 있는 방법을 고민하던 중 AWS에 Redmine을 설치하는 방법을 알게되어 개인 프로젝트로 주말에 작업을 진행하여 직접 클라우드 기반 서버를 구축하여 대규모 프로젝트에서 프로젝트를 관리할 수 있는 역량을 확보하였습니다.
 
@@ -236,7 +230,7 @@ MBD로 구현한 기능을 코드로 자동생성하고, 임베디드 시스템�
 * Local에서만 Redmine에 접속하는 문제를 개선하기 위해 개인적으로 주말 프로젝트로 진행
 * 서버 구축 없이 저비용으로 클라우드 서버 구축방법 습득 -> 소규모/저비용 프로젝트에서 활용 가능
 
-### 3.3 Redmine을 통한 SW품질이슈 관리 {#myprocess-management-redmine}
+### 3.2 Redmine을 통한 SW품질이슈 관리 {#myprocess-management-redmine}
 
 고객사에 출입문 제어 시스템을 처음 납품하는 사례였는데, 입사 시점에 이미 제품이 납품된 상태 여서 초기 품질이슈가 많이 발생하였습니다. ms-office를 통해 이슈를 관리하다가 체계적인 이슈관리의 필요성을 느끼게 되어 프로젝트 관리 솔루션에 관심을 가지게 되었습니다. 이때 Redmine을 처음 접하게 되었고, Redmine을 통해 이슈관리를 수행하였습니다.
 

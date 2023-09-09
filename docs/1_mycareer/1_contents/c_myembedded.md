@@ -15,10 +15,10 @@ title: 임베디드개발 경력상세
   * [09.03.16~09.12.18 : 2.2 무인 전기자동차 하위 제어기 개발](#myembedded-controller-kist)
   * [08.09.01~09.02.26 : 2.3 유도인형시스템 개발](#myembedded-controller-judo)
 * [3. 리눅스 응용프로그램 개발](#myembedded-linux)
-  * 23.07.01~현재       : BeagleboneBlack을 통한 Embedded Linux IOT Application 개발
-  * [16.10.03~17.04.30 : 3.1 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
-  * [12.10.01~13.09.30 : 3.2 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
-  * [11.11.28~13.09.30 : 3.3 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
+  * [23.07.01~~~~~~~현재 : 3.1 BeagleboneBlack을 통한 Embedded Linux IOT Application 개발](#myembedded-linux-bbb)
+  * [16.10.03~17.04.30 : 3.2 stm32f7에 uCLinux포팅(Self_Study)](#myembedded-linux-stm32f7)
+  * [12.10.01~13.09.30 : 3.3 카드리더기 단말기 uCLinux/Linux 포팅](#myembedded-linux-porting)
+  * [11.11.28~13.09.30 : 3.4 복합기 인증단말기 개발/유지보수](#myembedded-linux-maintenance)
 * [4. 센서 개발](#myembedded-sensor)
   * [10.09.01~11.08.31 : 4.1 다축 Force/Torque센서 상용화 기술 개발](#myembedded-sensor-ft)
 ---
@@ -314,14 +314,18 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 
 ## 3. 리눅스 응용프로그램 개발 {#myembedded-linux}
 
-### 3.1 stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
+### 3.1 BeagleboneBlack을 통한 Embedded Linux IOT Application 개발 {#myembedded-linux-bbb}
+
+C++기반 IOT 제품개발
+
+### 3.2 stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
 
 * stm32f4-discovery에 uClinux 포팅
 * stm32f7-discovery에 uClinux 포팅
 
 포팅로그 이미지 추가
 
-### 3.2 복합기 인증단말기 개발/유지보수 {#myembedded-linux-maintenance}
+### 3.3 복합기 인증단말기 개발/유지보수 {#myembedded-linux-maintenance}
 
 * 단말기를 통한 복합기 인증 솔루션 개발
 * 소속 : 한국후지제록스
@@ -366,7 +370,7 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
   * 인증 성공 시 문서관리 솔루션 정책에 따른 출력 동작 수행
 * MMU가 없는 MCU uClinux(mln7400) 및 linux kernel 2.6(mlc3700) 포팅 - IO device driver 구현/확인
 
-### 3.3 카드리더기 단말기 uCLinux/Linux 포팅 {#myembedded-linux-porting}
+### 3.4 카드리더기 단말기 uCLinux/Linux 포팅 {#myembedded-linux-porting}
 
 * 2440에 ARM9 Linux 포팅
   * 기간 : 2011.11 ~ 2013.10 (사원 2년)

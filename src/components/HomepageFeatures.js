@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/second_motor_control_window_AntiPinch.svg').default,
     description: (
       <>
-        제어로직 SW MBD개발<br />
+        SW 제어로직 MBD 개발<br />
         RCP를 통한 SW검증<br />
         <code><a href="https://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/company/events/conferences/matlab-conference-australia/2016/proceedings/design-with-simulation-in-simulink.pdf" target="_blank" rel="noopener noreferrer">MBD?</a></code>&emsp;
         <code><a href="https://kr.mathworks.com/videos/run-models-interactively-on-arduino-and-raspberry-pi-1549462466264.html" target="_blank" rel="noopener noreferrer">RCP?</a></code>
@@ -16,20 +16,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
-    description: (
-      <>
-        MBD 프로젝트 관리<br />
-        Agile-GitHub 프로젝트 관리<br />
-        <code><a href="https://hackersstudy.tistory.com/35" target="_blank" rel="noopener noreferrer">Redmine?</a></code>&emsp;
-        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>&emsp;
-        <code><a href="https://www.itworld.co.kr/news/232234" target="_blank" rel="noopener noreferrer">Why Agile?</a></code>
-      </>
-    ),
-  },
-  {
-    title: <a href="./docs/mycareer/contents#mycareer-embed-train" target="_blank" rel="noopener noreferrer">열차출입문제어기 개발<br/>[☜ click for more]</a>,
+    title: <a href="./docs/mycareer/contents#mycareer-embed-train" target="_blank" rel="noopener noreferrer">열차출입문 SW개발<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/third_train_door_controller.svg').default,
     description: (
       <>
@@ -41,7 +28,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/devprj/ews2" target="_blank" rel="noopener noreferrer">웹서버 모니터링 & OTA<br/>[☜ click for more]</a>,
+    title: <a href="./docs/devprj/ews2" target="_blank" rel="noopener noreferrer">모니터링&OTA 웹서버<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/fourth_smartGuard.svg').default,
     description: (
       <>
@@ -52,6 +39,30 @@ const FeatureList = [
       </>
     ),
   },
+  {
+    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">임베디드 리눅스 SW<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/fifth_embedded_linux.svg').default,
+    description: (
+      <>
+        WebCam 영상 Streaming<br />
+        C/C++/Python SW 개발<br />
+        <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
+      </>
+    ),
+  },
+/*  {
+    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
+    description: (
+      <>
+        MBD 프로젝트 관리<br />
+        Agile-GitHub 프로젝트 관리<br />
+        <code><a href="https://hackersstudy.tistory.com/35" target="_blank" rel="noopener noreferrer">Redmine?</a></code>&emsp;
+        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>&emsp;
+        <code><a href="https://www.itworld.co.kr/news/232234" target="_blank" rel="noopener noreferrer">Why Agile?</a></code>
+      </>
+    ),
+  },*/
 ];
 
 function Feature({Svg, title, description}) {

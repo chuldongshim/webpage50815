@@ -15,7 +15,7 @@ title: 급발진/추돌 영상 자동기록장치
 
 <p align="center">
 	<img
-		src={require('/img/fifth_embedded_linux.png').default}
+		src={require('/img/5_eyeRec/eyeRec_hw_config.png').default}
 		alt="Example banner"
 		width="1024"
 	/>

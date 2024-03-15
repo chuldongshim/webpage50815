@@ -16,8 +16,8 @@ title: 개발프로젝트
 3. [가스차단기 (T.B.D) [☜ click for more]](./devprj)
 	* T.B.D  
 	냄비를 태워 연기가 발생하면 이를 자동으로 감지해 가스를 차단해 주는 제품으로 기존제품 가격대를 유지하면서 보다 소형화하고, 간편하게 설치할 수 있습니다.  
-3. [sudden rash monitor (motionDetector) [☜ click for more]](./devprj)
+3. [eye Recoder (eyeRec) [☜ click for more]](./devprj/eyeRec)
 	* 진행중  
-	sudden rash monitor는 화재, 충돌, 싸움(by Camera&AI) 등 특정상황 발생 시 상황을 자동으로 인지하고 영상을 저장할 수 있는 제품입니다.  
+	eye Recoder는 화재, 충돌, 싸움(by Camera&AI) 등 특정상황 발생 시 상황을 자동으로 인지하고 영상을 저장할 수 있는 제품입니다.  
 
 

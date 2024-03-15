@@ -59,6 +59,18 @@ module.exports = {
         'devprj/bldc/guide',
       ],
     },
+    {
+      type: 'category',
+      label: 'eye Recoder',
+      link: {
+        type: 'doc',
+        id: 'devprj/eyeRec',
+      },
+      collapsed: true,
+      items: [
+        'devprj/eyeRec/guide',
+      ],
+    },
   ],
 /*  sideprj: [
     'sideprj',

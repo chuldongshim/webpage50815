@@ -40,7 +40,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">임베디드 리눅스 SW<br/>[☜ click for more]</a>,
+    title: <a href="./docs/devprj/eyeRec" target="_blank" rel="noopener noreferrer">임베디드 리눅스 SW<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/fifth_embedded_linux.svg').default,
     description: (
       <>

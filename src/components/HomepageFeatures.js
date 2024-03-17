@@ -16,6 +16,19 @@ const FeatureList = [
     ),
   },
   {
+    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
+    description: (
+      <>
+        MBD 프로젝트 관리<br />
+        Agile-GitHub 프로젝트 관리<br />
+        <code><a href="https://hackersstudy.tistory.com/35" target="_blank" rel="noopener noreferrer">Redmine?</a></code>&emsp;
+        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>&emsp;
+        <code><a href="https://www.itworld.co.kr/news/232234" target="_blank" rel="noopener noreferrer">Why Agile?</a></code>
+      </>
+    ),
+  },
+  {
     title: <a href="./docs/mycareer/contents#mycareer-embed-train" target="_blank" rel="noopener noreferrer">열차출입문 SW개발<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/third_train_door_controller.svg').default,
     description: (
@@ -40,8 +53,19 @@ const FeatureList = [
     ),
   },
   {
+    title: <a href="./docs/devprj" target="_blank" rel="noopener noreferrer">CAN/Ethernet 통신<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/fifth_udp_multicast.svg').default,
+    description: (
+      <>
+        UDP & Multicast 통신<br />
+        CAN 통신<br />
+        <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
+      </>
+    ),
+  },
+  {
     title: <a href="./docs/devprj/eyeRec" target="_blank" rel="noopener noreferrer">임베디드 리눅스 SW<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/fifth_embedded_linux.svg').default,
+    Svg: require('../../static/img/sixth_embedded_linux.svg').default,
     description: (
       <>
         WebCam 영상 Streaming<br />
@@ -50,19 +74,6 @@ const FeatureList = [
       </>
     ),
   },
-/*  {
-    title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
-    description: (
-      <>
-        MBD 프로젝트 관리<br />
-        Agile-GitHub 프로젝트 관리<br />
-        <code><a href="https://hackersstudy.tistory.com/35" target="_blank" rel="noopener noreferrer">Redmine?</a></code>&emsp;
-        <code><a href="https://gmlwjd9405.github.io/2018/05/26/what-is-agile.html" target="_blank" rel="noopener noreferrer">Agile?</a></code>&emsp;
-        <code><a href="https://www.itworld.co.kr/news/232234" target="_blank" rel="noopener noreferrer">Why Agile?</a></code>
-      </>
-    ),
-  },*/
 ];
 
 function Feature({Svg, title, description}) {

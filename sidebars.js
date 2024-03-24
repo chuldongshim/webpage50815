@@ -69,6 +69,7 @@ module.exports = {
       collapsed: true,
       items: [
         'devprj/eyeRec/guide',
+        'devprj/eyeRec/spec',
       ],
     },
   ],

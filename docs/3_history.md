@@ -13,6 +13,7 @@ title: 경력요약
 
 개발을 진행할 때 Agile기반의 A-SPICE 소프트웨어 개발프로세스를 준수하면서, 모델기반설계 기법으로 임베디드시스템의 소프트웨어를 개발하는 프로젝트를 진행해 볼 계획입니다.
 
+<!--
 ### 이력 및 경력소개
 
 [Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae.pdf)
@@ -24,4 +25,4 @@ title: 경력요약
 		width="450"
 	/>
 </p>
-
+-->

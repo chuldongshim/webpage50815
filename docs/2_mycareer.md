@@ -22,6 +22,7 @@ title: 경력요약
 * 개발 프로세스 활동 경험 - 대략4년
 * 임베디드시스템 개발 경험 - 대략3년
 
+<!--
 ### 이력 및 경력소개
 
 [Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae.pdf)
@@ -33,4 +34,5 @@ title: 경력요약
 		width="450"
 	/>
 </p>
+-->
 

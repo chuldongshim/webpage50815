@@ -41,7 +41,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/devprj/ews2" target="_blank" rel="noopener noreferrer">모니터링&OTA 웹서버<br/>[☜ click for more]</a>,
+    title: <a href="./docs/history/ews2" target="_blank" rel="noopener noreferrer">모니터링&OTA 웹서버<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/fourth_smartGuard.svg').default,
     description: (
       <>
@@ -53,7 +53,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/devprj" target="_blank" rel="noopener noreferrer">CAN/Ethernet 통신<br/>[☜ click for more]</a>,
+    title: <a href="./docs/history" target="_blank" rel="noopener noreferrer">CAN/Ethernet 통신<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/fifth_udp_multicast.svg').default,
     description: (
       <>
@@ -64,7 +64,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/devprj/eyeRec" target="_blank" rel="noopener noreferrer">임베디드 리눅스 SW<br/>[☜ click for more]</a>,
+    title: <a href="./docs/history/embed/linux/eyeRec" target="_blank" rel="noopener noreferrer">임베디드 리눅스 SW<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/sixth_embedded_linux.svg').default,
     description: (
       <>

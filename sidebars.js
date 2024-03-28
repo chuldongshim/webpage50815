@@ -32,7 +32,7 @@ module.exports = {
             type: 'doc',
             id: 'history/embed/sensor',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/embed/sensor/judo',
             'history/embed/sensor/ftsensor',
@@ -45,7 +45,7 @@ module.exports = {
             type: 'doc',
             id: 'history/embed/controller',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/embed/controller/kuve',
             'history/embed/controller/iap',
@@ -57,7 +57,7 @@ module.exports = {
                 type: 'doc',
                 id: 'history/embed/controller/smartdoor',
               },
-              collapsed: false,
+              collapsed: true,
               items: [
                 'history/embed/controller/smartdoor/sd_guide',
                 'history/embed/controller/smartdoor/sd_spec',
@@ -73,7 +73,7 @@ module.exports = {
             type: 'doc',
             id: 'history/embed/linux',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/embed/linux/fujixerox',
             'history/embed/linux/stm32f7',
@@ -84,12 +84,13 @@ module.exports = {
                 type: 'doc',
                 id: 'history/embed/linux/eyeRec',
               },
-              collapsed: false,
+              collapsed: true,
               items: [
                 'history/embed/linux/eyeRec/er_guide',
                 'history/embed/linux/eyeRec/er_spec',
               ],
             },
+            'history/embed/linux/casDetector',
           ],
         },
       ],
@@ -110,7 +111,7 @@ module.exports = {
             type: 'doc',
             id: 'history/mbd/paper',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/mbd/paper/skeleton',
           ],
@@ -122,7 +123,7 @@ module.exports = {
             type: 'doc',
             id: 'history/mbd/study',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/mbd/study/tempPID',
             'history/mbd/study/algorithm',
@@ -135,7 +136,7 @@ module.exports = {
             type: 'doc',
             id: 'history/mbd/motor',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/mbd/motor/windowMotor',
             'history/mbd/motor/wiperMotor',
@@ -146,7 +147,7 @@ module.exports = {
                 type: 'doc',
                 id: 'history/mbd/motor/bldc',
               },
-              collapsed: false,
+              collapsed: true,
               items: [
                 'history/mbd/motor/bldc/guide',
               ],
@@ -160,7 +161,7 @@ module.exports = {
             type: 'doc',
             id: 'history/mbd/logic',
           },
-          collapsed: false,
+          collapsed: true,
           items: [
             'history/mbd/logic/escalator',
             'history/mbd/logic/safetybelt',
@@ -175,7 +176,7 @@ module.exports = {
         type: 'doc',
         id: 'history/proc',
       },
-      collapsed: false,
+      collapsed: true,
       items: [
         'history/proc/iso26262',
         'history/proc/aspice',

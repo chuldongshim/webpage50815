@@ -45,7 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       docs:{
         sidebar: {
           hideable: true,					        // 왼쪽 사이드바 접기버튼 생성
-          autoCollapseCategories: false,	  // true:펼쳐져 있는 사이드바 항목 접어서 축소 (전역설정)
+          autoCollapseCategories: true,	  // true:펼쳐져 있는 사이드바 항목 접어서 축소 (전역설정)
         },
       },
       colorMode: {
@@ -104,12 +104,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 to: '/docs/introduce',
               },
               {
-                label: '경력',
-                to: '/docs/history',
-              },
-              {
                 label: '경력요약',
                 to: '/docs/mycareer',
+              },
+              {
+                label: '경력상세',
+                to: '/docs/history',
               },
             ],
           },

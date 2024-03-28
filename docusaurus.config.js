@@ -45,7 +45,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       docs:{
         sidebar: {
           hideable: true,					        // 왼쪽 사이드바 접기버튼 생성
-          autoCollapseCategories: true,		// 펼쳐져 있는 사이드바 항목 접어서 축소
+          autoCollapseCategories: false,	  // true:펼쳐져 있는 사이드바 항목 접어서 축소 (전역설정)
         },
       },
       colorMode: {
@@ -63,9 +63,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
+            docId: 'introduce',
+            position: 'left',
+            label: '자기소개',
+          },
+          {
+            type: 'doc',
             docId: 'mycareer',
             position: 'left',
             label: '경력요약',
+          },
+          {
+            type: 'doc',
+            docId: 'history',
+            position: 'left',
+            label: '경력상세',
           },
         /*{
             type: 'doc',
@@ -73,18 +85,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: '사이드프로젝트',
           },*/
-          {
-            type: 'doc',
-            docId: 'introduce',
-            position: 'left',
-            label: '자기소개',
-          },
-          {
-            type: 'doc',
-            docId: 'devprj',
-            position: 'left',
-            label: '제품개발',
-          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/chuldongshim/webpage/',
@@ -100,16 +100,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: '경력요약',
-                to: '/docs/mycareer',
-              },
-              {
                 label: '자기소개',
                 to: '/docs/introduce',
               },
               {
-                label: '제품개발',
-                to: '/docs/devprj',
+                label: '경력',
+                to: '/docs/history',
+              },
+              {
+                label: '경력요약',
+                to: '/docs/mycareer',
               },
             ],
           },

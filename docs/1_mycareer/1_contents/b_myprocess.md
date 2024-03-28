@@ -1,6 +1,6 @@
 ---
 id: myprocess
-title: 개발프로세스 경력상세
+title: 개발프로세스
 ---
 ---
 <b><big>[목차]</big></b>

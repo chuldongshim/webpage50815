@@ -1,6 +1,6 @@
 ---
 id: myembedded
-title: 임베디드개발 경력상세
+title: 임베디드개발
 ---
 ---
 <b><big>[목차]</big></b>

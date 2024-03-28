@@ -1,6 +1,6 @@
 ---
 id: mymbd
-title: 모델기반설계 경력상세
+title: 모델기반설계
 ---
 ---
 <b><big>[목차]</big></b>

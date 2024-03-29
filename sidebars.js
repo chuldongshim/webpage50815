@@ -195,9 +195,9 @@ module.exports = {
       },
       collapsed: false,
       items: [
+        'mycareer/contents/myembedded',
         'mycareer/contents/mymbd',
         'mycareer/contents/myprocess',
-        'mycareer/contents/myembedded',
       ],
     },
 		'mycareer/time',

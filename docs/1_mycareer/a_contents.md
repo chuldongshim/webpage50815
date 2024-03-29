@@ -5,12 +5,96 @@ title: 컨텐츠별
 ---
 다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
+* [임베디드개발](#mycareer-embed)  
+  | [원격 펌웨어 업데이트(OTA) 솔루션 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
 * [모델기반설계](#mycareer-mbd)  
   | [BLDC 선행학습](#mbd-bldc-study) | [MBD 고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
 * [개발프로세스](#mycareer-process)  
   | [Agile 프로잭트](#swc-mbd-agile) | [표준프로세스 구축](#process-dev) | [이슈관리](#issue-mgn) |
-* [임베디드개발](#mycareer-embed)  
-  | [원격 펌웨어 업데이트(OTA) 솔루션 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
+---
+
+## 임베디드개발 {#mycareer-embed}
+
+:::important
+다음 기술을 활용하여 임베디드 제품을 개발할 수 있습니다.
+
+* 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
+* 임베디드 리눅스기반 어플리케이션 소프트웨어 개발
+* RTOS기반 실시간 제어시스템 소프트웨어 개발
+* 펌웨어 업데이트용 시리얼통신 부트로더 개발
+:::
+
+### 원격 펌웨어 업데이트(OTA) 솔루션 개발 {#mycareer-embed-fota}
+
+1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
+<p align="left">
+	<img
+		src={require('/img/3_embedded/embedded_bootloader-fota_1.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+2. [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
+3. [18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
+4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
+
+### 제어기 개발 {#mycareer-embed-train}
+
+1. [17.06.07~19.04.12 : 열차 출입문 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-train)  
+전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
+<p align="left">
+	<iframe
+		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+2. [09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-kist)  
+무인 상태에서 차량 속도제어로 주행 중 정지 시 브레이크 등 점등 후 정지
+<p align="left">
+	<iframe 
+		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe>
+</p>
+3. [08.09.01~09.02.26 : 유도인형 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-judo)  
+<p align="left">
+	<img
+		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+
+### 리눅스 응용프로그램 개발 {#linux-app-dev}
+
+1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
+<p align="left">
+	<img
+		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
+		width="450"
+		alt="Example banner"
+	/>
+</p>
+2. [12.10.01~13.09.30 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-porting)  
+3. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-maintenance)  
+
+### 센서 개발 {#ftsensor-dev}
+
+1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-sensor-ft)
+<p align="left">
+	<img
+		src={require('/img/3_embedded/myhistory_3.png').default}
+			width="450"
+		alt="Example banner"
+	/>
+</p>
+
 ---
 
 ## 모델기반설계 {#mycareer-mbd}
@@ -259,86 +343,3 @@ AWS Cloud 환경에서 Redmine을 통한 이슈관리, 이슈와 SVN연동
 	/>
 </p>
 
----
-
-## 임베디드개발 {#mycareer-embed}
-
-:::important
-다음 기술을 활용하여 임베디드 제품을 개발할 수 있습니다.
-
-* 양산제품 하드웨어/소프트웨어 이슈분석 및 대응
-* 임베디드 리눅스기반 어플리케이션 소프트웨어 개발
-* RTOS기반 실시간 제어시스템 소프트웨어 개발
-* 펌웨어 업데이트용 시리얼통신 부트로더 개발
-:::
-
-### 원격 펌웨어 업데이트(OTA) 솔루션 개발 {#mycareer-embed-fota}
-
-1. [22.05.22~22.08.04 : wifi 웹서버를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
-<p align="left">
-	<img
-		src={require('/img/3_embedded/embedded_bootloader-fota_1.png').default}
-		width="450"
-		alt="Example banner"
-	/>
-</p>
-2. [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-nxp-iap)
-3. [18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-stm-iap)
-4. [16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-bootloader-iap)
-
-### 제어기 개발 {#mycareer-embed-train}
-
-1. [17.06.07~19.04.12 : 열차 출입문 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-train)  
-전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
-<p align="left">
-	<iframe
-		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-2. [09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-kist)  
-무인 상태에서 차량 속도제어로 주행 중 정지 시 브레이크 등 점등 후 정지
-<p align="left">
-	<iframe 
-		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe>
-</p>
-3. [08.09.01~09.02.26 : 유도인형 제어기 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-controller-judo)  
-<p align="left">
-	<img
-		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
-		width="450"
-		alt="Example banner"
-	/>
-</p>
-
-### 리눅스 응용프로그램 개발 {#linux-app-dev}
-
-1. [16.10.03~17.04.30 : stm32f7에 uCLinux포팅(Self_Study) [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-stm32f7)
-<p align="left">
-	<img
-		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
-		width="450"
-		alt="Example banner"
-	/>
-</p>
-2. [12.10.01~13.09.30 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-porting)  
-3. [11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-linux-maintenance)  
-
-### 센서 개발 {#ftsensor-dev}
-
-1. [10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발 [☜ click for more]](/docs/mycareer/contents/myembedded#myembedded-sensor-ft)
-<p align="left">
-	<img
-		src={require('/img/3_embedded/myhistory_3.png').default}
-			width="450"
-		alt="Example banner"
-	/>
-</p>

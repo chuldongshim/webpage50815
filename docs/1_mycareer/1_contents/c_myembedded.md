@@ -316,7 +316,20 @@ IBM Rhapsody UML로 설계한 시스템 아키텍처 이미지 추가
 
 ### 3.1 BeagleboneBlack을 통한 Embedded Linux IOT Application 개발 {#myembedded-linux-bbb}
 
-C++기반 IOT 제품개발
+센서신호를 처리하여 상황을 판단하고 자동으로 영상을 촬영하여 SDCard에 저장합니다.
+또한 웹서버 기능이 있어 PC 또는 휴대폰에서 웹캠을 원격으로 조정하여 현재 상황을 실시간으로 확인하거나, 사건 발생 시 촬영된 영상을 확인할 수 있습니다.
+SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또는 휴대폰에 저장/재생이 가능합니다.
+
+<p align="center">
+	<iframe 
+		src='https://www.youtube.com/embed//bXYC9jwxIAU'
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;움직임 감지 시 자동 영상촬영&gt;</em>
+</p>
+
 
 ### 3.2 stm32f7에 uCLinux포팅(Self_Study) {#myembedded-linux-stm32f7}
 

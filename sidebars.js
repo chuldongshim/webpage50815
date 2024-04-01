@@ -20,7 +20,7 @@ module.exports = {
       label: '경력요약',
       link: {
         type: 'doc',
-        id: 'mycareer',
+        id: 'mycareer',         // id속성은 type이 category인 경우에만 적용이 가능함
       },
       collapsed: true,
       items: [
@@ -29,14 +29,14 @@ module.exports = {
       ],
     },
   ],
-  history: [
-		'history',
+  history: [                    // 경력상세 탭
     {
       type: 'category',
       label: '임베디드',
       link: {
         type: 'doc',
-        id: 'history/embed',    // id속성은 type이 category인 경우에만 적용이 가능함
+        //id: 'history',
+        id: 'history/embed',
       },
       collapsed: false,         // 페이지 처음 Open 시 펼치고 싶으면 주석처리 후 true 설정
       items: [
@@ -67,7 +67,7 @@ module.exports = {
             'history/embed/controller/traindoor',
             {
               type: 'category',
-              label: '2023 스마트 도어',
+              label: '스마트 도어',
               link: {
                 type: 'doc',
                 id: 'history/embed/controller/smartdoor',
@@ -177,9 +177,10 @@ module.exports = {
       type: 'category',
       label: '프로세스',
       link: {
-        type: 'doc',
-        id: 'history/proc',
-      },
+        type: 'doc',            // 경력상세 탭 하위에 Sidebar가 있어야 하므로 
+        id: 'history',          // history 1개는 무조껀 있어야 함 (24.04.01)
+        //id: 'history/proc',  // history/proc를 history로 대체하니까 되서 꼼수로 적용하고
+      },                        // history에 proc내용을 채움
       collapsed: true,
       items: [
         'history/proc/std_proc',

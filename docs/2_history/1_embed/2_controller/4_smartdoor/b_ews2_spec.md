@@ -31,8 +31,8 @@ title: + 기술문서
 
 본 제품개발 프로젝트는 기존에 수행된 2개의 프로젝트에 적용된 기술들을 통합하여 새로운 기능을 구현하는 컨셉으로 진행되었습니다.
 * 기존에 수행된 작업
-  * [Kalman Filter학습 및 시뮬레이션](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)
-  * [wifi 웹서버를 통한 STM MCU FW업데이트](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)
+  * Kalman Filter학습 및 시뮬레이션
+  * wifi 웹서버를 통한 STM MCU FW업데이트
 * 추가한 작업
   * 칼만필터 알고리즘을 Matlab/Simulink를 통해 C코드로 자동생성하여 MCU에 적용
   * 도어상태판단 기능을 Simulink State-Machine Diagram으로 구현하고, C코드로 자동생성하여 MCU에 적용
@@ -284,9 +284,9 @@ Application은 Auto Code 영역과, Manual Code 영역으로 구분하여 개발
 </p>
 
 * Auto Code  
-기능로직을 실행하는 Application Layer SW 중 신호처리 기능[(Kalman Filter학습 및 시뮬레이션)](/docs/mycareer/contents/mymbd#mymbd-bldc-kalman-simulation-study)과 및 열림/닫힘 판단기능은 MBD 시뮬레이션으로 로직을 개발/검증하고, 자동생성된 C코드를 적용하였습니다.
+기능로직을 실행하는 Application Layer SW 중 신호처리 기능(Kalman Filter학습 및 시뮬레이션)과 및 열림/닫힘 판단기능은 MBD 시뮬레이션으로 로직을 개발/검증하고, 자동생성된 C코드를 적용하였습니다.
 * Manual Code  
-[wifi로 웹서버에 접속하여 MCU FW를 업데이트하는 기존 개발내용](/docs/mycareer/contents/myembedded#myembedded-bootloader-fota)을 재사용하여 웹페이지를 통해 시스템의 상태를 모니터링 하는 기능과 원격에서 펌웨어를 업데이트하는 Self OTA 기능을 추가하였습니다.
+wifi로 웹서버에 접속하여 MCU FW를 업데이트하는 기존 개발내용을 재사용하여 웹페이지를 통해 시스템의 상태를 모니터링 하는 기능과 원격에서 펌웨어를 업데이트하는 Self OTA 기능을 추가하였습니다.
 
 
 

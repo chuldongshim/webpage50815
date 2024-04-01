@@ -4,7 +4,7 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: <a href="./docs/mycareer/contents#mycareer-mbd-window" target="_blank" rel="noopener noreferrer">윈도우 모델기반설계<br/>[☜ click for more]</a>,
+    title: <a href="./docs/history/mbd/motor/windowMotor#mymbd-window-func" target="_blank" rel="noopener noreferrer">윈도우 모델기반설계<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/second_motor_control_window_AntiPinch.svg').default,
     description: (
       <>
@@ -29,7 +29,7 @@ const FeatureList = [
     ),
   },*/
   {
-    title: <a href="./docs/mycareer/contents#mycareer-embed-train" target="_blank" rel="noopener noreferrer">열차출입문 SW개발<br/>[☜ click for more]</a>,
+    title: <a href="./docs/history/embed/controller/traindoor#myembedded-controller-train" target="_blank" rel="noopener noreferrer">열차출입문 SW개발<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/third_train_door_controller.svg').default,
     description: (
       <>
@@ -53,12 +53,12 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/history/embed/controller/ethernetM" target="_blank" rel="noopener noreferrer">CAN/Ethernet 통신<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/fifth_udp_multicast.svg').default,
+    title: <a href="./docs/history/embed/controller/ethernetM" target="_blank" rel="noopener noreferrer">CAN/CAN-FD, 이더넷<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/fifth_udp_multicast_ing.svg').default,
     description: (
       <>
         UDP & Multicast 통신<br />
-        CAN 통신<br />
+        CAN/CAN-FD 통신<br />
         <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
       </>
     ),

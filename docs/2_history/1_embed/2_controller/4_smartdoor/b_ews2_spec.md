@@ -1,6 +1,6 @@
 ---
 id: sd_spec
-title: 기술문서
+title: + 기술문서
 ---
 
 <div align="right">

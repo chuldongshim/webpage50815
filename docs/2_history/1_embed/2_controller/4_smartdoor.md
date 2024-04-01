@@ -1,6 +1,6 @@
 ---
 id: smartdoor
-title: 2023 스마트 도어
+title: 스마트 도어
 ---
 
 <div align="right">

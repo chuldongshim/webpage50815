@@ -15,7 +15,7 @@ const FeatureList = [
       </>
     ),
   },
-  {
+/*{
     title: <a href="./docs/mycareer/contents#process-dev" target="_blank" rel="noopener noreferrer">GitHub 개발프로세스<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/firstpage_DevProcess_black.svg').default,
     description: (
@@ -27,7 +27,7 @@ const FeatureList = [
         <code><a href="https://www.itworld.co.kr/news/232234" target="_blank" rel="noopener noreferrer">Why Agile?</a></code>
       </>
     ),
-  },
+  },*/
   {
     title: <a href="./docs/mycareer/contents#mycareer-embed-train" target="_blank" rel="noopener noreferrer">열차출입문 SW개발<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/third_train_door_controller.svg').default,
@@ -70,6 +70,17 @@ const FeatureList = [
       <>
         WebCam 영상 Streaming<br />
         C/C++/Python SW 개발<br />
+        <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
+      </>
+    ),
+  },
+  {
+    title: <a href="./docs/history/embed/linux" target="_blank" rel="noopener noreferrer">CAN/CAN-FD 통신<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/seventh_embedded_linux.svg').default,
+    description: (
+      <>
+        CAN/CAN-FD Analyzer<br />
+        C++/Python SW 개발<br />
         <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
       </>
     ),

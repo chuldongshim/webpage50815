@@ -3,14 +3,24 @@ id: contents
 title: 컨텐츠별
 ---
 ---
-다음 3가지 분야를 관심과 흥미를 가지고 꾸준히 경험해 왔습니다. [[career-excel]](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
+주로 github-agile 기반으로 프로젝트 일정 및 형상관리를 수행합니다.  
+모델기반설계 기법을 이용하여 개발한 알고리즘을 C/C++코드로 자동생성하고, 임베디드 시스템에 통함하여 실시간으로 동작하는 시스템 설계/개발에 관심을 가지고 꾸준히 경험해 왔습니다.  [(career-excel)](https://docs.google.com/spreadsheets/d/1IEfmGKft0ClDigiTWpDMb05anEFAgLyUKv18ROo-rVE/edit?usp=sharing)
 
 * [임베디드개발](#mycareer-embed)  
-  | [원격 펌웨어 업데이트(OTA) 솔루션 개발](#mycareer-embed-fota) | [제어기 개발](#mycareer-embed-train) | [리눅스 응용프로그램 개발](#linux-app-dev) | [센서 개발](#ftsensor-dev) |
+  * [원격 펌웨어 업데이트(OTA) 솔루션 개발](#mycareer-embed-fota)
+  * [제어기 개발](#mycareer-embed-train)
+  * [리눅스 응용프로그램 개발](#linux-app-dev)
+  * [센서 개발](#ftsensor-dev)
 * [모델기반설계](#mycareer-mbd)  
-  | [BLDC 선행학습](#mbd-bldc-study) | [MBD 고객대응](#mbd-customer) | [와이퍼 알고리즘 개발](#mbd-wiper-dev) | [윈도우 선행학습](#mycareer-mbd-window) | [MBD 시작](#mbd-start) |
+  * [BLDC 선행학습](#mbd-bldc-study)
+  * [MBD 고객대응](#mbd-customer)
+  * [와이퍼 알고리즘 개발](#mbd-wiper-dev)
+  * [윈도우 선행학습](#mycareer-mbd-window)
+  * [MBD 시작](#mbd-start)
 * [개발프로세스](#mycareer-process)  
-  | [Agile 프로잭트](#swc-mbd-agile) | [표준프로세스 구축](#process-dev) | [이슈관리](#issue-mgn) |
+  * [Agile 프로잭트](#swc-mbd-agile)
+  * [표준프로세스 구축](#process-dev)
+  * [이슈관리](#issue-mgn)
 ---
 
 ## 임베디드개발 {#mycareer-embed}

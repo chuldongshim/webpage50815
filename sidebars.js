@@ -15,22 +15,19 @@ module.exports = {
 
   // But you can create a sidebar manually
   mycareer: [
-		'mycareer',
     {
       type: 'category',
-      label: '컨텐츠별',
+      label: '경력요약',
       link: {
         type: 'doc',
-        id: 'mycareer/contents',
+        id: 'mycareer',
       },
-      collapsed: false,
+      collapsed: true,
       items: [
-        'mycareer/contents/myembedded',
-        'mycareer/contents/mymbd',
-        'mycareer/contents/myprocess',
+        'mycareer/contents',
+        'mycareer/time',
       ],
     },
-		'mycareer/time',
   ],
   history: [
 		'history',
@@ -148,14 +145,15 @@ module.exports = {
             'history/mbd/motor/wiperMotor',
             {
               type: 'category',
-              label: '202? bldc 확장보드',
+              label: 'bldc 확장보드',
               link: {
                 type: 'doc',
                 id: 'history/mbd/motor/bldc',
               },
               collapsed: true,
               items: [
-                'history/mbd/motor/bldc/guide',
+                'history/mbd/motor/bldc/bldc_guide',
+                'history/mbd/motor/bldc/bldc_spec',
               ],
             },
           ],
@@ -184,9 +182,8 @@ module.exports = {
       },
       collapsed: true,
       items: [
-        'history/proc/iso26262',
-        'history/proc/aspice',
-        'history/proc/agile',
+        'history/proc/std_proc',
+        'history/proc/agile_mbd',
       ],
     },
   ],

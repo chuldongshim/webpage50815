@@ -1,6 +1,6 @@
 ---
-id: guide
-title: User Guide
+id: bldc_guide
+title: + 사용법
 ---
 
 ---

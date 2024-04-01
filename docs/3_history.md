@@ -1,25 +1,72 @@
 ---
 id: history
-title: 경력요약
+title: 경력상세
 ---
 ---
 
-### [임베디드 [☜ click for more]](./history/embed)
+### 임베디드
+- 센서 개발
+  - 10.09.01~11.08.31 : 다축 Force/Torque센서 상용화 기술 개발
+- 제어기 개발
+  - 08.09.01~09.02.26 : 유도인형시스템 개발
+  - 09.03.16~09.12.18 : 무인 전기자동차 하위 제어기 개발
+  - 17.06.07~19.04.12 : 열차 출입문 제어기 개발
+- 부트로더 개발
+  - 16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study)
+  - 18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트
+  - 20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트
+  - 22.05.22~22.08.04 : wifi 웹서버를 통한 STM MCU FW업데이트
+- 리눅스 응용프로그램 개발
+  - 11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수
+  - 12.10.01~13.09.30 : 카드리더기 단말기 uCLinux/Linux 포팅
+  - 16.10.03~17.04.30 : stm32f7에 uCLinux포팅(Self_Study)
+ Application 개발
+  - 23.08.01~24.02.28 : 15개 장치간 실시간 이더넷 통신 어플리케이션 개발  
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Embedded Linux C++ MultiThread 기반)
+  - 24.03.01~~~현재 : Embedded Linux 영상처리 관련 어플리케이션 개발
 
-### [모델기반설계 [☜ click for more]](./history/mbd)
 
-### [프로세스 [☜ click for more]](./history/proc)
+MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실제 타겟 MCU에서 동작하여 검증하였습니다.
 
-<!--
-### 이력 및 경력소개
+* 개발환경 구축 및 윈도우 타겟구동 확인
+* MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립
 
-[Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae.pdf)
 
-<p align="center">
-	<img
-		src={require('/img/ChuldongShim_Curriculum_Vitae.png').default}
-		alt="Example banner"
-		width="450"
-	/>
-</p>
--->
+
+### 모델기반설계
+
+* 1. BLDC 선행학습
+  * T.B.D----------------: 1.1 Sensorless BLDC with Kalman Filter (ING)
+  * 22.10.21~22.11.05 : 1.2 MBD기반 Sensored BLDC 속도제어
+  * 21.04.07~21.05.06 : 1.3 Kalman Filter학습 및 시뮬레이션
+  * 16.10.03~17.04.30 : 1.4 Kalman Filter이론학습(Self_Study)
+* 2. MBD 고객대응
+  * 22.03.03~22.05.17 : 2.1 PSB(안전벨트) 기능로직 MBD구현 선행개발
+  * 21.11.20~22.03.21 : 2.2 Escalator를 통한 GitLab Agile기반 MBD개발
+* 3. 와이퍼 알고리즘 개발
+  * 22.09.01~22.10.18 : 3.1 와이퍼 MBD 제어기설계(관측기,LQR)
+  * 22.08.14~22.08.29 : 3.2 FFT MCU 구현 및 Matlab 연동
+  * 21.01.08~21.07.13 : 3.3 와이퍼 MBD 기본기능 구현
+* 4. 윈도우 선행학습
+  * 21.07.30~21.12.31 : 4.1 윈도우 MBD 기본기능 구현
+  * 13.10.01~14.05.16 : 4.2 윈도우 MBD 선행학습
+* 5. MBD 시작
+  * 20.08.12~20.11.13 : 5.1 온도 PID제어 MBD
+  * 07.03.02~08.08.31 : 5.2 졸업논문 DC모터 PID제어
+
+
+### 프로세스
+
+* 1. Agile
+  * 23.09.01~23.xx.xx : 1.1 Github를 통한 Agile기반 리눅스 프로젝트 일정 및 이슈관리
+  * 23.09.01~23.xx.xx : 1.2 Github를 통한 Agile기반 MBD 프로젝트 일정 및 이슈관리
+  * 23.02.02~23.04.25 : 1.3 Github를 통한 Agile기반 임베디드 프로젝트 일정 및 이슈관리
+* 2. 표준프로세스 구축
+  * 22.12.02~22.12.26 : 2.1 A-SPICE를 준수하는 소프트웨어 컴포넌트 MBD개발 프로세스 구축
+  * 19.11.14~20.05.31 : 2.2 A-SPICE 대응 선루프 시스템 설계
+  * 19.05.20~19.12.10 : 2.3 프로젝트 관리 및 A-SPICE CL3 인증
+  * 14.04.01~16.09.20 : 2.4 A-SPICE CL2 인증 및 ISO26262 윈도우 시스템 설계
+* 3. Redmine 이슈관리
+  * 19.09.10~20.09.10 : 3.1 AWS Cloud를 통한 Redmine 환경구축
+  * 18.01.18~18.08.12 : 3.2 Redmine을 통한 SW품질이슈 관리
+

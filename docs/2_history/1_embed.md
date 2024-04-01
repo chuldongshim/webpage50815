@@ -23,3 +23,9 @@ title: 임베디드
   - 23.08.01~24.02.28 : 15개 장치간 실시간 이더넷 통신 어플리케이션 개발  
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Embedded Linux C++ MultiThread 기반)
   - 24.03.01~~~현재 : Embedded Linux 영상처리 관련 어플리케이션 개발
+
+
+MBD기반의 소프트웨어를 개발하고, 개발한 소프트웨어를 실제 타겟 MCU에서 동작하여 검증하였습니다.
+
+* 개발환경 구축 및 윈도우 타겟구동 확인
+* MBD를 통해 선행/양산 대응이 가능한 수준의 프로세스 준수 방법론 정립

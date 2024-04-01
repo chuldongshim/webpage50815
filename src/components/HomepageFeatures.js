@@ -74,17 +74,6 @@ const FeatureList = [
       </>
     ),
   },
-  {
-    title: <a href="./docs/history/embed/linux" target="_blank" rel="noopener noreferrer">CAN/CAN-FD 통신<br/>[☜ click for more]</a>,
-    Svg: require('../../static/img/seventh_embedded_linux.svg').default,
-    description: (
-      <>
-        CAN/CAN-FD Analyzer<br />
-        C++/Python SW 개발<br />
-        <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
-      </>
-    ),
-  },
 ];
 
 function Feature({Svg, title, description}) {

@@ -12,6 +12,16 @@ title: 열차 출입문 제어기
 
 ---
 
+<p align="center">
+	<iframe 
+		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
+		width="350" height="250"
+		frameborder="0"
+		allowfullscreen="true">
+		이 브라우저는 iframe을 지원하지 않습니다.
+	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작 동영상&gt;</em>
+</p>
+
 ### 측출입문 제어기 양산SW 신규개발 {#myembedded-controller-train}
 
 * 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
@@ -29,17 +39,6 @@ title: 열차 출입문 제어기
   Rhapsody를 통한 소프트웨어 설계 (`Software Architecture & Design Specification_v1_190308.docx` 문서내용 정리)  
   EA를 통해 사양서 기술(`코레일128량 통로문 소프트웨어 설계 규격서_v06_수정후.docx` 문서내용 정리)
 * 기능구현 예 - 장애물 3회감지(1,2,3회로 갈수록 장애물 감지 시 도어 닫힘력이 높아짐) 후 열림완료동작 시험
-
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작 동영상&gt;</em>
-</p>
-
 
 ### 측출입문/통로문 제어기 유지보수
 

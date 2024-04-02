@@ -1,9 +1,8 @@
 ---
 slug: docu
 title: 문서작성
-author: Endilie Yacop Sucipto
-author_title: Maintainer of Docusaurus
-author_url: https://github.com/endiliey
+author: chuldong shim
+author_title: Maintainer of Docs
 author_image_url: https://avatars.githubusercontent.com/chuldongshim
 tags: [docu, docusaurus]
 ---

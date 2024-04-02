@@ -1,6 +1,6 @@
 ---
 id: casDetector
-title: 가스차단기(TBD)
+title: 가스 차단기 (TBD)
 ---
 
 <div align="right">

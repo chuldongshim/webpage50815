@@ -4,4 +4,4 @@ title: 논문
 ---
 ---
 
-ㄹ아ㅣ러
+* [석사논문](./paper/skeleton)

@@ -120,7 +120,7 @@ module.exports = {
             'history/mbd/motor/wiperMotor',
             {
               type: 'category',
-              label: 'bldc 확장보드',
+              label: 'bldc 확장보드 (TBD)',
               link: {
                 type: 'doc',
                 id: 'history/mbd/motor/bldc',

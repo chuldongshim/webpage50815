@@ -68,7 +68,7 @@ const FeatureList = [
     Svg: require('../../static/img/sixth_embedded_linux.svg').default,
     description: (
       <>
-        WebCam 영상 Streaming<br />
+        WiFi WebCam 영상 Streaming<br />
         C/C++/Python SW 개발<br />
         <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
       </>

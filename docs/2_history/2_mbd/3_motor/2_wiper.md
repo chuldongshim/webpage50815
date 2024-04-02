@@ -23,47 +23,49 @@ title: 와이퍼모터 제어
 * 기본 동작확인을 위한 PID 피드백 구현
   * 위치/속도 피드백 제어
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-pid.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * 성능개선을 위한 상태피드백 구현
   * 전달함수->상태방정식 : <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수 모델링[☜ click for more]</a>
   * 상태관측기를 통한 상태추정 : <a href="/assets/kalman/Webpage_Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링) [☜ click for more]</a>
   * LQR상태피드백 제어 + 오차적분제어 + Anti-Windup : <a href="/assets/kalman/Webpage_Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한) [☜ click for more]</a>
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-lqr_1.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 상태피드백 제어 알고리즘을 Simulink를 통해 C코드로 자동생성하고, 컴파일 하여 타겟 MCU에서 실행  
 0°~135°를 3.5s 주기로 Wiping 하다가 1s 주기로 변경하여 Wiping 수행
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;관측기 상태피드백을 통한 LQR제어 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 관측기 상태피드백을 통한 LQR제어 동영상 ]</em>
+</div>
 
 MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, 통신으로 위치정보를 수신하여 다음과 같이 1s 주기마다 Wiping 동작하는 것을 확인함
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-wiper-lqr_2.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 ### [와이퍼 MBD 기본기능 구현 ] {#mymbd-wiper-func}
 
@@ -81,24 +83,28 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 
 제어로직을 개발하고, 시뮬레이션을 통해 제어로직 검증(MIL, Model In the Loop)을 수행하였습니다. 
 
-<p align="center">
-	<iframe
-		src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;입력각도로 Linkage 위치 피드백제어 3D시뮬레이션 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed/nDjuDzeTUoU?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 입력각도로 Linkage 위치 피드백제어 3D시뮬레이션 동영상 ]</em>
+</div>
 
 제어로직 개발 후 MBD를 통해 생성된 자동생성코드가 실제 MCU에 적용되어 시뮬레이션과 동일하게 동작하는 것을 확인함으로써 MBD가 개발실무에 적용이 가능한지 타당성을 확인하는 것을 목적으로 프로젝트를 진행하였습니다.
 
-<p align="center">
-	<iframe
-		src="https://www.youtube.com/embed/gZ7yAiUIIdw?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;Auto Wiping 동작확인 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed/gZ7yAiUIIdw?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ Auto Wiping 동작확인 동영상 ]</em>
+</div>

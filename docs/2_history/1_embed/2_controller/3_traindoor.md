@@ -12,15 +12,17 @@ title: 열차 출입문 제어기
 
 ---
 
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+		        src="https://www.youtube.com/embed//qYLRAw-hKN8?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 장애물 3회 감지 시 열림동작 동영상 ]</em>
+</div>
 
 ### 측출입문 제어기 양산SW 신규개발 {#myembedded-controller-train}
 
@@ -48,13 +50,13 @@ title: 열차 출입문 제어기
 
 코드 개발부터 양산/필드대응까지 소프트웨어 개발 관련 모든 업무를 직접 수행하였습니다. 이곳에서 프로젝트를 관리하기 위한 스킬을 쌓았으며, 업무를 수행하면서 실무에 적용가능하고, 실질적으로 도움이 되는 프로세스를 수립하기 위해 많은 고민을 하였습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/3_embedded/img5_1_train_door.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * 기존에 개발된 소프트웨어 유지보수 및 소프트웨어 품질관리 [(회사홈페이지 참조)](http://www.icsys.co.kr/s2/s2_5.php)
   * 신사업(고객사 첫 납품)으로 진행된 제품에 대한 소프트웨어 품질문제 현장 대응 및 제품 안정화

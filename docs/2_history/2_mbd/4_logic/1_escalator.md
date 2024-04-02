@@ -26,24 +26,24 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
   : Github Repository를 통한 프로젝트 소스 및 산출물 형상관리  
   : 일정-이슈-소스코드 추적성을 확보하여 개발 효율성을 높임
 
-<p align="center">
+<div style={{width: '100%', textAlign: 'center'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-esc-gitlab-schedule-mgn.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
-</p>
+</div>
 
 #### 설계 구현 및 검증
 
 요구사항으로부터 기능을 정의하고, Matlab/Simulink를 이용하여 기능 아키텍처를 설계한 다음
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-esc-architecture.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 시뮬레이션을 통해 기능(Function block)에 대한 상세로직을 구현하고, 
 * 기능 상세구현 예1 - 기본기능(F1_Basic)
@@ -68,10 +68,10 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
 시뮬링크 모델로부터 C코드를 자동생성하고, 빌드를 통해 타겟에서 구동검증을 수행하였습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-esc-func-test.png').default}
-		width="550"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>

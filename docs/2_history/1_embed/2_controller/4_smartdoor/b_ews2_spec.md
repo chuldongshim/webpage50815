@@ -19,13 +19,13 @@ title: + 기술문서
 개발기간 12주 동안 Agile 방식으로 개발이 진행되어 사용자 요구사항에 대한 추가/수정 발생할 경우 컨셉수정부터 코드구현 및 적용까지 민첩하게 대응할 수 있습니다.  
 원격지에서 시스템 상테를 모니터링하고, 제어할 수 있는 솔루션 개발을 타겟으로 정하고 제품개발을 진행하였기 때문에 이와 비슷한 제품개발에 본 솔루션을 재활용할 수 있습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_summary_plan.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="550"
 	/>
-</p>
+</div>
 
 ### 개발전략
 
@@ -116,45 +116,45 @@ smartGaurd WebServer는 HTTPS 통신을 통해 서버와 클라이언트가 연�
 
 wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 웹서버 주소(https://192.168.4.1) 로 접속합니다. 현재 smartGaurd WebServer는 공인된 인증기관으로부터 인증서를 발급받지 않았기 때문에 Self-Signed(안전하지 않은 연결) Connection을 통해 HTTPS연결을 수행해야 합니다(단, 비용을 지불하고 공인된 인증서를 발급받아 적용하면 정상적으로 안전한 HTTPS 통신을 수행할 수 있습니다).
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html2_connect.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 로그인은 POST 방식을 사용하며 로그인을 수행합니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html3_login.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 로그인에 성공하면 첫 화면으로 시스템을 간략히 설명하는 창이 활성화 됩니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html4_homepg.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 ### 상태정보 모니터링
 
 모니터링 탭을 클릭하여 나타나는 창을 통해 도어의 열림/닫힘 상태 및 상태 변경시간을 확인할 수 있습니다. 인터넷이 연결되면 smartGuard는 sntp 서버에 접속하여 시간정보를 가져온 다음 내부 rtc time을 업데이트 합니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html5_openclose.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 ### 소프트웨어 업데이트
 
@@ -162,13 +162,13 @@ wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 �
 
 상부영역에 해당하는 SOTA에서 smartGaurd 자체 MCU의 소프트웨어를 업데이트 기능이 수행됩니다. local에 저장된 smartGuard MCU의 실행 가능한 이미지 파일을 선택한 다음 [start SOTA] 버튼을 클릭하면 업데이트가 수행되면서 버튼 아래에 진행상태가 나타난다. 업데이트가 완료되면 MCU는 자동으로 재부팅을 수행하여 업데이트 된 이미지를 수행한다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html6_ota.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 하부영역에 해당하는 FOTA에서 smartGaurd와 연결된 MCU의 소프트웨어를 업데이트 할 수 있습니다. 이 기능은 무선통신 기능 없이 smartGaurd와 유선으로 연결된 장비를 원격에서 업데이트 하기 위해 준비된 기능힙니다.
 [업데이트 창 - FOTA 설명]
@@ -181,13 +181,13 @@ wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 �
 전장부는 전원부, wifi가 통합된 MCU, 가속도 및 각속도 측정을 위한 MEMS센서로 구성되어 있습니다.
 [(smartGaurd BOM Lists)](/assets/smartGuard_BOM_Lists.pdf)  
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_hw_schematic.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="550"
 	/>
-</p>
+</div>
 
 PCB는 총 5회 설계 변경을 통해 최종안을 확정하였습니다.
 [기구부처럼 변경 변천사 캡처]
@@ -204,25 +204,25 @@ PCB는 2층기판으로 Top면에 모든 부품이 배치되도록 설계 하였
 
 Top면에는 Vcc, Bottom면에는 GND로 Copper를 채웠습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_hw_pcb_topbottom.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 ### Mechanic
 
 기구부는 상/하부커버, 자석, 받침대, 볼트, 9V 배터리, 전원케이블로 구성되어 있고 총 3회 설계 변경을 통해 최종안을 확정하였습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_hw_update.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="550"
 	/>
-</p>
+</div>
 
 * 1회(좌) 초안
   * 4개의 볼트로 상/하부 케이스를 고정
@@ -249,13 +249,13 @@ PCB Size 및 형상에 의해 케이스 윗면(Switch Hole), 앞면(Wifi Antena 
 
 소프트웨어는 smartGaurd는 AUTOSAR 컨셉을 적용하여 MCU 변경 시 HW를 직접 제어하는 Firmware Layer와, HW의존적인 Abstraction Layer와, HW독립적인 Application Layer로 나눠 각각 개발한 다음 통합되었습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_arch_all.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="350"
 	/>
-</p>
+</div>
 
 ### Firmware Layer SW
 
@@ -275,13 +275,13 @@ Application은 HW Peripherals를 제어하는 FW에 직접 접근하지 않고, 
 
 Application은 Auto Code 영역과, Manual Code 영역으로 구분하여 개발되었습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_arch_app.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 * Auto Code  
 기능로직을 실행하는 Application Layer SW 중 신호처리 기능(Kalman Filter학습 및 시뮬레이션)과 및 열림/닫힘 판단기능은 MBD 시뮬레이션으로 로직을 개발/검증하고, 자동생성된 C코드를 적용하였습니다.

@@ -15,6 +15,18 @@ title: 유도인형
 ### 학부 MCU Study
 
 학부생활동안 MCU를 이용하여 FND 디지털 시계 및 디지털 도아락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+            src="https://www.youtube.com/embed/alL_y9gymNU?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div>
+</div>
+
 * Intel 80196 마이크로프로세스 학습
   * FND를 통한 시계 만들기
   * RAM Execution
@@ -23,27 +35,17 @@ title: 유도인형
   * 디지털 도어락 만들기
   * 비밀번호를 EEPROM에 저장하고, 키패드를 통해 비밀번호를 누르면 액츄에이터(RC모터)를 돌려 잠금해제 동작을 수행
 
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//alL_y9gymNU?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;디지털 도어락 만들기 동영상&gt;</em>
-</p>
-
 ### 유도인형시스템 개발 {#myembedded-controller-judo}
 
 학부생 때 MCU를 접한것을 계기로 대학원을 진학하였고, 대학원생활동안 수행한 유도인형시스템 개발 프로젝트(문화체육관광부 주관, 용인대 주최)를 통해 개발에 대한 경험을 쌓을 수 있었습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/3_embedded/img1_1_mju_judo.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * 담당
   * ARM7(at91sam7s)을 이용한 유도인형 제어기 개발

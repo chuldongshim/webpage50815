@@ -16,13 +16,13 @@ title: 온도PID제어
 
 MBD를 통해 생성된 자동생성코드가 MCU에 실제로 사용될 수 있을까라는 의문을 해결하기 위해 온도제어 실습이 가능한 EVB보드(TMS320F28069)를 이용하여 MBD기반 온도PID제어기 설계를 개인프로젝트로 진행하였습니다.
 
-<p align="center">
+<div style={{width: '100%', textAlign: 'center'}}>
 	<img
 		src={require('/img/1_process/f_process_gitlab_temp_pid.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/><br/><em>&lt;GitLab 이슈를 통한 프로젝트 관리&gt;</em>
-</p>
+</div>
 
 처음이라 그런지 프로젝트 관리가 제대로 되지 않아서 고민을 하던 차에 Github/GitLab하면 Agile 이야기가 나오는 것을 알게 되었고, "애자일, 민첩하고 유연한 조직의 비밀"이라는 책을 읽게 되었습니다. 프로젝트 경험과 책을 통해서 느낀점은 이후 Agile방식의 프로젝트를 지향하는 계기가 되었고, 그 생각과 실천은 지금까지 이어지고 있습니다.
 * 처음으로 GitLab기반 소스 형상관리 수행

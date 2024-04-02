@@ -27,13 +27,13 @@ title: 펌웨어 업데이트
 
 센서신호를 신호처리 알고리즘을 적용하여 필터링을 수행하고, 무선 데이터 송/수신을 통해 휴대폰으로 처리 결과를 확인할 수 있는 모니터링 시스템을 개발하는 것을 목적으로 개인 프로젝트를 진행하였습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/fourth_wifi_ota.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * 웹서버에 bin파일 업로드  
   Wifi를 통해 PC or 휴대폰에서 WebServer(ESP32) file system으로 bin/hex파일 업로드 후 웹페이지에서 파일 업로드 성공 확인

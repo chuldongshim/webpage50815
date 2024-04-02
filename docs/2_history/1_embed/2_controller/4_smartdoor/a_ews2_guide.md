@@ -26,13 +26,13 @@ title: + 사용법
 3. 하부커버 Bottom면에 위치한 4개의 Hole에 자석을 붙이고, 상부커버와 하부커버가 상하로 움직이지 않게 하부커버 지지대를 상부커버 홈에 맞춰 끼워 넣습니다.
 4. 상부커버와 하부커버가 좌우로 움직이지 않게 볼트를 체결하여 고정시킵니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_hw_assemble.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 ## 사용법
 
@@ -41,25 +41,25 @@ title: + 사용법
 ### 로그인
 PC 또는 스마트폰에서 wifi를 활성화 하고, 사용가능한 네트워크에서 스마트도어 센서를 선택하여 wifi를 연결합니다. wifi 연결 후 크롬 또는 마이크로소프트 엣지와 같은 웹브라우저에서 주소 https://192.168.4.1 로 접속합니다. 초기 로그인 정보 'user/****' 로 로그인을 수행합니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html3_login.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 ### Monitoring page
 
 모니터 탭을 클릭하면 도어 상태정보(열림/닫힘)와 상태변경시간을 확인할 수 있습니다. 상태정보는 최근 20개까지만 출력되며, 필요 시 파일로 저장이 가능합니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/4_ews2/ews2_spec_sw_html5_openclose.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="450"
 	/>
-</p>
+</div>
 
 ## 동영상
 

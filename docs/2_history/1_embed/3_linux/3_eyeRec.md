@@ -12,15 +12,17 @@ title: 영상 자동기록장치
 
 ---
 
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//AgLn7xk26fY?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 3회 감지 시 열림동작 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed//AgLn7xk26fY?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 무선으로 웹서버에 접속하여 카메라 영상확인 ]</em>
+</div>
 
 ### 목적
 
@@ -33,13 +35,13 @@ title: 영상 자동기록장치
 -- 차량 파손 시 영상정보 보존을 위해 Cloud 서버에 촬영된 영상파일 자동전송 기능 추가 예정  
 -- SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또는 휴대폰에 저장/재생이 가능함
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/5_eyeRec/eyeRec_hw_config.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="1024"
 	/>
-</p>
+</div>
 
 ### 기능
 
@@ -66,10 +68,10 @@ SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또�
   * 휴대폰 AP와 연동을 통해 원격저장소에 자동 영상정보 업로드
   * 자동알람기능
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/sixth_embedded_linux.png').default}
+		style={{width: '100%'}}
 		alt="Example banner"
-		width="600"
 	/>
-</p>
+</div>

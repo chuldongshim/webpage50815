@@ -12,6 +12,24 @@ title: 무인전기차 제어기
 
 ---
 
+<div style={{textAlign: 'center'}}>
+  <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+      <iframe 
+          src="https://www.youtube.com/embed/rjTcdhceIw4?rel=0"
+          style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+          frameBorder="0"
+          allowFullScreen="true">
+          이 브라우저는 iframe을 지원하지 않습니다.
+      </iframe>
+  </div>
+	<div>
+		<em>[ 무인 상태에서 차량 속도제어 동영상, 
+    <a href="https://www.hellodd.com/news/articleView.html?idxno=29509"> 관련기사(☜ click here) </a>
+    ]
+    </em><br/>
+	</div>
+</div>
+
 ### 무인 전기자동차 하위 제어기 개발 {#myembedded-controller-kist}
 
 * 전기차 하위 인터페이스 제어기 개발/제작/관리 및 유지보수
@@ -23,13 +41,13 @@ title: 무인전기차 제어기
 횡방향제어(차량속도제어) - 상위제어기로부터 수신된 Angle, Velocity 정보와 피드백 정보로부터 모터 출력을 계산하고 모터제어기로 출력명령을 전달하여 차량속도제어  
 얕은 지식으로 하고 싶다는 마음 하나로 낮/밤, 주말 가리지 않고 될 때까지 했었던 것 같습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/3_embedded/img1_1_kist.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * ARM7(at91sam7x) 이용 제어기 개발
 * Anolog to Digital & Digital to Analog의 신호처리
@@ -41,15 +59,3 @@ title: 무인전기차 제어기
 * 무인차 구동 중 고려되어야 하는 모든 Action에 대한 처리 구현
 (유/무선 비상정지, 후진 시 Brake 등 점등, 차량제어 수/자동 전환 등)
 
-### 전기차 속도제어 실험
-* https://www.hellodd.com/news/articleView.html?idxno=29509
-
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//rjTcdhceIw4?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;무인 상태에서 차량 속도제어 동영상&gt;</em>
-</p>

@@ -21,13 +21,13 @@ title: FT센서
 
 무식하면 용감하다는 얘기가 있듯이 아무것도 모르는 상태에서 포부만으로 기구부, 하드웨어, 소프트웨어 설계를 모두 수행하였습니다. 독학으로 PCB 설계를 학습하여 보드를 직접 제작하였습니다. 제 능력을 넘어서는 일을 맡아 두려움이 컷지만, 부딪히는 난관을 하나하나 차근차근 극복해 나가면서 엔지니어링에 대한 자신감을 갖을 수 있는 값진 경험이었습니다. 담임 교수님과 함게 진행한 선행기술 개발 프로젝트는 추후 실제 제품 상용화로 이어지는 토대가 되었습니다.
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/3_embedded/img2_1_yonsei_ftsensor.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * DSP를 이용한 신호처리 보드 시스템 구축  
 센서를 이용하여 Force와 Torque를 측정하고, 디지털 값으로 변환하여 상위제어기로 센서 데이터 전송
@@ -41,15 +41,17 @@ title: FT센서
 > 1000만원 이상의 고가센서를 대신하여 상용화 및 양산 성공  
 > (삼성전자 XGEO GC80 Soft handling 기능구현에 적용 - 0:45 영상)
 
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed/eEmyj61OwYo?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;상용화 홍보 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed/eEmyj61OwYo?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 추후 상용화된 제품 홍보 동영상 ]</em>
+</div>
 
 * HW 설계, proto type 제어기 제작 경험을 하였음
 * 손가락으로 핸들을 움직이는 힘을 측정하는데 센서 기술이 적용됨

@@ -12,15 +12,17 @@ title: 윈도우모터 제어
 
 ---
 
-<p align="center">
-	<iframe
-		src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 동영상(21년12월03일) 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 장애물 감지 시 윈도우 반전 동영상(21년12월03일) 동영상 ]</em>
+</div>
 
 ### 윈도우 MBD 기본기능 구현 {#mymbd-window-func}
 
@@ -39,13 +41,13 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 * 소속 : 동양기전/DYAUTO
 * 기간 : 2013.10 ~ 2014.09 (대리 1년차)
 
-<p align="center">
+<div style={{width: '100%'}}>
 	<img
 		src={require('/img/2_mbd/img2_1_dyauto_mbd.png').default}
-		width="450"
+		style={{width: '100%'}}
 		alt="Example banner"
 	/>
-</p>
+</div>
 
 * MicroAutoBox를 이용한 제어기 RCP(Rapid Control Prototyping) 구현 및 동작확인
   * Matlab Stateflow를 이용한 제어 로직 프로그래밍
@@ -53,13 +55,15 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 * Matlab/Simulink를 통한 제어기 시뮬레이션 확인 및 모델 코드 자동생성(AutoCode Generation)
 * 장애물 감지 시 반전 알고리즘/로직 시뮬레이션
 
-<p align="center">
-	<iframe 
-		src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
-		width="350" height="250"
-		frameborder="0"
-		allowfullscreen="true">
-		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 반전 알고리즘 시뮬레이션 동영상&gt;</em>
-</p>
+<div style={{textAlign: 'center'}}>
+    <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
+        <iframe 
+			src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
+            style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+            frameBorder="0"
+            allowFullScreen="true">
+            이 브라우저는 iframe을 지원하지 않습니다.
+        </iframe>
+    </div><em>[ 장애물 감지 시 반전 알고리즘 시뮬레이션 동영상 ]</em>
+</div>
 

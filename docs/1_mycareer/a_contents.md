@@ -83,7 +83,17 @@ title: 컨텐츠별
 
 ### 리눅스 응용프로그램 개발 {#linux-app-dev}
 
-1. 16.10.03~17.04.30 : stm32f7에 uCLinux포팅(Self_Study) [☜ click for more]
+1. 24.02.02~24.03.28 : BBB에 Linux포팅(Self_Study)
+<div style={{width: '75%'}}>
+	<img
+		src={require('/img/sixth_embedded_linux.png').default}
+		style={{width: '100%'}}
+		alt="Example banner"
+	/>
+</div>
+2. 16.10.03~17.04.30 : stm32f7에 uCLinux포팅(Self_Study) [☜ click for more]
+3. 12.10.01~13.09.30 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]  
+11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]  
 <div style={{width: '75%'}}>
 	<img
 		src={require('/img/3_embedded/img3_1_fujixerox.png').default}
@@ -91,9 +101,6 @@ title: 컨텐츠별
 		alt="Example banner"
 	/>
 </div>
-
-2. 12.10.01~13.09.30 : 카드리더기 단말기 uCLinux/Linux 포팅 [☜ click for more]  
-3. 11.11.28~13.09.30 : 복합기 인증단말기 개발/유지보수 [☜ click for more]  
 
 ### 센서 개발 {#ftsensor-dev}
 
@@ -132,8 +139,7 @@ Simulink 시뮬레이션을 통해 BLDC 동작원리를 파악하고, NXP MBD �
 	/>
 </div>
 3. 21.04.07~21.05.06 : Kalman Filter학습 및 시뮬레이션 [☜ click for more]  
-칼만필터 시뮬레이션을 통해 동작원리를 파악함
-<시뮬링크 파일 시뮬레이션 동영상으로 찍기>
+칼만필터 시뮬레이션을 통해 동작원리를 파악함 (TBD, 시뮬링크 파일 시뮬레이션 동영상 추가)
 <div style={{width: '75%'}}>
 	<img
 		src={require('/img/2_mbd/mymbd-kalman-modeling.png').default}

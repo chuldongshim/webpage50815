@@ -62,8 +62,6 @@ module.exports = {
           },
           collapsed: true,
           items: [
-            'history/embed/controller/kuve',
-            'history/embed/controller/iap',
             'history/embed/controller/traindoor',
             {
               type: 'category',
@@ -79,6 +77,8 @@ module.exports = {
               ],
             },
             'history/embed/controller/ethernetM',
+            'history/embed/controller/kuve',
+            'history/embed/controller/iap',
           ],
         },
         {
@@ -90,9 +90,9 @@ module.exports = {
           },
           collapsed: true,
           items: [
+            'history/embed/linux/eyeRec',
             'history/embed/linux/fujixerox',
             'history/embed/linux/stm32f7',
-            'history/embed/linux/eyeRec',
             'history/embed/linux/casDetector',
           ],
         },
@@ -107,31 +107,6 @@ module.exports = {
       },
       collapsed: false,
       items: [
-        {
-          type: 'category',
-          label: '논문',
-          link: {
-            type: 'doc',
-            id: 'history/mbd/paper',
-          },
-          collapsed: true,
-          items: [
-            'history/mbd/paper/skeleton',
-          ],
-        },
-        {
-          type: 'category',
-          label: '스터디',
-          link: {
-            type: 'doc',
-            id: 'history/mbd/study',
-          },
-          collapsed: true,
-          items: [
-            'history/mbd/study/tempPID',
-            'history/mbd/study/algorithm',
-          ],
-        },
         {
           type: 'category',
           label: '모터구동',
@@ -169,6 +144,31 @@ module.exports = {
           items: [
             'history/mbd/logic/escalator',
             'history/mbd/logic/safetybelt',
+          ],
+        },
+        {
+          type: 'category',
+          label: '스터디',
+          link: {
+            type: 'doc',
+            id: 'history/mbd/study',
+          },
+          collapsed: true,
+          items: [
+            'history/mbd/study/tempPID',
+            'history/mbd/study/algorithm',
+          ],
+        },
+        {
+          type: 'category',
+          label: '논문',
+          link: {
+            type: 'doc',
+            id: 'history/mbd/paper',
+          },
+          collapsed: true,
+          items: [
+            'history/mbd/paper/skeleton',
           ],
         },
       ],

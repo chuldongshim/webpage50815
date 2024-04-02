@@ -12,16 +12,30 @@ title: 펌웨어 업데이트
 
 ---
 
-* [1. 부트로더 개발](#myembedded-bootloader)
-  * [22.05.22~22.08.04 : 1.1 wifi 웹서버를 통한 STM MCU FW업데이트](#myembedded-bootloader-fota)
-  * [20.05.16~20.08.10 : 1.2 PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트](#myembedded-bootloader-nxp-iap)
-  * [18.12.09~18.12.10 : 1.3 UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
-  * [16.10.03~17.04.30 : 1.4 RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
+* [IAP 개발](#myembedded-bootloader)
+  * [22.05.22~22.08.04 : wifi 웹서버를 통한 STM MCU FW업데이트](#myembedded-bootloader-fota)
+  * [20.05.16~20.08.10 : PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트](#myembedded-bootloader-nxp-iap)
+  * [18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
+  * [16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
 
 
-## 1. 부트로더 개발 {#myembedded-bootloader}
+## IAP 개발 {#myembedded-bootloader}
 
-### 1.1 wifi 웹서버를 통한 STM MCU FW업데이트 {#myembedded-bootloader-fota}
+### RTOS포팅 및 IAP구현(Self_Study) {#myembedded-bootloader-iap}
+
+:::note History
+* 성과
+  * 이때(2017년) 습득한 기술은 추후(2018년) 열차출입문제어기에 적용하였읍
+  * 적용전 : 에뮬레이터를 연결하여 펌웨어 업데이트 수행
+  * 적용후 : 에뮬레이터 없이 시리얼 통신으로 펌웨어 업데이트 수행
+:::
+
+* IAP(시리얼 펌웨어 업데이트) 부트로더를 통한 uart, usb, http 펌웨어 업데이트
+* 열차출입문제어기에 IAP 적용
+  * 개발한 부트로더 적용을 통해 소프트웨어 업데이트 시간 단축
+  * 열차 노이즈 유입으로 잦은 에뮬레이터 고장 발생 -> 에뮬레이터 재구매 안함
+
+### wifi 웹서버를 통한 STM MCU FW업데이트 {#myembedded-bootloader-fota}
 
 #### ESP32 Embedded WebServer를 통한 stm32f746 OTA
 
@@ -52,12 +66,16 @@ title: 펌웨어 업데이트
   * 입력신호 FFT -> TFT-LCD Display
   * Kalman Filter룰 이용한 모터제어 알고리즘 개발 적용(Kalman Filter 이론학습 및 시뮬레이션 완료)
 
-구현결과 동영상 추가할 것
+구현결과 동영상 추가할 것 (TBD)
 * MPU6050 FIR필터링 동영상
 * MPU6050 IIR필터링 동영상
 * MPU6050 Kalman필터링 동영상
 
-### 1.2 PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트 {#myembedded-bootloader-nxp-iap}
+### UART부트로더를 통한 STM MCU FW업데이트 {#myembedded-bootloader-stm-iap}
+
+## 부트로더 개발
+
+### PC Python과 LIN부트로더를 통한 NXP MCU FW업데이트 {#myembedded-bootloader-nxp-iap}
 
 * 기간 : 20.07.20 ~ 20.09.22 (책임 2년)
 
@@ -148,20 +166,3 @@ Firmware를 메모리의 특정 위치에 다운로딩 하기 위해 Python을 �
 #### 추후 진행할 개인 프로젝트
 * Master/Slave 구조를 갖는 시스템(열차 출입문은 Master MCU가 7개의 Slave MCU를 제어함)의 경우 Master 펌웨어만 업데이트 하면 자동으로 나머지 7개의 Slave 펌웨어를 업데이트하는 부트로더 개발
 * Server/Client 구조를 갖는 시스템의 경우 서버에 펌웨어를 업데이트 하면 특정 시간에 Slave가 자동으로 펌웨어를 업데이트 하는 부트로더 개발
-
-### 1.3 UART부트로더를 통한 STM MCU FW업데이트 {#myembedded-bootloader-stm-iap}
-
-### 1.4 RTOS포팅 및 IAP구현(Self_Study) {#myembedded-bootloader-iap}
-
-:::note History
-* 성과
-  * 이때(2017년) 습득한 기술은 추후(2018년) 열차출입문제어기에 적용하였읍
-  * 적용전 : 에뮬레이터를 연결하여 펌웨어 업데이트 수행
-  * 적용후 : 에뮬레이터 없이 시리얼 통신으로 펌웨어 업데이트 수행
-:::
-
-* IAP(시리얼 펌웨어 업데이트) 부트로더를 통한 uart, usb, http 펌웨어 업데이트
-* 열차출입문제어기에 IAP 적용
-  * 개발한 부트로더 적용을 통해 소프트웨어 업데이트 시간 단축
-  * 열차 노이즈 유입으로 잦은 에뮬레이터 고장 발생 -> 에뮬레이터 재구매 안함
-

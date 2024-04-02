@@ -21,7 +21,7 @@ title: 윈도우모터 제어
             allowFullScreen="true">
             이 브라우저는 iframe을 지원하지 않습니다.
         </iframe>
-    </div><em>[ 장애물 감지 시 윈도우 반전 동영상(21년12월03일) 동영상 ]</em>
+    </div><em>[ 장애물 감지 시 윈도우 반전 모터제어 동영상(21년12월03일) 동영상 ]</em>
 </div>
 
 ### 윈도우 MBD 기본기능 구현 {#mymbd-window-func}

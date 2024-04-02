@@ -29,7 +29,7 @@ export default function Home() {
           <>
             <br />
             <center><font size="5" color="#34a28a"><strong>"Yesterday is History. Tomorrow is a Mystery. Today is a Gift."</strong></font></center>
-            <center>과거를 돌아보고, 앞으로 무엇을 할 것인지 찾기 위한 공간입니다. (웹사이트 정리중...)</center>
+            <center>과거를 돌아보고, 앞으로 무엇을 할 것인지 찾기 위한 공간입니다.</center>
           </>
         }
         <HomepageFeatures />

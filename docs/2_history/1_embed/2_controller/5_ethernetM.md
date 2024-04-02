@@ -1,6 +1,6 @@
 ---
 id: ethernetM
-title:  이더넷통신 모듈
+title:  이더넷통신 모듈 (Updating)
 ---
 
 <div align="right">

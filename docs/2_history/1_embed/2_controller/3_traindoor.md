@@ -21,7 +21,7 @@ title: 열차 출입문 제어기
             allowFullScreen="true">
             이 브라우저는 iframe을 지원하지 않습니다.
         </iframe>
-    </div><em>[ 장애물 3회 감지 시 열림동작 동영상 ]</em>
+    </div><em>[ 장애물 3회 감지 시 열림동작 모터제어 동영상 ]</em>
 </div>
 
 ### 측출입문 제어기 양산SW 신규개발 {#myembedded-controller-train}

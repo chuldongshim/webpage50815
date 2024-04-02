@@ -85,7 +85,7 @@ F2_Req2 가속/등속/감속 구간으로 나눠 프로파일링을 수행한다
 		frameborder="0"
 		allowfullscreen="true">
 		이 브라우저는 iframe을 지원하지 않습니다.
-	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 동영상(21년12월03일)&gt;</em>
+	</iframe><br/><em>&lt;장애물 감지 시 윈도우 반전 모터제어 동영상(21년12월03일)&gt;</em>
 </p>
 
 ## 참고자료

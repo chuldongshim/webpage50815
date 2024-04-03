@@ -176,9 +176,15 @@ wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 �
 
 ## HW사양
 
+기구부 설계 경험과 PCB설계 경험을 되살려 하드웨어를 직접 설계하였습니다.  
+설계 단계에서 PCB와 기구부를 함께 고려해야 재작업 비용을 줄일 수 있다는 사실을 직접 경험해 보았습니다.  
+* PCB 5회 설계 변경 x 기구부 3회 설계 변경
+* 중간중간 수시로 변경된 작은 사항들(부품변경, PCB 사이즈 변경 등)을 포함하면 더 많은 설계변경이 발생하였음
+
 ### Electronic
 
-전장부는 전원부, wifi가 통합된 MCU, 가속도 및 각속도 측정을 위한 MEMS센서로 구성되어 있습니다.
+전장부는 총 5회 설계 변경을 통해 최종안을 확정하였고,  
+wifi가 통합된 MCU, 가속도 및 각속도 측정을 위한 MEMS센서로 구성되어 있습니다.
 [(smartGaurd BOM Lists)](/assets/smartGuard_BOM_Lists.pdf)  
 
 <div style={{width: '100%'}}>
@@ -189,32 +195,10 @@ wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 �
 	/>
 </div>
 
-PCB는 총 5회 설계 변경을 통해 최종안을 확정하였습니다.
-[기구부처럼 변경 변천사 캡처]
-
-PCB는 2층기판으로 Top면에 모든 부품이 배치되도록 설계 하였습니다.
-
-<p align="center">
-	<img
-		src={require('/img/4_ews2/ews2_spec_hw_pcb_3d.png').default}
-		alt="Example banner"
-		width="250"
-	/>
-</p>
-
-Top면에는 Vcc, Bottom면에는 GND로 Copper를 채웠습니다.
-
-<div style={{width: '100%'}}>
-	<img
-		src={require('/img/4_ews2/ews2_spec_hw_pcb_topbottom.png').default}
-		style={{width: '100%'}}
-		alt="Example banner"
-	/>
-</div>
-
 ### Mechanic
 
-기구부는 상/하부커버, 자석, 받침대, 볼트, 9V 배터리, 전원케이블로 구성되어 있고 총 3회 설계 변경을 통해 최종안을 확정하였습니다.
+기구부는 총 3회 설계 변경을 통해 최종안을 확정하였고,  
+상/하부커버, 자석, 받침대, 볼트, 9V 배터리, 전원케이블로 구성되어 있습니다.
 
 <div style={{width: '100%'}}>
 	<img
@@ -235,15 +219,18 @@ Top면에는 Vcc, Bottom면에는 GND로 Copper를 채웠습니다.
 * 3회(우) 최종안
   * 상부 Case와 PCB 분리가 가능하도록 전원 스위치 변경
 
-<최종안 상부커버+PCB 그림캡처>
+### HW통합
 
+PCB는 2층기판으로 Top면에 모든 부품이 배치되도록 설계 하였습니다.  
+Top면에는 Vcc, Bottom면에는 GND로 Copper를 채웠습니다.
 
-<최종안 하부커버+자석 그림캡처>
-
-
-<최종안 상부커버+하부커버+PCB>
-PCB Size 및 형상에 의해 케이스 윗면(Switch Hole), 앞면(Wifi Antena Hole), 뒷면(USB Connector Hole)에 3개의 Hole이 있습니다.
-
+<div style={{width: '100%'}}>
+	<img
+		src={require('/img/4_ews2/ews2_spec_hw_pcb_3d.png').default}
+		style={{width: '100%'}}
+		alt="Example banner"
+	/>
+</div>
 
 ## SW사양
 

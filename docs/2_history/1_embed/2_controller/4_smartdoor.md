@@ -22,8 +22,8 @@ title: 스마트 도어
 	/>
 </div>
 
-* User Guide [☜ click for more]
+* [User Guide [☜ click for more]](./smartdoor/sd_guide)
   * 사용자 관점에서 사용법을 설명합니다.
-* Technical Reference [☜ click for more]
+* [Technical Reference [☜ click for more]](./smartdoor/sd_spec)
   * 시스템을 파악하는데 필요한 기술적인 내용을 설명합니다.
 

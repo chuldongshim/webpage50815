@@ -15,7 +15,7 @@ title: 영상 자동기록장치
 <div style={{textAlign: 'center'}}>
     <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
         <iframe 
-			src="https://www.youtube.com/embed//AgLn7xk26fY?rel=0"
+			      src="https://www.youtube.com/embed/AgLn7xk26fY?rel=0"
             style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
             frameBorder="0"
             allowFullScreen="true">
@@ -24,7 +24,7 @@ title: 영상 자동기록장치
     </div><em>[ 무선으로 웹서버에 접속하여 카메라 영상확인 ]</em>
 </div>
 
-### 목적
+### 목적 {#eyeRec-purpose}
 
 사람들이 필요로 하는 곳에서 유용함을 제공할 수 있으면 좋겠고, 보람도 있겠다는 생각으로 프로젝트를 진행하고 있습니다. eye Recoder를 이용하면 위험상황을 자동으로 인식하고, 영상을 촬영하여 저장할 수가 있습니다.
 
@@ -44,16 +44,16 @@ title: 영상 자동기록장치
 	/>
 </div>
 
-### 기능
+### 기능 {#eyeRec-function}
 
-BeagleboneBlack을 통한 Embedded Linux IOT Application 개발 {#myembedded-linux-bbb}
+BeagleboneBlack을 통한 Embedded Linux IOT Application 개발
 
 센서신호를 처리하여 상황을 판단하고 자동으로 영상을 촬영하여 SDCard에 저장합니다.
 또한 웹서버 기능이 있어 PC 또는 휴대폰에서 웹캠을 원격으로 조정하여 현재 상황을 실시간으로 확인하거나, 사건 발생 시 촬영된 영상을 확인할 수 있습니다.
 SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또는 휴대폰에 저장/재생이 가능합니다.  
 (영상 업데이트 개선을 위해 http 기반 영상 스트리밍을 추후 UDP-Multicast 기반 영상스트리밍으로 변경 예정)
 
-### 컨셉
+### 컨셉 {#eyeRec-concept}
 
 본 제품은 정의된 특정상황 감지 시 자동으로 영상을 촬영하고 저장할 수 있는 시스템이입니다(24.03.21).
 웹서버를 통해 구동되므로 인터넷만 연결된다면 PC에서 확인한 것과 동일하게 휴대폰에서도 확인이 가능합니다.
@@ -77,7 +77,7 @@ SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또�
 	/>
 </div>
 
-### 구성
+### 구성 {#eyeRec-config}
 
 * BBB 위치정보 검출  
 -- 칼만필터를 통해 각속도(Gyro)와 각가속도(Accelerator)) 센서 정보를 이용하여 위치정보 계산  
@@ -88,3 +88,7 @@ SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또�
 -- 열림정보 수신 시 http로 스트리밍 영상을 웹브라우저에 출력  
 * ESP32-CAM 영상정보 획득  
 -- 펌웨어 레벨로 구헌된 C코드를 통해 http를 통해 영상정보를 Python Flask 웹서버에 전송
+
+### 일정 {#eyeRec-progress}
+
+github 일정 추가

@@ -2,7 +2,14 @@
 id: time
 title: 시간별
 ---
+
+직장생활은 2011년도에 시작하여 대략 12년동안 여러가지 경험을 하였습니다.
+* 임베디드시스템 개발 경험 - 대략4년
+* 모델기반설계 경험 - 대략4년
+* 개발 프로세스 활동 경험 - 대략4년
+
 ---
+
 한해한해 살아온 자취를 통해서도 알 수 있듯이 개발을 할 수 있는 시간이 얼마 남지 않았다고 생각하니 30대 였을 때보다 40대인 지금이 더 개발에 열정적이며 하루하루를 소중하게 살아가고 있습니다.
 
 ## 직장
@@ -53,3 +60,19 @@ title: 시간별
 ### 2007년~2008년
 * 08.09.01~09.02.26 : 임베디드 - 유도인형 제어기 개발
 * 07.03.02~08.08.31 : 모델기반 - 졸업논문 DC모터 PID제어
+
+<!--
+## 이력서
+
+### 이력 및 경력소개
+
+[Curriculum_Vitae [☜ click for more Details]](/assets/ChuldongShim_Curriculum_Vitae.pdf)
+
+<p align="center">
+	<img
+		src={require('/img/ChuldongShim_Curriculum_Vitae.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+-->

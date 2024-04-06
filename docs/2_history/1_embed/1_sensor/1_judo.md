@@ -14,7 +14,7 @@ title: 유도인형
 
 ### 학부 MCU Study
 
-학부생활동안 MCU를 이용하여 FND 디지털 시계 및 디지털 도아락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
+학부생활동안 MCU를 이용하여 FND 디지털 시계 및 디지털 도어락 제작 활동을 통해 임베디드 개발에 대한 꿈을 키웠습니다.
 <div style={{textAlign: 'center'}}>
     <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
         <iframe 

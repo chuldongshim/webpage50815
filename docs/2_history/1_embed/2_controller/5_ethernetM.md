@@ -12,7 +12,9 @@ title:  이더넷통신 모듈 (Updating)
 
 ---
 
-### 컨셉
+## 개요
+
+### CAN/CAN-FD Analyzer 컨셉
 
 <p align="center">
 	<img
@@ -22,25 +24,11 @@ title:  이더넷통신 모듈 (Updating)
 	/>
 </p>
 
-### CAN/CAN-FD Analyzer
+## 동작확인
 
-<p align="center">
-	<img
-		src={require('/img/6_ethM/ethM_packet_for_can_canfd.png').default}
-		alt="Example banner"
-		width="450"
-	/>
-</p>
+### stm32-stm32 for CAN
 
-### C++ 및 Python SW 개발
-
-
-### 구현
-
-#### CAN
-
-CAN통신 시험 구성
-
+1. stm32-stm32 CAN통신 동작확인 완료(23.12.21)
 <p align="center">
 	<img
 		src={require('/img/6_ethM/ethM_Can_Config.png').default}
@@ -49,19 +37,46 @@ CAN통신 시험 구성
 	/>
 </p>
 
-Python을 통한 CAN패킷 모니터링
+### stm32-BBB for CAN
+
+2. stm32-BBB CAN통신 동작확인 완료(24.04.06)
 <p align="center">
 	<img
-		src={require('/img/6_ethM/ethM_Can_Aanlyzer.png').default}
+		src={require('/img/6_ethM/ethM_Can_bbb_Config.png').default}
 		alt="Example banner"
 		width="450"
 	/>
 </p>
 
-CAN-FD통신 시험 구성
+### s32k-BBB for CAN-FD
+
+s32k1-BBB CAN-FD통신 동작확인 (진행중)
+
 <p align="center">
 	<img
 		src={require('/img/6_ethM/ethM_CanFD.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
+CAN-FD 프로토콜
+<p align="center">
+	<img
+		src={require('/img/6_ethM/ethM_packet_for_can_canfd.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
+## C++/Python SW 개발
+
+### CAN통신 모니터링
+
+1. Python을 통한 CAN패킷 모니터링
+<p align="center">
+	<img
+		src={require('/img/6_ethM/ethM_Can_Aanlyzer.png').default}
 		alt="Example banner"
 		width="450"
 	/>

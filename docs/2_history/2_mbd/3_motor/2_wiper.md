@@ -32,9 +32,15 @@ title: 와이퍼모터 제어
 </div>
 
 * 성능개선을 위한 상태피드백 구현
-  * 전달함수->상태방정식 : <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수 모델링[☜ click for more]</a>
-  * 상태관측기를 통한 상태추정 : <a href="/assets/kalman/Webpage_Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링) [☜ click for more]</a>
-  * LQR상태피드백 제어 + 오차적분제어 + Anti-Windup : <a href="/assets/kalman/Webpage_Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup(Saturation Limit을 통한 적분기 출력제한) [☜ click for more]</a>
+  * DC모터 모델링 및 시뮬레이션  
+  : 전달함수를 상태방정식으로 변환  
+  : <a href="/assets/kalman/Maxon_Motor_.html" target="_blank">모터 전달함수 모델링[☜ click for more]</a>
+  * 관측기를 통한 전상태모니터링  
+  : 상태관측기를 통한 상태추정  
+  : <a href="/assets/kalman/Webpage_Maxon_Motor_1_ObserverStateFB_.html" target="_blank">State Feedback Control by full state observer(관측기를 통한 전상태모니터링) [☜ click for more]</a>
+  * Robust 상태피드백 제어  
+  : LQR상태피드백 제어 + 오차적분제어 + Anti-Windup(Saturation Limit을 통한 적분기 출력제한)  
+  : <a href="/assets/kalman/Webpage_Maxon_Motor_2_RobustStateFB_.html" target="_blank">Robust Control by Integral Action(외란 오차제거) and Anti-Windup [☜ click for more]</a>
 
 <div style={{width: '100%'}}>
 	<img

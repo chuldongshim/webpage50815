@@ -12,11 +12,11 @@ title: 에스컬레이터
 
 ---
 
-### Escalator를 통한 GitLab Agile기반 MBD개발 고객대응 {#myprocess-mbdagile-esc-dev}
+## Escalator를 통한 GitLab Agile기반 MBD개발 고객대응 {#myprocess-mbdagile-esc-dev}
 
 KTL(한국기술시험원)이 MBD교육을 의뢰하여 진행한 프로젝트로 샘플 타겟을 정하고 MBD기반으로 개발을 진행하고 지원을 해줄 수 없냐는 요청을 받아서 프로젝트를 진행하게 되었습니다.  
 
-#### 프로젝트 일정관리
+### 프로젝트 일정관리 {#myprocess-mbdagile-esc-progress}
 
 Agile 기반 MBD 템플릿 개발 프로젝트 진행
 
@@ -34,7 +34,7 @@ Agile 기반 MBD 템플릿 개발 프로젝트 진행
 	/><br/><em>&lt;Github와 Gantt차트를 연동한 프로젝트 일정관리&gt;</em>
 </div>
 
-#### 설계 구현 및 검증
+### 설계 구현 및 검증
 
 요구사항으로부터 기능을 정의하고, Matlab/Simulink를 이용하여 기능 아키텍처를 설계한 다음
 <div style={{width: '100%'}}>

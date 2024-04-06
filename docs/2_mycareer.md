@@ -60,7 +60,8 @@ title: 컨텐츠별
 ### 제어기 개발
 
 [1. 17.06.07~19.04.12 : 열차 출입문 제어기 개발 [☜ click for more]](/docs/history/embed/controller/traindoor)  
-&emsp;&emsp;전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작
+&emsp;&emsp;전동열차 출입문 장애물 연속3회 감지 시 완전열림 동작  
+&emsp;&emsp;장애물1회감지 시 출입문을 약하게 닫고, 2회 3회에는 좀 더 세게 닫음
 <div style={{position: 'relative', width: '75%', paddingBottom: '56.25%'}}>
 	<iframe
 		src="https://www.youtube.com/embed/qYLRAw-hKN8?rel=0"
@@ -294,7 +295,7 @@ title: 컨텐츠별
 	/>
 </div>
 
-[2. 23.09.01~23.xx.xx : Github를 통한 Agile기반 MBD 프로젝트 일정 및 이슈관리 [☜ click for more]](/docs/history/mbd/logic/escalator#myprocess-mbdagile-esc-progress)  
+[2. 21.12.01 ~ 22.03.21 : Github를 통한 Agile기반 MBD 프로젝트 일정 및 이슈관리 [☜ click for more]](/docs/history/mbd/logic/escalator#myprocess-mbdagile-esc-progress)  
 &emsp;&emsp;Simulink를 이용한 알고리즘 개발 (에스컬레이터)
 <div style={{width: '75%', textAlign: 'center'}}>
 	<img

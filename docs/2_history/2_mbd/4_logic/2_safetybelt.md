@@ -5,8 +5,8 @@ title: 안전벨트
 
 <div align="right">
   <font size="4">
-    2022 ~ <br/>
-		about 12 weeks (3 month)
+    2022.03 ~ 22.05<br/>
+		3 month
   </font>
 </div>
 

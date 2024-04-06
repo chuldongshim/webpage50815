@@ -5,8 +5,7 @@ title: FFT & Kalman
 
 <div align="right">
   <font size="4">
-    2021 ~ <br/>
-		about 12 weeks (3 month)
+    2016 ~ 2023<br/>
   </font>
 </div>
 

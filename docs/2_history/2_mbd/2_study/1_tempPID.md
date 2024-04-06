@@ -5,8 +5,8 @@ title: 온도PID제어
 
 <div align="right">
   <font size="4">
-    2020 ~ <br/>
-		about 12 weeks (3 month)
+    20.08.12 ~ 20.12.14<br/>
+		4 month
   </font>
 </div>
 

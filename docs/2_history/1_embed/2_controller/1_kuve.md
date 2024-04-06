@@ -6,7 +6,7 @@ title: 무인전기차 제어기
 <div align="right">
   <font size="4">
     09.03.16~09.12.18 <br/>
-		about 12 weeks (3 month)
+		9 month
   </font>
 </div>
 

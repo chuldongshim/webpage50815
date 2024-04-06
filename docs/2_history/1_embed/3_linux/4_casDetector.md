@@ -6,7 +6,6 @@ title: 가스 차단기 (TBD)
 <div align="right">
   <font size="4">
     202? ~ <br/>
-		about 12 weeks (3 month)
   </font>
 </div>
 

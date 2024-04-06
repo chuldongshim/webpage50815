@@ -6,7 +6,6 @@ title: bldc 확장보드 (TBD)
 <div align="right">
   <font size="4">
     202x ~ <br/>
-		about 12 weeks (3 month)
   </font>
 </div>
 

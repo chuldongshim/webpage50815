@@ -6,7 +6,7 @@ title: 영상 자동기록장치
 <div align="right">
   <font size="4">
     24.02.02 ~ 24.03.28<br/>
-		about 8 weeks (2 month)
+		2 month
   </font>
 </div>
 
@@ -91,4 +91,12 @@ SDCard에 저장된 모든 영상은 웹서버를 통해 선택적으로 PC 또�
 
 ### 일정 {#eyeRec-progress}
 
-github 일정 추가
+Linux에서 C++과 Python을 이용하여 IOT 어플리케이션을 개발할 때 Github를 이용하여 이슈 및 일정관리를 수행하였습니다.
+
+<div style={{width: '100%'}}>
+	<img
+		src={require('/img/5_eyeRec/eyeRec_dev_progress.png').default}
+		style={{width: '100%'}}
+		alt="Example banner"
+	/>
+</div>

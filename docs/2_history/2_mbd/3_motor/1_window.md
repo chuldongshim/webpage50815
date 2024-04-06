@@ -5,8 +5,7 @@ title: 윈도우모터 제어
 
 <div align="right">
   <font size="4">
-    2021 ~ <br/>
-		about 12 weeks (3 month)
+    2013 ~ 2021<br/>
   </font>
 </div>
 

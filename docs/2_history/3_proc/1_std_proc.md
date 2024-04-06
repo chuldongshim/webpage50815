@@ -5,8 +5,7 @@ title: 표준 프로세스
 
 <div align="right">
   <font size="4">
-    2014 ~ <br/>
-		about 12 weeks (3 month)
+    2014 ~ 2020<br/>
   </font>
 </div>
 

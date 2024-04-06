@@ -6,7 +6,7 @@ title: 복합기 인증 단말기
 <div align="right">
   <font size="4">
     11.11.28~13.09.30 <br/>
-		about 12 weeks (3 month)
+		22 month
   </font>
 </div>
 

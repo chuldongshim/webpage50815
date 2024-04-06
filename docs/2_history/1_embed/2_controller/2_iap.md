@@ -5,8 +5,7 @@ title: 펌웨어 업데이트
 
 <div align="right">
   <font size="4">
-    2016 ~ <br/>
-		about 12 weeks (3 month)
+    2016 ~ 2022<br/>
   </font>
 </div>
 

@@ -6,7 +6,6 @@ title: github agile_mbd
 <div align="right">
   <font size="4">
     2022 ~ 2024<br/>
-		about 12 weeks (3 years)
   </font>
 </div>
 

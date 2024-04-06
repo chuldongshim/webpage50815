@@ -6,7 +6,7 @@ title: + 기술문서
 <div align="right">
   <font size="4">
     23.02.02 ~ 23.04.25<br/>
-		about 12 weeks (3 month)
+	3 month
   </font>
 </div>
 

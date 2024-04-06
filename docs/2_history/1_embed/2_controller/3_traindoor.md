@@ -6,7 +6,7 @@ title: 열차 출입문 제어기
 <div align="right">
   <font size="4">
     17.06.07~19.04.12 <br/>
-		about 12 weeks (3 month)
+		22 month
   </font>
 </div>
 

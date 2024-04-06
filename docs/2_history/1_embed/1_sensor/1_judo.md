@@ -6,7 +6,7 @@ title: 유도인형
 <div align="right">
   <font size="4">
     08.09.01~09.02.26 <br/>
-		about 12 weeks (3 month)
+		6 month
   </font>
 </div>
 

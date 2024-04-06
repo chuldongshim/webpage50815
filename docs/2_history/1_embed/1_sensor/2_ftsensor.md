@@ -6,7 +6,7 @@ title: FT센서
 <div align="right">
   <font size="4">
     10.09.01~11.08.31 <br/>
-		about 12 weeks (3 month)
+		12 month
   </font>
 </div>
 

@@ -5,8 +5,8 @@ title: 에스컬레이터
 
 <div align="right">
   <font size="4">
-    2021 ~ <br/>
-		about 12 weeks (3 month)
+    21.12.01 ~ 22.03.21<br/>
+	4 month
   </font>
 </div>
 

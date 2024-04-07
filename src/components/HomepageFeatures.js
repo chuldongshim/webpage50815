@@ -53,7 +53,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href="./docs/history/embed/controller/ethernetM" target="_blank" rel="noopener noreferrer">CAN/CAN-FD, 이더넷<br/>[☜ click for more]</a>,
+    title: <a href="./docs/history/embed/controller/ethernetM" target="_blank" rel="noopener noreferrer">CAN/CAN-FD to 이더넷<br/>[☜ click for more]</a>,
     Svg: require('../../static/img/fifth_udp_multicast_ing.svg').default,
     description: (
       <>

@@ -1,6 +1,6 @@
 ---
 id: ethernetM
-title:  이더넷통신 모듈 (Updating)
+title:  CAN/CAN-FD to 이더넷 컨버터 모듈 (Updating)
 ---
 
 <div align="right">
@@ -13,7 +13,17 @@ title:  이더넷통신 모듈 (Updating)
 
 ## 개요
 
-### CAN/CAN-FD Analyzer 컨셉
+### 목적
+
+기존에 진행한 이더넷 통신모듈에 CAN/CAN-FD 기능을 추하여 이더넷을 통해 CAN/CAN-FD 패킷을 송/수신 할 수 있는 컨버터 모듈을 개발하는 프로젝트입니다.
+* 기존에 판매되는 제품을 벤치마킹 하여 더 나은 기능을 수행하는 제품을 개발하는 능력을 키우기 위해 진행하는 개인 프로젝트 입니다.  
+* 전기자동차에는 앞으로 CAN-FD와 Ethernet 통신이 많이 사용될 것으로 판단되어 두 기술을 Master하면 쓸모가 있을 것 같아보여 진행하고 있습니다.  
+
+
+### 컨셉
+
+* 모니터링  
+BBB를 CAN/CAN-FD 네트워크 또는 이더넷 네트워크에 연결하여 송/수신 패킷을 무선으로 모니터링 합니다.
 
 <p align="center">
 	<img
@@ -22,6 +32,18 @@ title:  이더넷통신 모듈 (Updating)
 		width="450"
 	/>
 </p>
+
+* 보드개발  
+기존에 개발을 진행했던 이더넷 통신모듈입니다.
+
+<p align="center">
+	<img
+		src={require('/img/6_ethM/ethM_fifth_udp_multicast.png').default}
+		alt="Example banner"
+		width="450"
+	/>
+</p>
+
 
 ## 동작확인
 

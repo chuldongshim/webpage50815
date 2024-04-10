@@ -25,6 +25,3 @@ HW 및 시스템을 제어하는 어플리케이션을 다수 개발하였습니
 * 센서 개발
   * [유도인형 [☜ click for more]](./embed/sensor/judo)
   * [FT센서 [☜ click for more]](./embed/sensor/ftsensor)
-
-  
-   

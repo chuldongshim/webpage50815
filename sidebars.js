@@ -25,8 +25,8 @@ module.exports = {
       label: '임베디드',
       link: {
         type: 'doc',
-        //id: 'history',
-        id: 'history/embed',    // id속성은 type이 category인 경우에만 적용이 가능함
+        id: 'history',
+        //id: 'history/embed',  // id속성은 type이 category인 경우에만 적용이 가능함
       },
       collapsed: false,         // 페이지 처음 Open 시 펼치고 싶으면 주석처리 후 true 설정
       items: [
@@ -168,8 +168,8 @@ module.exports = {
       label: '프로세스',
       link: {
         type: 'doc',            // 경력상세 탭 하위에 Sidebar가 있어야 하므로 
-        id: 'history',          // history 1개는 무조껀 있어야 함 (24.04.01)
-        //id: 'history/proc',  // history/proc를 history로 대체하니까 되서 꼼수로 적용하고
+        //id: 'history',        // history 1개는 무조껀 있어야 함 (24.04.01)
+        id: 'history/proc',     // history/proc를 history로 대체하니까 되서 꼼수로 적용하고
       },                        // history에 proc내용을 채움
       collapsed: true,
       items: [

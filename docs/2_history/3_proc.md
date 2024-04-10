@@ -7,7 +7,7 @@ title: 프로세스
 :::important Key Point
 개발 시 다양한 프로세스 방법론을 적용해 봄으로써 실제 개발에 도움이 되는 방법론을 경험할 수 있었습니다.
 :::
-
+/webpage
 * 표준 프로세스
   * [A-SPICE CL2 인증 및 ISO26262 윈도우 시스템 설계 [☜ click for more]](./proc/std_proc#myprocess-std-sys-design-window)
   * [A-SPICE 대응 선루프 시스템 설계 [☜ click for more]](./proc/std_proc#myprocess-std-sys-design-sunroof)

@@ -1,6 +1,6 @@
 ---
 id: ethernetM
-title:  CAN/CAN-FD to 이더넷 컨버터 모듈 (Updating)
+title:  CAN이더넷 통신모듈 (Updating)
 ---
 
 <div align="right">

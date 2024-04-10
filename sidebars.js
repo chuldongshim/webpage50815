@@ -32,19 +32,6 @@ module.exports = {
       items: [
         {
           type: 'category',
-          label: '센서',
-          link: {
-            type: 'doc',
-            id: 'history/embed/sensor',
-          },
-          collapsed: true,
-          items: [
-            'history/embed/sensor/judo',
-            'history/embed/sensor/ftsensor',
-          ],
-        },
-        {
-          type: 'category',
           label: '제어기',
           link: {
             type: 'doc',
@@ -84,6 +71,19 @@ module.exports = {
             'history/embed/linux/fujixerox',
             'history/embed/linux/stm32f7',
             'history/embed/linux/casDetector',
+          ],
+        },
+        {
+          type: 'category',
+          label: '센서',
+          link: {
+            type: 'doc',
+            id: 'history/embed/sensor',
+          },
+          collapsed: true,
+          items: [
+            'history/embed/sensor/judo',
+            'history/embed/sensor/ftsensor',
           ],
         },
       ],
@@ -174,7 +174,7 @@ module.exports = {
       collapsed: true,
       items: [
         'history/proc/std_proc',
-        'history/proc/agile_mbd',
+        'history/proc/github_agile',
       ],
     },
   ],

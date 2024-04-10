@@ -15,7 +15,7 @@ title: 안전벨트
 ### PSB(안전벨트) 기능로직 MBD구현 고객대응 {#mymbd-customer-psb}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
-* 기간 : 22.03.01 ~ 현재 (책임 4년차)
+* 기간 : 22.03.03~22.05.17 (책임 4년차)
 * MBD 선행 개발 프로세스 수립
 * S32K144+Simulink를 통한 제어 알고리즘 개발 및 AutoCode
 * Cypress MCU에서 동작 가능한 HW 독립적인 코드 생성

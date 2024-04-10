@@ -16,6 +16,8 @@ title: + 기술문서
 
 ### 1.2 MBD기반 Sensored BLDC 속도제어 {#mymbd-bldc-sensered}
 
+* 기간 : 22.10.21~22.11.05
+
 예제를 통해 BLDC모터를 시뮬레이션 해 봄으로써 작동원리를 쉽게 파악할 수 있었고, 코드자동생성 후 타겟MCU로 BLDC모터를 실제 구동시켜 보았습니다.
 
 * BLDC Simulation을 통한 동작원리 이해

@@ -5,8 +5,8 @@ title: 석사논문
 
 <div align="right">
   <font size="4">
-    2007 ~ <br/>
-		about 12 weeks (3 month)
+    07.03.02~08.08.31 <br/>
+		18 month
   </font>
 </div>
 

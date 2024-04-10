@@ -1,6 +1,6 @@
 ---
-id: agile_mbd
-title: github agile_mbd
+id: github_agile
+title: github agile
 ---
 
 <div align="right">

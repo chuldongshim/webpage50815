@@ -13,6 +13,9 @@ title: 와이퍼모터 제어
 
 ### 와이퍼 MBD 제어기설계(관측기,LQR) {#mymbd-wiper-lqr}
 
+* 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
+* 기간 : 22.09.01~22.10.18 (책임 4년차)
+* 목적 : 현대제어기법 Wiper MBD 적용
 * 해당 제어기는 다음의 성능사양을 만족해야 한다.
   * 3.5s 주기로 Wiping을 수행하다 1s 주기로 Wiping 수행
   * 60[CPM] 구동 - 1s 당 1회 Wiping
@@ -72,7 +75,7 @@ MCU에서 상태피드백 제어 방식으로 와이퍼모터를 제어하고, �
 	/>
 </div>
 
-### [와이퍼 MBD 기본기능 구현 ] {#mymbd-wiper-func}
+### 와이퍼 MBD 기본기능 구현 {#mymbd-wiper-func}
 
 * 소속 : DYESSYS(DYAUTO, ESSYS 합작사)
 * 기간 : 21.04.01 ~ 21.06.30 (책임 3년차)

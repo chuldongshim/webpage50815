@@ -17,7 +17,6 @@ title: 펌웨어 업데이트
   * [18.12.09~18.12.10 : UART부트로더를 통한 STM MCU FW업데이트](#myembedded-bootloader-stm-iap)
   * [16.10.03~17.04.30 : RTOS포팅 및 IAP구현(Self_Study)](#myembedded-bootloader-iap)
 
-
 ## IAP 개발 {#myembedded-bootloader}
 
 ### wifi 웹서버를 통한 STM MCU FW업데이트 {#myembedded-bootloader-fota}

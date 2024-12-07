@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Who am I and What should I do next...',
   tagline: '',
   url: 'https://github.com',
-  baseUrl: '/webpage/',
+  baseUrl: '/webpage4127/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

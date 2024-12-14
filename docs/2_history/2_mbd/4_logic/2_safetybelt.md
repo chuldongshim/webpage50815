@@ -46,7 +46,7 @@ Profiling 기능로직을 시뮬레이션으로 확인해 가면서 구현을 �
 <div style={{textAlign: 'center'}}>
     <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
         <iframe 
-			src="https://www.youtube.com/embed//eV5v-e-QV1A?rel=0"
+			src="https://www.youtube.com/embed/eV5v-e-QV1A?rel=0"
             style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
             frameBorder="0"
             allowFullScreen="true">

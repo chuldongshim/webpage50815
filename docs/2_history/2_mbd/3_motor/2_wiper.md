@@ -57,7 +57,7 @@ title: 와이퍼모터 제어
 <div style={{textAlign: 'center'}}>
     <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
         <iframe 
-			src="https://www.youtube.com/embed//n_bor37xbMU?rel=0"
+			src="https://www.youtube.com/embed/n_bor37xbMU?rel=0"
             style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
             frameBorder="0"
             allowFullScreen="true">

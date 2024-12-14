@@ -14,7 +14,7 @@ title: 윈도우모터 제어
 <div style={{textAlign: 'center'}}>
     <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
         <iframe 
-			src="https://www.youtube.com/embed//eEmUgEgfH4k?rel=0"
+			src="https://www.youtube.com/embed/eEmUgEgfH4k?rel=0"
             style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
             frameBorder="0"
             allowFullScreen="true">
@@ -57,7 +57,7 @@ MBD를 통해 기능로직에 대한 HW 독립적인 SW(C코드)를 자동생성
 <div style={{textAlign: 'center'}}>
     <div style={{position: 'relative', width: '100%', paddingBottom: '56.25%'}}>
         <iframe 
-			src="https://www.youtube.com/embed//JWzVYKv_Eac?rel=0"
+			src="https://www.youtube.com/embed/JWzVYKv_Eac?rel=0"
             style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
             frameBorder="0"
             allowFullScreen="true">

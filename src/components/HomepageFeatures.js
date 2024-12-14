@@ -74,7 +74,17 @@ const FeatureList = [
       </>
     ),
   },
-];
+  {
+    title: <a href="./docs/history/mbd/logic/sbcm" target="_blank" rel="noopener noreferrer">통합제어기 모델기반설계<br/>[☜ click for more]</a>,
+    Svg: require('../../static/img/seventh_sbcm.svg').default,
+    description: (
+      <>
+        SW 제어로직 Full MBD 개발<br />
+        협업을 통한 AUTOSAR 통합<br />
+        <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
+      </>
+    ),
+  },];
 
 function Feature({Svg, title, description}) {
   return (

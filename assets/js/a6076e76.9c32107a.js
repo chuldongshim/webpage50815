@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebpage_re=self.webpackChunkwebpage_re||[]).push([[1540],{6893:e=>{e.exports=JSON.parse('{"permalink":"/webpage4127/blog/tags/docu","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

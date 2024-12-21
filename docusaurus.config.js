@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   title: 'Who am I and What should I do next...',
   tagline: '',
   url: 'https://github.com',
-  baseUrl: '/webpage4127/',
+  baseUrl: '/webpage41221/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'chuldongshim', // Usually your GitHub org/user name.
-  projectName: 'webpage', // Usually your repo name.
+  projectName: 'webpage41221', // Usually your repo name.
   trailingSlash: false,   // false(md파일 명으로 html파일 생성), true(md파일명 하위에 index.html파일로 생성)
   
   presets: [
@@ -24,13 +24,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 		  //routeBasePath: '/', // Serve the docs at the site's root
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/chuldongshim/webpage/',
+          editUrl: 'https://github.com/chuldongshim/webpage41221/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/chuldongshim/webpage/tree/main/docs',
+            'https://github.com/chuldongshim/webpage41221/tree/main/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -87,7 +87,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },*/
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/chuldongshim/webpage/',
+            href: 'https://github.com/chuldongshim/webpage41221/',
             label: 'MyGitHub',
             position: 'right',
           },
@@ -139,7 +139,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'MyGitHub',
-                href: 'https://github.com/chuldongshim/webpage',
+                href: 'https://github.com/chuldongshim/webpage41221',
               },
             ],
           },

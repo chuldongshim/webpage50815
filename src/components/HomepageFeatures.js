@@ -79,9 +79,9 @@ const FeatureList = [
     Svg: require('../../static/img/seventh_sbcm.svg').default,
     description: (
       <>
-        SW 제어로직 Full MBD 개발<br />
+        Full MBD Agile개발<br />
         협업을 통한 AUTOSAR 통합<br />
-        <code><a href="https://linux-kernel-labs.github.io/refs/heads/master/index.html" target="_blank" rel="noopener noreferrer">Linux?</a></code>&emsp;
+        <code><a href="https://m.blog.naver.com/matlablove/221822353944?recommendTrackingCode=2" target="_blank" rel="noopener noreferrer">Agile?</a></code>&emsp;
       </>
     ),
   },];

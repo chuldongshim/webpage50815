@@ -5,8 +5,8 @@ title: 통합제어기
 
 <div align="right">
   <font size="4">
-    2022.03 ~ 22.05<br/>
-		3 month
+    24.07.22~24.12.03<br/>
+		4 month
   </font>
 </div>
 

@@ -26,7 +26,7 @@ title: 열차 출입문 제어기
 
 ### 측출입문 제어기 양산SW 신규개발 {#myembedded-controller-train}
 
-* 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
+* 소속 : [인터콘시스템스](https://www.icsys.co.kr/business/door-system.php)
 * 기간 : 18.08.29~19.01.13
 * 역할 : 열차 출입문 양산 안정화 및 신규 개발 앙산적용
 
@@ -44,7 +44,7 @@ title: 열차 출입문 제어기
 
 ### 측출입문/통로문 제어기 유지보수
 
-* 소속 : [인터콘시스템스](http://www.icsys.co.kr/s2/s2_5.php)
+* 소속 : [인터콘시스템스](https://www.icsys.co.kr/business/door-system.php)
 * 기간 : 17.06.07~19.04.12
 * 역할 : 소사원시/수인선 납품 제어기 SW품질이슈 대응 및 안정화
 
@@ -58,7 +58,7 @@ title: 열차 출입문 제어기
 	/>
 </div>
 
-* 기존에 개발된 소프트웨어 유지보수 및 소프트웨어 품질관리 [(회사홈페이지 참조)](http://www.icsys.co.kr/s2/s2_5.php)
+* 기존에 개발된 소프트웨어 유지보수 및 소프트웨어 품질관리 [(회사홈페이지 참조)](https://www.icsys.co.kr/business/door-system.php)
   * 신사업(고객사 첫 납품)으로 진행된 제품에 대한 소프트웨어 품질문제 현장 대응 및 제품 안정화
   * 열차 현장운행 시 발생되는 이슈 대응 및 제품 안정화
   * 프로젝트 및 품질이슈 관리

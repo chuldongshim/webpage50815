@@ -156,7 +156,7 @@ wifi connection을 통해 서버와 연결이 되면 웹브라우저를 통해 �
 	/>
 </div>
 
-### 소프트웨어 업데이트
+### Software Update
 
 업데이트 탭을 클릭하면 두 섹션으로 구분되는 창이 나타나는데, 상부영역에서 SOTA(Master Self-OTA) 기능을 수행하고, 하부영역에서 FOTA(Slave FW-OTA) 기능을 수행합니다.
 

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebpage_re=self.webpackChunkwebpage_re||[]).push([[7115],{9675:e=>{e.exports=JSON.parse('{"label":"health","permalink":"/webpage50815/blog/tags/health","allTagsPath":"/webpage50815/blog/tags","count":1}')}}]);
